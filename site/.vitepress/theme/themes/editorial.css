@@ -1,0 +1,55 @@
+/**
+ * 万卷主题令牌 · 编辑部（Swiss Editorial）——默认主题
+ * 令牌来源：design-proposals/proposal-2-editorial.html（设计令牌卡）
+ * 归一命名：--wj-*（跨主题统一，见 themes/README 注释与 custom.css）
+ *
+ * 同时声明在 :root —— 页面渲染前（内联脚本设置 data-theme 之前）以编辑部令牌兜底，避免闪白。
+ */
+:root,
+[data-theme='editorial'] {
+  /* 底色与卡面 */
+  --wj-bg: #f4f4f2;            /* --bg 底 */
+  --wj-bg-soft: #ecece9;       /* 底色加深一档（页脚/次级底） */
+  --wj-card: #ffffff;          /* --paper 面 */
+  /* 墨色阶 */
+  --wj-ink: #111111;           /* --ink */
+  --wj-ink-2: #555555;         /* --ink-2 */
+  --wj-ink-3: #9c9c98;         /* --ink-3 */
+  /* 强调色（克莱因蓝，单一强调色原则 ≤10%） */
+  --wj-accent: #0042e6;        /* --accent */
+  --wj-accent-deep: #0031ab;   /* hover 加深 */
+  --wj-accent-2: #8fa4ff;      /* 亮蓝（顶栏反白用） */
+  --wj-accent-tint: #edf1ff;   /* --accent-tint */
+  /* 分割线 */
+  --wj-line: #dededa;          /* 1px 发丝线 */
+  --wj-line-soft: #eaeae6;
+  --wj-border-strong: #111111; /* 2px 强分割 */
+  /* 字体栈 */
+  --wj-font-display: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', '微软雅黑', sans-serif;
+  --wj-font-body: var(--wj-font-display);
+  --wj-font-poem: 'Songti SC', 'STSong', 'SimSun', '宋体', 'Noto Serif CJK SC', serif;
+  --wj-font-mono: ui-monospace, 'SF Mono', Consolas, 'Courier New', monospace;
+  --wj-label-tracking: 0.26em; /* TOTAL 式标签字距 */
+  /* 圆角：0（直角网格） */
+  --wj-radius: 0px;
+  --wj-radius-sm: 0px;
+  --wj-radius-pill: 0px;
+  /* 阴影：以内描边代替投影 */
+  --wj-shadow: inset 0 0 0 1px var(--wj-line);
+  --wj-shadow-hover: inset 0 0 0 2px var(--wj-accent);
+  /* 渐变：单色退化（保持 --wj-grad 可用性） */
+  --wj-grad: linear-gradient(0deg, var(--wj-accent), var(--wj-accent));
+  /* 图表调色板（蓝黑灰系） */
+  --wj-chart-1: #0042e6;
+  --wj-chart-2: #111111;
+  --wj-chart-3: #555555;
+  --wj-chart-4: #8fa4ff;
+  --wj-chart-5: #0031ab;
+  --wj-chart-6: #4d6bd8;
+  --wj-chart-7: #7290ff;
+  --wj-chart-8: #9c9c98;
+  /* 正文背景（无纹理） */
+  --wj-bg-image: none;
+  /* 标题字重 */
+  --wj-display-weight: 800;
+}

@@ -1,35 +1,75 @@
 /**
- * 万卷 · 中性基础样式（后续将按选定 UI 风格整体重绘，此处仅做克制的默认主题微调）
+ * 万卷 · 主题桥接层
+ *
+ * 职责：
+ *   1. 把 themes/*.css 的 --wj-* 令牌映射到 VitePress 的 --vp-c-* / 字体变量（主题随 html[data-theme] 整体切换）
+ *   2. 各主题的结构性差异样式：
+ *      - ink       楷体标题、宋体正文、「## 原文」竖排诗笺（vertical-rl，移动端降级横排）
+ *      - editorial 黑体 800 标题、2px 强分割线、衬线宽字距诗文、spec 式元数据
+ *      - youth     渐变页面底 + 光斑、圆角卡片包裹诗文、彩色 pill
+ *
+ * TODO(暗色)：本期三主题均工作于亮色（appearance:false）；后续按主题分别定义暗色令牌。
  */
 
+/* ---------- 1. 令牌 → VitePress 变量 ---------- */
+
 :root {
-  /* 中性墨色品牌（灰蓝），避免过强的品牌倾向 */
-  --vp-c-brand-1: #4a6785;
-  --vp-c-brand-2: #3d566f;
-  --vp-c-brand-3: #5d7c9c;
-  --vp-c-brand-soft: rgba(74, 103, 133, 0.14);
-
-  --vp-font-family:
-    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC',
-    'Source Han Sans SC', system-ui, -apple-system, sans-serif;
-  --vp-font-family-mono:
-    'JetBrains Mono', 'Cascadia Code', Consolas, 'Noto Sans Mono CJK SC', monospace;
+  --vp-c-bg: var(--wj-bg);
+  --vp-c-bg-alt: var(--wj-card);
+  --vp-c-bg-soft: var(--wj-bg-soft);
+  --vp-c-border: var(--wj-line);
+  --vp-c-divider: var(--wj-line);
+  --vp-c-gutter: var(--wj-line);
+  --vp-c-text-1: var(--wj-ink);
+  --vp-c-text-2: var(--wj-ink-2);
+  --vp-c-text-3: var(--wj-ink-3);
+  --vp-c-brand-1: var(--wj-accent);
+  --vp-c-brand-2: var(--wj-accent-deep);
+  --vp-c-brand-3: var(--wj-accent-2);
+  --vp-c-brand-soft: var(--wj-accent-tint);
+  --vp-font-family: var(--wj-font-body);
+  --vp-font-family-mono: var(--wj-font-mono);
+  --vp-code-block-bg: var(--wj-bg-soft);
+  --vp-button-brand-border: var(--wj-accent);
 }
 
-.dark {
-  --vp-c-brand-1: #7d9cbf;
-  --vp-c-brand-2: #8faccb;
-  --vp-c-brand-3: #6b8cae;
-  --vp-c-brand-soft: rgba(125, 156, 191, 0.16);
+body {
+  background-color: var(--wj-bg);
+  /* 注：提案原为 background-attachment: fixed；fixed 会使 Chromium 整页截图/打印
+     产生按视口重复绘制的伪影，故改为 scroll（默认），渐变/纹理随文档铺满。 */
+  background-image: var(--wj-bg-image);
+  background-repeat: no-repeat;
+  color: var(--wj-ink);
+  font-family: var(--wj-font-body);
 }
 
-/* 可视化组件通用画布容器 */
+::selection {
+  background: var(--wj-accent);
+  color: #fff;
+}
+
+/* 标题统一走 display 字体栈（ink=楷体 / editorial=黑体 / youth=系统黑体） */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: var(--wj-font-display);
+  font-weight: var(--wj-display-weight);
+  letter-spacing: 0.02em;
+  scroll-margin: 96px;
+}
+
+/* ---------- 2. 共用组件类（工具栏 / 画布 / 提示） ---------- */
+
 .wj-chart {
   width: 100%;
   min-height: 540px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg);
+  border: 1px solid var(--wj-line);
+  border-radius: var(--wj-radius);
+  background: var(--wj-card);
+  box-shadow: var(--wj-shadow);
 }
 
 .wj-toolbar {
@@ -41,23 +81,350 @@
 }
 
 .wj-toolbar button {
-  padding: 4px 12px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-1);
+  padding: 5px 14px;
+  border: 1px solid var(--wj-line);
+  border-radius: var(--wj-radius-pill);
+  background: var(--wj-card);
+  color: var(--wj-ink-2);
   font-size: 13px;
+  font-family: var(--wj-font-display);
   cursor: pointer;
+  transition: all 0.16s;
+}
+
+.wj-toolbar button:hover {
+  color: var(--wj-ink);
+  border-color: var(--wj-ink-3);
 }
 
 .wj-toolbar button.active {
-  border-color: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
+  border-color: var(--wj-accent);
+  color: var(--wj-accent);
+  background: var(--wj-accent-tint);
+  box-shadow: none;
+}
+
+.wj-toolbar button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .wj-note {
   font-size: 13px;
-  color: var(--vp-c-text-2);
+  color: var(--wj-ink-2);
   margin-top: 8px;
+}
+
+/* ---------- 3. 宣纸墨韵（ink）结构性样式 ---------- */
+
+[data-theme='ink'] .vp-doc {
+  font-family: var(--wj-font-body);
+}
+
+/* ink 标题：楷体、宽字距、不加粗 */
+[data-theme='ink'] .vp-doc h1,
+[data-theme='ink'] .vp-doc h2,
+[data-theme='ink'] .vp-doc h3 {
+  letter-spacing: 0.18em;
+  line-height: 1.7;
+}
+
+/* ink 核心特征：「## 原文」竖排诗笺（vertical-rl，从右向左） */
+[data-theme='ink'] .vp-doc h2#原文 ~ p {
+  writing-mode: vertical-rl;
+  white-space: pre-line;
+  height: 22em; /* 笺高：约 10 行诗句，超出自动向左续列 */
+  width: max-content;
+  max-width: 100%;
+  margin: 1.4em auto 0;
+  padding: 1.4em 1em;
+  background: var(--wj-card);
+  border: 1px solid var(--wj-line);
+  border-radius: var(--wj-radius);
+  box-shadow: var(--wj-shadow);
+  font-family: var(--wj-font-poem);
+  font-size: 1.28em;
+  letter-spacing: 0.3em;
+  line-height: 2.1;
+  color: var(--wj-ink);
+}
+
+/* ink：注释块 → 注笺 */
+[data-theme='ink'] .vp-doc h2#原文 ~ blockquote,
+[data-theme='ink'] .vp-doc blockquote {
+  clear: both;
+  margin-top: 1.6em;
+  padding: 14px 18px;
+  background: var(--wj-card);
+  border: 1px solid var(--wj-line-soft);
+  border-left: 3px solid var(--wj-accent);
+  border-radius: var(--wj-radius-sm);
+  color: var(--wj-ink-2);
+}
+
+/* ink：移动端降级为横排 */
+@media (max-width: 768px) {
+  [data-theme='ink'] .vp-doc h2#原文 ~ p {
+    writing-mode: horizontal-tb;
+    height: auto;
+    width: auto;
+    letter-spacing: 0.12em;
+    line-height: 2;
+    font-size: 1.1em;
+  }
+}
+
+/* ---------- 4. 瑞士编辑部（editorial）结构性样式 ---------- */
+
+/* editorial 标题：黑体 800；h2 走 2px 强分割 */
+[data-theme='editorial'] .vp-doc h2 {
+  border-bottom: 2px solid var(--wj-border-strong);
+  padding-bottom: 0.3em;
+}
+
+[data-theme='editorial'] .vp-doc h1 {
+  letter-spacing: 0.04em;
+}
+
+/* editorial：衬线宽字距诗文（横排） */
+[data-theme='editorial'] .vp-doc h2#原文 ~ p {
+  font-family: var(--wj-font-poem);
+  font-size: 1.28em;
+  letter-spacing: 0.28em;
+  line-height: 2.2;
+  margin-top: 1.5em;
+}
+
+[data-theme='editorial'] .vp-doc blockquote {
+  border-left: 2px solid var(--wj-border-strong);
+  background: var(--wj-bg-soft);
+}
+
+/* ---------- 5. 少年派（youth）结构性样式 ---------- */
+
+/* youth：渐变页面底已由 --wj-bg-image 提供；再加两枚柔光斑
+   （绝对定位于文档两角；不用 fixed，避免整页截图/打印伪影） */
+[data-theme='youth'] body {
+  position: relative;
+  min-height: 100vh;
+}
+
+[data-theme='youth'] body::before,
+[data-theme='youth'] body::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+[data-theme='youth'] body::before {
+  width: 460px;
+  height: 460px;
+  left: -140px;
+  top: -120px;
+  background: rgba(124, 92, 224, 0.2);
+}
+
+[data-theme='youth'] body::after {
+  width: 520px;
+  height: 520px;
+  right: -180px;
+  bottom: -160px;
+  background: rgba(255, 155, 71, 0.18);
+}
+
+/* youth 标题：800 黑体 */
+[data-theme='youth'] .vp-doc h1 {
+  letter-spacing: 0.01em;
+}
+
+/* youth：圆角卡片包裹诗文 + 柔影 */
+[data-theme='youth'] .vp-doc h2#原文 ~ p {
+  background: var(--wj-bg-soft);
+  border-radius: var(--wj-radius);
+  padding: 1.2em 1.4em;
+  margin-top: 1.4em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  line-height: 2.1;
+  box-shadow: var(--wj-shadow);
+}
+
+[data-theme='youth'] .vp-doc blockquote {
+  background: var(--wj-card);
+  border: 2px dashed var(--wj-border-strong);
+  border-radius: var(--wj-radius-sm);
+  color: var(--wj-ink-2);
+}
+
+/* ---------- 6. 词条元数据面板（EntryMeta）三主题 ---------- */
+
+.wj-meta {
+  margin-top: 28px;
+  background: var(--wj-card);
+  border: 1px solid var(--wj-line);
+  border-radius: var(--wj-radius);
+  box-shadow: var(--wj-shadow);
+  padding: 18px 22px;
+}
+
+.wj-meta-title {
+  font-family: var(--wj-font-display);
+  font-size: 14px;
+  letter-spacing: 0.24em;
+  color: var(--wj-ink);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wj-meta-rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0 24px;
+  margin: 0;
+}
+
+.wj-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--wj-line-soft);
+}
+
+.wj-row dt {
+  font-size: 12px;
+  color: var(--wj-ink-3);
+  letter-spacing: 0.14em;
+  flex: none;
+}
+
+.wj-row dd {
+  margin: 0;
+  font-size: 14px;
+  color: var(--wj-ink);
+  text-align: right;
+}
+
+.wj-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.wj-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 13px;
+  font-size: 13px;
+  border-radius: var(--wj-radius-pill);
+  border: 1px solid var(--wj-line);
+  color: var(--wj-ink-2);
+  background: var(--wj-bg);
+}
+
+/* ink：楷体界栏 pill，意象 pill 带朱砂 */
+[data-theme='ink'] .wj-meta {
+  border-radius: var(--wj-radius);
+}
+[data-theme='ink'] .wj-meta-title::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background: var(--wj-accent);
+}
+[data-theme='ink'] .wj-row dd {
+  font-family: var(--wj-font-display);
+  letter-spacing: 0.08em;
+}
+[data-theme='ink'] .wj-pill {
+  font-family: var(--wj-font-display);
+  letter-spacing: 0.12em;
+}
+[data-theme='ink'] .wj-pill.accent {
+  border-color: rgba(168, 63, 46, 0.45);
+  color: var(--wj-accent);
+  background: var(--wj-accent-tint);
+}
+
+/* editorial：spec-list 感（小号大写 dt + 700 dd + 克莱因蓝 tag） */
+[data-theme='editorial'] .wj-meta {
+  border-top: 2px solid var(--wj-border-strong);
+  border-radius: 0;
+}
+[data-theme='editorial'] .wj-row dt {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 10px;
+}
+[data-theme='editorial'] .wj-row dd {
+  font-weight: 700;
+}
+[data-theme='editorial'] .wj-pill {
+  border-color: #d6dfff;
+  background: var(--wj-accent-tint);
+  color: var(--wj-accent);
+  font-weight: 700;
+}
+
+/* youth：彩色 pill（按序循环糖果色） */
+[data-theme='youth'] .wj-meta {
+  border: 2px solid var(--wj-border-strong);
+  border-radius: var(--wj-radius);
+}
+[data-theme='youth'] .wj-pill {
+  border: 0;
+  font-weight: 800;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 1) {
+  background: #f0ebff;
+  color: #6c4fd8;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 2) {
+  background: #fff1e3;
+  color: #e07b2a;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 3) {
+  background: #e2f7f4;
+  color: #1fa392;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 4) {
+  background: #e9f1ff;
+  color: #3e6fd8;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 5) {
+  background: #fff6df;
+  color: #b07e00;
+}
+[data-theme='youth'] .wj-pill:nth-of-type(6n + 6) {
+  background: #ffe9ef;
+  color: #e0547e;
+}
+
+/* ---------- 7. 回源入口随主题 ---------- */
+
+.wj-open-vscode {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--wj-line);
+  font-size: 13px;
+  color: var(--wj-ink-2);
+}
+
+/* ---------- 8. 徽标印章（ink 顶栏点睛） ---------- */
+
+[data-theme='ink'] .VPNavBarTitle .title {
+  font-family: var(--wj-font-display);
+  letter-spacing: 0.3em;
+}
+
+[data-theme='ink'] .VPNavBar {
+  background: transparent;
 }

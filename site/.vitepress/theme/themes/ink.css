@@ -1,0 +1,52 @@
+/**
+ * 万卷主题令牌 · 宣纸墨韵（Ink）
+ * 令牌来源：design-proposals/proposal-1-ink.html（设计令牌卡）
+ * 结构性元素（竖排题签 / 印章 / 界栏边框）在 custom.css 的 [data-theme='ink'] 段实现。
+ */
+[data-theme='ink'] {
+  /* 底色与卡面 */
+  --wj-bg: #f7f4ec;            /* 宣纸 --bg */
+  --wj-bg-soft: #f0ebdc;       /* --bg-deep */
+  --wj-card: #fcfaf3;          /* 卡面 --card */
+  /* 墨色阶 */
+  --wj-ink: #26231e;           /* 浓墨 */
+  --wj-ink-2: #59544a;         /* 淡墨 --ink-soft */
+  --wj-ink-3: #9b9182;         /* 飞白 --ink-faint */
+  /* 强调色（朱砂，仅用于强调） */
+  --wj-accent: #a83f2e;        /* 朱砂 */
+  --wj-accent-deep: #8f3223;   /* 朱砂加深 */
+  --wj-accent-2: #b08830;      /* 赭金（次强调，用于图表） */
+  --wj-accent-tint: rgba(168, 63, 46, 0.06);
+  /* 界栏 */
+  --wj-line: #d9d0bb;          /* 界栏 --line */
+  --wj-line-soft: #e8e1cd;     /* 细栏 --line-soft */
+  --wj-border-strong: #26231e; /* 浓墨强线 */
+  /* 字体栈：楷体标题 + 宋体正文 */
+  --wj-font-display: 'Kaiti SC', 'STKaiti', 'KaiTi', '楷体', 'DFKai-SB', 'BiauKai', 'Noto Serif CJK SC', serif;
+  --wj-font-body: 'Songti SC', 'STSong', 'SimSun', '宋体', 'Noto Serif CJK SC', serif;
+  --wj-font-poem: var(--wj-font-display); /* 诗文用楷 */
+  --wj-font-mono: 'Courier New', Courier, monospace;
+  --wj-label-tracking: 0.28em;
+  /* 圆角：2px 近直角 */
+  --wj-radius: 2px;
+  --wj-radius-sm: 2px;
+  --wj-radius-pill: 3px;
+  /* 阴影：极淡纸影 */
+  --wj-shadow: 0 1px 0 rgba(38, 35, 30, 0.05);
+  --wj-shadow-hover: 0 12px 26px rgba(38, 35, 30, 0.08);
+  --wj-grad: linear-gradient(0deg, var(--wj-accent), var(--wj-accent));
+  /* 图表调色板（朱砂·墨·赭·苔，克制古雅） */
+  --wj-chart-1: #a83f2e;
+  --wj-chart-2: #59544a;
+  --wj-chart-3: #b08830;
+  --wj-chart-4: #6a9b56;
+  --wj-chart-5: #8f3223;
+  --wj-chart-6: #4e6b78;
+  --wj-chart-7: #9b9182;
+  --wj-chart-8: #996b5c;
+  /* 宣纸晕染背景（radial 纹理） */
+  --wj-bg-image: radial-gradient(ellipse 900px 520px at 12% -6%, rgba(122, 110, 86, 0.055), transparent 62%),
+    radial-gradient(ellipse 760px 520px at 96% 14%, rgba(122, 110, 86, 0.04), transparent 60%),
+    radial-gradient(ellipse 900px 620px at 50% 108%, rgba(122, 110, 86, 0.05), transparent 62%);
+  --wj-display-weight: 400; /* 楷体不用粗体 */
+}

@@ -23,6 +23,8 @@ export default defineConfig({
     '读书破万卷，下笔如有神。诗词、成语、名句、作者、意象的本地知识图谱：可点击的关系图、拼音全文检索、课标双轨统计。',
   lang: 'zh-CN',
   lastUpdated: false,
+  // 三主题（宣纸/编辑/少年）本期均工作于亮色；暗色适配 TODO
+  appearance: false,
 
   // 站点源目录 = 仓库根；仅 content/ 与 site/ 下的 md 参与渲染（见 srcExclude）
   srcDir: '..',
@@ -56,6 +58,12 @@ export default defineConfig({
   head: [
     // 运行时配置（vscode:// 回源通道的仓库根注入点，见 site/public/runtime-config.js）
     ['script', { src: '/runtime-config.js' }],
+    // 主题防闪烁：渲染前同步读 localStorage 并设置 html[data-theme]（默认 editorial）
+    [
+      'script',
+      {},
+      "(function(){try{var t=localStorage.getItem('wj-theme');if(['editorial','ink','youth'].indexOf(t)<0)t='editorial';document.documentElement.setAttribute('data-theme',t)}catch(e){document.documentElement.setAttribute('data-theme','editorial')}})()",
+    ],
   ],
 
   themeConfig: {
@@ -114,9 +122,6 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
-    darkModeSwitchLabel: '主题',
-    lightModeSwitchTitle: '切换到浅色',
-    darkModeSwitchTitle: '切换到深色',
     externalLinkIcon: true,
   },
 })

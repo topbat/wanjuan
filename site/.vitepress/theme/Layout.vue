@@ -1,6 +1,10 @@
 <script setup lang="ts">
-// 万卷布局：包裹默认主题，在文档页底部注入「在 VS Code 中打开」回源入口（通道二）。
+// 万卷布局：包裹默认主题。
+// - nav-bar-content-after：顶栏主题切换器（宣纸/编辑/少年）
+// - doc-after：词条元数据面板 + 「在 VS Code 中打开」回源入口
 import DefaultTheme from 'vitepress/theme'
+import ThemeSwitcher from './components/ThemeSwitcher.vue'
+import EntryMeta from './components/EntryMeta.vue'
 import OpenInVSCode from './components/OpenInVSCode.vue'
 
 const { Layout } = DefaultTheme
@@ -8,7 +12,11 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
+    <template #nav-bar-content-after>
+      <ThemeSwitcher />
+    </template>
     <template #doc-after>
+      <EntryMeta />
       <OpenInVSCode />
     </template>
   </Layout>

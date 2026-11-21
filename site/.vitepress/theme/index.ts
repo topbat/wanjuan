@@ -6,10 +6,15 @@ import WordCloud from './components/WordCloud.vue'
 import TagStats from './components/TagStats.vue'
 import AdvancedSearch from './components/AdvancedSearch.vue'
 import StageList from './components/StageList.vue'
+import WjHome from './components/WjHome.vue'
+import './themes/editorial.css' // 默认主题（:root 兜底）
+import './themes/ink.css'
+import './themes/youth.css'
 import './custom.css'
 
 /**
- * 万卷主题：默认主题 + 全局可视化组件 + 「在 VS Code 中打开」回源注入。
+ * 万卷主题：默认主题 + 三主题令牌（宣纸/编辑/少年）+ 全局可视化组件
+ * + 顶栏主题切换 + 「在 VS Code 中打开」回源注入。
  * 组件同步注册（ECharts 等重依赖在各组件 onMounted 内动态 import，仍按需分包）。
  */
 export default {
@@ -22,5 +27,6 @@ export default {
     app.component('TagStats', TagStats)
     app.component('AdvancedSearch', AdvancedSearch)
     app.component('StageList', StageList)
+    app.component('WjHome', WjHome)
   },
 } satisfies Theme

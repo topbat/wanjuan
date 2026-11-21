@@ -1,10 +1,12 @@
 <script setup lang="ts">
 // 万卷 · 主题词云（echarts-wordcloud）
 // 数据源：/indexes/stats.json（构建期词频统计）
+// 主题：词色取自 --wj-chart-* 调色板（宣纸=朱砂墨赭 / 编辑=蓝黑 / 少年=多彩），切换主题后重绘。
 import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { chartPalette, cssVar, onThemeChange } from '../composables/useWjTheme'
 
 type WordItem = { name: string; value: number }
-type Stats = { wordFreq: WordItem[]; imageryDist: WordItem[]; quoteThemeDist: WordItem[]; topAuthors: WordItem[] }
+type Stats = { wordFreq: WordItem[]; imageryDist: WordItem[]; quoteThemeDist: WordItem[] }
 
 const el = ref<HTMLElement | null>(null)
 const loading = ref(true)
@@ -19,14 +21,23 @@ const DIM_META: Record<string, { label: string; hint: string }> = {
 
 let chart: any = null
 let stats: Stats | null = null
+const offThemeChange = onThemeChange(() => render())
 const onResize = () => chart?.resize()
 
-async function render() {
+function render() {
   if (!chart || !stats) return
+  const palette = chartPalette()
+  const displayFont = cssVar('--wj-font-display') || 'sans-serif'
   const data = stats[dim.value] ?? []
   chart.setOption(
     {
-      title: { text: DIM_META[dim.value].hint, left: 'center', top: 8, textStyle: { fontSize: 13, fontWeight: 'normal', color: '#8a8f98' } },
+      backgroundColor: 'transparent',
+      title: {
+        text: DIM_META[dim.value].hint,
+        left: 'center',
+        top: 8,
+        textStyle: { fontSize: 13, fontWeight: 'normal', color: cssVar('--wj-ink-3') || '#999', fontFamily: displayFont },
+      },
       series: [
         {
           type: 'wordCloud',
@@ -42,12 +53,9 @@ async function render() {
           drawOutOfBound: false,
           layoutAnimation: true,
           textStyle: {
-            fontFamily: 'sans-serif',
+            fontFamily: displayFont,
             fontWeight: 'bold',
-            color: () =>
-              '#4a6785,#7c6ee6,#4a9e8f,#e0794a,#c25e8e,#5d8cc9,#b08830,#6a9b56'.split(',')[
-                Math.floor(Math.random() * 8)
-              ],
+            color: () => palette[Math.floor(Math.random() * palette.length)] || '#4a6785',
           },
           emphasis: { focus: 'self', textStyle: { shadowBlur: 8, shadowColor: 'rgba(0,0,0,0.25)' } },
           data,
@@ -66,7 +74,7 @@ onMounted(async () => {
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     stats = await res.json()
     chart = echarts.init(el.value!)
-    await render()
+    render()
     window.addEventListener('resize', onResize)
     loading.value = false
   } catch (err: any) {
@@ -76,6 +84,7 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
+  offThemeChange()
   window.removeEventListener('resize', onResize)
   chart?.dispose()
   chart = null

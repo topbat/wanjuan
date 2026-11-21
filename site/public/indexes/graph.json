@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:03:31.169Z",
+  "generatedAt": "2026-11-21T05:46:44.155Z",
   "nodes": [
     {
       "id": "song-sushi-niannujiao-chibihuaigu",
@@ -37,34 +37,6 @@
       "anchor": "content/poems/tang/杜甫/望岳.md"
     },
     {
-      "id": "tang-liuzongyuan-jiangxue",
-      "label": "江雪",
-      "type": "poem",
-      "degree": 5,
-      "anchor": "content/poems/tang/柳宗元/江雪.md"
-    },
-    {
-      "id": "tang-wangzhihuan-dengguanquelou",
-      "label": "登鹳雀楼",
-      "type": "poem",
-      "degree": 6,
-      "anchor": "content/poems/tang/王之涣/登鹳雀楼.md"
-    },
-    {
-      "id": "qing-gongzizhen-jihaizashi",
-      "label": "己亥杂诗·其五",
-      "type": "poem",
-      "degree": 6,
-      "anchor": "content/poems/清/龚自珍/己亥杂诗·其五.md"
-    },
-    {
-      "id": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "label": "天净沙·秋思",
-      "type": "poem",
-      "degree": 5,
-      "anchor": "content/poems/元/马致远/天净沙·秋思.md"
-    },
-    {
       "id": "tang-libai-wanglushanpubu",
       "label": "望庐山瀑布",
       "type": "poem",
@@ -79,11 +51,39 @@
       "anchor": "content/poems/tang/李白/静夜思.md"
     },
     {
+      "id": "tang-liuzongyuan-jiangxue",
+      "label": "江雪",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/柳宗元/江雪.md"
+    },
+    {
       "id": "tang-luobinwang-yonge",
       "label": "咏鹅",
       "type": "poem",
       "degree": 5,
       "anchor": "content/poems/tang/骆宾王/咏鹅.md"
+    },
+    {
+      "id": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "label": "天净沙·秋思",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/元/马致远/天净沙·秋思.md"
+    },
+    {
+      "id": "qing-gongzizhen-jihaizashi",
+      "label": "己亥杂诗·其五",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/清/龚自珍/己亥杂诗·其五.md"
+    },
+    {
+      "id": "tang-wangzhihuan-dengguanquelou",
+      "label": "登鹳雀楼",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/tang/王之涣/登鹳雀楼.md"
     },
     {
       "id": "idiom-wangyangbulao",
@@ -443,41 +443,6 @@
       "anchor": null
     },
     {
-      "id": "author:柳宗元",
-      "label": "柳宗元",
-      "type": "author",
-      "degree": 1,
-      "anchor": null
-    },
-    {
-      "id": "author:王之涣",
-      "label": "王之涣",
-      "type": "author",
-      "degree": 1,
-      "anchor": null
-    },
-    {
-      "id": "genre:哲理",
-      "label": "哲理",
-      "type": "genre",
-      "degree": 1,
-      "anchor": null
-    },
-    {
-      "id": "author:龚自珍",
-      "label": "龚自珍",
-      "type": "author",
-      "degree": 1,
-      "anchor": null
-    },
-    {
-      "id": "dynasty:清",
-      "label": "清",
-      "type": "dynasty",
-      "degree": 1,
-      "anchor": null
-    },
-    {
       "id": "form:七言绝句",
       "label": "七言绝句",
       "type": "form",
@@ -485,8 +450,29 @@
       "anchor": null
     },
     {
-      "id": "genre:言志",
-      "label": "言志",
+      "id": "genre:思乡",
+      "label": "思乡",
+      "type": "genre",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "author:柳宗元",
+      "label": "柳宗元",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:骆宾王",
+      "label": "骆宾王",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:咏物",
+      "label": "咏物",
       "type": "genre",
       "degree": 1,
       "anchor": null
@@ -513,22 +499,36 @@
       "anchor": null
     },
     {
-      "id": "genre:思乡",
-      "label": "思乡",
-      "type": "genre",
-      "degree": 2,
-      "anchor": null
-    },
-    {
-      "id": "author:骆宾王",
-      "label": "骆宾王",
+      "id": "author:龚自珍",
+      "label": "龚自珍",
       "type": "author",
       "degree": 1,
       "anchor": null
     },
     {
-      "id": "genre:咏物",
-      "label": "咏物",
+      "id": "dynasty:清",
+      "label": "清",
+      "type": "dynasty",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:言志",
+      "label": "言志",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:王之涣",
+      "label": "王之涣",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:哲理",
+      "label": "哲理",
       "type": "genre",
       "degree": 1,
       "anchor": null
@@ -795,106 +795,6 @@
       "rel": "学段"
     },
     {
-      "source": "author:柳宗元",
-      "target": "tang-liuzongyuan-jiangxue",
-      "rel": "创作"
-    },
-    {
-      "source": "tang-liuzongyuan-jiangxue",
-      "target": "dynasty:唐",
-      "rel": "属朝代"
-    },
-    {
-      "source": "tang-liuzongyuan-jiangxue",
-      "target": "form:五言绝句",
-      "rel": "属体裁"
-    },
-    {
-      "source": "tang-liuzongyuan-jiangxue",
-      "target": "genre:山水",
-      "rel": "属题材"
-    },
-    {
-      "source": "tang-liuzongyuan-jiangxue",
-      "target": "stage:小学",
-      "rel": "学段"
-    },
-    {
-      "source": "author:王之涣",
-      "target": "tang-wangzhihuan-dengguanquelou",
-      "rel": "创作"
-    },
-    {
-      "source": "tang-wangzhihuan-dengguanquelou",
-      "target": "dynasty:唐",
-      "rel": "属朝代"
-    },
-    {
-      "source": "tang-wangzhihuan-dengguanquelou",
-      "target": "form:五言绝句",
-      "rel": "属体裁"
-    },
-    {
-      "source": "tang-wangzhihuan-dengguanquelou",
-      "target": "genre:哲理",
-      "rel": "属题材"
-    },
-    {
-      "source": "tang-wangzhihuan-dengguanquelou",
-      "target": "stage:小学",
-      "rel": "学段"
-    },
-    {
-      "source": "author:龚自珍",
-      "target": "qing-gongzizhen-jihaizashi",
-      "rel": "创作"
-    },
-    {
-      "source": "qing-gongzizhen-jihaizashi",
-      "target": "dynasty:清",
-      "rel": "属朝代"
-    },
-    {
-      "source": "qing-gongzizhen-jihaizashi",
-      "target": "form:七言绝句",
-      "rel": "属体裁"
-    },
-    {
-      "source": "qing-gongzizhen-jihaizashi",
-      "target": "genre:言志",
-      "rel": "属题材"
-    },
-    {
-      "source": "qing-gongzizhen-jihaizashi",
-      "target": "stage:初中",
-      "rel": "学段"
-    },
-    {
-      "source": "author:马致远",
-      "target": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "rel": "创作"
-    },
-    {
-      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "target": "dynasty:元",
-      "rel": "属朝代"
-    },
-    {
-      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "target": "form:曲",
-      "rel": "属体裁"
-    },
-    {
-      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "target": "genre:思乡",
-      "rel": "属题材"
-    },
-    {
-      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
-      "target": "stage:初中",
-      "rel": "学段"
-    },
-    {
       "source": "author-libai",
       "target": "tang-libai-wanglushanpubu",
       "rel": "创作"
@@ -950,6 +850,31 @@
       "rel": "学段"
     },
     {
+      "source": "author:柳宗元",
+      "target": "tang-liuzongyuan-jiangxue",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "genre:山水",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
       "source": "author:骆宾王",
       "target": "tang-luobinwang-yonge",
       "rel": "创作"
@@ -971,6 +896,81 @@
     },
     {
       "source": "tang-luobinwang-yonge",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author:马致远",
+      "target": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "rel": "创作"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "dynasty:元",
+      "rel": "属朝代"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "form:曲",
+      "rel": "属体裁"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "genre:思乡",
+      "rel": "属题材"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author:龚自珍",
+      "target": "qing-gongzizhen-jihaizashi",
+      "rel": "创作"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "dynasty:清",
+      "rel": "属朝代"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "form:七言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "genre:言志",
+      "rel": "属题材"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author:王之涣",
+      "target": "tang-wangzhihuan-dengguanquelou",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "genre:哲理",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
       "target": "stage:小学",
       "rel": "学段"
     },

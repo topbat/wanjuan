@@ -1,7 +1,9 @@
 <script setup lang="ts">
 // 万卷 · 双轨标签统计（treemap / 旭日切换）
-// 数据源：/indexes/stats.json —— 文学本体轨（题材/体裁/朝代/意象/标签）+ 课标轨（学段/年级）
+// 数据源：/indexes/stats.json —— 文学本体轨（题材/体裁/朝代/意象/标签）+ 课标轨（年级）
+// 主题：色板取自 --wj-chart-*（宣纸=朱砂墨赭 / 编辑=蓝黑 / 少年=多彩），切换主题后重绘。
 import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { chartPalette, cssVar, onThemeChange } from '../composables/useWjTheme'
 
 type Item = { name: string; value: number }
 type Stats = {
@@ -30,6 +32,7 @@ const DIM_LABEL: Record<string, string> = {
 
 let chart: any = null
 let stats: Stats | null = null
+const offThemeChange = onThemeChange(() => render())
 const onResize = () => chart?.resize()
 
 function dataOf(): Item[] {
@@ -41,20 +44,32 @@ function dataOf(): Item[] {
   return (stats as any)[dim.value] ?? []
 }
 
-async function render() {
+function render() {
   if (!chart) return
+  const palette = chartPalette()
+  const displayFont = cssVar('--wj-font-display') || 'sans-serif'
+  const ink = cssVar('--wj-ink') || '#111'
   const data = dataOf()
   if (mode.value === 'treemap') {
     chart.setOption(
       {
-        tooltip: { formatter: (p: any) => `${p.name}<br/>收录 ${p.value} 篇` },
+        backgroundColor: 'transparent',
+        color: palette,
+        textStyle: { fontFamily: displayFont },
+        tooltip: {
+          backgroundColor: cssVar('--wj-card') || '#fff',
+          borderColor: cssVar('--wj-line') || '#ddd',
+          textStyle: { color: ink, fontFamily: displayFont, fontSize: 12 },
+          formatter: (p: any) => `${p.name}<br/>收录 ${p.value} 篇`,
+        },
         series: [
           {
             type: 'treemap',
             roam: false,
-            breadcrumb: { show: true, itemStyle: { textStyle: { color: '#8a8f98' } } },
-            label: { show: true, formatter: '{b}\n{c}' },
-            itemStyle: { borderColor: 'rgba(0,0,0,0.08)', gapWidth: 2 },
+            breadcrumb: { show: true, itemStyle: { textStyle: { color: cssVar('--wj-ink-3') || '#999' } } },
+            label: { show: true, formatter: '{b}\n{c}', fontFamily: displayFont },
+            itemStyle: { borderColor: cssVar('--wj-card') || '#fff', gapWidth: 2 },
+            upperLabel: { show: true, height: 22 },
             levels: [
               { itemStyle: { borderWidth: 0, gapWidth: 3 } },
               {
@@ -71,13 +86,21 @@ async function render() {
   } else {
     chart.setOption(
       {
-        tooltip: { formatter: (p: any) => `${p.name}<br/>收录 ${p.value} 篇` },
+        backgroundColor: 'transparent',
+        color: palette,
+        textStyle: { fontFamily: displayFont },
+        tooltip: {
+          backgroundColor: cssVar('--wj-card') || '#fff',
+          borderColor: cssVar('--wj-line') || '#ddd',
+          textStyle: { color: ink, fontFamily: displayFont, fontSize: 12 },
+          formatter: (p: any) => `${p.name}<br/>收录 ${p.value} 篇`,
+        },
         series: [
           {
             type: 'sunburst',
             radius: [36, '92%'],
-            itemStyle: { borderRadius: 4, borderWidth: 1.5, borderColor: 'rgba(0,0,0,0.12)' },
-            label: { rotate: 'radial', fontSize: 11 },
+            itemStyle: { borderRadius: 4, borderWidth: 1.5, borderColor: cssVar('--wj-card') || '#fff' },
+            label: { rotate: 'radial', fontSize: 11, fontFamily: displayFont, color: ink },
             data,
           },
         ],
@@ -94,7 +117,7 @@ onMounted(async () => {
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     stats = await res.json()
     chart = echarts.init(el.value!)
-    await render()
+    render()
     window.addEventListener('resize', onResize)
     loading.value = false
   } catch (err: any) {
@@ -104,6 +127,7 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
+  offThemeChange()
   window.removeEventListener('resize', onResize)
   chart?.dispose()
   chart = null
