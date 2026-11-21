@@ -1,219 +1,282 @@
 {
-  "generatedAt": "2026-11-21T05:46:44.156Z",
-  "count": 12,
+  "generatedAt": "2026-11-21T09:54:46.785Z",
+  "count": 159,
   "items": [
     {
-      "id": "song-sushi-niannujiao-chibihuaigu",
-      "title": "念奴娇·赤壁怀古",
-      "titlePinyin": "nian nu jiao chi bi huai gu",
-      "author": "苏轼",
-      "dynasty": "宋",
-      "form": "词",
-      "tune": "念奴娇",
-      "genre": "咏史",
-      "imagery": [
-        "月"
-      ],
-      "tags": [
-        "高中必背",
-        "豪放词"
-      ],
-      "curriculum": {
-        "stage": "senior",
-        "grade": 10,
-        "semester": "上",
-        "recitation": true,
-        "task_group": "文学阅读与写作"
-      },
-      "srcPath": "content/poems/song/苏轼/念奴娇·赤壁怀古.md"
-    },
-    {
-      "id": "song-sushi-shuidiaogetou",
-      "title": "水调歌头·明月几时有",
-      "titlePinyin": "shui diao ge tou ming yue ji shi you",
-      "author": "苏轼",
-      "dynasty": "宋",
-      "form": "词",
-      "tune": "水调歌头",
-      "genre": "怀人",
-      "imagery": [
-        "月"
-      ],
-      "tags": [
-        "初中必背",
-        "豪放词"
-      ],
-      "curriculum": {
-        "stage": "junior",
-        "grade": 9,
-        "semester": "上",
-        "recitation": true,
-        "task_group": "语言文字积累与梳理"
-      },
-      "srcPath": "content/poems/song/苏轼/水调歌头·明月几时有.md"
-    },
-    {
-      "id": "tang-menghaoran-chunxiao",
-      "title": "春晓",
-      "titlePinyin": "chun xiao",
-      "author": "孟浩然",
-      "dynasty": "唐",
-      "form": "五言绝句",
+      "id": "sanguo-zhugeliang-chushibiao",
+      "title": "出师表",
+      "titlePinyin": "chu shi biao",
+      "author": "诸葛亮",
+      "dynasty": "三国",
+      "form": "文言文",
       "tune": null,
-      "genre": "四季",
-      "imagery": [],
-      "tags": [
-        "唐诗三百首",
-        "小学必背"
-      ],
-      "curriculum": {
-        "stage": "primary",
-        "grade": 1,
-        "semester": "下",
-        "recitation": true,
-        "task_group": "语言文字积累与梳理"
-      },
-      "srcPath": "content/poems/tang/孟浩然/春晓.md"
-    },
-    {
-      "id": "tang-dufu-chunwang",
-      "title": "春望",
-      "titlePinyin": "chun wang",
-      "author": "杜甫",
-      "dynasty": "唐",
-      "form": "五言律诗",
-      "tune": null,
-      "genre": "家国",
+      "genre": "待归类",
       "imagery": [],
       "tags": [
         "初中必背",
-        "沉郁顿挫"
-      ],
-      "curriculum": {
-        "stage": "junior",
-        "grade": 8,
-        "semester": "上",
-        "recitation": true,
-        "task_group": "语言文字积累与梳理"
-      },
-      "srcPath": "content/poems/tang/杜甫/春望.md"
-    },
-    {
-      "id": "tang-dufu-wangyue",
-      "title": "望岳",
-      "titlePinyin": "wang yue",
-      "author": "杜甫",
-      "dynasty": "唐",
-      "form": "五言古诗",
-      "tune": null,
-      "genre": "山水",
-      "imagery": [],
-      "tags": [
-        "初中必背",
-        "咏山"
+        "课标必背"
       ],
       "curriculum": {
         "stage": "junior",
         "grade": 7,
-        "semester": "下",
+        "semester": null,
         "recitation": true,
-        "task_group": "语言文字积累与梳理"
+        "task_group": null
       },
-      "srcPath": "content/poems/tang/杜甫/望岳.md"
+      "srcPath": "content/poems/三国/诸葛亮/出师表.md"
     },
     {
-      "id": "tang-libai-wanglushanpubu",
-      "title": "望庐山瀑布",
-      "titlePinyin": "wang lushan pubu",
-      "author": "李白",
-      "dynasty": "唐",
-      "form": "七言绝句",
-      "tune": null,
-      "genre": "山水",
+      "id": "wudai-liyu-xiangjianhuan",
+      "title": "相见欢",
+      "titlePinyin": "xiang jian huan",
+      "author": "李煜",
+      "dynasty": "五代",
+      "form": "词",
+      "tune": "相见欢",
+      "genre": "待归类",
       "imagery": [],
       "tags": [
-        "唐诗三百首",
-        "小学必背"
+        "初中必背",
+        "课标必背"
       ],
       "curriculum": {
-        "stage": "primary",
-        "grade": 2,
-        "semester": "上",
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
         "recitation": true,
-        "task_group": "语言文字积累与梳理"
+        "task_group": null
       },
-      "srcPath": "content/poems/tang/李白/望庐山瀑布.md"
+      "srcPath": "content/poems/五代/李煜/相见欢.md"
     },
     {
-      "id": "tang-libai-jingyesi",
-      "title": "静夜思",
-      "titlePinyin": "jing ye si",
-      "author": "李白",
-      "dynasty": "唐",
-      "form": "五言绝句",
-      "tune": null,
-      "genre": "思乡",
-      "imagery": [
-        "月"
-      ],
-      "tags": [
-        "唐诗三百首",
-        "小学必背"
-      ],
-      "curriculum": {
-        "stage": "primary",
-        "grade": 1,
-        "semester": "下",
-        "recitation": true,
-        "task_group": "语言文字积累与梳理"
-      },
-      "srcPath": "content/poems/tang/李白/静夜思.md"
-    },
-    {
-      "id": "tang-liuzongyuan-jiangxue",
-      "title": "江雪",
-      "titlePinyin": "jiang xue",
-      "author": "柳宗元",
-      "dynasty": "唐",
-      "form": "五言绝句",
-      "tune": null,
-      "genre": "山水",
+      "id": "wudai-liyu-yumeiren",
+      "title": "虞美人",
+      "titlePinyin": "yu mei ren",
+      "author": "李煜",
+      "dynasty": "五代",
+      "form": "词",
+      "tune": "虞美人",
+      "genre": "待归类",
       "imagery": [],
       "tags": [
-        "唐诗三百首",
-        "小学必背"
+        "高中必背",
+        "课标必背"
       ],
       "curriculum": {
-        "stage": "primary",
-        "grade": 3,
-        "semester": "上",
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
         "recitation": true,
-        "task_group": "语言文字积累与梳理"
+        "task_group": null
       },
-      "srcPath": "content/poems/tang/柳宗元/江雪.md"
+      "srcPath": "content/poems/五代/李煜/虞美人.md"
     },
     {
-      "id": "tang-luobinwang-yonge",
-      "title": "咏鹅",
-      "titlePinyin": "yong e",
-      "author": "骆宾王",
-      "dynasty": "唐",
-      "form": "五言古诗",
+      "id": "xianqin-mengzi-mengziyize",
+      "title": "《孟子》一则",
+      "titlePinyin": "《 meng zi 》 yi ze",
+      "author": "《孟子》",
+      "dynasty": "先秦",
+      "form": "文言文",
       "tune": null,
-      "genre": "咏物",
+      "genre": "待归类",
       "imagery": [],
       "tags": [
-        "启蒙诗",
-        "小学必背"
+        "高中必背",
+        "课标必背"
       ],
       "curriculum": {
-        "stage": "primary",
-        "grade": 1,
-        "semester": "上",
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
         "recitation": true,
-        "task_group": "语言文字积累与梳理"
+        "task_group": null
       },
-      "srcPath": "content/poems/tang/骆宾王/咏鹅.md"
+      "srcPath": "content/poems/先秦/孟子/《孟子》一则.md"
+    },
+    {
+      "id": "xianqin-mengzi-mengzisanze",
+      "title": "《孟子》三则",
+      "titlePinyin": "《 meng zi 》 san ze",
+      "author": "《孟子》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/孟子/《孟子》三则.md"
+    },
+    {
+      "id": "xianqin-quyuan-lisao",
+      "title": "离骚",
+      "titlePinyin": "li sao",
+      "author": "屈原",
+      "dynasty": "先秦",
+      "form": "楚辞",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/屈原/离骚.md"
+    },
+    {
+      "id": "xianqin-lunyu-lunyushierzhang-lunyu",
+      "title": "《论语》十二章",
+      "titlePinyin": "《 lun yu 》 shi er zhang",
+      "author": "《论语》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/论语/《论语》十二章.md"
+    },
+    {
+      "id": "xianqin-lunyu-zilucengxiranyougongxihuashizuo",
+      "title": "子路、曾晳、冉有、公西华侍坐",
+      "titlePinyin": "zi lu 、 ceng xi 、 ran you 、 gong xi hua shi zuo",
+      "author": "《论语》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/论语/子路、曾晳、冉有、公西华侍坐.md"
+    },
+    {
+      "id": "xianqin-lunyu-jishijiangfazhuanyu",
+      "title": "季氏将伐颛臾",
+      "titlePinyin": "ji shi jiang fa zhuan yu",
+      "author": "《论语》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/论语/季氏将伐颛臾.md"
+    },
+    {
+      "id": "xianqin-zhanguoce-zoujifengqiwangnajian",
+      "title": "邹忌讽齐王纳谏",
+      "titlePinyin": "zou ji feng qi wang na jian",
+      "author": "《战国策》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/战国策/邹忌讽齐王纳谏.md"
+    },
+    {
+      "id": "xianqin-shijing-guanju",
+      "title": "关雎",
+      "titlePinyin": "guan ju",
+      "author": "《诗经》",
+      "dynasty": "先秦",
+      "form": "四言诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/诗经/关雎.md"
+    },
+    {
+      "id": "xianqin-shijing-jianjia",
+      "title": "蒹葭",
+      "titlePinyin": "jian jia",
+      "author": "《诗经》",
+      "dynasty": "先秦",
+      "form": "四言诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/诗经/蒹葭.md"
     },
     {
       "id": "yuan-mazhiyuan-tianjingsha-qiusi",
@@ -239,6 +302,1344 @@
       "srcPath": "content/poems/元/马致远/天净沙·秋思.md"
     },
     {
+      "id": "song-liukezhuang-hexinlang",
+      "title": "贺新郎",
+      "titlePinyin": "he xin lang",
+      "author": "刘克庄",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "贺新郎",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/刘克庄/贺新郎.md"
+    },
+    {
+      "id": "yuan-zhangyanghao-shanpoyangtongguanhuaigu",
+      "title": "山坡羊·潼关怀古",
+      "titlePinyin": "shan po yang · tong guan huai gu",
+      "author": "张养浩",
+      "dynasty": "元",
+      "form": "曲",
+      "tune": "山坡羊",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/元/张养浩/山坡羊·潼关怀古.md"
+    },
+    {
+      "id": "song-zhoubangyan-sumuzhe",
+      "title": "苏幕遮",
+      "titlePinyin": "su mu zhe",
+      "author": "周邦彦",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "苏幕遮",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/周邦彦/苏幕遮.md"
+    },
+    {
+      "id": "xianqin-zuochuan-caoguilunzhan",
+      "title": "曹刿论战",
+      "titlePinyin": "cao gui lun zhan",
+      "author": "《左传》",
+      "dynasty": "先秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/先秦/左传/曹刿论战.md"
+    },
+    {
+      "id": "song-jiangkui-yangzhouman",
+      "title": "扬州慢",
+      "titlePinyin": "yang zhou man",
+      "author": "姜夔",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "扬州慢",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/姜夔/扬州慢.md"
+    },
+    {
+      "id": "song-yeshaoweng-youyuanbuzhi",
+      "title": "游园不值",
+      "titlePinyin": "you yuan bu zhi",
+      "author": "叶绍翁",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/叶绍翁/游园不值.md"
+    },
+    {
+      "id": "song-yanshu-huanxisha",
+      "title": "浣溪沙",
+      "titlePinyin": "huan xi sha",
+      "author": "晏殊",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "浣溪沙",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/晏殊/浣溪沙.md"
+    },
+    {
+      "id": "song-zhangxiaoxiang-niannujiaoguodongting",
+      "title": "念奴娇·过洞庭",
+      "titlePinyin": "nian nu jiao · guo dong ting",
+      "author": "张孝祥",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "念奴娇",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/张孝祥/念奴娇·过洞庭.md"
+    },
+    {
+      "id": "song-wentianxiang-guolingdingyang",
+      "title": "过零丁洋",
+      "titlePinyin": "guo ling ding yang",
+      "author": "文天祥",
+      "dynasty": "宋",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/文天祥/过零丁洋.md"
+    },
+    {
+      "id": "song-cengji-sanqudaozhong",
+      "title": "三衢道中",
+      "titlePinyin": "san qu dao zhong",
+      "author": "曾几",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/曾几/三衢道中.md"
+    },
+    {
+      "id": "song-zhuxi-chunri",
+      "title": "春日",
+      "titlePinyin": "chun ri",
+      "author": "朱熹",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/朱熹/春日.md"
+    },
+    {
+      "id": "song-zhuxi-guanshuyougan",
+      "title": "观书有感",
+      "titlePinyin": "guan shu you gan",
+      "author": "朱熹",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/朱熹/观书有感.md"
+    },
+    {
+      "id": "song-liqingzhao-shengshengman",
+      "title": "声声慢",
+      "titlePinyin": "sheng sheng man",
+      "author": "李清照",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "声声慢",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/李清照/声声慢.md"
+    },
+    {
+      "id": "song-liqingzhao-xiarijueju",
+      "title": "夏日绝句",
+      "titlePinyin": "xia ri jue ju",
+      "author": "李清照",
+      "dynasty": "宋",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/李清照/夏日绝句.md"
+    },
+    {
+      "id": "song-liqingzhao-yujiaao",
+      "title": "渔家傲",
+      "titlePinyin": "yu jia ao",
+      "author": "李清照",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "渔家傲",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/李清照/渔家傲.md"
+    },
+    {
+      "id": "song-liuyong-wanghaichao",
+      "title": "望海潮",
+      "titlePinyin": "wang hai chao",
+      "author": "柳永",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "望海潮",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/柳永/望海潮.md"
+    },
+    {
+      "id": "song-yangwanli-xiaochi",
+      "title": "小池",
+      "titlePinyin": "xiao chi",
+      "author": "杨万里",
+      "dynasty": "宋",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/杨万里/小池.md"
+    },
+    {
+      "id": "song-ouyangxiu-wudaishilingguanchuanxu",
+      "title": "五代史伶官传序",
+      "titlePinyin": "wu dai shi ling guan chuan xu",
+      "author": "欧阳修",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/欧阳修/五代史伶官传序.md"
+    },
+    {
+      "id": "song-ouyangxiu-zuiwengtingji",
+      "title": "醉翁亭记",
+      "titlePinyin": "zui weng ting ji",
+      "author": "欧阳修",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/欧阳修/醉翁亭记.md"
+    },
+    {
+      "id": "song-linsheng-tilinandi",
+      "title": "题临安邸",
+      "titlePinyin": "ti lin an di",
+      "author": "林升",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/林升/题临安邸.md"
+    },
+    {
+      "id": "song-wangyucheng-huanggangzhulouji",
+      "title": "黄冈竹楼记",
+      "titlePinyin": "huang gang zhu lou ji",
+      "author": "王禹偁",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王禹偁/黄冈竹楼记.md"
+    },
+    {
+      "id": "song-wanganshi-shuhuyinxianshengbi",
+      "title": "书湖阴先生壁",
+      "titlePinyin": "shu hu yin xian sheng bi",
+      "author": "王安石",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王安石/书湖阴先生壁.md"
+    },
+    {
+      "id": "song-wanganshi-yuanri",
+      "title": "元日",
+      "titlePinyin": "yuan ri",
+      "author": "王安石",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王安石/元日.md"
+    },
+    {
+      "id": "song-wanganshi-guizhixiangjinlinghuaigu",
+      "title": "桂枝香·金陵怀古",
+      "titlePinyin": "gui zhi xiang · jin ling huai gu",
+      "author": "王安石",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "桂枝香",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王安石/桂枝香·金陵怀古.md"
+    },
+    {
+      "id": "song-wanganshi-bochuanguazhou",
+      "title": "泊船瓜洲",
+      "titlePinyin": "bo chuan gua zhou",
+      "author": "王安石",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王安石/泊船瓜洲.md"
+    },
+    {
+      "id": "song-wanganshi-dengfeilaifeng",
+      "title": "登飞来峰",
+      "titlePinyin": "deng fei lai feng",
+      "author": "王安石",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/王安石/登飞来峰.md"
+    },
+    {
+      "id": "song-wengjuan-xiangcunsiyue",
+      "title": "乡村四月",
+      "titlePinyin": "xiang cun si yue",
+      "author": "翁卷",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/翁卷/乡村四月.md"
+    },
+    {
+      "id": "song-qinguan-queqiaoxian",
+      "title": "鹊桥仙",
+      "titlePinyin": "que qiao xian",
+      "author": "秦观",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "鹊桥仙",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/秦观/鹊桥仙.md"
+    },
+    {
+      "id": "song-sushi-niannujiao-chibihuaigu",
+      "title": "念奴娇·赤壁怀古",
+      "titlePinyin": "nian nu jiao chi bi huai gu",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "念奴娇",
+      "genre": "咏史",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "高中必背",
+        "豪放词"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "文学阅读与写作"
+      },
+      "srcPath": "content/poems/宋/苏轼/念奴娇·赤壁怀古.md"
+    },
+    {
+      "id": "song-sushi-huichongchunjiangwanjing",
+      "title": "惠崇春江晚景",
+      "titlePinyin": "hui chong chun jiang wan jing",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/惠崇春江晚景.md"
+    },
+    {
+      "id": "song-sushi-shuidiaogetou",
+      "title": "水调歌头·明月几时有",
+      "titlePinyin": "shui diao ge tou ming yue ji shi you",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "水调歌头",
+      "genre": "怀人",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "初中必背",
+        "豪放词"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/宋/苏轼/水调歌头·明月几时有.md"
+    },
+    {
+      "id": "song-sushi-jiangchengziyimaozhengyueershiriyejimeng",
+      "title": "江城子·乙卯正月二十日夜记梦",
+      "titlePinyin": "jiang cheng zi · yi mao zheng yue er shi ri ye ji meng",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "江城子",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/江城子·乙卯正月二十日夜记梦.md"
+    },
+    {
+      "id": "song-sushi-shizhongshanji",
+      "title": "石钟山记",
+      "titlePinyin": "shi zhong shan ji",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/石钟山记.md"
+    },
+    {
+      "id": "song-sushi-chibifu",
+      "title": "赤壁赋",
+      "titlePinyin": "chi bi fu",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "文言文（赋）",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/赤壁赋.md"
+    },
+    {
+      "id": "song-sushi-tixilinbi",
+      "title": "题西林壁",
+      "titlePinyin": "ti xi lin bi",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/题西林壁.md"
+    },
+    {
+      "id": "song-sushi-yinhushangchuqinghouyu",
+      "title": "饮湖上初晴后雨",
+      "titlePinyin": "yin hu shang chu qing hou yu",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏轼/饮湖上初晴后雨.md"
+    },
+    {
+      "id": "song-suzhe-shangshumihantaiweishu",
+      "title": "上枢密韩太尉书",
+      "titlePinyin": "shang shu mi han tai wei shu",
+      "author": "苏辙",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏辙/上枢密韩太尉书.md"
+    },
+    {
+      "id": "song-fanzhongyan-yueyanglouji",
+      "title": "岳阳楼记",
+      "titlePinyin": "yue yang lou ji",
+      "author": "范仲淹",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/范仲淹/岳阳楼记.md"
+    },
+    {
+      "id": "song-fanzhongyan-jiangshangyuzhe",
+      "title": "江上渔者",
+      "titlePinyin": "jiang shang yu zhe",
+      "author": "范仲淹",
+      "dynasty": "宋",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/范仲淹/江上渔者.md"
+    },
+    {
+      "id": "song-fanzhongyan-yujiaao",
+      "title": "渔家傲",
+      "titlePinyin": "yu jia ao",
+      "author": "范仲淹",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "渔家傲",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/范仲淹/渔家傲.md"
+    },
+    {
+      "id": "song-fanchengda-sishitianyuanzaxing",
+      "title": "四时田园杂兴",
+      "titlePinyin": "si shi tian yuan za xing",
+      "author": "范成大",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/范成大/四时田园杂兴.md"
+    },
+    {
+      "id": "song-fanchengda-sishitianyuanzaxing-meizijinhuang",
+      "title": "四时田园杂兴·梅子金黄杏子肥",
+      "titlePinyin": "si shi tian yuan za xing · mei zi jin huang xing zi fei",
+      "author": "范成大",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/范成大/四时田园杂兴·梅子金黄杏子肥.md"
+    },
+    {
+      "id": "song-xinqiji-nanxiangzi",
+      "title": "南乡子",
+      "titlePinyin": "nan xiang zi",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "南乡子",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/辛弃疾/南乡子.md"
+    },
+    {
+      "id": "song-xinqiji-yongyulejingkoubeigutinghuaigu",
+      "title": "永遇乐·京口北固亭怀古",
+      "titlePinyin": "yong yu le · jing kou bei gu ting huai gu",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "永遇乐",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/辛弃疾/永遇乐·京口北固亭怀古.md"
+    },
+    {
+      "id": "song-xinqiji-pozhenzi",
+      "title": "破阵子",
+      "titlePinyin": "po zhen zi",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "破阵子",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/辛弃疾/破阵子.md"
+    },
+    {
+      "id": "song-xinqiji-pusamanshujiangxizaokoubi",
+      "title": "菩萨蛮·书江西造口壁",
+      "titlePinyin": "pu sa man · shu jiang xi zao kou bi",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "菩萨蛮",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/辛弃疾/菩萨蛮·书江西造口壁.md"
+    },
+    {
+      "id": "song-xinqiji-qingyuanyuanxi",
+      "title": "青玉案·元夕",
+      "titlePinyin": "qing yu an · yuan xi",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "青玉案",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/辛弃疾/青玉案·元夕.md"
+    },
+    {
+      "id": "song-luyou-youshanxicun",
+      "title": "游山西村",
+      "titlePinyin": "you shan xi cun",
+      "author": "陆游",
+      "dynasty": "宋",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/陆游/游山西村.md"
+    },
+    {
+      "id": "song-luyou-shier",
+      "title": "示儿",
+      "titlePinyin": "shi er",
+      "author": "陆游",
+      "dynasty": "宋",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/陆游/示儿.md"
+    },
+    {
+      "id": "song-huangtingjian-dengkuaige",
+      "title": "登快阁",
+      "titlePinyin": "deng kuai ge",
+      "author": "黄庭坚",
+      "dynasty": "宋",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/黄庭坚/登快阁.md"
+    },
+    {
+      "id": "han-simaqian-quyuanliezhuan",
+      "title": "屈原列传",
+      "titlePinyin": "qu yuan lie zhuan",
+      "author": "司马迁",
+      "dynasty": "汉",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/司马迁/屈原列传.md"
+    },
+    {
+      "id": "han-simaqian-baorenanshu",
+      "title": "报任安书",
+      "titlePinyin": "bao ren an shu",
+      "author": "司马迁",
+      "dynasty": "汉",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/司马迁/报任安书.md"
+    },
+    {
+      "id": "han-caocao-duangexing",
+      "title": "短歌行",
+      "titlePinyin": "duan ge xing",
+      "author": "曹操",
+      "dynasty": "汉",
+      "form": "四言乐府",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/曹操/短歌行.md"
+    },
+    {
+      "id": "han-caocao-guancanghai",
+      "title": "观沧海",
+      "titlePinyin": "guan cang hai",
+      "author": "曹操",
+      "dynasty": "汉",
+      "form": "四言乐府",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/曹操/观沧海.md"
+    },
+    {
+      "id": "song-suxun-liuguolun",
+      "title": "六国论",
+      "titlePinyin": "liu guo lun",
+      "author": "苏洵",
+      "dynasty": "宋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/宋/苏洵/六国论.md"
+    },
+    {
+      "id": "han-liji-zhongyong",
+      "title": "中庸",
+      "titlePinyin": "zhong yong",
+      "author": "《礼记》",
+      "dynasty": "汉",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/礼记/中庸.md"
+    },
+    {
+      "id": "han-liji-daxue",
+      "title": "大学",
+      "titlePinyin": "da xue",
+      "author": "《礼记》",
+      "dynasty": "汉",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/礼记/大学.md"
+    },
+    {
+      "id": "han-jiayi-guoqinlunshang",
+      "title": "过秦论（上）",
+      "titlePinyin": "guo qin lun （ shang ）",
+      "author": "贾谊",
+      "dynasty": "汉",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/汉/贾谊/过秦论（上）.md"
+    },
+    {
       "id": "qing-gongzizhen-jihaizashi",
       "title": "己亥杂诗·其五",
       "titlePinyin": "ji hai za shi qi wu",
@@ -262,6 +1663,1296 @@
       "srcPath": "content/poems/清/龚自珍/己亥杂诗·其五.md"
     },
     {
+      "id": "weijin-limi-chenqingbiao",
+      "title": "陈情表",
+      "titlePinyin": "chen qing biao",
+      "author": "李密",
+      "dynasty": "魏晋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/魏晋/李密/陈情表.md"
+    },
+    {
+      "id": "weijin-wangxizhi-lantingjixu",
+      "title": "兰亭集序",
+      "titlePinyin": "lan ting ji xu",
+      "author": "王羲之",
+      "dynasty": "魏晋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/魏晋/王羲之/兰亭集序.md"
+    },
+    {
+      "id": "tang-liuyuxi-wangdongting",
+      "title": "望洞庭",
+      "titlePinyin": "wang dong ting",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/刘禹锡/望洞庭.md"
+    },
+    {
+      "id": "tang-liuyuxi-langtaosha",
+      "title": "浪淘沙",
+      "titlePinyin": "lang tao sha",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/刘禹锡/浪淘沙.md"
+    },
+    {
+      "id": "tang-liuyuxi-chouletianyangzhouchufengxishangjianzeng",
+      "title": "酬乐天扬州初逢席上见赠",
+      "titlePinyin": "chou le tian yang zhou chu feng xi shang jian zeng",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/刘禹锡/酬乐天扬州初逢席上见赠.md"
+    },
+    {
+      "id": "tang-liuyuxi-loushiming",
+      "title": "陋室铭",
+      "titlePinyin": "lou shi ming",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/刘禹锡/陋室铭.md"
+    },
+    {
+      "id": "weijin-taoqian-taohuayuanji",
+      "title": "桃花源记",
+      "titlePinyin": "tao hua yuan ji",
+      "author": "陶潜",
+      "dynasty": "魏晋",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/魏晋/陶潜/桃花源记.md"
+    },
+    {
+      "id": "tang-lulun-saixiaqu",
+      "title": "塞下曲",
+      "titlePinyin": "sai xia qu",
+      "author": "卢纶",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/卢纶/塞下曲.md"
+    },
+    {
+      "id": "tang-menghaoran-chunxiao",
+      "title": "春晓",
+      "titlePinyin": "chun xiao",
+      "author": "孟浩然",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "四季",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/孟浩然/春晓.md"
+    },
+    {
+      "id": "tang-mengjiao-youziyin",
+      "title": "游子吟",
+      "titlePinyin": "you zi yin",
+      "author": "孟郊",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/孟郊/游子吟.md"
+    },
+    {
+      "id": "qin-lisi-jianzhukeshu",
+      "title": "谏逐客书",
+      "titlePinyin": "jian zhu ke shu",
+      "author": "李斯",
+      "dynasty": "秦",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/秦/李斯/谏逐客书.md"
+    },
+    {
+      "id": "tang-cuihao-huanghelou",
+      "title": "黄鹤楼",
+      "titlePinyin": "huang he lou",
+      "author": "崔颢",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/崔颢/黄鹤楼.md"
+    },
+    {
+      "id": "tang-cencan-baixuegesongwupanguanguijing",
+      "title": "白雪歌送武判官归京",
+      "titlePinyin": "bai xue ge song wu pan guan gui jing",
+      "author": "岑参",
+      "dynasty": "唐",
+      "form": "歌行体",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/岑参/白雪歌送武判官归京.md"
+    },
+    {
+      "id": "tang-zhangzhihe-yugezi",
+      "title": "渔歌子",
+      "titlePinyin": "yu ge zi",
+      "author": "张志和",
+      "dynasty": "唐",
+      "form": "词",
+      "tune": "渔歌子",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/张志和/渔歌子.md"
+    },
+    {
+      "id": "tang-zhangji-fengqiaoyebo",
+      "title": "枫桥夜泊",
+      "titlePinyin": "feng qiao ye bo",
+      "author": "张继",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/张继/枫桥夜泊.md"
+    },
+    {
+      "id": "tang-zhangruoxu-chunjianghuayueye",
+      "title": "春江花月夜",
+      "titlePinyin": "chun jiang hua yue ye",
+      "author": "张若虚",
+      "dynasty": "唐",
+      "form": "七言歌行",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/张若虚/春江花月夜.md"
+    },
+    {
+      "id": "tang-lishangyin-yeyujibei",
+      "title": "夜雨寄北",
+      "titlePinyin": "ye yu ji bei",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李商隐/夜雨寄北.md"
+    },
+    {
+      "id": "tang-lishangyin-wuti",
+      "title": "无题",
+      "titlePinyin": "wu ti",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李商隐/无题.md"
+    },
+    {
+      "id": "tang-lishangyin-jinse",
+      "title": "锦瑟",
+      "titlePinyin": "jin se",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李商隐/锦瑟.md"
+    },
+    {
+      "id": "tang-liqiao-feng",
+      "title": "风",
+      "titlePinyin": "feng",
+      "author": "李峤",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李峤/风.md"
+    },
+    {
+      "id": "tang-libai-gulangyuexing",
+      "title": "古朗月行",
+      "titlePinyin": "gu lang yue xing",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/古朗月行.md"
+    },
+    {
+      "id": "tang-libai-jiangjinjiu",
+      "title": "将进酒",
+      "titlePinyin": "jiang jin jiu",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "乐府诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/将进酒.md"
+    },
+    {
+      "id": "tang-libai-zaofabaidicheng",
+      "title": "早发白帝城",
+      "titlePinyin": "zao fa bai di cheng",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/早发白帝城.md"
+    },
+    {
+      "id": "tang-libai-wangtianmenshan",
+      "title": "望天门山",
+      "titlePinyin": "wang tian men shan",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/望天门山.md"
+    },
+    {
+      "id": "tang-libai-wanglushanpubu",
+      "title": "望庐山瀑布",
+      "titlePinyin": "wang lushan pubu",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 2,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/李白/望庐山瀑布.md"
+    },
+    {
+      "id": "tang-libai-mengyoutianlaoyinliubie",
+      "title": "梦游天姥吟留别",
+      "titlePinyin": "meng you tian lao yin liu bie",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "古体诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/梦游天姥吟留别.md"
+    },
+    {
+      "id": "tang-libai-shudaonan",
+      "title": "蜀道难",
+      "titlePinyin": "shu dao nan",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "乐府诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/蜀道难.md"
+    },
+    {
+      "id": "tang-libai-xinglunan",
+      "title": "行路难",
+      "titlePinyin": "xing lu nan",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言歌行",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/行路难.md"
+    },
+    {
+      "id": "tang-libai-zengwanglun",
+      "title": "赠汪伦",
+      "titlePinyin": "zeng wang lun",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/赠汪伦.md"
+    },
+    {
+      "id": "tang-libai-wenwangchanglingzuoqianlongbiaoyaoyouciji",
+      "title": "闻王昌龄左迁龙标遥有此寄",
+      "titlePinyin": "wen wang chang ling zuo qian long biao yao you ci ji",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/闻王昌龄左迁龙标遥有此寄.md"
+    },
+    {
+      "id": "tang-libai-jingyesi",
+      "title": "静夜思",
+      "titlePinyin": "jing ye si",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "思乡",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/李白/静夜思.md"
+    },
+    {
+      "id": "tang-libai-huanghelousongmenghaoranzhiguangling",
+      "title": "黄鹤楼送孟浩然之广陵",
+      "titlePinyin": "huang he lou song meng hao ran zhi guang ling",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李白/黄鹤楼送孟浩然之广陵.md"
+    },
+    {
+      "id": "tang-lishen-minnong",
+      "title": "悯农",
+      "titlePinyin": "min nong",
+      "author": "李绅",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李绅/悯农.md"
+    },
+    {
+      "id": "tang-lishen-minnong-chunzhongyili",
+      "title": "悯农·春种一粒粟",
+      "titlePinyin": "min nong · chun zhong yi li su",
+      "author": "李绅",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李绅/悯农·春种一粒粟.md"
+    },
+    {
+      "id": "tang-lihe-lipingkonghouyin",
+      "title": "李凭箜篌引",
+      "titlePinyin": "li ping kong hou yin",
+      "author": "李贺",
+      "dynasty": "唐",
+      "form": "乐府诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李贺/李凭箜篌引.md"
+    },
+    {
+      "id": "tang-lihe-yanmentaishouxing",
+      "title": "雁门太守行",
+      "titlePinyin": "yan men tai shou xing",
+      "author": "李贺",
+      "dynasty": "唐",
+      "form": "乐府诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/李贺/雁门太守行.md"
+    },
+    {
+      "id": "tang-dumu-shanxing",
+      "title": "山行",
+      "titlePinyin": "shan xing",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/山行.md"
+    },
+    {
+      "id": "tang-dumu-jiangnanchun",
+      "title": "江南春",
+      "titlePinyin": "jiang nan chun",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/江南春.md"
+    },
+    {
+      "id": "tang-dumu-boqinhuai",
+      "title": "泊秦淮",
+      "titlePinyin": "bo qin huai",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/泊秦淮.md"
+    },
+    {
+      "id": "tang-dumu-qingming",
+      "title": "清明",
+      "titlePinyin": "qing ming",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/清明.md"
+    },
+    {
+      "id": "tang-dumu-chibi",
+      "title": "赤壁",
+      "titlePinyin": "chi bi",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/赤壁.md"
+    },
+    {
+      "id": "tang-dumu-epanggongfu",
+      "title": "阿房宫赋",
+      "titlePinyin": "e pang gong fu",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "form": "文言文（赋）",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜牧/阿房宫赋.md"
+    },
+    {
+      "id": "tang-dufu-kezhi",
+      "title": "客至",
+      "titlePinyin": "ke zhi",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/客至.md"
+    },
+    {
+      "id": "tang-dufu-chunyexiyu",
+      "title": "春夜喜雨",
+      "titlePinyin": "chun ye xi yu",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/春夜喜雨.md"
+    },
+    {
+      "id": "tang-dufu-chunwang",
+      "title": "春望",
+      "titlePinyin": "chun wang",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "家国",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "沉郁顿挫"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 8,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/杜甫/春望.md"
+    },
+    {
+      "id": "tang-dufu-wangyue",
+      "title": "望岳",
+      "titlePinyin": "wang yue",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "咏山"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/杜甫/望岳.md"
+    },
+    {
+      "id": "tang-dufu-jiangpandubuxunhua",
+      "title": "江畔独步寻花",
+      "titlePinyin": "jiang pan du bu xun hua",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/江畔独步寻花.md"
+    },
+    {
+      "id": "tang-dufu-dengyueyanglou",
+      "title": "登岳阳楼",
+      "titlePinyin": "deng yue yang lou",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/登岳阳楼.md"
+    },
+    {
+      "id": "tang-dufu-denggao",
+      "title": "登高",
+      "titlePinyin": "deng gao",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/登高.md"
+    },
+    {
+      "id": "tang-dufu-jueju",
+      "title": "绝句",
+      "titlePinyin": "jue ju",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/绝句.md"
+    },
+    {
+      "id": "tang-dufu-maowuweiqiufengsuopoge",
+      "title": "茅屋为秋风所破歌",
+      "titlePinyin": "mao wu wei qiu feng suo po ge",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "歌行体",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/茅屋为秋风所破歌.md"
+    },
+    {
+      "id": "tang-dufu-shuxiang",
+      "title": "蜀相",
+      "titlePinyin": "shu xiang",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/杜甫/蜀相.md"
+    },
+    {
+      "id": "tang-wentingyun-pusaman",
+      "title": "菩萨蛮",
+      "titlePinyin": "pu sa man",
+      "author": "温庭筠",
+      "dynasty": "唐",
+      "form": "词",
+      "tune": "菩萨蛮",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/温庭筠/菩萨蛮.md"
+    },
+    {
+      "id": "tang-liuzongyuan-jiangxue",
+      "title": "江雪",
+      "titlePinyin": "jiang xue",
+      "author": "柳宗元",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 3,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/柳宗元/江雪.md"
+    },
+    {
+      "id": "tang-liuzongyuan-zhongshuguotuotuochuan",
+      "title": "种树郭橐驼传",
+      "titlePinyin": "zhong shu guo tuo tuo chuan",
+      "author": "柳宗元",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/柳宗元/种树郭橐驼传.md"
+    },
+    {
+      "id": "tang-wangzhihuan-liangzhouci",
+      "title": "凉州词",
+      "titlePinyin": "liang zhou ci",
+      "author": "王之涣",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王之涣/凉州词.md"
+    },
+    {
       "id": "tang-wangzhihuan-dengguanquelou",
       "title": "登鹳雀楼",
       "titlePinyin": "deng guan que lou",
@@ -282,7 +2973,697 @@
         "recitation": true,
         "task_group": "语言文字积累与梳理"
       },
-      "srcPath": "content/poems/tang/王之涣/登鹳雀楼.md"
+      "srcPath": "content/poems/唐/王之涣/登鹳雀楼.md"
+    },
+    {
+      "id": "tang-wangbo-tengwanggexu",
+      "title": "滕王阁序",
+      "titlePinyin": "teng wang ge xu",
+      "author": "王勃",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王勃/滕王阁序.md"
+    },
+    {
+      "id": "tang-wangbo-songdushaofuzhirenshuzhou",
+      "title": "送杜少府之任蜀州",
+      "titlePinyin": "song du shao fu zhi ren shu zhou",
+      "author": "王勃",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王勃/送杜少府之任蜀州.md"
+    },
+    {
+      "id": "tang-wangwan-cibeigushanxia",
+      "title": "次北固山下",
+      "titlePinyin": "ci bei gu shan xia",
+      "author": "王湾",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王湾/次北固山下.md"
+    },
+    {
+      "id": "tang-wangwei-jiuyuejiuriyishandongxiongdi",
+      "title": "九月九日忆山东兄弟",
+      "titlePinyin": "jiu yue jiu ri yi shan dong xiong di",
+      "author": "王维",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王维/九月九日忆山东兄弟.md"
+    },
+    {
+      "id": "tang-wangwei-shizhisaishang",
+      "title": "使至塞上",
+      "titlePinyin": "shi zhi sai shang",
+      "author": "王维",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王维/使至塞上.md"
+    },
+    {
+      "id": "tang-wangwei-shanjuqiuming",
+      "title": "山居秋暝",
+      "titlePinyin": "shan ju qiu ming",
+      "author": "王维",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王维/山居秋暝.md"
+    },
+    {
+      "id": "tang-wangwei-songyuanershianxi",
+      "title": "送元二使安西",
+      "titlePinyin": "song yuan er shi an xi",
+      "author": "王维",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王维/送元二使安西.md"
+    },
+    {
+      "id": "tang-wangwei-luchai",
+      "title": "鹿柴",
+      "titlePinyin": "lu chai",
+      "author": "王维",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王维/鹿柴.md"
+    },
+    {
+      "id": "tang-wangchangling-chusai",
+      "title": "出塞",
+      "titlePinyin": "chu sai",
+      "author": "王昌龄",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王昌龄/出塞.md"
+    },
+    {
+      "id": "tang-wangchangling-furonglousongxinjian",
+      "title": "芙蓉楼送辛渐",
+      "titlePinyin": "fu rong lou song xin jian",
+      "author": "王昌龄",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王昌龄/芙蓉楼送辛渐.md"
+    },
+    {
+      "id": "tang-wanghan-liangzhouci",
+      "title": "凉州词",
+      "titlePinyin": "liang zhou ci",
+      "author": "王翰",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/王翰/凉州词.md"
+    },
+    {
+      "id": "tang-baijuyi-yijiangnan",
+      "title": "忆江南",
+      "titlePinyin": "yi jiang nan",
+      "author": "白居易",
+      "dynasty": "唐",
+      "form": "词",
+      "tune": "忆江南",
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/白居易/忆江南.md"
+    },
+    {
+      "id": "tang-baijuyi-chishang",
+      "title": "池上",
+      "titlePinyin": "chi shang",
+      "author": "白居易",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/白居易/池上.md"
+    },
+    {
+      "id": "tang-baijuyi-pipaxingbingxu",
+      "title": "琵琶行（并序）",
+      "titlePinyin": "pi pa xing （ bing xu ）",
+      "author": "白居易",
+      "dynasty": "唐",
+      "form": "七言歌行",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/白居易/琵琶行（并序）.md"
+    },
+    {
+      "id": "tang-baijuyi-fudeguyuancaosongbie",
+      "title": "赋得古原草送别",
+      "titlePinyin": "fu de gu yuan cao song bie",
+      "author": "白居易",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/白居易/赋得古原草送别.md"
+    },
+    {
+      "id": "tang-baijuyi-qiantanghuchunxing",
+      "title": "钱塘湖春行",
+      "titlePinyin": "qian tang hu chun xing",
+      "author": "白居易",
+      "dynasty": "唐",
+      "form": "七言律诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/白居易/钱塘湖春行.md"
+    },
+    {
+      "id": "tang-luoyin-feng",
+      "title": "蜂",
+      "titlePinyin": "feng",
+      "author": "罗隐",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/罗隐/蜂.md"
+    },
+    {
+      "id": "tang-hulingneng-xiaoerchuidiao",
+      "title": "小儿垂钓",
+      "titlePinyin": "xiao er chui diao",
+      "author": "胡令能",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/胡令能/小儿垂钓.md"
+    },
+    {
+      "id": "tang-hezhizhang-yongliu",
+      "title": "咏柳",
+      "titlePinyin": "yong liu",
+      "author": "贺知章",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/贺知章/咏柳.md"
+    },
+    {
+      "id": "tang-hezhizhang-huixiangoushu",
+      "title": "回乡偶书",
+      "titlePinyin": "hui xiang ou shu",
+      "author": "贺知章",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/贺知章/回乡偶书.md"
+    },
+    {
+      "id": "tang-jiadao-xunyinzhebuyu",
+      "title": "寻隐者不遇",
+      "titlePinyin": "xun yin zhe bu yu",
+      "author": "贾岛",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/贾岛/寻隐者不遇.md"
+    },
+    {
+      "id": "tang-chenziang-dengyouzhoutaige",
+      "title": "登幽州台歌",
+      "titlePinyin": "deng you zhou tai ge",
+      "author": "陈子昂",
+      "dynasty": "唐",
+      "form": "古体诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/陈子昂/登幽州台歌.md"
+    },
+    {
+      "id": "tang-weiyingwu-chuzhouxijian",
+      "title": "滁州西涧",
+      "titlePinyin": "chu zhou xi jian",
+      "author": "韦应物",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/韦应物/滁州西涧.md"
+    },
+    {
+      "id": "tang-hanyu-shishuo",
+      "title": "师说",
+      "titlePinyin": "shi shuo",
+      "author": "韩愈",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/韩愈/师说.md"
+    },
+    {
+      "id": "tang-hanyu-zaochunchengshuibuzhangshibayuanwai",
+      "title": "早春呈水部张十八员外",
+      "titlePinyin": "zao chun cheng shui bu zhang shi ba yuan wai",
+      "author": "韩愈",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/韩愈/早春呈水部张十八员外.md"
+    },
+    {
+      "id": "tang-hanyu-zashuosi",
+      "title": "杂说（四）",
+      "titlePinyin": "za shuo （ si ）",
+      "author": "韩愈",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/韩愈/杂说（四）.md"
+    },
+    {
+      "id": "tang-gaoshi-biedongda",
+      "title": "别董大",
+      "titlePinyin": "bie dong da",
+      "author": "高适",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "小学必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/高适/别董大.md"
+    },
+    {
+      "id": "tang-gaoshi-yangexing",
+      "title": "燕歌行",
+      "titlePinyin": "yan ge xing",
+      "author": "高适",
+      "dynasty": "唐",
+      "form": "乐府诗",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/高适/燕歌行.md"
+    },
+    {
+      "id": "tang-weizheng-jiantaizongshisishu",
+      "title": "谏太宗十思疏",
+      "titlePinyin": "jian tai zong shi si shu",
+      "author": "魏征",
+      "dynasty": "唐",
+      "form": "文言文",
+      "tune": null,
+      "genre": "待归类",
+      "imagery": [],
+      "tags": [
+        "高中必背",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": null,
+        "recitation": true,
+        "task_group": null
+      },
+      "srcPath": "content/poems/唐/魏征/谏太宗十思疏.md"
+    },
+    {
+      "id": "tang-luobinwang-yonge",
+      "title": "咏鹅",
+      "titlePinyin": "yong e",
+      "author": "骆宾王",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "咏物",
+      "imagery": [],
+      "tags": [
+        "启蒙诗",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/唐/骆宾王/咏鹅.md"
     }
   ]
 }

@@ -52,6 +52,8 @@ export default defineConfig({
     'site/index.md': 'index.md',
     'site/explore/:splat*': 'explore/:splat*',
     'site/stage/:splat*': 'stage/:splat*',
+    'site/review/:splat*': 'review/:splat*',
+    'site/quiz/:splat*': 'quiz/:splat*',
     'content/:splat*': ':splat*',
   },
 
@@ -91,6 +93,18 @@ export default defineConfig({
           { text: '主题词云', link: '/explore/wordcloud' },
           { text: '双轨统计', link: '/explore/stats' },
           { text: '高级检索', link: '/explore/search' },
+          { text: '意象枢纽', link: '/explore/imagery' },
+          { text: '成语语义场', link: '/explore/semantic' },
+          { text: '对比阅读', link: '/explore/compare' },
+          { text: '名句卡片', link: '/explore/quotes-cards' },
+        ],
+      },
+      {
+        text: '学习',
+        items: [
+          { text: '今日复习', link: '/review/' },
+          { text: '每日一卷', link: '/quiz/' },
+          { text: '错题本', link: '/quiz/mistakes' },
         ],
       },
       { text: '学段', items: stageLinks },
@@ -99,7 +113,7 @@ export default defineConfig({
     sidebar: {
       '/explore/': [
         {
-          text: '探索',
+          text: '数据视图',
           items: [
             { text: '知识图谱', link: '/explore/graph' },
             { text: '主题词云', link: '/explore/wordcloud' },
@@ -107,6 +121,21 @@ export default defineConfig({
             { text: '高级检索', link: '/explore/search' },
           ],
         },
+        {
+          text: '知识枢纽',
+          items: [
+            { text: '意象枢纽', link: '/explore/imagery' },
+            { text: '成语语义场', link: '/explore/semantic' },
+            { text: '对比阅读', link: '/explore/compare' },
+            { text: '名句卡片', link: '/explore/quotes-cards' },
+          ],
+        },
+      ],
+      '/review/': [
+        { text: '学习', items: [{ text: '今日复习', link: '/review/' }, { text: '每日一卷', link: '/quiz/' }, { text: '错题本', link: '/quiz/mistakes' }] },
+      ],
+      '/quiz/': [
+        { text: '学习', items: [{ text: '今日复习', link: '/review/' }, { text: '每日一卷', link: '/quiz/' }, { text: '错题本', link: '/quiz/mistakes' }] },
       ],
       '/stage/': [{ text: '学段', items: stageLinks }],
     },

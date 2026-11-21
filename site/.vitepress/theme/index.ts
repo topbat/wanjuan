@@ -7,6 +7,13 @@ import TagStats from './components/TagStats.vue'
 import AdvancedSearch from './components/AdvancedSearch.vue'
 import StageList from './components/StageList.vue'
 import WjHome from './components/WjHome.vue'
+import ImageryHub from './components/ImageryHub.vue'
+import SemanticField from './components/SemanticField.vue'
+import CompareReader from './components/CompareReader.vue'
+import QuoteCards from './components/QuoteCards.vue'
+import ReviewDeck from './components/ReviewDeck.vue'
+import DailyQuiz from './components/DailyQuiz.vue'
+import MistakeBook from './components/MistakeBook.vue'
 import './themes/editorial.css' // 默认主题（:root 兜底）
 import './themes/ink.css'
 import './themes/youth.css'
@@ -28,5 +35,12 @@ export default {
     app.component('AdvancedSearch', AdvancedSearch)
     app.component('StageList', StageList)
     app.component('WjHome', WjHome)
+    app.component('ImageryHub', ImageryHub)
+    app.component('SemanticField', SemanticField)
+    app.component('CompareReader', CompareReader)
+    app.component('QuoteCards', QuoteCards)
+    app.component('ReviewDeck', ReviewDeck) // 学习系统：FSRS 复习（/review/）
+    app.component('DailyQuiz', DailyQuiz) // 学习系统：每日一卷（/quiz/）
+    app.component('MistakeBook', MistakeBook) // 学习系统：错题本（/quiz/mistakes）
   },
 } satisfies Theme
