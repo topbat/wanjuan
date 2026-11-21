@@ -1,0 +1,63 @@
+/**
+ * 万卷 · 中性基础样式（后续将按选定 UI 风格整体重绘，此处仅做克制的默认主题微调）
+ */
+
+:root {
+  /* 中性墨色品牌（灰蓝），避免过强的品牌倾向 */
+  --vp-c-brand-1: #4a6785;
+  --vp-c-brand-2: #3d566f;
+  --vp-c-brand-3: #5d7c9c;
+  --vp-c-brand-soft: rgba(74, 103, 133, 0.14);
+
+  --vp-font-family:
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC',
+    'Source Han Sans SC', system-ui, -apple-system, sans-serif;
+  --vp-font-family-mono:
+    'JetBrains Mono', 'Cascadia Code', Consolas, 'Noto Sans Mono CJK SC', monospace;
+}
+
+.dark {
+  --vp-c-brand-1: #7d9cbf;
+  --vp-c-brand-2: #8faccb;
+  --vp-c-brand-3: #6b8cae;
+  --vp-c-brand-soft: rgba(125, 156, 191, 0.16);
+}
+
+/* 可视化组件通用画布容器 */
+.wj-chart {
+  width: 100%;
+  min-height: 540px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+}
+
+.wj-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.wj-toolbar button {
+  padding: 4px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.wj-toolbar button.active {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+.wj-note {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  margin-top: 8px;
+}

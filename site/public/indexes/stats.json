@@ -1,0 +1,471 @@
+{
+  "generatedAt": "2026-11-21T05:03:31.170Z",
+  "totals": {
+    "poems": 12,
+    "idioms": 20,
+    "quotes": 8,
+    "authors": 4,
+    "imagery": 3
+  },
+  "tagCounts": {
+    "出自史书": 9,
+    "作文素材": 8,
+    "小学必背": 6,
+    "初中必背": 5,
+    "唐诗三百首": 5,
+    "寓言": 5,
+    "出自笔记": 3,
+    "出自诸子": 3,
+    "战国": 3,
+    "豪放词": 2,
+    "出自诗文": 2,
+    "秦末": 2,
+    "出自神话": 2,
+    "高中必背": 1,
+    "沉郁顿挫": 1,
+    "咏山": 1,
+    "近代启蒙": 1,
+    "元曲": 1,
+    "启蒙诗": 1,
+    "先秦故事": 1,
+    "科举": 1,
+    "三国": 1,
+    "出自诗词": 1,
+    "哲理诗": 1,
+    "登高": 1,
+    "中秋": 1,
+    "炼字典范": 1,
+    "爱国": 1,
+    "诗仙": 1,
+    "诗圣": 1,
+    "诗佛": 1,
+    "唐宋八大家": 1,
+    "核心意象": 1,
+    "送别意象": 1,
+    "秋思意象": 1
+  },
+  "wordFreq": [
+    {
+      "name": "多少",
+      "value": 2
+    },
+    {
+      "name": "明月",
+      "value": 2
+    },
+    {
+      "name": "天涯",
+      "value": 2
+    },
+    {
+      "name": "大江东去",
+      "value": 1
+    },
+    {
+      "name": "千古",
+      "value": 1
+    },
+    {
+      "name": "风流",
+      "value": 1
+    },
+    {
+      "name": "人物",
+      "value": 1
+    },
+    {
+      "name": "西边",
+      "value": 1
+    },
+    {
+      "name": "人道",
+      "value": 1
+    },
+    {
+      "name": "三国",
+      "value": 1
+    },
+    {
+      "name": "赤壁",
+      "value": 1
+    },
+    {
+      "name": "惊涛",
+      "value": 1
+    },
+    {
+      "name": "卷起",
+      "value": 1
+    },
+    {
+      "name": "江山",
+      "value": 1
+    },
+    {
+      "name": "一时",
+      "value": 1
+    },
+    {
+      "name": "豪杰",
+      "value": 1
+    },
+    {
+      "name": "当年",
+      "value": 1
+    },
+    {
+      "name": "嫁了",
+      "value": 1
+    },
+    {
+      "name": "雄姿",
+      "value": 1
+    },
+    {
+      "name": "羽扇纶巾",
+      "value": 1
+    },
+    {
+      "name": "故国",
+      "value": 1
+    },
+    {
+      "name": "多情",
+      "value": 1
+    },
+    {
+      "name": "早生",
+      "value": 1
+    },
+    {
+      "name": "华发",
+      "value": 1
+    },
+    {
+      "name": "人生如梦",
+      "value": 1
+    },
+    {
+      "name": "一尊",
+      "value": 1
+    },
+    {
+      "name": "中秋",
+      "value": 1
+    },
+    {
+      "name": "此篇",
+      "value": 1
+    },
+    {
+      "name": "几时",
+      "value": 1
+    },
+    {
+      "name": "把酒",
+      "value": 1
+    },
+    {
+      "name": "青天",
+      "value": 1
+    },
+    {
+      "name": "不知",
+      "value": 1
+    },
+    {
+      "name": "天上",
+      "value": 1
+    },
+    {
+      "name": "宫阙",
+      "value": 1
+    },
+    {
+      "name": "今夕",
+      "value": 1
+    },
+    {
+      "name": "何年",
+      "value": 1
+    },
+    {
+      "name": "我欲",
+      "value": 1
+    },
+    {
+      "name": "琼楼玉宇",
+      "value": 1
+    },
+    {
+      "name": "高处不胜寒",
+      "value": 1
+    },
+    {
+      "name": "起舞",
+      "value": 1
+    },
+    {
+      "name": "弄清",
+      "value": 1
+    },
+    {
+      "name": "人间",
+      "value": 1
+    },
+    {
+      "name": "应有",
+      "value": 1
+    },
+    {
+      "name": "何事",
+      "value": 1
+    },
+    {
+      "name": "悲欢离合",
+      "value": 1
+    },
+    {
+      "name": "此事",
+      "value": 1
+    },
+    {
+      "name": "但愿",
+      "value": 1
+    },
+    {
+      "name": "长久",
+      "value": 1
+    },
+    {
+      "name": "千里",
+      "value": 1
+    },
+    {
+      "name": "春眠",
+      "value": 1
+    }
+  ],
+  "topAuthors": [
+    {
+      "name": "苏轼",
+      "value": 2
+    },
+    {
+      "name": "杜甫",
+      "value": 2
+    },
+    {
+      "name": "李白",
+      "value": 2
+    },
+    {
+      "name": "孟浩然",
+      "value": 1
+    },
+    {
+      "name": "柳宗元",
+      "value": 1
+    },
+    {
+      "name": "王之涣",
+      "value": 1
+    },
+    {
+      "name": "龚自珍",
+      "value": 1
+    },
+    {
+      "name": "马致远",
+      "value": 1
+    },
+    {
+      "name": "骆宾王",
+      "value": 1
+    }
+  ],
+  "imageryDist": [
+    {
+      "name": "月",
+      "value": 3
+    }
+  ],
+  "genreDist": [
+    {
+      "name": "山水",
+      "value": 3
+    },
+    {
+      "name": "思乡",
+      "value": 2
+    },
+    {
+      "name": "咏史",
+      "value": 1
+    },
+    {
+      "name": "怀人",
+      "value": 1
+    },
+    {
+      "name": "四季",
+      "value": 1
+    },
+    {
+      "name": "家国",
+      "value": 1
+    },
+    {
+      "name": "哲理",
+      "value": 1
+    },
+    {
+      "name": "言志",
+      "value": 1
+    },
+    {
+      "name": "咏物",
+      "value": 1
+    }
+  ],
+  "formDist": [
+    {
+      "name": "五言绝句",
+      "value": 4
+    },
+    {
+      "name": "词",
+      "value": 2
+    },
+    {
+      "name": "五言古诗",
+      "value": 2
+    },
+    {
+      "name": "七言绝句",
+      "value": 2
+    },
+    {
+      "name": "五言律诗",
+      "value": 1
+    },
+    {
+      "name": "曲",
+      "value": 1
+    }
+  ],
+  "dynastyDist": [
+    {
+      "name": "唐",
+      "value": 8
+    },
+    {
+      "name": "宋",
+      "value": 2
+    },
+    {
+      "name": "清",
+      "value": 1
+    },
+    {
+      "name": "元",
+      "value": 1
+    }
+  ],
+  "quoteThemeDist": [
+    {
+      "name": "哲理",
+      "value": 2
+    },
+    {
+      "name": "进取",
+      "value": 2
+    },
+    {
+      "name": "志向",
+      "value": 1
+    },
+    {
+      "name": "思念",
+      "value": 1
+    },
+    {
+      "name": "祝福",
+      "value": 1
+    },
+    {
+      "name": "自信",
+      "value": 1
+    },
+    {
+      "name": "豁达",
+      "value": 1
+    },
+    {
+      "name": "思乡",
+      "value": 1
+    },
+    {
+      "name": "炼字",
+      "value": 1
+    },
+    {
+      "name": "奉献",
+      "value": 1
+    },
+    {
+      "name": "抱负",
+      "value": 1
+    },
+    {
+      "name": "家国",
+      "value": 1
+    },
+    {
+      "name": "壮志",
+      "value": 1
+    }
+  ],
+  "curriculum": {
+    "byStage": {
+      "小学": 6,
+      "初中": 5,
+      "高中": 1
+    },
+    "recitationByStage": {
+      "小学": 6,
+      "初中": 5,
+      "高中": 1
+    },
+    "byGrade": [
+      {
+        "name": "小学1年级",
+        "value": 3
+      },
+      {
+        "name": "初中7年级",
+        "value": 3
+      },
+      {
+        "name": "小学2年级",
+        "value": 2
+      },
+      {
+        "name": "高中10年级",
+        "value": 1
+      },
+      {
+        "name": "初中9年级",
+        "value": 1
+      },
+      {
+        "name": "初中8年级",
+        "value": 1
+      },
+      {
+        "name": "小学3年级",
+        "value": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>万卷 · 视觉提案三 · 少年派</title>
+<style>
+  :root{
+    --ink:#3E3A52; --ink-2:#7B7692; --ink-3:#A9A5BE;
+    --purple:#7C5CE0; --teal:#2FBFAE; --orange:#FF9B47; --yellow:#F5B93B; --pink:#FF7B9C; --blue:#5B8DEF;
+    --card:#FFFFFF; --soft:#F1ECFE;
+    --grad:linear-gradient(120deg,#7C5CE0,#FF9B47);
+    --sh:0 10px 30px rgba(124,92,224,.14);
+    --sh-lg:0 18px 44px rgba(124,92,224,.22);
+    --r:22px;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","微软雅黑",sans-serif;
+    --mono:ui-monospace,Consolas,"Courier New",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:var(--sans);color:var(--ink);font-size:15px;line-height:1.75;
+    background:linear-gradient(160deg,#F2EDFF 0%,#FBF3FF 40%,#FFF4E8 100%) fixed;
+    overflow-x:hidden;
+  }
+  ::selection{background:rgba(124,92,224,.25)}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  .blob{position:fixed;border-radius:50%;filter:blur(70px);pointer-events:none;z-index:0}
+  .blob.b1{width:460px;height:460px;left:-140px;top:-120px;background:rgba(124,92,224,.20)}
+  .blob.b2{width:520px;height:520px;right:-180px;bottom:-160px;background:rgba(255,155,71,.18)}
+
+  /* ---------- 评审件顶条 ---------- */
+  .reviewbar{position:relative;z-index:1;background:rgba(255,255,255,.7);border-bottom:1px solid rgba(124,92,224,.14)}
+  .reviewbar .wrap{display:flex;justify-content:space-between;gap:14px;padding-top:9px;padding-bottom:9px;font-size:12.5px;color:var(--ink-2);flex-wrap:wrap}
+  .reviewbar b{color:var(--purple);font-weight:800}
+
+  /* ---------- 顶部导航 ---------- */
+  .topnav{display:flex;align-items:center;gap:18px;padding:20px 0;flex-wrap:wrap}
+  .logo{display:flex;align-items:center;gap:11px}
+  .logo-badge{width:44px;height:44px;border-radius:15px;background:var(--grad);color:#fff;display:grid;place-items:center;font-weight:800;font-size:21px;box-shadow:var(--sh)}
+  .logo-name{font-size:20px;font-weight:800;letter-spacing:.02em;line-height:1.2}
+  .logo-name small{display:block;font-size:11px;font-weight:600;color:var(--ink-2);letter-spacing:.08em}
+  .nav{display:flex;gap:8px;margin:0 auto;flex-wrap:wrap}
+  .nav a{padding:9px 19px;border-radius:999px;font-size:14px;font-weight:700;color:var(--ink-2);transition:all .16s}
+  .nav a:hover{background:#fff;color:var(--ink);box-shadow:var(--sh)}
+  .nav a.active{background:#fff;color:var(--purple);box-shadow:var(--sh)}
+  .streak{background:#fff;border-radius:999px;padding:9px 17px;font-size:13px;font-weight:800;box-shadow:var(--sh);white-space:nowrap}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:56px 0 36px;text-align:center}
+  .hero-badge{display:inline-flex;gap:8px;align-items:center;background:#fff;border-radius:999px;padding:9px 20px;font-size:13px;font-weight:700;color:var(--ink-2);box-shadow:var(--sh)}
+  .hero-badge b{color:var(--purple)}
+  .hero h1{font-size:clamp(34px,4.6vw,56px);font-weight:800;line-height:1.4;margin:26px 0 14px;letter-spacing:.01em}
+  .grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero-sub{color:var(--ink-2);font-size:16px;max-width:620px;margin:0 auto}
+  .hero-sub b{color:var(--purple)}
+  .hero-btns{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:14px 32px;font-size:16px;font-weight:800;cursor:pointer;transition:all .18s;border:0}
+  .btn-primary{background:var(--grad);color:#fff;box-shadow:0 12px 26px rgba(124,92,224,.35)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(124,92,224,.45)}
+  .btn-white{background:#fff;color:var(--purple);box-shadow:var(--sh)}
+  .btn-white:hover{transform:translateY(-2px);box-shadow:var(--sh-lg)}
+
+  /* ---------- 搜索 ---------- */
+  .searchzone{margin:38px auto 0;max-width:740px}
+  .search{background:#fff;border-radius:999px;padding:8px 8px 8px 24px;display:flex;align-items:center;gap:12px;box-shadow:var(--sh-lg)}
+  .search .ico{font-size:19px}
+  .search input{flex:1;min-width:0;border:0;outline:0;font-family:var(--sans);font-size:15.5px;color:var(--ink);background:transparent}
+  .search input::placeholder{color:var(--ink-3)}
+  .search-btn{background:var(--grad);color:#fff;border:0;border-radius:999px;padding:12px 30px;font-size:15px;font-weight:800;cursor:pointer;transition:all .18s;white-space:nowrap}
+  .search-btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
+  .hot{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+  .hot a{display:inline-flex;align-items:center;gap:7px;background:#fff;border-radius:999px;padding:7px 16px;font-size:13px;font-weight:700;color:var(--ink-2);box-shadow:0 4px 12px rgba(124,92,224,.10);transition:all .16s}
+  .hot a:hover{transform:translateY(-2px);color:var(--ink);box-shadow:var(--sh)}
+  .hot i{width:8px;height:8px;border-radius:50%}
+
+  /* ---------- 分节头 ---------- */
+  .sec-head{display:flex;align-items:center;gap:14px;margin:60px 0 24px;flex-wrap:wrap}
+  .sec-emoji{width:46px;height:46px;border-radius:15px;background:#fff;box-shadow:var(--sh);display:grid;place-items:center;font-size:22px}
+  .sec-title{font-size:24px;font-weight:800;letter-spacing:.01em}
+  .sec-sub{color:var(--ink-2);font-size:13.5px;font-weight:600;padding-top:6px}
+  .sec-chip{margin-left:auto;background:#fff;border-radius:999px;padding:7px 16px;font-size:12.5px;font-weight:800;color:var(--purple);box-shadow:var(--sh);white-space:nowrap}
+
+  /* ---------- 四件套 ---------- */
+  .feat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+  .f-card{background:var(--card);border-radius:var(--r);padding:24px;box-shadow:var(--sh);transition:all .18s;display:flex;flex-direction:column;gap:8px}
+  .f-card:hover{transform:translateY(-4px);box-shadow:var(--sh-lg)}
+  .f-ico{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;font-size:27px}
+  .ico-purple{background:#F0EBFF}.ico-teal{background:#E2F7F4}.ico-orange{background:#FFF1E3}.ico-yellow{background:#FFF6DF}
+  .f-card h3{font-size:17.5px;font-weight:800;margin-top:6px}
+  .f-card p{font-size:13px;color:var(--ink-2);line-height:1.75;flex:1}
+  .f-widget{margin-top:10px;padding-top:14px;border-top:1px dashed #E9E3F8}
+  .f-link{font-size:13px;font-weight:800;transition:opacity .16s}
+  .f-link:hover{opacity:.7}
+  .c-purple{color:var(--purple)}.c-teal{color:var(--teal)}.c-orange{color:#E07B2A}.c-pink{color:var(--pink)}
+  .chips-cloud{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+  .chips-cloud span{border-radius:999px;font-weight:800}
+  .s1{background:#F0EBFF;color:var(--purple);font-size:16px;padding:5px 13px}
+  .s2{background:#E2F7F4;color:var(--teal);font-size:13.5px;padding:3px 11px}
+  .s3{background:#FFF6DF;color:#C08A00;font-size:12px;padding:3px 10px}
+  .bars{display:flex;align-items:flex-end;gap:12px;height:62px}
+  .bars .bcol{display:flex;flex-direction:column;align-items:center;gap:5px;justify-content:flex-end;height:100%}
+  .bars i{width:24px;border-radius:8px;transition:transform .16s}
+  .bars .bcol:hover i{transform:scaleY(1.06);transform-origin:bottom}
+  .bars span{font-size:11px;font-weight:700;color:var(--ink-2)}
+  .ring{position:relative;width:66px;height:66px;border-radius:50%;background:conic-gradient(var(--rc,var(--purple)) calc(var(--p)*1%),#EDE8FA 0);display:grid;place-items:center;transition:transform .16s}
+  .ring:hover{transform:scale(1.05)}
+  .ring::before{content:"";position:absolute;inset:7px;background:#fff;border-radius:50%}
+  .ring b{position:relative;font-size:12.5px;font-weight:800;color:var(--rc,var(--purple));font-variant-numeric:tabular-nums}
+  .ring-row{display:flex;align-items:center;gap:12px}
+  .ring-row small{font-size:12px;font-weight:700;color:var(--ink-2);line-height:1.5}
+
+  /* ---------- 学段 ---------- */
+  .stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .stage{background:#fff;border-radius:var(--r);padding:22px 24px;box-shadow:var(--sh);transition:all .18s}
+  .stage:hover{transform:translateY(-4px);box-shadow:var(--sh-lg)}
+  .stage-top{display:flex;align-items:center;gap:14px}
+  .stage-emoji{width:56px;height:56px;border-radius:18px;display:grid;place-items:center;font-size:28px;flex:none}
+  .stage-name{font-size:17px;font-weight:800}
+  .stage-desc{font-size:12.5px;color:var(--ink-2);margin-top:1px}
+  .stage-num{margin-left:auto;text-align:right}
+  .stage-num b{font-size:25px;font-weight:800;font-variant-numeric:tabular-nums}
+  .stage-num small{font-size:12px;color:var(--ink-2);font-weight:700;margin-left:3px}
+  .stage-bar{height:9px;border-radius:999px;background:#F0EDF9;margin-top:16px;overflow:hidden}
+  .stage-bar i{display:block;height:100%;border-radius:999px}
+  .stage-cap{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-2);font-weight:700;margin-top:7px}
+
+  /* ---------- 今日一句 ---------- */
+  .quote-card{background:linear-gradient(120deg,rgba(124,92,224,.12),rgba(255,155,71,.14)),#fff;border-radius:28px;padding:32px 36px;display:flex;align-items:center;gap:24px;box-shadow:var(--sh);margin-top:20px;flex-wrap:wrap}
+  .q-emoji{width:72px;height:72px;border-radius:50%;background:#fff;box-shadow:var(--sh);display:grid;place-items:center;font-size:34px;flex:none}
+  .q-mid{flex:1;min-width:240px}
+  .q-label{display:inline-block;background:#F0EBFF;color:var(--purple);border-radius:999px;padding:4px 14px;font-size:12px;font-weight:800;margin-bottom:9px}
+  .q-mid blockquote{font-size:21px;font-weight:800;line-height:1.6}
+  .q-mid cite{font-style:normal;font-size:13px;color:var(--ink-2);font-weight:600}
+  .q-btn{background:#fff;border:0;border-radius:999px;padding:12px 24px;font-size:14px;font-weight:800;color:var(--purple);box-shadow:var(--sh);cursor:pointer;transition:all .16s}
+  .q-btn:hover{transform:translateY(-2px);box-shadow:var(--sh-lg)}
+
+  /* ---------- 词条 ---------- */
+  .detail-card{background:#fff;border-radius:30px;box-shadow:var(--sh-lg);overflow:hidden}
+  .d-head{background:linear-gradient(120deg,#8F7BE8 0%,#9C88EE 58%,#F3BE8B 100%);padding:32px 38px;color:#fff;display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+  .d-crumbs{font-size:12.5px;font-weight:700;opacity:.9;letter-spacing:.04em;text-shadow:0 1px 2px rgba(70,50,130,.18)}
+  .d-crumbs a:hover{text-decoration:underline}
+  .d-title{display:flex;align-items:baseline;gap:14px;margin-top:12px;flex-wrap:wrap}
+  .d-title h2{font-size:31px;font-weight:800;letter-spacing:.04em}
+  .d-title span{font-size:14px;font-weight:700;opacity:.95;text-shadow:0 1px 2px rgba(70,50,130,.2)}
+  .d-moon{font-size:46px;filter:drop-shadow(0 6px 12px rgba(0,0,0,.15))}
+  .d-body{padding:32px 38px;display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:32px}
+  .poem{background:linear-gradient(160deg,#F6F2FF,#FFF6EC);border-radius:22px;padding:30px;text-align:center}
+  .poem p{font-size:19.5px;font-weight:800;letter-spacing:.22em;line-height:2.2}
+  .poem .p-by{font-size:13px;color:var(--ink-2);font-weight:700;letter-spacing:.1em;margin-top:8px}
+  .note{margin-top:16px;font-size:13.5px;color:var(--ink-2);background:#fff;border-radius:16px;padding:13px 17px;line-height:1.8}
+  .tag-row{display:flex;align-items:flex-start;gap:14px;margin-top:18px;flex-wrap:wrap}
+  .tag-row .tr-label{flex:none;font-size:12.5px;font-weight:800;color:var(--ink-2);padding-top:7px;min-width:60px}
+  .pills{display:flex;flex-wrap:wrap;gap:9px}
+  .pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 15px;font-size:13px;font-weight:800;transition:transform .16s;cursor:pointer}
+  .pill:hover{transform:translateY(-2px)}
+  .p-purple{background:#F0EBFF;color:#6C4FD8}
+  .p-orange{background:#FFF1E3;color:#E07B2A}
+  .p-teal{background:#E2F7F4;color:#1FA392}
+  .p-yellow{background:#FFF6DF;color:#B07E00}
+  .p-pink{background:#FFE9EF;color:#E0547E}
+  .p-blue{background:#E9F1FF;color:#3E6FD8}
+  .quiz{margin-top:20px;border:2px dashed #E3DCF7;border-radius:20px;padding:18px 20px}
+  .quiz-label{display:inline-flex;align-items:center;gap:6px;background:#FFF6DF;color:#B07E00;border-radius:999px;padding:4px 14px;font-size:12px;font-weight:800;margin-bottom:10px}
+  .quiz-q{font-size:14.5px;font-weight:800;margin-bottom:12px}
+  .opt{display:flex;justify-content:space-between;align-items:center;border-radius:14px;padding:11px 16px;font-weight:800;font-size:14px;margin-bottom:8px}
+  .opt:last-child{margin-bottom:0}
+  .opt.ok{background:#E8F8F0;color:#1E9E6A;border:1.5px solid #9FE3C6}
+  .opt.no{background:#FFEDF1;color:#E0547E;border:1.5px solid #FFC3D2}
+  .opt .fb{font-size:12px;font-weight:800;background:#fff;border-radius:999px;padding:3px 12px}
+  .d-side{display:flex;flex-direction:column;gap:20px}
+  .g-card{background:#F8F5FF;border-radius:22px;padding:20px}
+  .g-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:8px;flex-wrap:wrap}
+  .g-title{font-size:15px;font-weight:800}
+  .g-link{font-size:12.5px;font-weight:800;color:var(--purple)}
+  .g-link:hover{text-decoration:underline}
+  .r-card{background:#fff;border:2px solid #F0EBFF;border-radius:22px;padding:20px;display:flex;gap:16px;align-items:center}
+  .ring.lg{width:86px;height:86px;flex:none}
+  .ring.lg b{font-size:15px}
+  .r-info h5{font-size:15.5px;font-weight:800}
+  .r-info p{font-size:12.5px;color:var(--ink-2);margin-top:3px;line-height:1.65}
+  .r-chip{display:inline-block;background:#FFF1E3;color:#E07B2A;border-radius:999px;padding:3px 12px;font-size:11.5px;font-weight:800;margin-top:7px}
+  .d-actions{display:flex;gap:14px;padding:0 38px 34px;flex-wrap:wrap}
+  .d-actions .btn{font-size:15px}
+  .btn-outline{background:#fff;color:var(--purple);box-shadow:var(--sh);border:2px solid #F0EBFF}
+  .btn-outline:hover{transform:translateY(-2px);box-shadow:var(--sh-lg)}
+
+  /* ---------- 令牌 ---------- */
+  .token-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .t-card{background:#fff;border-radius:26px;box-shadow:var(--sh);padding:26px}
+  .t-title{font-size:12px;font-weight:800;letter-spacing:.18em;color:var(--ink-2);text-transform:uppercase;margin-bottom:16px}
+  .swrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .sw i{display:block;height:46px;border-radius:14px}
+  .sw b{display:block;font-size:11px;font-weight:800;padding:6px 2px 0}
+  .sw span{display:block;font-size:10px;color:var(--ink-3);font-family:var(--mono)}
+  .typerow{padding:11px 0;border-bottom:1px dashed #E9E3F8}
+  .typerow:last-child{border-bottom:0}
+  .typerow .tl{font-size:10.5px;font-weight:800;letter-spacing:.14em;color:var(--ink-2);margin-bottom:2px}
+  .th1{font-size:24px;font-weight:800}
+  .tb{font-size:14px}
+  .specrow{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px dashed #E9E3F8;font-size:13px;color:var(--ink-2)}
+  .specrow:last-child{border-bottom:0}
+  .specrow b{font-weight:800;color:var(--ink);white-space:nowrap}
+  .radius-demo{display:flex;gap:12px;margin-top:14px;align-items:flex-end}
+  .radius-demo i{display:block;width:44px;height:44px;background:#F6F2FF;border:2px solid #E3DCF7}
+  .radius-demo span{font-size:10.5px;color:var(--ink-2);text-align:center;display:block;margin-top:5px;font-weight:700}
+
+  /* ---------- 定位 ---------- */
+  .pos-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .pos-quote{background:linear-gradient(140deg,rgba(124,92,224,.13),rgba(255,155,71,.15)),#fff;border-radius:28px;padding:34px;box-shadow:var(--sh)}
+  .pos-label{display:inline-block;background:#fff;border-radius:999px;padding:5px 15px;font-size:12px;font-weight:800;color:var(--purple);box-shadow:var(--sh);margin-bottom:16px}
+  .pos-quote .q{font-size:24px;font-weight:800;line-height:1.75}
+  .pos-quote .q .grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .pos-chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
+  .pos-list{background:#fff;border-radius:28px;box-shadow:var(--sh);padding:30px 34px}
+  .pos-list h5{font-size:14px;font-weight:800;margin:16px 0 8px;display:flex;align-items:center;gap:8px}
+  .pos-list h5:first-child{margin-top:0}
+  .pos-list li{list-style:none;display:flex;gap:10px;padding:8px 0;font-size:14px;color:var(--ink-2);line-height:1.7}
+  .pos-list li b{color:var(--ink)}
+
+  /* ---------- 页脚 ---------- */
+  .foot{text-align:center;padding:44px 0 52px;color:var(--ink-2);font-size:12.5px;font-weight:700;letter-spacing:.12em}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:1020px){
+    .feat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .stages{grid-template-columns:1fr}
+    .d-body{grid-template-columns:1fr}
+    .token-grid{grid-template-columns:1fr}
+    .pos-grid{grid-template-columns:1fr}
+    .d-actions{padding:0 28px 28px}
+    .d-head{padding:26px 28px}
+    .d-body{padding:26px 28px}
+  }
+  @media (max-width:640px){
+    .wrap{padding:0 18px}
+    .feat-grid{grid-template-columns:1fr}
+    .nav{margin:0}
+    .hero h1{font-size:32px}
+    .poem p{letter-spacing:.12em}
+  }
+</style>
+</head>
+<body>
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+
+<!-- 评审件顶条 -->
+<div class="reviewbar">
+  <div class="wrap">
+    <span>「万卷」视觉提案 · <b>提案三 · 少年派</b>（三 / 三）</span>
+    <span>本页含四帧样张：首页 · 词条 · 令牌 · 定位</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- ============ 1 · 首页样张 ============ -->
+  <nav class="topnav">
+    <div class="logo">
+      <span class="logo-badge">卷</span>
+      <div class="logo-name">万卷<small>每天读一点，进步看得见</small></div>
+    </div>
+    <div class="nav">
+      <a class="active" href="#">首页</a>
+      <a href="#">图谱</a>
+      <a href="#">词云</a>
+      <a href="#">统计</a>
+      <a href="#">复习</a>
+    </div>
+    <span class="streak">🔥 连续打卡 7 天</span>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <span class="hero-badge">🎉 已收录 <b>207</b> 篇课文 · <b>320</b> 条成语 · <b>540</b> 则名句</span>
+    <h1>读书破<span class="grad-text">万卷</span>，<br>下笔<span class="grad-text">如有神</span></h1>
+    <p class="hero-sub">把课本里的诗词成语，变成每天十分钟的<b>闯关游戏</b>——搜一搜、连一连、背一背，攒起你的文学地图。</p>
+    <div class="hero-btns">
+      <button class="btn btn-primary">开始今日复习 ✨</button>
+      <button class="btn btn-white">先逛逛图谱 🗺️</button>
+    </div>
+  </div>
+
+  <!-- 搜索 -->
+  <div class="searchzone">
+    <div class="search">
+      <span class="ico">🔍</span>
+      <input type="text" placeholder="搜索诗词、成语、名句，试试「明月」「相思」……">
+      <button class="search-btn">搜一搜</button>
+    </div>
+    <div class="hot">
+      <a href="#"><i style="background:#5B8DEF"></i>明月 🌙</a>
+      <a href="#"><i style="background:#FF7B9C"></i>乡愁 💭</a>
+      <a href="#"><i style="background:#2FBFAE"></i>春天 🌱</a>
+      <a href="#"><i style="background:#FF9B47"></i>苏轼 🎩</a>
+    </div>
+  </div>
+
+  <!-- 四件套 -->
+  <div class="sec-head">
+    <span class="sec-emoji">🧭</span>
+    <span class="sec-title">四大玩法</span>
+    <span class="sec-sub">图谱 · 词云 · 统计 · 复习</span>
+    <span class="sec-chip">全部免费 · 离线可用</span>
+  </div>
+  <div class="feat-grid">
+    <div class="f-card">
+      <span class="f-ico ico-purple">🕸️</span>
+      <h3>知识图谱</h3>
+      <p>课文和意象手拉手连成网，看看「月」都有哪些好朋友。</p>
+      <div class="f-widget ring-row">
+        <span class="ring" style="--p:38"><b>38%</b></span>
+        <small>已探索<br><b>458 / 1,204</b> 节点</small>
+      </div>
+      <a class="f-link c-purple" href="#">去探索 →</a>
+    </div>
+    <div class="f-card">
+      <span class="f-ico ico-teal">☁️</span>
+      <h3>词云</h3>
+      <p>课本里最常出现的词，越大越爱出现，一眼看全。</p>
+      <div class="f-widget chips-cloud">
+        <span class="s1">月</span><span class="s2">春</span><span class="s3">山</span><span class="s2">水</span><span class="s3">风</span>
+      </div>
+      <a class="f-link c-teal" href="#">去看看 →</a>
+    </div>
+    <div class="f-card">
+      <span class="f-ico ico-orange">📊</span>
+      <h3>标签统计</h3>
+      <p>学段、朝代、体裁排排队，你的书架比例一目了然。</p>
+      <div class="f-widget bars">
+        <div class="bcol"><i style="height:52px;background:#7C5CE0"></i><span>小 75</span></div>
+        <div class="bcol"><i style="height:42px;background:#2FBFAE"></i><span>初 60</span></div>
+        <div class="bcol"><i style="height:50px;background:#FF9B47"></i><span>高 72</span></div>
+      </div>
+      <a class="f-link c-orange" href="#">去盘点 →</a>
+    </div>
+    <div class="f-card">
+      <span class="f-ico ico-yellow">🔁</span>
+      <h3>间隔复习</h3>
+      <p>遗忘曲线帮你排好队，今天只要温习 12 条旧句。</p>
+      <div class="f-widget ring-row">
+        <span class="ring" style="--p:30;--rc:#F5B93B"><b>30%</b></span>
+        <small>今日进度<br><b>12 / 40</b> 条</small>
+      </div>
+      <a class="f-link c-pink" href="#">去复习 →</a>
+    </div>
+  </div>
+
+  <!-- 学段 -->
+  <div class="sec-head">
+    <span class="sec-emoji">🎒</span>
+    <span class="sec-title">闯关地图</span>
+    <span class="sec-sub">从小学出发，一路升到高中</span>
+    <span class="sec-chip">合计 207 篇</span>
+  </div>
+  <div class="stages">
+    <div class="stage">
+      <div class="stage-top">
+        <span class="stage-emoji" style="background:#E2F7F4">🌱</span>
+        <div>
+          <div class="stage-name">小学</div>
+          <div class="stage-desc">唐诗启蒙 · 朗朗上口</div>
+        </div>
+        <div class="stage-num"><b>75</b><small>篇</small></div>
+      </div>
+      <div class="stage-bar"><i style="width:68%;background:#2FBFAE"></i></div>
+      <div class="stage-cap"><span>已掌握 51 篇</span><span>68%</span></div>
+    </div>
+    <div class="stage">
+      <div class="stage-top">
+        <span class="stage-emoji" style="background:#F0EBFF">🚀</span>
+        <div>
+          <div class="stage-name">初中</div>
+          <div class="stage-desc">词曲散文 · 意境渐深</div>
+        </div>
+        <div class="stage-num"><b>60</b><small>篇</small></div>
+      </div>
+      <div class="stage-bar"><i style="width:55%;background:#7C5CE0"></i></div>
+      <div class="stage-cap"><span>已掌握 33 篇</span><span>55%</span></div>
+    </div>
+    <div class="stage">
+      <div class="stage-top">
+        <span class="stage-emoji" style="background:#FFF1E3">🏆</span>
+        <div>
+          <div class="stage-name">高中</div>
+          <div class="stage-desc">古文诗词 · 兼及鉴赏</div>
+        </div>
+        <div class="stage-num"><b>72</b><small>篇</small></div>
+      </div>
+      <div class="stage-bar"><i style="width:31%;background:#FF9B47"></i></div>
+      <div class="stage-cap"><span>已掌握 22 篇</span><span>31%</span></div>
+    </div>
+  </div>
+
+  <!-- 今日一句 -->
+  <div class="quote-card">
+    <span class="q-emoji">🌙</span>
+    <div class="q-mid">
+      <span class="q-label">今日一句</span>
+      <blockquote>海上生明月，天涯共此时。</blockquote>
+      <cite>—— 张九龄《望月怀远》 · 收进我的句子罐 🫙</cite>
+    </div>
+    <button class="q-btn">换一句 🎲</button>
+  </div>
+
+  <!-- ============ 2 · 词条样张 ============ -->
+  <div class="sec-head">
+    <span class="sec-emoji">📖</span>
+    <span class="sec-title">词条长这样</span>
+    <span class="sec-sub">以《静夜思》为例</span>
+    <span class="sec-chip">唐 · 李白 · 五言绝句</span>
+  </div>
+
+  <div class="detail-card">
+    <div class="d-head">
+      <div>
+        <div class="d-crumbs"><a href="#">首页</a> / <a href="#">小学</a> / <a href="#">二年级下册</a> / 静夜思</div>
+        <div class="d-title">
+          <h2>静夜思</h2>
+          <span>唐 · 李白 · 五言绝句</span>
+        </div>
+      </div>
+      <span class="d-moon">🌙</span>
+    </div>
+
+    <div class="d-body">
+      <div>
+        <div class="poem">
+          <p>床前明月光，疑是地上霜。</p>
+          <p>举头望明月，低头思故乡。</p>
+          <div class="p-by">—— 李白</div>
+        </div>
+        <div class="note">💡 小贴士：月光像霜一样白，抬头看看月亮，就想起了远方的家。背的时候想象这个画面，会记得更牢。</div>
+        <div class="tag-row">
+          <span class="tr-label">档案标签</span>
+          <div class="pills">
+            <span class="pill p-purple">唐</span>
+            <span class="pill p-orange">李白</span>
+            <span class="pill p-teal">五言绝句</span>
+            <span class="pill p-blue">部编版 · 二下</span>
+            <span class="pill p-yellow">必背 ⭐</span>
+          </div>
+        </div>
+        <div class="tag-row">
+          <span class="tr-label">意象标签</span>
+          <div class="pills">
+            <span class="pill p-blue">🌙 月</span>
+            <span class="pill p-teal">❄️ 霜</span>
+            <span class="pill p-pink">💗 思乡</span>
+          </div>
+        </div>
+
+        <div class="quiz">
+          <span class="quiz-label">🎯 每日一卷 · 今日打卡题</span>
+          <div class="quiz-q">「举头望明月」的下一句是？</div>
+          <div class="opt ok"><span>低头思故乡</span><span class="fb">✓ 答对了 +5 分</span></div>
+          <div class="opt no"><span>对影成三人</span><span class="fb">✗ 再想想</span></div>
+        </div>
+      </div>
+
+      <div class="d-side">
+        <div class="g-card">
+          <div class="g-head">
+            <span class="g-title">🗺️ 关系图 · 缩略示意</span>
+            <a class="g-link" href="#">看全图 →</a>
+          </div>
+          <svg viewBox="0 0 340 262" width="100%" role="img" aria-label="静夜思关系图缩略示意" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif">
+            <g stroke="#D9D2F0" stroke-width="2">
+              <line x1="170" y1="128" x2="242" y2="58"/>
+              <line x1="170" y1="128" x2="92" y2="56"/>
+              <line x1="170" y1="128" x2="82" y2="196"/>
+              <line x1="242" y1="58" x2="292" y2="128"/>
+              <line x1="242" y1="58" x2="266" y2="212"/>
+              <line x1="92" y1="56" x2="30" y2="118"/>
+              <line x1="82" y1="196" x2="150" y2="240"/>
+            </g>
+            <defs>
+              <linearGradient id="gradNode" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#7C5CE0"/><stop offset="1" stop-color="#FF9B47"/>
+              </linearGradient>
+            </defs>
+            <circle cx="170" cy="128" r="30" fill="url(#gradNode)"/>
+            <text x="170" y="133" text-anchor="middle" fill="#fff" font-size="12" font-weight="800">静夜思</text>
+            <circle cx="242" cy="58" r="15" fill="#5B8DEF"/>
+            <text x="242" y="62" text-anchor="middle" fill="#fff" font-size="10.5" font-weight="800">月</text>
+            <circle cx="92" cy="56" r="15" fill="#2FBFAE"/>
+            <text x="92" y="60" text-anchor="middle" fill="#fff" font-size="10.5" font-weight="800">霜</text>
+            <circle cx="82" cy="196" r="15" fill="#FF7B9C"/>
+            <text x="82" y="201" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">思乡</text>
+            <g>
+              <circle cx="292" cy="128" r="10" fill="#fff" stroke="#7C5CE0" stroke-width="2.5"/>
+              <text x="292" y="152" text-anchor="middle" fill="#7B7692" font-size="10" font-weight="700">望月怀远</text>
+              <circle cx="266" cy="212" r="10" fill="#fff" stroke="#FF9B47" stroke-width="2.5"/>
+              <text x="266" y="236" text-anchor="middle" fill="#7B7692" font-size="10" font-weight="700">月下独酌</text>
+              <circle cx="30" cy="118" r="10" fill="#fff" stroke="#2FBFAE" stroke-width="2.5"/>
+              <text x="34" y="142" text-anchor="start" fill="#7B7692" font-size="10" font-weight="700">枫桥夜泊</text>
+              <circle cx="150" cy="240" r="10" fill="#fff" stroke="#FF7B9C" stroke-width="2.5"/>
+              <text x="150" y="218" text-anchor="middle" fill="#7B7692" font-size="10" font-weight="700">忆山东兄弟</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="r-card">
+          <span class="ring lg" style="--p:82"><b>82%</b></span>
+          <div class="r-info">
+            <h5>复习进度</h5>
+            <p>已复习 6 次<br>下次复习：3 天后</p>
+            <span class="r-chip">🔥 连续 7 天</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-actions">
+      <button class="btn btn-primary">加入复习 ✨</button>
+      <button class="btn btn-outline">📖 回源 · 部编版二下</button>
+    </div>
+  </div>
+
+  <!-- ============ 3 · 设计令牌 ============ -->
+  <div class="sec-head">
+    <span class="sec-emoji">🎨</span>
+    <span class="sec-title">设计令牌</span>
+    <span class="sec-sub">颜色 · 字体 · 圆角，一套带走</span>
+  </div>
+  <div class="token-grid">
+    <div class="t-card">
+      <div class="t-title">Color · 颜色</div>
+      <div class="swrow">
+        <div class="sw"><i style="background:linear-gradient(120deg,#7C5CE0,#FF9B47)"></i><b>--grad 主渐变</b><span>紫→橙</span></div>
+        <div class="sw"><i style="background:#7C5CE0"></i><b>--purple</b><span>#7C5CE0</span></div>
+        <div class="sw"><i style="background:#2FBFAE"></i><b>--teal</b><span>#2FBFAE</span></div>
+        <div class="sw"><i style="background:#FF9B47"></i><b>--orange</b><span>#FF9B47</span></div>
+        <div class="sw"><i style="background:#F5B93B"></i><b>--yellow</b><span>#F5B93B</span></div>
+        <div class="sw"><i style="background:#FF7B9C"></i><b>--pink</b><span>#FF7B9C</span></div>
+        <div class="sw"><i style="background:#3E3A52"></i><b>--ink 正文</b><span>#3E3A52</span></div>
+        <div class="sw"><i style="background:#7B7692"></i><b>--ink-2 次级</b><span>#7B7692</span></div>
+        <div class="sw"><i style="background:#F6F2FF;border:1px solid #E9E3F8"></i><b>--soft 底色</b><span>#F6F2FF</span></div>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-title">Type · 字体</div>
+      <div class="typerow">
+        <div class="tl">标题 800 / 34–56 · --font-sans</div>
+        <div class="th1">读书破万卷</div>
+      </div>
+      <div class="typerow">
+        <div class="tl">正文 400 / 15</div>
+        <div class="tb">下笔如有神。每天十分钟，轻松攒知识。</div>
+      </div>
+      <div class="typerow">
+        <div class="tl">字级阶</div>
+        <div class="tb">12 / 13 / 15 / 17.5 / 24 / 56 px</div>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-title">Spec · 规范</div>
+      <div class="specrow"><span>圆角</span><b>14 / 22 / 28 px</b></div>
+      <div class="specrow"><span>阴影</span><b>0 10 30 rgba(124,92,224,.14)</b></div>
+      <div class="specrow"><span>内容宽度</span><b>max 1200px</b></div>
+      <div class="specrow"><span>间距基数</span><b>8 × n（8/16/24/40/64）</b></div>
+      <div class="radius-demo">
+        <div><i style="border-radius:14px"></i><span>14</span></div>
+        <div><i style="border-radius:22px"></i><span>22</span></div>
+        <div><i style="border-radius:28px"></i><span>28</span></div>
+        <div><i style="border-radius:999px;width:66px"></i><span>999</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 4 · 定位说明 ============ -->
+  <div class="sec-head">
+    <span class="sec-emoji">🎯</span>
+    <span class="sec-title">定位说明</span>
+    <span class="sec-sub">适合谁 · 优势 · 取舍</span>
+  </div>
+  <div class="pos-grid">
+    <div class="pos-quote">
+      <span class="pos-label">一句话定位</span>
+      <div class="q">一座<span class="grad-text">闯关式文学游乐园</span>——让每天十分钟，像游戏一样停不下来。</div>
+      <div class="pos-chips">
+        <span class="pill p-purple">🎒 小学生</span>
+        <span class="pill p-teal">🧑‍🎓 初中生</span>
+        <span class="pill p-orange">👨‍👩‍👧 陪学家长</span>
+      </div>
+    </div>
+    <div class="pos-list">
+      <h5>✅ 优势</h5>
+      <ul>
+        <li>亲和力与<b>激励机制</b>强：进度环、打卡、徽章让复习功能如鱼得水。</li>
+        <li>低门槛、即时反馈，答题对错状态明确，适合碎片时间学习。</li>
+      </ul>
+      <h5>🤔 取舍</h5>
+      <ul>
+        <li>与古典内容的庄重感有张力，「文人味」最弱。</li>
+        <li>长文沉浸阅读氛围被弱化，更适合「做题式」使用路径。</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="foot">
+    万卷 · 视觉提案三 · 少年派 · 仅供选型评审
+  </footer>
+
+</div>
+</body>
+</html>

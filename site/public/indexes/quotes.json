@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-11-21T05:03:31.170Z",
+  "count": 8,
+  "items": [
+    {
+      "id": "quote-bushi-lushan-zhenmianmu",
+      "text": "不识庐山真面目，只缘身在此山中",
+      "author": "苏轼",
+      "work": null,
+      "theme": [
+        "哲理"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "哲理诗"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 4,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/不识庐山真面目.md"
+    },
+    {
+      "id": "quote-huidang-lingjueding",
+      "text": "会当凌绝顶，一览众山小",
+      "author": "杜甫",
+      "work": "tang-dufu-wangyue",
+      "theme": [
+        "志向",
+        "进取"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "登高"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/会当凌绝顶.md"
+    },
+    {
+      "id": "quote-danyuan-renchangjiu",
+      "text": "但愿人长久，千里共婵娟",
+      "author": "苏轼",
+      "work": "song-sushi-shuidiaogetou",
+      "theme": [
+        "思念",
+        "祝福"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "中秋"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/但愿人长久.md"
+    },
+    {
+      "id": "quote-tiansheng-wocai-biyong",
+      "text": "天生我材必有用",
+      "author": "李白",
+      "work": null,
+      "theme": [
+        "自信",
+        "豁达"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/天生我材必有用.md"
+    },
+    {
+      "id": "quote-chunfeng-you-lu-jiangnanan",
+      "text": "春风又绿江南岸，明月何时照我还",
+      "author": "王安石",
+      "work": null,
+      "theme": [
+        "思乡",
+        "炼字"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "炼字典范"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 6,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/春风又绿江南岸.md"
+    },
+    {
+      "id": "quote-yuqiong-qianlimu",
+      "text": "欲穷千里目，更上一层楼",
+      "author": "王之涣",
+      "work": "tang-wangzhihuan-dengguanquelou",
+      "theme": [
+        "哲理",
+        "进取"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 2,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/欲穷千里目.md"
+    },
+    {
+      "id": "quote-luohong-bushi-wuqingwu",
+      "text": "落红不是无情物，化作春泥更护花",
+      "author": "龚自珍",
+      "work": "qing-gongzizhen-jihaizashi",
+      "theme": [
+        "奉献",
+        "抱负"
+      ],
+      "dynasty": "清",
+      "tags": [
+        "作文素材"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/落红不是无情物.md"
+    },
+    {
+      "id": "quote-tiema-binghe-rumenglai",
+      "text": "夜阑卧听风吹雨，铁马冰河入梦来",
+      "author": "陆游",
+      "work": null,
+      "theme": [
+        "家国",
+        "壮志"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "爱国"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/铁马冰河入梦来.md"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "wanjuan",
+  "version": "0.1.0",
+  "description": "万卷 · 中小学文学知识库：本地 Markdown 知识图谱 + 主动学习系统（读书破万卷，下笔如有神）",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:index": "node scripts/build-index.mjs",
+    "dev": "vitepress dev site",
+    "build": "npm run build:index && vitepress build site",
+    "preview": "vitepress preview site"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "echarts-wordcloud": "^2.1.0",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "pinyin-pro": "^3.26.0",
+    "zod": "^3.24.2"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

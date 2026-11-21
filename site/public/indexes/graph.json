@@ -1,0 +1,1138 @@
+{
+  "generatedAt": "2026-11-21T05:03:31.169Z",
+  "nodes": [
+    {
+      "id": "song-sushi-niannujiao-chibihuaigu",
+      "label": "念奴娇·赤壁怀古",
+      "type": "poem",
+      "degree": 7,
+      "anchor": "content/poems/song/苏轼/念奴娇·赤壁怀古.md"
+    },
+    {
+      "id": "song-sushi-shuidiaogetou",
+      "label": "水调歌头·明月几时有",
+      "type": "poem",
+      "degree": 7,
+      "anchor": "content/poems/song/苏轼/水调歌头·明月几时有.md"
+    },
+    {
+      "id": "tang-menghaoran-chunxiao",
+      "label": "春晓",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/孟浩然/春晓.md"
+    },
+    {
+      "id": "tang-dufu-chunwang",
+      "label": "春望",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/杜甫/春望.md"
+    },
+    {
+      "id": "tang-dufu-wangyue",
+      "label": "望岳",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/tang/杜甫/望岳.md"
+    },
+    {
+      "id": "tang-liuzongyuan-jiangxue",
+      "label": "江雪",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/柳宗元/江雪.md"
+    },
+    {
+      "id": "tang-wangzhihuan-dengguanquelou",
+      "label": "登鹳雀楼",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/tang/王之涣/登鹳雀楼.md"
+    },
+    {
+      "id": "qing-gongzizhen-jihaizashi",
+      "label": "己亥杂诗·其五",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/清/龚自珍/己亥杂诗·其五.md"
+    },
+    {
+      "id": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "label": "天净沙·秋思",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/元/马致远/天净沙·秋思.md"
+    },
+    {
+      "id": "tang-libai-wanglushanpubu",
+      "label": "望庐山瀑布",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/李白/望庐山瀑布.md"
+    },
+    {
+      "id": "tang-libai-jingyesi",
+      "label": "静夜思",
+      "type": "poem",
+      "degree": 6,
+      "anchor": "content/poems/tang/李白/静夜思.md"
+    },
+    {
+      "id": "tang-luobinwang-yonge",
+      "label": "咏鹅",
+      "type": "poem",
+      "degree": 5,
+      "anchor": "content/poems/tang/骆宾王/咏鹅.md"
+    },
+    {
+      "id": "idiom-wangyangbulao",
+      "label": "亡羊补牢",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/亡羊补牢.md"
+    },
+    {
+      "id": "idiom-woxinchangdan",
+      "label": "卧薪尝胆",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/卧薪尝胆.md"
+    },
+    {
+      "id": "idiom-mingluosunshan",
+      "label": "名落孙山",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/名落孙山.md"
+    },
+    {
+      "id": "idiom-simianchuge",
+      "label": "四面楚歌",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/四面楚歌.md"
+    },
+    {
+      "id": "idiom-kuafuzhuri",
+      "label": "夸父逐日",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/夸父逐日.md"
+    },
+    {
+      "id": "idiom-miaobishenghua",
+      "label": "妙笔生花",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/妙笔生花.md"
+    },
+    {
+      "id": "idiom-shouzhudaitu",
+      "label": "守株待兔",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/守株待兔.md"
+    },
+    {
+      "id": "idiom-wanbiguizhao",
+      "label": "完璧归赵",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/完璧归赵.md"
+    },
+    {
+      "id": "idiom-yugongyishan",
+      "label": "愚公移山",
+      "type": "idiom",
+      "degree": 1,
+      "anchor": "content/idioms/愚公移山.md"
+    },
+    {
+      "id": "idiom-yanerdaoling",
+      "label": "掩耳盗铃",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/掩耳盗铃.md"
+    },
+    {
+      "id": "idiom-wangmeizhike",
+      "label": "望梅止渴",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/望梅止渴.md"
+    },
+    {
+      "id": "idiom-luoyangzhigui",
+      "label": "洛阳纸贵",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/洛阳纸贵.md"
+    },
+    {
+      "id": "idiom-huashetianzu",
+      "label": "画蛇添足",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/画蛇添足.md"
+    },
+    {
+      "id": "idiom-pofuchenzhou",
+      "label": "破釜沉舟",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/破釜沉舟.md"
+    },
+    {
+      "id": "idiom-jingweitianhai",
+      "label": "精卫填海",
+      "type": "idiom",
+      "degree": 1,
+      "anchor": "content/idioms/精卫填海.md"
+    },
+    {
+      "id": "idiom-zhishangtanbing",
+      "label": "纸上谈兵",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/纸上谈兵.md"
+    },
+    {
+      "id": "idiom-xiongyouchengzhu",
+      "label": "胸有成竹",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/胸有成竹.md"
+    },
+    {
+      "id": "idiom-fujingqingzui",
+      "label": "负荆请罪",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/负荆请罪.md"
+    },
+    {
+      "id": "idiom-wenjiqiwu",
+      "label": "闻鸡起舞",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/闻鸡起舞.md"
+    },
+    {
+      "id": "idiom-qingmeizhuma",
+      "label": "青梅竹马",
+      "type": "idiom",
+      "degree": 0,
+      "anchor": "content/idioms/青梅竹马.md"
+    },
+    {
+      "id": "quote-bushi-lushan-zhenmianmu",
+      "label": "不识庐山真面目，只缘身在此山中",
+      "type": "quote",
+      "degree": 1,
+      "anchor": "content/quotes/不识庐山真面目.md"
+    },
+    {
+      "id": "quote-huidang-lingjueding",
+      "label": "会当凌绝顶，一览众山小",
+      "type": "quote",
+      "degree": 3,
+      "anchor": "content/quotes/会当凌绝顶.md"
+    },
+    {
+      "id": "quote-danyuan-renchangjiu",
+      "label": "但愿人长久，千里共婵娟",
+      "type": "quote",
+      "degree": 3,
+      "anchor": "content/quotes/但愿人长久.md"
+    },
+    {
+      "id": "quote-tiansheng-wocai-biyong",
+      "label": "天生我材必有用",
+      "type": "quote",
+      "degree": 2,
+      "anchor": "content/quotes/天生我材必有用.md"
+    },
+    {
+      "id": "quote-chunfeng-you-lu-jiangnanan",
+      "label": "春风又绿江南岸，明月何时照我还",
+      "type": "quote",
+      "degree": 2,
+      "anchor": "content/quotes/春风又绿江南岸.md"
+    },
+    {
+      "id": "quote-yuqiong-qianlimu",
+      "label": "欲穷千里目，更上一层楼",
+      "type": "quote",
+      "degree": 3,
+      "anchor": "content/quotes/欲穷千里目.md"
+    },
+    {
+      "id": "quote-luohong-bushi-wuqingwu",
+      "label": "落红不是无情物，化作春泥更护花",
+      "type": "quote",
+      "degree": 3,
+      "anchor": "content/quotes/落红不是无情物.md"
+    },
+    {
+      "id": "quote-tiema-binghe-rumenglai",
+      "label": "夜阑卧听风吹雨，铁马冰河入梦来",
+      "type": "quote",
+      "degree": 2,
+      "anchor": "content/quotes/铁马冰河入梦来.md"
+    },
+    {
+      "id": "author-libai",
+      "label": "李白",
+      "type": "author",
+      "degree": 6,
+      "anchor": "content/authors/李白.md"
+    },
+    {
+      "id": "author-dufu",
+      "label": "杜甫",
+      "type": "author",
+      "degree": 5,
+      "anchor": "content/authors/杜甫.md"
+    },
+    {
+      "id": "author-wangwei",
+      "label": "王维",
+      "type": "author",
+      "degree": 3,
+      "anchor": "content/authors/王维.md"
+    },
+    {
+      "id": "author-sushi",
+      "label": "苏轼",
+      "type": "author",
+      "degree": 5,
+      "anchor": "content/authors/苏轼.md"
+    },
+    {
+      "id": "imagery-yue",
+      "label": "月",
+      "type": "imagery",
+      "degree": 3,
+      "anchor": "content/imagery/月.md"
+    },
+    {
+      "id": "imagery-liu",
+      "label": "柳",
+      "type": "imagery",
+      "degree": 0,
+      "anchor": "content/imagery/柳.md"
+    },
+    {
+      "id": "imagery-yan",
+      "label": "雁",
+      "type": "imagery",
+      "degree": 0,
+      "anchor": "content/imagery/雁.md"
+    },
+    {
+      "id": "dynasty:宋",
+      "label": "宋",
+      "type": "dynasty",
+      "degree": 3,
+      "anchor": null
+    },
+    {
+      "id": "form:词",
+      "label": "词",
+      "type": "form",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "genre:咏史",
+      "label": "咏史",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "allusion:赤壁之战",
+      "label": "赤壁之战",
+      "type": "allusion",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "stage:高中",
+      "label": "高中",
+      "type": "stage",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:怀人",
+      "label": "怀人",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "stage:初中",
+      "label": "初中",
+      "type": "stage",
+      "degree": 5,
+      "anchor": null
+    },
+    {
+      "id": "author:孟浩然",
+      "label": "孟浩然",
+      "type": "author",
+      "degree": 3,
+      "anchor": null
+    },
+    {
+      "id": "dynasty:唐",
+      "label": "唐",
+      "type": "dynasty",
+      "degree": 11,
+      "anchor": null
+    },
+    {
+      "id": "form:五言绝句",
+      "label": "五言绝句",
+      "type": "form",
+      "degree": 4,
+      "anchor": null
+    },
+    {
+      "id": "genre:四季",
+      "label": "四季",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "stage:小学",
+      "label": "小学",
+      "type": "stage",
+      "degree": 6,
+      "anchor": null
+    },
+    {
+      "id": "form:五言律诗",
+      "label": "五言律诗",
+      "type": "form",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:家国",
+      "label": "家国",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "form:五言古诗",
+      "label": "五言古诗",
+      "type": "form",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "genre:山水",
+      "label": "山水",
+      "type": "genre",
+      "degree": 3,
+      "anchor": null
+    },
+    {
+      "id": "author:柳宗元",
+      "label": "柳宗元",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:王之涣",
+      "label": "王之涣",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:哲理",
+      "label": "哲理",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:龚自珍",
+      "label": "龚自珍",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "dynasty:清",
+      "label": "清",
+      "type": "dynasty",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "form:七言绝句",
+      "label": "七言绝句",
+      "type": "form",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "genre:言志",
+      "label": "言志",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:马致远",
+      "label": "马致远",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "dynasty:元",
+      "label": "元",
+      "type": "dynasty",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "form:曲",
+      "label": "曲",
+      "type": "form",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:思乡",
+      "label": "思乡",
+      "type": "genre",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "author:骆宾王",
+      "label": "骆宾王",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "genre:咏物",
+      "label": "咏物",
+      "type": "genre",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:高适",
+      "label": "高适",
+      "type": "author",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "author:裴迪",
+      "label": "裴迪",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:黄庭坚",
+      "label": "黄庭坚",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "author:秦观",
+      "label": "秦观",
+      "type": "author",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:哲理",
+      "label": "哲理",
+      "type": "theme",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "theme:志向",
+      "label": "志向",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:进取",
+      "label": "进取",
+      "type": "theme",
+      "degree": 2,
+      "anchor": null
+    },
+    {
+      "id": "theme:思念",
+      "label": "思念",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:祝福",
+      "label": "祝福",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:自信",
+      "label": "自信",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:豁达",
+      "label": "豁达",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:思乡",
+      "label": "思乡",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:炼字",
+      "label": "炼字",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:奉献",
+      "label": "奉献",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:抱负",
+      "label": "抱负",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:家国",
+      "label": "家国",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    },
+    {
+      "id": "theme:壮志",
+      "label": "壮志",
+      "type": "theme",
+      "degree": 1,
+      "anchor": null
+    }
+  ],
+  "links": [
+    {
+      "source": "author-sushi",
+      "target": "song-sushi-niannujiao-chibihuaigu",
+      "rel": "创作"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "dynasty:宋",
+      "rel": "属朝代"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "form:词",
+      "rel": "属体裁"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "genre:咏史",
+      "rel": "属题材"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "imagery-yue",
+      "rel": "含意象"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "allusion:赤壁之战",
+      "rel": "用典"
+    },
+    {
+      "source": "song-sushi-niannujiao-chibihuaigu",
+      "target": "stage:高中",
+      "rel": "学段"
+    },
+    {
+      "source": "author-sushi",
+      "target": "song-sushi-shuidiaogetou",
+      "rel": "创作"
+    },
+    {
+      "source": "song-sushi-shuidiaogetou",
+      "target": "dynasty:宋",
+      "rel": "属朝代"
+    },
+    {
+      "source": "song-sushi-shuidiaogetou",
+      "target": "form:词",
+      "rel": "属体裁"
+    },
+    {
+      "source": "song-sushi-shuidiaogetou",
+      "target": "genre:怀人",
+      "rel": "属题材"
+    },
+    {
+      "source": "song-sushi-shuidiaogetou",
+      "target": "imagery-yue",
+      "rel": "含意象"
+    },
+    {
+      "source": "song-sushi-shuidiaogetou",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author:孟浩然",
+      "target": "tang-menghaoran-chunxiao",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-menghaoran-chunxiao",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-menghaoran-chunxiao",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-menghaoran-chunxiao",
+      "target": "genre:四季",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-menghaoran-chunxiao",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author-dufu",
+      "target": "tang-dufu-chunwang",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-dufu-chunwang",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-dufu-chunwang",
+      "target": "form:五言律诗",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-dufu-chunwang",
+      "target": "genre:家国",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-dufu-chunwang",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author-dufu",
+      "target": "tang-dufu-wangyue",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-dufu-wangyue",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-dufu-wangyue",
+      "target": "form:五言古诗",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-dufu-wangyue",
+      "target": "genre:山水",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-dufu-wangyue",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author:柳宗元",
+      "target": "tang-liuzongyuan-jiangxue",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "genre:山水",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-liuzongyuan-jiangxue",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author:王之涣",
+      "target": "tang-wangzhihuan-dengguanquelou",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "genre:哲理",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-wangzhihuan-dengguanquelou",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author:龚自珍",
+      "target": "qing-gongzizhen-jihaizashi",
+      "rel": "创作"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "dynasty:清",
+      "rel": "属朝代"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "form:七言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "genre:言志",
+      "rel": "属题材"
+    },
+    {
+      "source": "qing-gongzizhen-jihaizashi",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author:马致远",
+      "target": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "rel": "创作"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "dynasty:元",
+      "rel": "属朝代"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "form:曲",
+      "rel": "属体裁"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "genre:思乡",
+      "rel": "属题材"
+    },
+    {
+      "source": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "target": "stage:初中",
+      "rel": "学段"
+    },
+    {
+      "source": "author-libai",
+      "target": "tang-libai-wanglushanpubu",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-libai-wanglushanpubu",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-libai-wanglushanpubu",
+      "target": "form:七言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-libai-wanglushanpubu",
+      "target": "genre:山水",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-libai-wanglushanpubu",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author-libai",
+      "target": "tang-libai-jingyesi",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-libai-jingyesi",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-libai-jingyesi",
+      "target": "form:五言绝句",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-libai-jingyesi",
+      "target": "genre:思乡",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-libai-jingyesi",
+      "target": "imagery-yue",
+      "rel": "含意象"
+    },
+    {
+      "source": "tang-libai-jingyesi",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author:骆宾王",
+      "target": "tang-luobinwang-yonge",
+      "rel": "创作"
+    },
+    {
+      "source": "tang-luobinwang-yonge",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "tang-luobinwang-yonge",
+      "target": "form:五言古诗",
+      "rel": "属体裁"
+    },
+    {
+      "source": "tang-luobinwang-yonge",
+      "target": "genre:咏物",
+      "rel": "属题材"
+    },
+    {
+      "source": "tang-luobinwang-yonge",
+      "target": "stage:小学",
+      "rel": "学段"
+    },
+    {
+      "source": "author-libai",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "author-libai",
+      "target": "author-dufu",
+      "rel": "交游"
+    },
+    {
+      "source": "author-libai",
+      "target": "author:高适",
+      "rel": "交游"
+    },
+    {
+      "source": "author-libai",
+      "target": "author:孟浩然",
+      "rel": "交游"
+    },
+    {
+      "source": "author-dufu",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "author-dufu",
+      "target": "author:高适",
+      "rel": "交游"
+    },
+    {
+      "source": "author-wangwei",
+      "target": "dynasty:唐",
+      "rel": "属朝代"
+    },
+    {
+      "source": "author-wangwei",
+      "target": "author:裴迪",
+      "rel": "交游"
+    },
+    {
+      "source": "author-wangwei",
+      "target": "author:孟浩然",
+      "rel": "交游"
+    },
+    {
+      "source": "author-sushi",
+      "target": "dynasty:宋",
+      "rel": "属朝代"
+    },
+    {
+      "source": "author-sushi",
+      "target": "author:黄庭坚",
+      "rel": "交游"
+    },
+    {
+      "source": "author-sushi",
+      "target": "author:秦观",
+      "rel": "交游"
+    },
+    {
+      "source": "idiom-yugongyishan",
+      "target": "idiom-jingweitianhai",
+      "rel": "近义"
+    },
+    {
+      "source": "quote-bushi-lushan-zhenmianmu",
+      "target": "theme:哲理",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-huidang-lingjueding",
+      "target": "tang-dufu-wangyue",
+      "rel": "出处"
+    },
+    {
+      "source": "quote-huidang-lingjueding",
+      "target": "theme:志向",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-huidang-lingjueding",
+      "target": "theme:进取",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-danyuan-renchangjiu",
+      "target": "song-sushi-shuidiaogetou",
+      "rel": "出处"
+    },
+    {
+      "source": "quote-danyuan-renchangjiu",
+      "target": "theme:思念",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-danyuan-renchangjiu",
+      "target": "theme:祝福",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-tiansheng-wocai-biyong",
+      "target": "theme:自信",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-tiansheng-wocai-biyong",
+      "target": "theme:豁达",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-chunfeng-you-lu-jiangnanan",
+      "target": "theme:思乡",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-chunfeng-you-lu-jiangnanan",
+      "target": "theme:炼字",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-yuqiong-qianlimu",
+      "target": "tang-wangzhihuan-dengguanquelou",
+      "rel": "出处"
+    },
+    {
+      "source": "quote-yuqiong-qianlimu",
+      "target": "theme:哲理",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-yuqiong-qianlimu",
+      "target": "theme:进取",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-luohong-bushi-wuqingwu",
+      "target": "qing-gongzizhen-jihaizashi",
+      "rel": "出处"
+    },
+    {
+      "source": "quote-luohong-bushi-wuqingwu",
+      "target": "theme:奉献",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-luohong-bushi-wuqingwu",
+      "target": "theme:抱负",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-tiema-binghe-rumenglai",
+      "target": "theme:家国",
+      "rel": "主题"
+    },
+    {
+      "source": "quote-tiema-binghe-rumenglai",
+      "target": "theme:壮志",
+      "rel": "主题"
+    }
+  ]
+}

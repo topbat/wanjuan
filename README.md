@@ -20,7 +20,7 @@
 
 ## 这是什么
 
-**万卷**是一个运行在你自己电脑上的中小学文学知识库：诗词、成语、名句以 **一个 Markdown 文件 = 一个实体** 的方式收录，通过 frontmatter 元数据构建**可点击的知识关系图**，并对齐**教育部课程标准**（小学 75 篇 + 初中 61 篇 + 高中 72 篇推荐背诵篇目）。
+**万卷**是一个运行在你自己电脑上的中小学文学知识库：诗词、成语、名句以 **一个 Markdown 文件 = 一个实体** 的方式收录，通过 frontmatter 元数据构建**可点击的知识关系图**，并对齐**教育部课程标准**（小学 75 篇 + 初中 60 篇（段）+ 高中 72 篇推荐背诵篇目，合计 207 篇/段）。
 
 它不止是查询工具，更是一套**基于学习科学的主动学习系统**：间隔重复复习、检索式测验、意象枢纽页、课标覆盖画像——目标是让文学知识的**广度与深度**同时生长。
 
@@ -101,7 +101,7 @@ wanjuan/
 ├── docs/               # 项目文档
 │   └── data-model.md   # ★ 数据契约：frontmatter 规范 + 谓词白名单（动数据前必读）
 ├── design-proposals/   # UI 风格提案（评审期产物）
-└── public/curriculum/  # 课标篇目映射数据（75+61+72）
+└── public/curriculum/  # 课标篇目映射数据（75+60+72=207，2022年版课标官方数字）
 ```
 
 ## 📊 数据来源与合规
@@ -127,7 +127,7 @@ wanjuan/
 
 ## 🗺️ 路线图
 
-- [x] **P0 · 地基期**（进行中）：数据契约 / 课标 208 篇映射 / 索引管线 / 搜索·词云·统计·关系图四件套 / 回源双通道
+- [x] **P0 · 地基期**（进行中）：数据契约 / 课标 207 篇映射 / 索引管线 / 搜索·词云·统计·关系图四件套 / 回源双通道
 - [ ] **P1 · 学习系统期**：意象枢纽页 / FSRS 复习 / 每日一卷 / 学习路径 / 对比阅读 / 成语语义场 / 引用卡
 - [ ] **P2 · 个人宇宙期**：本地 RAG 问答 / 素养画像 / 飞花令与接龙 / 时间轴与文学地图 / 年度回顾
 
@@ -142,7 +142,7 @@ wanjuan/
 
 **wanjuan** (万卷, "ten thousand scrolls") is a local-first knowledge base and learning system for Chinese literature taught in K-12: classical poems, idioms (chengyu) and famous quotes, each stored as **one Markdown file per entity** with structured frontmatter.
 
-It builds a **clickable knowledge graph** (authors → works → imagery → allusions → idioms), aligned with the **Chinese national curriculum standards** (208 recommended recitation pieces across primary, junior and senior stages), and turns the corpus into an active learning system powered by learning science: FSRS spaced repetition, retrieval practice quizzes, imagery hub pages, and curriculum-coverage analytics.
+It builds a **clickable knowledge graph** (authors → works → imagery → allusions → idioms), aligned with the **Chinese national curriculum standards** (207 recommended recitation pieces: 75 primary + 60 junior + 72 senior), and turns the corpus into an active learning system powered by learning science: FSRS spaced repetition, retrieval practice quizzes, imagery hub pages, and curriculum-coverage analytics.
 
 Zero remote services, zero database — data as files, `git` as versioning, browser as engine. Built with VitePress, ECharts, and a Node-based build pipeline with production-grade Chinese logging.
 

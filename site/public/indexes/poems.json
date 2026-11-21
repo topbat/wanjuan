@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-11-21T05:03:31.170Z",
+  "count": 12,
+  "items": [
+    {
+      "id": "song-sushi-niannujiao-chibihuaigu",
+      "title": "念奴娇·赤壁怀古",
+      "titlePinyin": "nian nu jiao chi bi huai gu",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "念奴娇",
+      "genre": "咏史",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "高中必背",
+        "豪放词"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "文学阅读与写作"
+      },
+      "srcPath": "content/poems/song/苏轼/念奴娇·赤壁怀古.md"
+    },
+    {
+      "id": "song-sushi-shuidiaogetou",
+      "title": "水调歌头·明月几时有",
+      "titlePinyin": "shui diao ge tou ming yue ji shi you",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "form": "词",
+      "tune": "水调歌头",
+      "genre": "怀人",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "初中必背",
+        "豪放词"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/song/苏轼/水调歌头·明月几时有.md"
+    },
+    {
+      "id": "tang-menghaoran-chunxiao",
+      "title": "春晓",
+      "titlePinyin": "chun xiao",
+      "author": "孟浩然",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "四季",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/孟浩然/春晓.md"
+    },
+    {
+      "id": "tang-dufu-chunwang",
+      "title": "春望",
+      "titlePinyin": "chun wang",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言律诗",
+      "tune": null,
+      "genre": "家国",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "沉郁顿挫"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 8,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/杜甫/春望.md"
+    },
+    {
+      "id": "tang-dufu-wangyue",
+      "title": "望岳",
+      "titlePinyin": "wang yue",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "咏山"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/杜甫/望岳.md"
+    },
+    {
+      "id": "tang-liuzongyuan-jiangxue",
+      "title": "江雪",
+      "titlePinyin": "jiang xue",
+      "author": "柳宗元",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 3,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/柳宗元/江雪.md"
+    },
+    {
+      "id": "tang-wangzhihuan-dengguanquelou",
+      "title": "登鹳雀楼",
+      "titlePinyin": "deng guan que lou",
+      "author": "王之涣",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "哲理",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 2,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/王之涣/登鹳雀楼.md"
+    },
+    {
+      "id": "qing-gongzizhen-jihaizashi",
+      "title": "己亥杂诗·其五",
+      "titlePinyin": "ji hai za shi qi wu",
+      "author": "龚自珍",
+      "dynasty": "清",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "言志",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "近代启蒙"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/清/龚自珍/己亥杂诗·其五.md"
+    },
+    {
+      "id": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "title": "天净沙·秋思",
+      "titlePinyin": "tian jing sha qiu si",
+      "author": "马致远",
+      "dynasty": "元",
+      "form": "曲",
+      "tune": "天净沙",
+      "genre": "思乡",
+      "imagery": [],
+      "tags": [
+        "初中必背",
+        "元曲"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/元/马致远/天净沙·秋思.md"
+    },
+    {
+      "id": "tang-libai-wanglushanpubu",
+      "title": "望庐山瀑布",
+      "titlePinyin": "wang lushan pubu",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "七言绝句",
+      "tune": null,
+      "genre": "山水",
+      "imagery": [],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 2,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/李白/望庐山瀑布.md"
+    },
+    {
+      "id": "tang-libai-jingyesi",
+      "title": "静夜思",
+      "titlePinyin": "jing ye si",
+      "author": "李白",
+      "dynasty": "唐",
+      "form": "五言绝句",
+      "tune": null,
+      "genre": "思乡",
+      "imagery": [
+        "月"
+      ],
+      "tags": [
+        "唐诗三百首",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "下",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/李白/静夜思.md"
+    },
+    {
+      "id": "tang-luobinwang-yonge",
+      "title": "咏鹅",
+      "titlePinyin": "yong e",
+      "author": "骆宾王",
+      "dynasty": "唐",
+      "form": "五言古诗",
+      "tune": null,
+      "genre": "咏物",
+      "imagery": [],
+      "tags": [
+        "启蒙诗",
+        "小学必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "semester": "上",
+        "recitation": true,
+        "task_group": "语言文字积累与梳理"
+      },
+      "srcPath": "content/poems/tang/骆宾王/咏鹅.md"
+    }
+  ]
+}
