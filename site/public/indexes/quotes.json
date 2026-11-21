@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-21T10:51:39.064Z",
-  "count": 140,
+  "generatedAt": "2026-11-21T12:24:33.406Z",
+  "count": 191,
   "items": [
+    {
+      "id": "quote-qiaobusi-stay-hungry",
+      "text": "Stay Hungry. Stay Foolish.",
+      "author": "乔布斯",
+      "work": null,
+      "theme": [
+        "进取",
+        "自信",
+        "志向"
+      ],
+      "dynasty": "当代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "斯坦福演讲"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/StayHung.md",
+      "sourceType": "speech",
+      "citation": "斯坦福大学2005年毕业典礼演讲（2005）",
+      "verified": "pending",
+      "excerpt": "斯坦福大学2005年毕业典礼演讲·乔布斯（2005） Beneath it were the words: ‘Stay Hungry. Stay Foolish.’ It was their farewell message as they"
+    },
     {
       "id": "quote-yi-gu-zuo-qi-zai-er-shuai-san-er-jie",
       "text": "一鼓作气，再而衰，三而竭",
@@ -22,7 +50,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/一鼓作气再而衰三.md"
+      "srcPath": "content/quotes/一鼓作气再而衰三.md",
+      "sourceType": "classical",
+      "citation": "《曹刿论战》",
+      "verified": true,
+      "excerpt": "《曹刿论战》·《左传》（先秦） 一鼓作气，再而衰，三而竭。 适合用于「哲思」、「坚韧」主题的写作：表达对人生、事理的思考与感悟；表达在困境中坚持不懈的意志。"
     },
     {
       "id": "quote-bu-yi-wu-xi-bu-yi-ji-bei",
@@ -44,7 +76,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/不以物喜不以己悲.md"
+      "srcPath": "content/quotes/不以物喜不以己悲.md",
+      "sourceType": "classical",
+      "citation": "《岳阳楼记》",
+      "verified": true,
+      "excerpt": "《岳阳楼记》·范仲淹（宋） 不以物喜，不以己悲；居庙堂之高则忧其民；处江湖之远则忧其君。 适合用于「豁达」、「清廉」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达清正自守、不慕荣利的品格。"
+    },
+    {
+      "id": "quote-luxun-chenmo-zhong-baofa",
+      "text": "不在沉默中爆发，就在沉默中灭亡。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "坚韧",
+        "担当",
+        "家国"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "记念刘和珍君"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/不在沉默中爆发就.md",
+      "sourceType": "modern",
+      "citation": "《记念刘和珍君》（1926）",
+      "verified": true,
+      "excerpt": "《记念刘和珍君》·鲁迅（1926） 沉默呵，沉默呵！不在沉默中爆发，就在沉默中灭亡。 适合用于「坚韧」、「担当」、「家国」主题的写作：表达在困境中坚持不懈的意志；表达勇担责任、迎难而上的态度；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-bu-huan-gua-er-huan-bu-jun-bu-huan-pin",
@@ -66,7 +130,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/不患寡而患不均不.md"
+      "srcPath": "content/quotes/不患寡而患不均不.md",
+      "sourceType": "classical",
+      "citation": "《季氏将伐颛臾》",
+      "verified": true,
+      "excerpt": "《季氏将伐颛臾》·《论语》（先秦） 丘也闻，有国有家者，不患寡而患不均，不患贫而患不安。 适合用于「家国」、「哲思」主题的写作：表达对家国天下的关切与责任感；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-bu-wei-fu-yun-zhe-wang-yan-zi-yuan-shen",
@@ -89,7 +157,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/不畏浮云遮望眼自.md"
+      "srcPath": "content/quotes/不畏浮云遮望眼自.md",
+      "sourceType": "classical",
+      "citation": "《登飞来峰》",
+      "verified": true,
+      "excerpt": "《登飞来峰》·王安石（宋） 不畏浮云遮望眼，自缘身在最高层。 适合用于「志向」、「自信」、「哲思」主题的写作：表达树立远大目标并为之奋斗的决心；表达对自我价值的肯定与从容；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-bushi-lushan-zhenmianmu",
@@ -110,7 +182,39 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/不识庐山真面目.md"
+      "srcPath": "content/quotes/不识庐山真面目.md",
+      "sourceType": "classical",
+      "citation": "《题西林壁》",
+      "verified": true,
+      "excerpt": "《题西林壁》·苏轼（宋） 不识庐山真面目，只缘身在此山中。 适合用于「哲思」主题的写作：表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-luomanluolan-yingxiongzhuyi",
+      "text": "世界上只有一种英雄主义，便是注视世界的真面目——并且爱世界。",
+      "author": "罗曼·罗兰",
+      "work": null,
+      "theme": [
+        "坚韧",
+        "豁达",
+        "哲思"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "外国传记",
+        "傅雷译"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/世界上只有一种英.md",
+      "sourceType": "modern",
+      "citation": "《米开朗琪罗传·原序》（傅雷译，1935）",
+      "verified": true,
+      "excerpt": "《米开朗琪罗传·原序》·罗曼·罗兰（傅雷译，1935） 世界上只有一种英雄主义，便是注视世界的真面目——并且爱世界。 适合用于「坚韧」、「豁达」、「哲思」主题的写作：表达在困境中坚持不懈的意志；表达面对得失、离别与挫折时的开阔胸襟；表达对人"
     },
     {
       "id": "quote-dong-lin-jie-shi-yi-guan-cang-hai",
@@ -132,7 +236,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/东临碣石以观沧海.md"
+      "srcPath": "content/quotes/东临碣石以观沧海.md",
+      "sourceType": "classical",
+      "citation": "《观沧海》",
+      "verified": true,
+      "excerpt": "《观沧海》·曹操（汉） 东临碣石，以观沧海。 水何澹澹，山岛竦峙。 适合用于「自然」、「志向」主题的写作：描绘自然景物并寄寓情思；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-liang-qing-ruo-shi-chang-jiu-shi-you-qi-zai",
@@ -154,7 +262,40 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/两情若是长久时又.md"
+      "srcPath": "content/quotes/两情若是长久时又.md",
+      "sourceType": "classical",
+      "citation": "《鹊桥仙》",
+      "verified": true,
+      "excerpt": "《鹊桥仙》·秦观（宋） 两情若是长久时，又岂在、朝朝暮暮。 适合用于「思念」、「哲思」主题的写作：表达对亲人、故乡或友人的深切怀念；表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-luzuofu-zhongguo-de-weilai",
+      "text": "中国的未来，完全产生在中国人的手上！",
+      "author": "卢作孚",
+      "work": null,
+      "theme": [
+        "家国",
+        "自信",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代政论",
+        "实业家",
+        "卢作孚"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/中国的未来完全产.md",
+      "sourceType": "modern",
+      "citation": "《中国的未来是在我们手上的》（1936年作，1937年刊）",
+      "verified": true,
+      "excerpt": "《中国的未来是在我们手上的》·卢作孚（1936年作，1937年刊） 中国应该怎样办？中国人应该怎样办？这是当前必须解决的问题，不容迟疑，亦不容模糊的。中国的未来，完全产生在中国人的手上！ 适合用于「家国」、「自信」、「担当」主题的写作：表达"
     },
     {
       "id": "quote-ju-tou-wang-ming-yue-di-tou-si-gu-xiang",
@@ -175,7 +316,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/举头望明月低头思.md"
+      "srcPath": "content/quotes/举头望明月低头思.md",
+      "sourceType": "classical",
+      "citation": "《静夜思》",
+      "verified": true,
+      "excerpt": "《静夜思》·李白（唐） 举头望明月， 低头思故乡。 适合用于「思念」主题的写作：表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-wu-niao-si-qing-yuan-qi-zhong-yang",
@@ -196,7 +341,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/乌鸟私情愿乞终养.md"
+      "srcPath": "content/quotes/乌鸟私情愿乞终养.md",
+      "sourceType": "classical",
+      "citation": "《陈情表》",
+      "verified": true,
+      "excerpt": "《陈情表》·李密（魏晋） 乌鸟私情，愿乞终养。臣之辛苦，非独蜀之人士及二州牧伯所见明知，皇天后土，实所共鉴。 适合用于「孝亲」主题的写作：表达对长辈的感念与孝敬。"
     },
     {
       "id": "quote-cheng-qi-ji-yi-chi-cheng-xi-lai-wu-dao",
@@ -217,7 +366,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/乘骐骥以驰骋兮来.md"
+      "srcPath": "content/quotes/乘骐骥以驰骋兮来.md",
+      "sourceType": "classical",
+      "citation": "《离骚》",
+      "verified": true,
+      "excerpt": "《离骚》·屈原（先秦） 乘骐骥以驰骋兮，来吾道夫先路！ 适合用于「进取」、「担当」主题的写作：表达积极向上、不断追求进步的姿态；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-jiu-wan-li-feng-peng-zheng-ju",
@@ -239,7 +392,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/九万里风鹏正举.md"
+      "srcPath": "content/quotes/九万里风鹏正举.md",
+      "sourceType": "classical",
+      "citation": "《渔家傲》",
+      "verified": true,
+      "excerpt": "《渔家傲》·李清照（宋） 九万里风鹏正举。 风休住。 适合用于「志向」、「进取」主题的写作：表达树立远大目标并为之奋斗的决心；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-luan-shi-chuan-kong-jing-tao-pai-an-juan-qi",
@@ -260,7 +417,39 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/乱石穿空惊涛拍岸.md"
+      "srcPath": "content/quotes/乱石穿空惊涛拍岸.md",
+      "sourceType": "classical",
+      "citation": "《念奴娇·赤壁怀古》",
+      "verified": true,
+      "excerpt": "《念奴娇·赤壁怀古》·苏轼（宋） 乱石穿空，惊涛拍岸，卷起千堆雪。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
+    },
+    {
+      "id": "quote-hushi-zheng-ziji-de-ziyou",
+      "text": "争你们个人的自由，便是为国家争自由！争你们自己的人格，便是为国家争人格！",
+      "author": "胡适",
+      "work": null,
+      "theme": [
+        "家国",
+        "自信",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "胡适文选"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/争你们个人的自由.md",
+      "sourceType": "modern",
+      "citation": "《介绍我自己的思想》（1930）",
+      "verified": true,
+      "excerpt": "《介绍我自己的思想》·胡适（1930） 现在有人对你们说：‘牺牲你们个人的自由，去求国家的自由！’我对你们说：‘争你们个人的自由，便是为国家争自由！争你们自己的人格，便是为国家争人格！自由平等的国家不是一群奴才建造得起来的！’ 适合用于「家"
     },
     {
       "id": "quote-ren-heng-guo-ran-hou-neng-gai",
@@ -282,7 +471,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/人恒过然后能改.md"
+      "srcPath": "content/quotes/人恒过然后能改.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 人恒过，然后能改；困于心，衡于虑，而后作；征于色，发于声，而后喻。 适合用于「勤学」、「哲思」主题的写作：表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-ren-you-bei-huan-li-he-yue-you-yin-qing",
@@ -304,7 +497,11 @@
         "grade": 9,
         "recitation": true
       },
-      "srcPath": "content/quotes/人有悲欢离合月有.md"
+      "srcPath": "content/quotes/人有悲欢离合月有.md",
+      "sourceType": "classical",
+      "citation": "《水调歌头·明月几时有》",
+      "verified": true,
+      "excerpt": "《水调歌头·明月几时有》·苏轼（宋） 人有悲欢离合，月有阴晴圆缺，此事古难全。 适合用于「哲思」、「豁达」主题的写作：表达对人生、事理的思考与感悟；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-ren-sheng-ru-meng-yi-zun-hai-lei-jiang-yue",
@@ -326,7 +523,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/人生如梦一尊还酹.md"
+      "srcPath": "content/quotes/人生如梦一尊还酹.md",
+      "sourceType": "classical",
+      "citation": "《念奴娇·赤壁怀古》",
+      "verified": true,
+      "excerpt": "《念奴娇·赤壁怀古》·苏轼（宋） 人生如梦，一尊还酹江月。 适合用于「豁达」、「哲思」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-ren-sheng-de-yi-xu-jin-huan-mo-shi-jin",
@@ -347,7 +548,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/人生得意须尽欢莫.md"
+      "srcPath": "content/quotes/人生得意须尽欢莫.md",
+      "sourceType": "classical",
+      "citation": "《将进酒》",
+      "verified": true,
+      "excerpt": "《将进酒》·李白（唐） 人生得意须尽欢，莫使金樽空对月。 适合用于「豁达」主题的写作：表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-ren-sheng-zi-gu-shui-wu-si-liu-qu-dan",
@@ -370,7 +575,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/人生自古谁无死留.md"
+      "srcPath": "content/quotes/人生自古谁无死留.md",
+      "sourceType": "classical",
+      "citation": "《过零丁洋》",
+      "verified": true,
+      "excerpt": "《过零丁洋》·文天祥（宋） 人生自古谁无死，留取丹心照汗青。 适合用于「家国」、「担当」、「奉献」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度；表达甘于付出、成全他人的精神。"
+    },
+    {
+      "id": "quote-lidazhao-qingchun-zhi-wo",
+      "text": "以青春之我，创建青春之家庭，青春之国家，青春之民族",
+      "author": "李大钊",
+      "work": null,
+      "theme": [
+        "家国",
+        "奉献",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "青春"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/以青春之我创建青.md",
+      "sourceType": "modern",
+      "citation": "《青春》（1916）",
+      "verified": true,
+      "excerpt": "《青春》·李大钊（1916） 以青春之我，创建青春之家庭，青春之国家，青春之民族，青春之人类，青春之地球，青春之宇宙，资以乐其无涯之生。 适合用于「家国」、「奉献」、「进取」主题的写作：表达对家国天下的关切与责任感；表达甘于付出、成全他人的"
     },
     {
       "id": "quote-yang-guan-yu-zhou-zhi-da-fu-cha-pin-lei",
@@ -392,7 +629,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/仰观宇宙之大俯察.md"
+      "srcPath": "content/quotes/仰观宇宙之大俯察.md",
+      "sourceType": "classical",
+      "citation": "《兰亭集序》",
+      "verified": true,
+      "excerpt": "《兰亭集序》·王羲之（魏晋） 是日也，天朗气清，惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。 适合用于「哲思」、「自然」主题的写作：表达对人生、事理的思考与感悟；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-zhong-li-xun-ta-qian-bai-du-mo-ran-hui",
@@ -415,7 +656,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/众里寻他千百度蓦.md"
+      "srcPath": "content/quotes/众里寻他千百度蓦.md",
+      "sourceType": "classical",
+      "citation": "《青玉案·元夕》",
+      "verified": true,
+      "excerpt": "《青玉案·元夕》·辛弃疾（宋） 众里寻他千百度。 蓦然回首，那人却在，灯火阑珊处。 适合用于「哲思」、「勤学」、「进取」主题的写作：表达对人生、事理的思考与感悟；表达勤勉学习、不断求索的精神；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-huidang-lingjueding",
@@ -437,7 +682,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/会当凌绝顶.md"
+      "srcPath": "content/quotes/会当凌绝顶.md",
+      "sourceType": "classical",
+      "citation": "《望岳》",
+      "verified": true,
+      "excerpt": "《望岳》·杜甫（唐） 会当凌绝顶，一览众山小。 适合用于「志向」、「进取」主题的写作：表达树立远大目标并为之奋斗的决心；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-danyuan-renchangjiu",
@@ -458,7 +707,68 @@
         "grade": 9,
         "recitation": true
       },
-      "srcPath": "content/quotes/但愿人长久.md"
+      "srcPath": "content/quotes/但愿人长久.md",
+      "sourceType": "classical",
+      "citation": "《水调歌头·明月几时有》",
+      "verified": true,
+      "excerpt": "《水调歌头·明月几时有》·苏轼（宋） 但愿人长久，千里共婵娟。 适合用于「思念」主题的写作：表达对亲人、故乡或友人的深切怀念。"
+    },
+    {
+      "id": "quote-liangqichao-jingye-leeye",
+      "text": "但我确信‘敬业乐业’四个字，是人类生活的不二法门。",
+      "author": "梁启超",
+      "work": null,
+      "theme": [
+        "勤学",
+        "担当",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "敬业与乐业"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/但我确信敬业乐业.md",
+      "sourceType": "speech",
+      "citation": "《敬业与乐业》（1922年8月在上海中华职业学校的演讲）",
+      "verified": true,
+      "excerpt": "《敬业与乐业》·梁启超（1922） 但我确信‘敬业乐业’四个字，是人类生活的不二法门。 适合用于「勤学」、「担当」、「进取」主题的写作：表达勤勉学习、不断求索的精神；表达勇担责任、迎难而上的态度；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-taigeer-xiahua-qiuye",
+      "text": "使生如夏花之绚烂，死如秋叶之静美。",
+      "author": "泰戈尔",
+      "work": null,
+      "theme": [
+        "哲思",
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "外国诗",
+        "飞鸟集",
+        "郑振铎译"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/使生如夏花之绚烂.md",
+      "sourceType": "modern",
+      "citation": "《飞鸟集》第82首（郑振铎译，1922）",
+      "verified": true,
+      "excerpt": "《飞鸟集》第82首·泰戈尔（郑振铎译，1922） 使生如夏花之绚烂，死如秋叶之静美。 适合用于「哲思」、「自然」、「豁达」主题的写作：表达对人生、事理的思考与感悟；描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-ting-che-zuo-ai-feng-lin-wan-shuang-ye-hong",
@@ -480,7 +790,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/停车坐爱枫林晚霜.md"
+      "srcPath": "content/quotes/停车坐爱枫林晚霜.md",
+      "sourceType": "classical",
+      "citation": "《山行》",
+      "verified": true,
+      "excerpt": "《山行》·杜牧（唐） 停车坐爱枫林晚，霜叶红于二月花。 适合用于「自然」、「哲思」主题的写作：描绘自然景物并寄寓情思；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-xian-tian-xia-zhi-you-er-you-hou-tian-xia",
@@ -503,7 +817,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/先天下之忧而忧后.md"
+      "srcPath": "content/quotes/先天下之忧而忧后.md",
+      "sourceType": "classical",
+      "citation": "《岳阳楼记》",
+      "verified": true,
+      "excerpt": "《岳阳楼记》·范仲淹（宋） 其必曰：“先天下之忧而忧，后天下之乐而乐”乎。 适合用于「家国」、「担当」、「奉献」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度；表达甘于付出、成全他人的精神。"
     },
     {
       "id": "quote-guan-guan-ju-jiu-zai-he-zhi-zhou",
@@ -525,7 +843,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/关关雎鸠在河之洲.md"
+      "srcPath": "content/quotes/关关雎鸠在河之洲.md",
+      "sourceType": "classical",
+      "citation": "《关雎》",
+      "verified": true,
+      "excerpt": "《关雎》·《诗经》（先秦） 关关雎鸠，在河之洲。窈窕淑女，君子好逑。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-xing-bai-xing-ku-wang-bai-xing-ku",
@@ -547,7 +869,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/兴百姓苦亡百姓苦.md"
+      "srcPath": "content/quotes/兴百姓苦亡百姓苦.md",
+      "sourceType": "classical",
+      "citation": "《山坡羊·潼关怀古》",
+      "verified": true,
+      "excerpt": "《山坡羊·潼关怀古》·张养浩（元） 兴，百姓苦；亡，百姓苦！ 适合用于「家国」、「哲思」主题的写作：表达对家国天下的关切与责任感；表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-luxun-guxiang-de-lu",
+      "text": "其实地上本没有路，走的人多了，也便成了路。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "进取",
+        "哲思",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代小说",
+        "故乡"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/其实地上本没有路.md",
+      "sourceType": "modern",
+      "citation": "《故乡》（1921）",
+      "verified": true,
+      "excerpt": "《故乡》·鲁迅（1921） 希望是本无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。 适合用于「进取」、「哲思」、「坚韧」主题的写作：表达积极向上、不断追求进步的姿态；表达对人生、事理的思考与感悟；表达在困境"
     },
     {
       "id": "quote-qi-wen-yue-qi-ci-wei-qi-zhi-jie-qi",
@@ -569,7 +923,39 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/其文约其辞微其志.md"
+      "srcPath": "content/quotes/其文约其辞微其志.md",
+      "sourceType": "classical",
+      "citation": "《屈原列传》",
+      "verified": true,
+      "excerpt": "《屈原列传》·司马迁（汉） 其文约，其辞微，其志洁，其行廉。 适合用于「清廉」、「哲思」主题的写作：表达清正自守、不慕荣利的品格；表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-fangzhimin-huoyueyue-de-chuangzao",
+      "text": "到处都是活跃跃的创造，到处都是日新月异的进步，欢歌将代替了悲叹，笑脸将代替了哭脸。",
+      "author": "方志敏",
+      "work": null,
+      "theme": [
+        "家国",
+        "进取",
+        "自信"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "可爱的中国"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/到处都是活跃跃的.md",
+      "sourceType": "modern",
+      "citation": "《可爱的中国》（1935）",
+      "verified": true,
+      "excerpt": "《可爱的中国》·方志敏（1935） 朋友，我相信，到那时，到处都是活跃跃的创造，到处都是日新月异的进步，欢歌将代替了悲叹，笑脸将代替了哭脸。 适合用于「家国」、「进取」、「自信」主题的写作：表达对家国天下的关切与责任感；表达积极向上、不断追"
     },
     {
       "id": "quote-qian-bu-jian-gu-ren-hou-bu-jian-lai-zhe",
@@ -591,7 +977,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/前不见古人后不见.md"
+      "srcPath": "content/quotes/前不见古人后不见.md",
+      "sourceType": "classical",
+      "citation": "《登幽州台歌》",
+      "verified": true,
+      "excerpt": "《登幽州台歌》·陈子昂（唐） 前不见古人，后不见来者。 适合用于「哲思」、「惜时」主题的写作：表达对人生、事理的思考与感悟；表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-quan-jun-geng-jin-yi-bei-jiu-xi-chu-yang",
@@ -612,7 +1002,38 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/劝君更尽一杯酒西.md"
+      "srcPath": "content/quotes/劝君更尽一杯酒西.md",
+      "sourceType": "classical",
+      "citation": "《送元二使安西》",
+      "verified": true,
+      "excerpt": "《送元二使安西》·王维（唐） 劝君更尽一杯酒，西出阳关无故人。 适合用于「友情」主题的写作：表达真挚情谊与离别中的慰藉。"
+    },
+    {
+      "id": "quote-yudafu-beiguo-de-qiu",
+      "text": "北国的秋，却特别地来得清，来得静，来得悲凉。",
+      "author": "郁达夫",
+      "work": null,
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "故都的秋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/北国的秋却特别地.md",
+      "sourceType": "modern",
+      "citation": "《故都的秋》（1934）",
+      "verified": true,
+      "excerpt": "《故都的秋》·郁达夫（1934） 秋天，无论在什么地方的秋天，总是好的；可是啊，北国的秋，却特别地来得清，来得静，来得悲凉。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-qian-shan-niao-fei-jue-wan-jing-ren-zong-mie",
@@ -633,7 +1054,11 @@
         "grade": 3,
         "recitation": true
       },
-      "srcPath": "content/quotes/千山鸟飞绝万径人.md"
+      "srcPath": "content/quotes/千山鸟飞绝万径人.md",
+      "sourceType": "classical",
+      "citation": "《江雪》",
+      "verified": true,
+      "excerpt": "《江雪》·柳宗元（唐） 千山鸟飞绝， 万径人踪灭。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-qian-jin-san-jin-hai-fu-lai",
@@ -655,7 +1080,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/千金散尽还复来.md"
+      "srcPath": "content/quotes/千金散尽还复来.md",
+      "sourceType": "classical",
+      "citation": "《将进酒》",
+      "verified": true,
+      "excerpt": "《将进酒》·李白（唐） 天生我材必有用，千金散尽还复来。 适合用于「豁达」、「自信」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达对自我价值的肯定与从容。"
     },
     {
       "id": "quote-shou-ren-yu-bai-jun-zhi-ji-feng-ming-yu",
@@ -677,7 +1106,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/受任于败军之际奉.md"
+      "srcPath": "content/quotes/受任于败军之际奉.md",
+      "sourceType": "classical",
+      "citation": "《出师表》",
+      "verified": true,
+      "excerpt": "《出师表》·诸葛亮（三国） 后值倾覆，受任于败军之际，奉命于危难之间，尔来二十有一年矣。 适合用于「担当」、「家国」主题的写作：表达勇担责任、迎难而上的态度；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-tong-shi-tian-ya-lun-luo-ren-xiang-feng-he",
@@ -699,7 +1132,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/同是天涯沦落人相.md"
+      "srcPath": "content/quotes/同是天涯沦落人相.md",
+      "sourceType": "classical",
+      "citation": "《琵琶行（并序）》",
+      "verified": true,
+      "excerpt": "《琵琶行（并序）》·白居易（唐） 同是天涯沦落人，相逢何必曾相识！ 适合用于「友情」、「思念」主题的写作：表达真挚情谊与离别中的慰藉；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-jun-bu-jian-huang-he-zhi-shui-tian-shang-lai",
@@ -721,7 +1158,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/君不见黄河之水天.md"
+      "srcPath": "content/quotes/君不见黄河之水天.md",
+      "sourceType": "classical",
+      "citation": "《将进酒》",
+      "verified": true,
+      "excerpt": "《将进酒》·李白（唐） 君不见黄河之水天上来，奔流到海不复回。 适合用于「惜时」、「豁达」主题的写作：表达珍惜光阴、把握当下的态度；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-jun-zi-shi-wu-qiu-bao-ju-wu-qiu-an",
@@ -743,7 +1184,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/君子食无求饱居无.md"
+      "srcPath": "content/quotes/君子食无求饱居无.md",
+      "sourceType": "classical",
+      "citation": "《论语》十二章",
+      "verified": true,
+      "excerpt": "《论语》十二章·《论语》（先秦） 君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。 适合用于「勤学」、「清廉」主题的写作：表达勤勉学习、不断求索的精神；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-jun-wen-gui-qi-wei-you-qi-ba-shan-ye",
@@ -764,7 +1209,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/君问归期未有期巴.md"
+      "srcPath": "content/quotes/君问归期未有期巴.md",
+      "sourceType": "classical",
+      "citation": "《夜雨寄北》",
+      "verified": true,
+      "excerpt": "《夜雨寄北》·李商隐（唐） 君问归期未有期，巴山夜雨涨秋池。 适合用于「思念」主题的写作：表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-zhou-gong-tu-bu-tian-xia-gui-xin",
@@ -786,7 +1235,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/周公吐哺天下归心.md"
+      "srcPath": "content/quotes/周公吐哺天下归心.md",
+      "sourceType": "classical",
+      "citation": "《短歌行》",
+      "verified": true,
+      "excerpt": "《短歌行》·曹操（汉） 周公吐哺，天下归心。 适合用于「家国」、「担当」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-ai-wu-sheng-zhi-xu-yu-xian-chang-jiang-zhi",
@@ -808,7 +1261,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/哀吾生之须臾羡长.md"
+      "srcPath": "content/quotes/哀吾生之须臾羡长.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 哀吾生之须臾，羡长江之无穷。 适合用于「哲思」、「惜时」主题的写作：表达对人生、事理的思考与感悟；表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-fu-xing-shu-shi-bu-huo-ran-kai-lang",
@@ -830,7 +1287,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/复行数十步豁然开.md"
+      "srcPath": "content/quotes/复行数十步豁然开.md",
+      "sourceType": "classical",
+      "citation": "《桃花源记》",
+      "verified": true,
+      "excerpt": "《桃花源记》·陶潜（魏晋） 复行数十步，豁然开朗。土地平旷，屋舍俨然，有良田美池桑竹之属。 适合用于「自然」、「哲思」主题的写作：描绘自然景物并寄寓情思；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-xi-yang-xi-xia-duan-chang-ren-zai-tian-ya",
@@ -852,7 +1313,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/夕阳西下断肠人在.md"
+      "srcPath": "content/quotes/夕阳西下断肠人在.md",
+      "sourceType": "classical",
+      "citation": "《天净沙·秋思》",
+      "verified": true,
+      "excerpt": "《天净沙·秋思》·马致远（元） 夕阳西下， 断肠人在天涯。 适合用于「思念」、「自然」主题的写作：表达对亲人、故乡或友人的深切怀念；描绘自然景物并寄寓情思。"
+    },
+    {
+      "id": "quote-caiyuanpei-daxue-gaoshen-xuewen",
+      "text": "大学者，研究高深学问者也。",
+      "author": "蔡元培",
+      "work": null,
+      "theme": [
+        "勤学",
+        "志向",
+        "清廉"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "就任北京大学校长之演说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/大学者研究高深学.md",
+      "sourceType": "speech",
+      "citation": "《就任北京大学校长之演说》（1917）",
+      "verified": true,
+      "excerpt": "《就任北京大学校长之演说》·蔡元培（1917） 而在大学则不然，大学者，研究高深学问者也。 适合用于「勤学」、「志向」、「清廉」主题的写作：表达勤勉学习、不断求索的精神；表达树立远大目标并为之奋斗的决心；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-da-jiang-dong-qu-lang-tao-jin-qian-gu-feng",
@@ -874,7 +1367,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/大江东去浪淘尽千.md"
+      "srcPath": "content/quotes/大江东去浪淘尽千.md",
+      "sourceType": "classical",
+      "citation": "《念奴娇·赤壁怀古》",
+      "verified": true,
+      "excerpt": "《念奴娇·赤壁怀古》·苏轼（宋） 大江东去，浪淘尽，千古风流人物。 适合用于「哲思」、「豁达」主题的写作：表达对人生、事理的思考与感悟；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-da-mo-gu-yan-zhi-chang-he-luo-ri-yuan",
@@ -895,7 +1392,40 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/大漠孤烟直长河落.md"
+      "srcPath": "content/quotes/大漠孤烟直长河落.md",
+      "sourceType": "classical",
+      "citation": "《使至塞上》",
+      "verified": true,
+      "excerpt": "《使至塞上》·王维（唐） 大漠孤烟直，长河落日圆。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
+    },
+    {
+      "id": "quote-zhangjian-youyong-shiye",
+      "text": "天之生人也，与草木无异。若遗留一二有用事业，与草木同生，即不与草木同腐。",
+      "author": "张謇",
+      "work": null,
+      "theme": [
+        "志向",
+        "担当",
+        "哲思"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "实业家",
+        "张謇"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/天之生人也与草木.md",
+      "sourceType": "speech",
+      "citation": "《第三养老院开幕演说》（1922）",
+      "verified": true,
+      "excerpt": "《第三养老院开幕演说》·张謇（1922） 天之生人也，与草木无异。若遗留一二有用事业，与草木同生，即不与草木同腐。故踊跃从公者，做一分便是一分，做一寸便是一寸。 适合用于「志向」、「担当」、「哲思」主题的写作：表达树立远大目标并为之奋斗的决"
     },
     {
       "id": "quote-tian-shi-bu-ru-di-li-di-li-bu-ru",
@@ -917,7 +1447,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/天时不如地利地利.md"
+      "srcPath": "content/quotes/天时不如地利地利.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 天时不如地利，地利不如人和。 适合用于「哲思」、「家国」主题的写作：表达对人生、事理的思考与感悟；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-tian-lang-qi-qing-hui-feng-he-chang",
@@ -939,7 +1473,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/天朗气清惠风和畅.md"
+      "srcPath": "content/quotes/天朗气清惠风和畅.md",
+      "sourceType": "classical",
+      "citation": "《兰亭集序》",
+      "verified": true,
+      "excerpt": "《兰亭集序》·王羲之（魏晋） 是日也，天朗气清，惠风和畅，仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-tiansheng-wocai-biyong",
@@ -960,7 +1498,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/天生我材必有用.md"
+      "srcPath": "content/quotes/天生我材必有用.md",
+      "sourceType": "classical",
+      "citation": "《将进酒》",
+      "verified": true,
+      "excerpt": "《将进酒》·李白（唐） 天生我材必有用，千金散尽还复来。 适合用于「自信」、「豁达」主题的写作：表达对自我价值的肯定与从容；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-hao-yu-zhi-shi-jie-dang-chun-nai-fa-sheng",
@@ -982,7 +1524,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/好雨知时节当春乃.md"
+      "srcPath": "content/quotes/好雨知时节当春乃.md",
+      "sourceType": "classical",
+      "citation": "《春夜喜雨》",
+      "verified": true,
+      "excerpt": "《春夜喜雨》·杜甫（唐） 好雨知时节，当春乃发生。 适合用于「自然」、「奉献」主题的写作：描绘自然景物并寄寓情思；表达甘于付出、成全他人的精神。"
     },
     {
       "id": "quote-gu-su-cheng-wai-han-shan-si-ye-ban-zhong",
@@ -1004,7 +1550,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/姑苏城外寒山寺夜.md"
+      "srcPath": "content/quotes/姑苏城外寒山寺夜.md",
+      "sourceType": "classical",
+      "citation": "《枫桥夜泊》",
+      "verified": true,
+      "excerpt": "《枫桥夜泊》·张继（唐） 姑苏城外寒山寺，夜半钟声到客船。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-gu-zhou-suo-li-weng-du-diao-han-jiang-xue",
@@ -1027,7 +1577,11 @@
         "grade": 3,
         "recitation": true
       },
-      "srcPath": "content/quotes/孤舟蓑笠翁独钓寒.md"
+      "srcPath": "content/quotes/孤舟蓑笠翁独钓寒.md",
+      "sourceType": "classical",
+      "citation": "《江雪》",
+      "verified": true,
+      "excerpt": "《江雪》·柳宗元（唐） 孤舟蓑笠翁， 独钓寒江雪。 适合用于「自然」、「坚韧」、「清廉」主题的写作：描绘自然景物并寄寓情思；表达在困境中坚持不懈的意志；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-an-de-guang-sha-qian-wan-jian-da-bi-tian",
@@ -1050,7 +1604,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/安得广厦千万间大.md"
+      "srcPath": "content/quotes/安得广厦千万间大.md",
+      "sourceType": "classical",
+      "citation": "《茅屋为秋风所破歌》",
+      "verified": true,
+      "excerpt": "《茅屋为秋风所破歌》·杜甫（唐） 安得广厦千万间，大庇天下寒士俱欢颜。 适合用于「家国」、「担当」、「奉献」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度；表达甘于付出、成全他人的精神。"
     },
     {
       "id": "quote-an-neng-cui-mei-zhe-yao-shi-quan-gui-shi",
@@ -1073,7 +1631,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/安能摧眉折腰事权.md"
+      "srcPath": "content/quotes/安能摧眉折腰事权.md",
+      "sourceType": "classical",
+      "citation": "《梦游天姥吟留别》",
+      "verified": true,
+      "excerpt": "《梦游天姥吟留别》·李白（唐） 安能摧眉折腰事权贵？ 使我不得开心颜。 适合用于「清廉」、「自信」、「担当」主题的写作：表达清正自守、不慕荣利的品格；表达对自我价值的肯定与从容；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-ji-fu-you-yu-tian-di-miao-cang-hai-zhi",
@@ -1094,7 +1656,66 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/寄蜉蝣于天地渺沧.md"
+      "srcPath": "content/quotes/寄蜉蝣于天地渺沧.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 寄蜉蝣于天地，渺沧海之一粟。 适合用于「哲思」主题的写作：表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-laoshe-jinan-de-dongtian",
+      "text": "对于一个在北平住惯的人，像我，冬天要是不刮风，便觉得是奇迹；济南的冬天是没有风声的。",
+      "author": "老舍",
+      "work": null,
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "济南的冬天"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/对于一个在北平住.md",
+      "sourceType": "modern",
+      "citation": "《济南的冬天》（1931）",
+      "verified": true,
+      "excerpt": "《济南的冬天》·老舍（1931） 对于一个在北平住惯的人，像我，冬天要是不刮风，便觉得是奇迹；济南的冬天是没有风声的。 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
+    },
+    {
+      "id": "quote-caiyuanpei-jianrong-bingbao",
+      "text": "对于学说，仿世界各大学通例，循思想自由原则，取兼容并包主义。",
+      "author": "蔡元培",
+      "work": null,
+      "theme": [
+        "豁达",
+        "哲思",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代书信",
+        "蔡元培"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/对于学说仿世界各.md",
+      "sourceType": "modern",
+      "citation": "《致〈公言报〉函并答林琴南函》（1919）",
+      "verified": true,
+      "excerpt": "《致〈公言报〉函并答林琴南函》·蔡元培（1919） 对于学说，仿世界各大学通例，循思想自由原则，取兼容并包主义，与公所提出之圆通广大四字，颇不相背也。 适合用于「豁达」、「哲思」、「担当」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表"
     },
     {
       "id": "quote-dui-jiu-dang-ge-ren-sheng-ji-he-pi-ru",
@@ -1116,7 +1737,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/对酒当歌人生几何.md"
+      "srcPath": "content/quotes/对酒当歌人生几何.md",
+      "sourceType": "classical",
+      "citation": "《短歌行》",
+      "verified": true,
+      "excerpt": "《短歌行》·曹操（汉） 对酒当歌，人生几何！譬如朝露，去日苦多。 适合用于「惜时」、「豁达」主题的写作：表达珍惜光阴、把握当下的态度；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-xiao-shi-bu-shi-yue-hu-zuo-bai-yu-pan",
@@ -1138,7 +1763,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/小时不识月呼作白.md"
+      "srcPath": "content/quotes/小时不识月呼作白.md",
+      "sourceType": "classical",
+      "citation": "《古朗月行》",
+      "verified": true,
+      "excerpt": "《古朗月行》·李白（唐） 小时不识月，呼作白玉盘。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-xiao-he-cai-lu-jian-jian-jiao-zao-you-qing",
@@ -1160,7 +1789,39 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/小荷才露尖尖角早.md"
+      "srcPath": "content/quotes/小荷才露尖尖角早.md",
+      "sourceType": "classical",
+      "citation": "《小池》",
+      "verified": true,
+      "excerpt": "《小池》·杨万里（宋） 小荷才露尖尖角，早有蜻蜓立上头。 适合用于「自然」、「进取」主题的写作：描绘自然景物并寄寓情思；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-liangqichao-shaonian-zhongguo",
+      "text": "少年智则国智，少年富则国富，少年强则国强",
+      "author": "梁启超",
+      "work": null,
+      "theme": [
+        "家国",
+        "志向",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "少年中国说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/少年智则国智少年.md",
+      "sourceType": "modern",
+      "citation": "《少年中国说》（1900）",
+      "verified": true,
+      "excerpt": "《少年中国说》·梁启超（1900） 故今日之责任，不在他人，而全在我少年。少年智则国智，少年富则国富，少年强则国强，少年独立则国独立，少年自由则国自由，少年进步则国进步。 适合用于「家国」、「志向」、「进取」主题的写作：表达对家国天下的关切"
     },
     {
       "id": "quote-ju-miao-tang-zhi-gao-ze-you-qi-min-chu",
@@ -1182,7 +1843,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/居庙堂之高则忧其.md"
+      "srcPath": "content/quotes/居庙堂之高则忧其.md",
+      "sourceType": "classical",
+      "citation": "《岳阳楼记》",
+      "verified": true,
+      "excerpt": "《岳阳楼记》·范仲淹（宋） 居庙堂之高则忧其民；处江湖之远则忧其君。 适合用于「家国」、「担当」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-shan-bu-yan-gao-hai-bu-yan-shen",
@@ -1205,7 +1870,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/山不厌高海不厌深.md"
+      "srcPath": "content/quotes/山不厌高海不厌深.md",
+      "sourceType": "classical",
+      "citation": "《短歌行》",
+      "verified": true,
+      "excerpt": "《短歌行》·曹操（汉） 山不厌高，海不厌深。周公吐哺，天下归心。 适合用于「豁达」、「志向」、「勤学」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达树立远大目标并为之奋斗的决心；表达勤勉学习、不断求索的精神。"
     },
     {
       "id": "quote-shan-bu-zai-gao-you-xian-ze-ming",
@@ -1227,7 +1896,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/山不在高有仙则名.md"
+      "srcPath": "content/quotes/山不在高有仙则名.md",
+      "sourceType": "classical",
+      "citation": "《陋室铭》",
+      "verified": true,
+      "excerpt": "《陋室铭》·刘禹锡（唐） 山不在高，有仙则名。水不在深，有龙则灵。 适合用于「哲思」、「清廉」主题的写作：表达对人生、事理的思考与感悟；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-shan-zhong-shui-fu-yi-wu-lu-liu-an-hua",
@@ -1250,7 +1923,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/山重水复疑无路柳.md"
+      "srcPath": "content/quotes/山重水复疑无路柳.md",
+      "sourceType": "classical",
+      "citation": "《游山西村》",
+      "verified": true,
+      "excerpt": "《游山西村》·陆游（宋） 山重水复疑无路，柳暗花明又一村。 适合用于「坚韧」、「哲思」、「进取」主题的写作：表达在困境中坚持不懈的意志；表达对人生、事理的思考与感悟；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-feng-luan-ru-ju-bo-tao-ru-nu-shan-he",
@@ -1272,7 +1949,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/峰峦如聚波涛如怒.md"
+      "srcPath": "content/quotes/峰峦如聚波涛如怒.md",
+      "sourceType": "classical",
+      "citation": "《山坡羊·潼关怀古》",
+      "verified": true,
+      "excerpt": "《山坡羊·潼关怀古》·张养浩（元） 峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌蹰，伤心秦汉经行处，宫阙万间都做了土。 适合用于「自然」、「家国」主题的写作：描绘自然景物并寄寓情思；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-ji-suo-bu-yu-wu-shi-yu-ren",
@@ -1294,7 +1975,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/己所不欲勿施于人.md"
+      "srcPath": "content/quotes/己所不欲勿施于人.md",
+      "sourceType": "classical",
+      "citation": "《论语》十二章",
+      "verified": true,
+      "excerpt": "《论语》十二章·《论语》（先秦） 己所不欲，勿施于人。” 子曰： 适合用于「哲思」、「清廉」主题的写作：表达对人生、事理的思考与感悟；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-chuang-qian-ming-yue-guang-yi-shi-di-shang-shuang",
@@ -1315,7 +2000,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/床前明月光疑是地.md"
+      "srcPath": "content/quotes/床前明月光疑是地.md",
+      "sourceType": "classical",
+      "citation": "《静夜思》",
+      "verified": true,
+      "excerpt": "《静夜思》·李白（唐） 床前明月光， 疑是地上霜。 适合用于「思念」主题的写作：表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-de-dao-zhe-duo-zhu-shi-dao-zhe-gua-zhu",
@@ -1337,7 +2026,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/得道者多助失道者.md"
+      "srcPath": "content/quotes/得道者多助失道者.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 得道者多助，失道者寡助。 适合用于「哲思」、「家国」主题的写作：表达对人生、事理的思考与感悟；表达对家国天下的关切与责任感。"
+    },
+    {
+      "id": "quote-luxun-yuwushengchu",
+      "text": "心事浩茫连广宇，于无声处听惊雷。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "家国",
+        "哲思",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代诗",
+        "无题"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/心事浩茫连广宇于.md",
+      "sourceType": "modern",
+      "citation": "《无题·万家墨面没蒿莱》（1934）",
+      "verified": true,
+      "excerpt": "《无题·万家墨面没蒿莱》·鲁迅（1934） 万家墨面没蒿莱，敢有歌吟动地哀。心事浩茫连广宇，于无声处听惊雷。 适合用于「家国」、「哲思」、「坚韧」主题的写作：表达对家国天下的关切与责任感；表达对人生、事理的思考与感悟；表达在困境中坚持不懈的"
     },
     {
       "id": "quote-you-lao-ke-yi-xing-guo-yi-yu-ke-yi",
@@ -1360,7 +2081,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/忧劳可以兴国逸豫.md"
+      "srcPath": "content/quotes/忧劳可以兴国逸豫.md",
+      "sourceType": "classical",
+      "citation": "《五代史伶官传序》",
+      "verified": true,
+      "excerpt": "《五代史伶官传序》·欧阳修（宋） 忧劳可以兴国，逸豫可以亡身，自然之理也。 适合用于「清廉」、「担当」、「哲思」主题的写作：表达清正自守、不慕荣利的品格；表达勇担责任、迎难而上的态度；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-hu-ran-yi-ye-chun-feng-lai-qian-shu-wan",
@@ -1382,7 +2107,38 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/忽然一夜春风来千.md"
+      "srcPath": "content/quotes/忽然一夜春风来千.md",
+      "sourceType": "classical",
+      "citation": "《白雪歌送武判官归京》",
+      "verified": true,
+      "excerpt": "《白雪歌送武判官归京》·岑参（唐） 忽然一夜春风来，千树万树梨花开。 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
+    },
+    {
+      "id": "quote-xuzhimo-qiaqiao-de-wo-zoule",
+      "text": "悄悄的我走了，正如我悄悄的来；我挥一挥衣袖，不带走一片云彩。",
+      "author": "徐志摩",
+      "work": null,
+      "theme": [
+        "豁达",
+        "思念"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代诗",
+        "再别康桥"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/悄悄的我走了正如.md",
+      "sourceType": "modern",
+      "citation": "《再别康桥》（1928）",
+      "verified": true,
+      "excerpt": "《再别康桥》·徐志摩（1928） 悄悄的我走了，正如我悄悄的来；我挥一挥衣袖，不带走一片云彩。 适合用于「豁达」、「思念」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-wei-jiang-shang-zhi-qing-feng-yu-shan-jian-zhi",
@@ -1404,7 +2160,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/惟江上之清风与山.md"
+      "srcPath": "content/quotes/惟江上之清风与山.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-xiang-dang-nian-jin-ge-tie-ma-qi-tun-wan",
@@ -1426,7 +2186,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/想当年金戈铁马气.md"
+      "srcPath": "content/quotes/想当年金戈铁马气.md",
+      "sourceType": "classical",
+      "citation": "《永遇乐·京口北固亭怀古》",
+      "verified": true,
+      "excerpt": "《永遇乐·京口北固亭怀古》·辛弃疾（宋） 想当年，金戈铁马，气吞万里如虎。 适合用于「家国」、「志向」主题的写作：表达对家国天下的关切与责任感；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-ci-mu-shou-zhong-xian-you-zi-shen-shang-yi",
@@ -1447,7 +2211,66 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/慈母手中线游子身.md"
+      "srcPath": "content/quotes/慈母手中线游子身.md",
+      "sourceType": "classical",
+      "citation": "《游子吟》",
+      "verified": true,
+      "excerpt": "《游子吟》·孟郊（唐） 慈母手中线，游子身上衣。 适合用于「孝亲」主题的写作：表达对长辈的感念与孝敬。"
+    },
+    {
+      "id": "quote-luxun-zhongguo-de-jiliang",
+      "text": "我们从古以来，就有埋头苦干的人，有拼命硬干的人，有为民请命的人，有舍身求法的人",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "家国",
+        "自信",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代杂文",
+        "且介亭杂文"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/我们从古以来就有.md",
+      "sourceType": "modern",
+      "citation": "《中国人失掉自信力了吗》（1934）",
+      "verified": true,
+      "excerpt": "《中国人失掉自信力了吗》·鲁迅（1934） 我们从古以来，就有埋头苦干的人，有拼命硬干的人，有为民请命的人，有舍身求法的人，……虽是等于为帝王将相作家谱的所谓‘正史’，也往往掩不住他们的光耀，这就是中国的脊梁。 适合用于「家国」、「自信」、"
+    },
+    {
+      "id": "quote-luxun-yousheng-de-zhongguo",
+      "text": "我们要说现代的，自己的话；用活着的白话，将自己的思想，感情直白地说出来。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "自信",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "无声的中国"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/我们要说现代的自.md",
+      "sourceType": "speech",
+      "citation": "《无声的中国》（1927）",
+      "verified": true,
+      "excerpt": "《无声的中国》·鲁迅（1927） 我们要说现代的，自己的话；用活着的白话，将自己的思想，感情直白地说出来。但是，这也要受前辈先生非笑的。 适合用于「自信」、「进取」主题的写作：表达对自我价值的肯定与从容；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-wo-shan-yang-wu-hao-ran-zhi-qi",
@@ -1469,7 +2292,66 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/我善养吾浩然之气.md"
+      "srcPath": "content/quotes/我善养吾浩然之气.md",
+      "sourceType": "classical",
+      "citation": "《孟子》一则",
+      "verified": true,
+      "excerpt": "《孟子》一则·《孟子》（先秦） 曰：「我知言，我善养吾浩然之气。」 适合用于「担当」、「清廉」主题的写作：表达勇担责任、迎难而上的态度；表达清正自守、不慕荣利的品格。"
+    },
+    {
+      "id": "quote-quqiubai-guangming-de-lu",
+      "text": "我总想为大家辟一条光明的路。",
+      "author": "瞿秋白",
+      "work": null,
+      "theme": [
+        "奉献",
+        "担当",
+        "志向"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "饿乡纪程"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/我总想为大家辟一.md",
+      "sourceType": "modern",
+      "citation": "《饿乡纪程·绪言》（1920）",
+      "verified": true,
+      "excerpt": "《饿乡纪程·绪言》·瞿秋白（1920） 我决不忘记你们，我总想为大家辟一条光明的路。我愿去，我不得不去。 适合用于「奉献」、「担当」、「志向」主题的写作：表达甘于付出、成全他人的精神；表达勇担责任、迎难而上的态度；表达树立远大目标并为之奋斗"
+    },
+    {
+      "id": "quote-xuzhimo-oufen-de-touying",
+      "text": "我是天空里的一片云，偶尔投影在你的波心",
+      "author": "徐志摩",
+      "work": null,
+      "theme": [
+        "思念",
+        "哲思"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代诗",
+        "偶然"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/我是天空里的一片.md",
+      "sourceType": "modern",
+      "citation": "《偶然》（1926）",
+      "verified": true,
+      "excerpt": "《偶然》·徐志摩（1926） 我是天空里的一片云，偶尔投影在你的波心——你不必讶异，更无须欢喜——在转瞬间消灭了踪影。 适合用于「思念」、「哲思」主题的写作：表达对亲人、故乡或友人的深切怀念；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-wo-yu-cheng-feng-gui-qu-you-kong-qiong-lou",
@@ -1491,7 +2373,67 @@
         "grade": 9,
         "recitation": true
       },
-      "srcPath": "content/quotes/我欲乘风归去又恐.md"
+      "srcPath": "content/quotes/我欲乘风归去又恐.md",
+      "sourceType": "classical",
+      "citation": "《水调歌头·明月几时有》",
+      "verified": true,
+      "excerpt": "《水调歌头·明月几时有》·苏轼（宋） 我欲乘风归去，又恐琼楼玉宇，高处不胜寒。 适合用于「哲思」、「豁达」主题的写作：表达对人生、事理的思考与感悟；表达面对得失、离别与挫折时的开阔胸襟。"
+    },
+    {
+      "id": "quote-liangqichao-zui-ku-zui-le",
+      "text": "我说人生最苦的事，莫苦于身上背着一种未了的责任。",
+      "author": "梁启超",
+      "work": null,
+      "theme": [
+        "担当",
+        "哲思",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "最苦与最乐"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/我说人生最苦的事.md",
+      "sourceType": "modern",
+      "citation": "《最苦与最乐》（1922）",
+      "verified": true,
+      "excerpt": "《最苦与最乐》·梁启超（1922） 我说人生最苦的事，莫苦于身上背着一种未了的责任。人若能知足，虽贫不苦；若能安分（不多作分外希望），虽然失意不苦；老、死乃人生难免的事，达观的人看得很平常，也不算什么苦。 适合用于「担当」、「哲思」、「坚韧"
+    },
+    {
+      "id": "quote-caiyuanpei-baoding-zongzhi",
+      "text": "所以诸君须抱定宗旨，为求学而来。",
+      "author": "蔡元培",
+      "work": null,
+      "theme": [
+        "勤学",
+        "志向",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "就任北京大学校长之演说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/所以诸君须抱定宗.md",
+      "sourceType": "speech",
+      "citation": "《就任北京大学校长之演说》（1917）",
+      "verified": true,
+      "excerpt": "《就任北京大学校长之演说》·蔡元培（1917） 所以诸君须抱定宗旨，为求学而来。入法科者，非为做官；入商科者，非为致富。 适合用于「勤学」、「志向」、「担当」主题的写作：表达勤勉学习、不断求索的精神；表达树立远大目标并为之奋斗的决心；表达勇"
     },
     {
       "id": "quote-suo-wei-yi-ren-zai-shui-yi-fang",
@@ -1513,7 +2455,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/所谓伊人在水一方.md"
+      "srcPath": "content/quotes/所谓伊人在水一方.md",
+      "sourceType": "classical",
+      "citation": "《蒹葭》",
+      "verified": true,
+      "excerpt": "《蒹葭》·《诗经》（先秦） 所谓伊人，在水一方。溯洄从之，道阻且长。 适合用于「思念」、「自然」主题的写作：表达对亲人、故乡或友人的深切怀念；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-gu-tian-jiang-jiang-da-ren-yu-shi-ren-ye",
@@ -1535,7 +2481,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/故天将降大任于是.md"
+      "srcPath": "content/quotes/故天将降大任于是.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。 适合用于「坚韧」、「进取」主题的写作：表达在困境中坚持不懈的意志；表达积极向上、不断追求进步的姿态"
+    },
+    {
+      "id": "quote-xiamianzun-jiaoyu-de-qingai",
+      "text": "教育没有了情爱，就成了无水的池，任你四方形也罢，圆形也罢，总逃不了一个空虚。",
+      "author": "夏丏尊",
+      "work": null,
+      "theme": [
+        "奉献",
+        "哲思",
+        "勤学"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "教育",
+        "爱的教育"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/教育没有了情爱就.md",
+      "sourceType": "modern",
+      "citation": "《〈爱的教育〉译者序言》（1924）",
+      "verified": true,
+      "excerpt": "《〈爱的教育〉译者序言》·夏丏尊（1924） 教育上的水是什么？就是情，就是爱。教育没有了情爱，就成了无水的池，任你四方形也罢，圆形也罢，总逃不了一个空虚。 适合用于「奉献」、「哲思」、「勤学」主题的写作：表达甘于付出、成全他人的精神；表达"
     },
     {
       "id": "quote-wen-zhi-bin-bin-ran-hou-jun-zi",
@@ -1557,7 +2535,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/文质彬彬然后君子.md"
+      "srcPath": "content/quotes/文质彬彬然后君子.md",
+      "sourceType": "classical",
+      "citation": "《论语》十二章",
+      "verified": true,
+      "excerpt": "《论语》十二章·《论语》（先秦） 文质彬彬，然后君子。” 以不弘毅，任重而道远。 适合用于「勤学」、「哲思」主题的写作：表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-si-shi-lou-shi-wei-wu-de-xin",
@@ -1579,7 +2561,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/斯是陋室惟吾德馨.md"
+      "srcPath": "content/quotes/斯是陋室惟吾德馨.md",
+      "sourceType": "classical",
+      "citation": "《陋室铭》",
+      "verified": true,
+      "excerpt": "《陋室铭》·刘禹锡（唐） 斯是陋室，惟吾德馨。苔痕上阶绿，草色入帘青。 适合用于「清廉」、「豁达」主题的写作：表达清正自守、不慕荣利的品格；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-wu-ke-nai-he-hua-luo-qu-si-ceng-xiang",
@@ -1601,7 +2587,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/无可奈何花落去似.md"
+      "srcPath": "content/quotes/无可奈何花落去似.md",
+      "sourceType": "classical",
+      "citation": "《浣溪沙》",
+      "verified": true,
+      "excerpt": "《浣溪沙》·晏殊（宋） 无可奈何花落去，似曾相识燕归来。 适合用于「哲思」、「惜时」主题的写作：表达对人生、事理的思考与感悟；表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-wu-bian-luo-mu-xiao-xiao-xia-bu-jin-chang",
@@ -1623,7 +2613,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/无边落木萧萧下不.md"
+      "srcPath": "content/quotes/无边落木萧萧下不.md",
+      "sourceType": "classical",
+      "citation": "《登高》",
+      "verified": true,
+      "excerpt": "《登高》·杜甫（唐） 无边落木萧萧下，不尽长江衮衮来。 适合用于「自然」、「哲思」主题的写作：描绘自然景物并寄寓情思；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-ri-mu-xiang-guan-he-chu-shi-yan-bo-jiang",
@@ -1644,7 +2638,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/日暮乡关何处是烟.md"
+      "srcPath": "content/quotes/日暮乡关何处是烟.md",
+      "sourceType": "classical",
+      "citation": "《黄鹤楼》",
+      "verified": true,
+      "excerpt": "《黄鹤楼》·崔颢（唐） 日暮乡关何处是，烟波江上使人愁。 适合用于「思念」主题的写作：表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-ri-yue-zhi-xing-ruo-chu-qi-zhong-xing-han",
@@ -1667,7 +2665,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/日月之行若出其中.md"
+      "srcPath": "content/quotes/日月之行若出其中.md",
+      "sourceType": "classical",
+      "citation": "《观沧海》",
+      "verified": true,
+      "excerpt": "《观沧海》·曹操（汉） 日月之行，若出其中； 星汉灿烂，若出其里。 适合用于「自然」、「志向」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达树立远大目标并为之奋斗的决心；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-ri-yue-hu-qi-bu-yan-xi-chun-yu-qiu",
@@ -1687,7 +2689,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/日月忽其不淹兮春.md"
+      "srcPath": "content/quotes/日月忽其不淹兮春.md",
+      "sourceType": "classical",
+      "citation": "《离骚》",
+      "verified": true,
+      "excerpt": "《离骚》·屈原（先秦） 日月忽其不淹兮，春与秋其代序。 适合用于「惜时」主题的写作：表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-ming-yue-ji-shi-you-ba-jiu-wen-qing-tian",
@@ -1709,7 +2715,11 @@
         "grade": 9,
         "recitation": true
       },
-      "srcPath": "content/quotes/明月几时有把酒问.md"
+      "srcPath": "content/quotes/明月几时有把酒问.md",
+      "sourceType": "classical",
+      "citation": "《水调歌头·明月几时有》",
+      "verified": true,
+      "excerpt": "《水调歌头·明月几时有》·苏轼（宋） 明月几时有？把酒问青天。 适合用于「思念」、「哲思」主题的写作：表达对亲人、故乡或友人的深切怀念；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-ming-yue-song-jian-zhao-qing-quan-shi-shang-liu",
@@ -1730,7 +2740,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/明月松间照清泉石.md"
+      "srcPath": "content/quotes/明月松间照清泉石.md",
+      "sourceType": "classical",
+      "citation": "《山居秋暝》",
+      "verified": true,
+      "excerpt": "《山居秋暝》·王维（唐） 明月松间照，清泉石上流。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-chun-mian-bu-jue-xiao-chu-chu-wen-ti-niao",
@@ -1751,7 +2765,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/春眠不觉晓处处闻.md"
+      "srcPath": "content/quotes/春眠不觉晓处处闻.md",
+      "sourceType": "classical",
+      "citation": "《春晓》",
+      "verified": true,
+      "excerpt": "《春晓》·孟浩然（唐） 春眠不觉晓， 处处闻啼鸟。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-chun-se-man-yuan-guan-bu-zhu-yi-zhi-hong",
@@ -1773,7 +2791,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/春色满园关不住一.md"
+      "srcPath": "content/quotes/春色满园关不住一.md",
+      "sourceType": "classical",
+      "citation": "《游园不值》",
+      "verified": true,
+      "excerpt": "《游园不值》·叶绍翁（宋） 春色满园关不住，一枝红杏出墙来。 适合用于「自然」、「哲思」主题的写作：描绘自然景物并寄寓情思；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-chun-can-dao-si-si-fang-jin-la-ju-cheng",
@@ -1794,7 +2816,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/春蚕到死丝方尽蜡.md"
+      "srcPath": "content/quotes/春蚕到死丝方尽蜡.md",
+      "sourceType": "classical",
+      "citation": "《无题》",
+      "verified": true,
+      "excerpt": "《无题》·李商隐（唐） 春蚕到死丝方尽，蜡炬成灰泪始干。 适合用于「奉献」主题的写作：表达甘于付出、成全他人的精神。"
     },
     {
       "id": "quote-chunfeng-you-lu-jiangnanan",
@@ -1816,7 +2842,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/春风又绿江南岸.md"
+      "srcPath": "content/quotes/春风又绿江南岸.md",
+      "sourceType": "classical",
+      "citation": "《泊船瓜洲》",
+      "verified": true,
+      "excerpt": "《泊船瓜洲》·王安石（宋） 春风自绿江南岸，明月何时照我还。 适合用于「思念」、「哲思」主题的写作：表达对亲人、故乡或友人的深切怀念；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-mu-chun-zhe-chun-fu-ji-cheng-guan-zhe-wu",
@@ -1838,7 +2868,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/暮春者春服既成冠.md"
+      "srcPath": "content/quotes/暮春者春服既成冠.md",
+      "sourceType": "classical",
+      "citation": "《子路、曾晳、冉有、公西华侍坐》",
+      "verified": true,
+      "excerpt": "《子路、曾晳、冉有、公西华侍坐》·《论语》（先秦） 曰：“暮春者，春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归。” 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-yue-luo-wu-ti-shuang-man-tian-jiang-feng-yu",
@@ -1860,7 +2894,122 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/月落乌啼霜满天江.md"
+      "srcPath": "content/quotes/月落乌啼霜满天江.md",
+      "sourceType": "classical",
+      "citation": "《枫桥夜泊》",
+      "verified": true,
+      "excerpt": "《枫桥夜泊》·张继（唐） 月落乌啼霜满天，江枫渔父对愁眠。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
+    },
+    {
+      "id": "quote-luxun-youyifenre",
+      "text": "有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "奉献",
+        "进取",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代杂文",
+        "热风"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/有一分热发一分光.md",
+      "sourceType": "modern",
+      "citation": "《热风·随感录四十一》（1919）",
+      "verified": true,
+      "excerpt": "《热风·随感录四十一》·鲁迅（1919） 有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。 适合用于「奉献」、「进取」、「担当」主题的写作：表达甘于付出、成全他人的精神；表达积极向上、不断追求进步的姿态；表达勇担责任"
+    },
+    {
+      "id": "quote-laoshe-youxi-youyou",
+      "text": "有喜有忧，有笑有泪，有花有果，有香有色。",
+      "author": "老舍",
+      "work": null,
+      "theme": [
+        "豁达",
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "养花"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/有喜有忧有笑有泪.md",
+      "sourceType": "modern",
+      "citation": "《养花》（1956）",
+      "verified": true,
+      "excerpt": "《养花》·老舍（1956） 有喜有忧，有笑有泪，有花有果，有香有色。既须劳动，又长见识，这就是养花的乐趣了。 适合用于「豁达」、「自然」、「哲思」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；描绘自然景物并寄寓情思；表达对人生、事理的思"
+    },
+    {
+      "id": "quote-hushi-rongren-yu-ziyou",
+      "text": "有时我竟觉得容忍是一切自由的根本：没有容忍，就没有自由。",
+      "author": "胡适",
+      "work": null,
+      "theme": [
+        "豁达",
+        "哲思",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "容忍与自由"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/有时我竟觉得容忍.md",
+      "sourceType": "modern",
+      "citation": "《容忍与自由》（1959）",
+      "verified": true,
+      "excerpt": "《容忍与自由》·胡适（1959） 我自己也有‘年纪越大，越觉得容忍比自由还更重要’的感想。有时我竟觉得容忍是一切自由的根本：没有容忍，就没有自由。 适合用于「豁达」、「哲思」、「担当」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达对"
+    },
+    {
+      "id": "quote-fangzhimin-zhongguo-shi-muqin",
+      "text": "朋友！中国是生育我们的母亲。",
+      "author": "方志敏",
+      "work": null,
+      "theme": [
+        "家国",
+        "奉献"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "可爱的中国"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/朋友中国是生育我.md",
+      "sourceType": "modern",
+      "citation": "《可爱的中国》（1935）",
+      "verified": true,
+      "excerpt": "《可爱的中国》·方志敏（1935） 朋友！中国是生育我们的母亲。你们觉得这位母亲可爱吗？ 适合用于「家国」、「奉献」主题的写作：表达对家国天下的关切与责任感；表达甘于付出、成全他人的精神。"
     },
     {
       "id": "quote-chao-ci-bai-di-cai-yun-jian-qian-li-jiang",
@@ -1882,7 +3031,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/朝辞白帝彩云间千.md"
+      "srcPath": "content/quotes/朝辞白帝彩云间千.md",
+      "sourceType": "classical",
+      "citation": "《早发白帝城》",
+      "verified": true,
+      "excerpt": "《早发白帝城》·李白（唐） 朝辞白帝彩云间，千里江陵一日还。 适合用于「豁达」、「自然」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-ku-teng-lao-shu-hun-ya-xiao-qiao-liu-shui",
@@ -1904,7 +3057,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/枯藤老树昏鸦小桥.md"
+      "srcPath": "content/quotes/枯藤老树昏鸦小桥.md",
+      "sourceType": "classical",
+      "citation": "《天净沙·秋思》",
+      "verified": true,
+      "excerpt": "《天净沙·秋思》·马致远（元） 枯藤老树昏鸦， 小桥流水人家， 古道西风瘦马。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
     },
     {
       "id": "quote-tao-hua-tan-shui-shen-qian-chi-bu-ji-wang",
@@ -1925,7 +3082,39 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/桃花潭水深千尺不.md"
+      "srcPath": "content/quotes/桃花潭水深千尺不.md",
+      "sourceType": "classical",
+      "citation": "《赠汪伦》",
+      "verified": true,
+      "excerpt": "《赠汪伦》·李白（唐） 桃花潭水深千尺，不及汪伦送我情。 适合用于「友情」主题的写作：表达真挚情谊与离别中的慰藉。"
+    },
+    {
+      "id": "quote-luxun-hengmei-lengdui",
+      "text": "横眉冷对千夫指，俯首甘为孺子牛。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "担当",
+        "奉献",
+        "清廉"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代诗",
+        "自嘲"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/横眉冷对千夫指俯.md",
+      "sourceType": "modern",
+      "citation": "《自嘲》（1932）",
+      "verified": true,
+      "excerpt": "《自嘲》·鲁迅（1932） 横眉冷对千夫指，俯首甘为孺子牛。躲进小楼成一统，管他冬夏与春秋。 适合用于「担当」、「奉献」、「清廉」主题的写作：表达勇担责任、迎难而上的态度；表达甘于付出、成全他人的精神；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-heng-kan-cheng-ling-ce-cheng-feng-yuan-jin-gao",
@@ -1946,7 +3135,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/横看成岭侧成峰远.md"
+      "srcPath": "content/quotes/横看成岭侧成峰远.md",
+      "sourceType": "classical",
+      "citation": "《题西林壁》",
+      "verified": true,
+      "excerpt": "《题西林壁》·苏轼（宋） 横看成岭侧成峰，远近高低总不同。 适合用于「哲思」主题的写作：表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-yu-ba-xi-hu-bi-xi-zi-dan-zhuang-nong",
@@ -1967,7 +3160,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/欲把西湖比西子淡.md"
+      "srcPath": "content/quotes/欲把西湖比西子淡.md",
+      "sourceType": "classical",
+      "citation": "《饮湖上初晴后雨》",
+      "verified": true,
+      "excerpt": "《饮湖上初晴后雨》·苏轼（宋） 欲把西湖比西子，淡妆浓抹总相宜。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-yuqiong-qianlimu",
@@ -1988,7 +3185,39 @@
         "grade": 2,
         "recitation": true
       },
-      "srcPath": "content/quotes/欲穷千里目.md"
+      "srcPath": "content/quotes/欲穷千里目.md",
+      "sourceType": "classical",
+      "citation": "《登鹳雀楼》",
+      "verified": true,
+      "excerpt": "《登鹳雀楼》·王之涣（唐） 欲穷千里目， 更上一层楼。 适合用于「哲思」、「进取」主题的写作：表达对人生、事理的思考与感悟；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-wenyiduo-zhengyi-shabuwang",
+      "text": "正义是杀不完的，因为真理永远存在！",
+      "author": "闻一多",
+      "work": null,
+      "theme": [
+        "家国",
+        "担当",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "最后一次讲演"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/正义是杀不完的因.md",
+      "sourceType": "speech",
+      "citation": "《最后一次讲演》（1946）",
+      "verified": true,
+      "excerpt": "《最后一次讲演》·闻一多（1946） 反动派，你看见一个倒下去，可也看得见千百个继起的！正义是杀不完的，因为真理永远存在！ 适合用于「家国」、「担当」、「坚韧」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度；表达在困"
     },
     {
       "id": "quote-ci-di-you-chong-shan-jun-ling-mao-lin-xiu",
@@ -2009,7 +3238,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/此地有崇山峻岭茂.md"
+      "srcPath": "content/quotes/此地有崇山峻岭茂.md",
+      "sourceType": "classical",
+      "citation": "《兰亭集序》",
+      "verified": true,
+      "excerpt": "《兰亭集序》·王羲之（魏晋） 此地有崇山峻岭，茂林修竹；又有清流激湍，映带左右，引以为流觞曲水，列坐其次。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-ci-qing-ke-dai-cheng-zhui-yi-zhi-shi-dang",
@@ -2030,7 +3263,65 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/此情可待成追忆只.md"
+      "srcPath": "content/quotes/此情可待成追忆只.md",
+      "sourceType": "classical",
+      "citation": "《锦瑟》",
+      "verified": true,
+      "excerpt": "《锦瑟》·李商隐（唐） 此情可待成追忆，只是当时已惘然。 适合用于「惜时」、「哲思」主题的写作：表达珍惜光阴、把握当下的态度；表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-laoshe-muqin-de-jiaoyu",
+      "text": "母亲并不识字，她给我的是生命的教育。",
+      "author": "老舍",
+      "work": null,
+      "theme": [
+        "孝亲",
+        "奉献"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "我的母亲"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/母亲并不识字她给.md",
+      "sourceType": "modern",
+      "citation": "《我的母亲》（1943）",
+      "verified": true,
+      "excerpt": "《我的母亲》·老舍（1943） 但是我的真正的教师，把性格传给我的，是我的母亲。母亲并不识字，她给我的是生命的教育。 适合用于「孝亲」、「奉献」主题的写作：表达对长辈的感念与孝敬；表达甘于付出、成全他人的精神。"
+    },
+    {
+      "id": "quote-lidazhao-shumin-de-shengli",
+      "text": "民主主义战胜，就是庶民的胜利。",
+      "author": "李大钊",
+      "work": null,
+      "theme": [
+        "家国",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "演讲",
+        "庶民的胜利"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/民主主义战胜就是.md",
+      "sourceType": "speech",
+      "citation": "《庶民的胜利》（1918）",
+      "verified": true,
+      "excerpt": "《庶民的胜利》·李大钊（1918） 欧洲的战争，是‘大……主义’与民主主义的战争。我们国内的战争，也是‘大……主义’与民主主义的战争。结果都是民主主义战胜，‘大……主义’失败。民主主义战胜，就是庶民的胜利。 适合用于「家国」、「担当」主题的"
     },
     {
       "id": "quote-jiang-shan-ru-hua-yi-shi-duo-shao-hao-jie",
@@ -2053,7 +3344,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/江山如画一时多少.md"
+      "srcPath": "content/quotes/江山如画一时多少.md",
+      "sourceType": "classical",
+      "citation": "《念奴娇·赤壁怀古》",
+      "verified": true,
+      "excerpt": "《念奴娇·赤壁怀古》·苏轼（宋） 江山如画，一时多少豪杰。 适合用于「自然」、「家国」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达对家国天下的关切与责任感；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-shen-zhou-ce-pan-qian-fan-guo-bing-shu-qian",
@@ -2075,7 +3370,65 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/沈舟侧畔千帆过病.md"
+      "srcPath": "content/quotes/沈舟侧畔千帆过病.md",
+      "sourceType": "classical",
+      "citation": "《酬乐天扬州初逢席上见赠》",
+      "verified": true,
+      "excerpt": "《酬乐天扬州初逢席上见赠》·刘禹锡（唐） 沈舟侧畔千帆过，病树前头万木春。 适合用于「豁达」、「进取」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-yudafu-weida-renwu",
+      "text": "没有伟大的人物出现的民族，是世界上最可怜的生物之群；有了伟大的人物，而不知拥护、爱戴、崇仰的国家，是没有希望的奴隶之邦。",
+      "author": "郁达夫",
+      "work": null,
+      "theme": [
+        "家国",
+        "哲思",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "怀鲁迅"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/没有伟大的人物出.md",
+      "sourceType": "modern",
+      "citation": "《怀鲁迅》（1936）",
+      "verified": true,
+      "excerpt": "《怀鲁迅》·郁达夫（1936） 没有伟大的人物出现的民族，是世界上最可怜的生物之群；有了伟大的人物，而不知拥护、爱戴、崇仰的国家，是没有希望的奴隶之邦。因鲁迅的一死，使人们自觉出了民族的尚可以有为，也因鲁迅之一死，使人家看出了中国还是奴隶性"
+    },
+    {
+      "id": "quote-zhuziqing-xishou-de-shihou",
+      "text": "洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去；默默时，便从凝然的双眼前过去。",
+      "author": "朱自清",
+      "work": null,
+      "theme": [
+        "惜时"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "匆匆"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/洗手的时候日子从.md",
+      "sourceType": "modern",
+      "citation": "《匆匆》（1922）",
+      "verified": true,
+      "excerpt": "《匆匆》·朱自清（1922） 于是——洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去；默默时，便从凝然的双眼前过去。 适合用于「惜时」主题的写作：表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-hao-dang-li-chou-bai-ri-xie-yin-bian-dong",
@@ -2097,7 +3450,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/浩荡离愁白日斜吟.md"
+      "srcPath": "content/quotes/浩荡离愁白日斜吟.md",
+      "sourceType": "classical",
+      "citation": "《己亥杂诗·其五》",
+      "verified": true,
+      "excerpt": "《己亥杂诗·其五》·龚自珍（清） 浩荡离愁白日斜， 吟鞭东指即天涯。 适合用于「思念」、「志向」主题的写作：表达对亲人、故乡或友人的深切怀念；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-hai-nei-cun-zhi-ji-tian-ya-ruo-bi-lin",
@@ -2118,7 +3475,39 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/海内存知己天涯若.md"
+      "srcPath": "content/quotes/海内存知己天涯若.md",
+      "sourceType": "classical",
+      "citation": "《送杜少府之任蜀州》",
+      "verified": true,
+      "excerpt": "《送杜少府之任蜀州》·王勃（唐） 海内存知己，天涯若比邻。 适合用于「友情」主题的写作：表达真挚情谊与离别中的慰藉。"
+    },
+    {
+      "id": "quote-fangzhimin-qingpin-jiebai",
+      "text": "清贫，洁白朴素的生活，正是我们革命者能够战胜许多困难的地方！",
+      "author": "方志敏",
+      "work": null,
+      "theme": [
+        "清廉",
+        "坚韧",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "清贫"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/清贫洁白朴素的生.md",
+      "sourceType": "modern",
+      "citation": "《清贫》（1935）",
+      "verified": true,
+      "excerpt": "《清贫》·方志敏（1935） 清贫，洁白朴素的生活，正是我们革命者能够战胜许多困难的地方！ 适合用于「清廉」、「坚韧」、「担当」主题的写作：表达清正自守、不慕荣利的品格；表达在困境中坚持不懈的意志；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-qing-feng-xu-lai-shui-bo-bu-xing",
@@ -2140,7 +3529,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/清风徐来水波不兴.md"
+      "srcPath": "content/quotes/清风徐来水波不兴.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。 适合用于「自然」、「豁达」主题的写作：描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-wei-cheng-chao-yu-yi-qing-chen-ke-she-qing",
@@ -2162,7 +3555,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/渭城朝雨浥轻尘客.md"
+      "srcPath": "content/quotes/渭城朝雨浥轻尘客.md",
+      "sourceType": "classical",
+      "citation": "《送元二使安西》",
+      "verified": true,
+      "excerpt": "《送元二使安西》·王维（唐） 渭城朝雨浥轻尘，客舍青青柳色新。 适合用于「友情」、「自然」主题的写作：表达真挚情谊与离别中的慰藉；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-su-hui-cong-zhi-dao-zu-qie-chang",
@@ -2184,7 +3581,65 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/溯洄从之道阻且长.md"
+      "srcPath": "content/quotes/溯洄从之道阻且长.md",
+      "sourceType": "classical",
+      "citation": "《蒹葭》",
+      "verified": true,
+      "excerpt": "《蒹葭》·《诗经》（先秦） 溯洄从之，道阻且长。溯游从之，宛在水中央。 适合用于「坚韧」、「进取」主题的写作：表达在困境中坚持不懈的意志；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-zhuziqing-renao-shi-tamende",
+      "text": "热闹是它们的，我什么也没有。",
+      "author": "朱自清",
+      "work": null,
+      "theme": [
+        "哲思",
+        "自然"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "荷塘月色"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/热闹是它们的我什.md",
+      "sourceType": "modern",
+      "citation": "《荷塘月色》（1927）",
+      "verified": true,
+      "excerpt": "《荷塘月色》·朱自清（1927） 这时候最热闹的，要数树上的蝉声与水里的蛙声；但热闹是它们的，我什么也没有。 适合用于「哲思」、「自然」主题的写作：表达对人生、事理的思考与感悟；描绘自然景物并寄寓情思。"
+    },
+    {
+      "id": "quote-zhuziqing-yanzi-qule",
+      "text": "燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。",
+      "author": "朱自清",
+      "work": null,
+      "theme": [
+        "惜时",
+        "哲思"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "匆匆"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/燕子去了有再来的.md",
+      "sourceType": "modern",
+      "citation": "《匆匆》（1922）",
+      "verified": true,
+      "excerpt": "《匆匆》·朱自清（1922） 燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？ 适合用于「惜时」、「哲思」主题的写作：表达珍惜光阴、把握当下的态度；表达对人生、事"
     },
     {
       "id": "quote-bao-zhu-sheng-zhong-yi-sui-chu-dong-feng-song",
@@ -2205,7 +3660,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/爆竹声中一岁除东.md"
+      "srcPath": "content/quotes/爆竹声中一岁除东.md",
+      "sourceType": "classical",
+      "citation": "《元日》",
+      "verified": true,
+      "excerpt": "《元日》·王安石（宋） 爆竹声中一岁除，东风送暖入屠苏。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-du-zai-yi-xiang-wei-yi-ke-mei-feng-jia",
@@ -2227,7 +3686,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/独在异乡为异客每.md"
+      "srcPath": "content/quotes/独在异乡为异客每.md",
+      "sourceType": "classical",
+      "citation": "《九月九日忆山东兄弟》",
+      "verified": true,
+      "excerpt": "《九月九日忆山东兄弟》·王维（唐） 独在异乡为异客，每逢佳节倍思亲。 适合用于「思念」、「孝亲」主题的写作：表达对亲人、故乡或友人的深切怀念；表达对长辈的感念与孝敬。"
     },
     {
       "id": "quote-wang-shi-bei-ding-zhong-yuan-ri-jia-ji-wu",
@@ -2249,7 +3712,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/王师北定中原日家.md"
+      "srcPath": "content/quotes/王师北定中原日家.md",
+      "sourceType": "classical",
+      "citation": "《示儿》",
+      "verified": true,
+      "excerpt": "《示儿》·陆游（宋） 王师北定中原日，家祭无忘告乃翁。 适合用于「家国」、「孝亲」主题的写作：表达对家国天下的关切与责任感；表达对长辈的感念与孝敬。"
     },
     {
       "id": "quote-sheng-yu-you-huan-er-si-yu-an-le-ye",
@@ -2271,7 +3738,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/生于忧患而死于安.md"
+      "srcPath": "content/quotes/生于忧患而死于安.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 然后知生于忧患而死于安乐也。 适合用于「哲思」、「进取」主题的写作：表达对人生、事理的思考与感悟；表达积极向上、不断追求进步的姿态。"
     },
     {
       "id": "quote-sheng-dang-wei-ren-jie-si-yi-zuo-gui-xiong",
@@ -2294,7 +3765,94 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/生当为人杰死亦作.md"
+      "srcPath": "content/quotes/生当为人杰死亦作.md",
+      "sourceType": "classical",
+      "citation": "《夏日绝句》",
+      "verified": true,
+      "excerpt": "《夏日绝句》·李清照（宋） 生当为人杰，死亦作鬼雄。 适合用于「家国」、「担当」、「志向」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度；表达树立远大目标并为之奋斗的决心。"
+    },
+    {
+      "id": "quote-zhuziqing-chuntian-de-jiaobu",
+      "text": "盼望着，盼望着，东风来了，春天的脚步近了。",
+      "author": "朱自清",
+      "work": null,
+      "theme": [
+        "自然",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代散文",
+        "春"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/盼望着盼望着东风.md",
+      "sourceType": "modern",
+      "citation": "《春》（1933）",
+      "verified": true,
+      "excerpt": "《春》·朱自清（1933） 盼望着，盼望着，东风来了，春天的脚步近了。一切都像刚睡醒的样子，欣欣然张开了眼。 适合用于「自然」、「进取」主题的写作：描绘自然景物并寄寓情思；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-luxun-zhen-de-mengshi",
+      "text": "真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血。",
+      "author": "鲁迅",
+      "work": null,
+      "theme": [
+        "担当",
+        "坚韧",
+        "家国"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "记念刘和珍君"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/真的猛士敢于直面.md",
+      "sourceType": "modern",
+      "citation": "《记念刘和珍君》（1926）",
+      "verified": true,
+      "excerpt": "《记念刘和珍君》·鲁迅（1926） 真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血。这是怎样的哀痛者和幸福者？ 适合用于「担当」、「坚韧」、「家国」主题的写作：表达勇担责任、迎难而上的态度；表达在困境中坚持不懈的意志；表达对家国天下的关切"
+    },
+    {
+      "id": "quote-chenduxiu-kexue-renquan",
+      "text": "科学之兴，其功不在人权说下，若舟车之有两轮焉。",
+      "author": "陈独秀",
+      "work": null,
+      "theme": [
+        "勤学",
+        "哲思",
+        "家国"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代政论",
+        "敬告青年"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/科学之兴其功不在.md",
+      "sourceType": "modern",
+      "citation": "《敬告青年》（1915）",
+      "verified": true,
+      "excerpt": "《敬告青年》·陈独秀（1915） 近代欧洲之所以优越他族者，科学之兴，其功不在人权说下，若舟车之有两轮焉。 适合用于「勤学」、「哲思」、「家国」主题的写作：表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟；表达对家国天下的关切与责"
     },
     {
       "id": "quote-jiu-tian-ren-zhi-ji-tong-gu-jin-zhi-bian",
@@ -2317,7 +3875,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/究天人之际通古今.md"
+      "srcPath": "content/quotes/究天人之际通古今.md",
+      "sourceType": "classical",
+      "citation": "《报任安书》",
+      "verified": true,
+      "excerpt": "《报任安书》·司马迁（汉） 亦欲以究天人之际，通古今之变，成一家之言。 适合用于「志向」、「勤学」、「哲思」主题的写作：表达树立远大目标并为之奋斗的决心；表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-zhu-wai-tao-hua-san-liang-zhi-chun-jiang-shui",
@@ -2338,7 +3900,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/竹外桃花三两枝春.md"
+      "srcPath": "content/quotes/竹外桃花三两枝春.md",
+      "sourceType": "classical",
+      "citation": "《惠崇春江晚景》",
+      "verified": true,
+      "excerpt": "《惠崇春江晚景》·苏轼（宋） 竹外桃花三两枝，春江水暖鸭先知。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-deng-xian-shi-de-dong-feng-mian-wan-zi-qian",
@@ -2360,7 +3926,39 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/等闲识得东风面万.md"
+      "srcPath": "content/quotes/等闲识得东风面万.md",
+      "sourceType": "classical",
+      "citation": "《春日》",
+      "verified": true,
+      "excerpt": "《春日》·朱熹（宋） 等闲识得东风面，万紫千红总是春。 适合用于「自然」、「哲思」主题的写作：描绘自然景物并寄寓情思；表达对人生、事理的思考与感悟。"
+    },
+    {
+      "id": "quote-liangqichao-hongri-chusheng",
+      "text": "红日初升，其道大光",
+      "author": "梁启超",
+      "work": null,
+      "theme": [
+        "志向",
+        "进取",
+        "自信"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "少年中国说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/红日初升其道大光.md",
+      "sourceType": "modern",
+      "citation": "《少年中国说》（1900）",
+      "verified": true,
+      "excerpt": "《少年中国说》·梁启超（1900） 红日初升，其道大光。河出伏流，一泻汪洋。 适合用于「志向」、「进取」、「自信」主题的写作：表达树立远大目标并为之奋斗的决心；表达积极向上、不断追求进步的姿态；表达对自我价值的肯定与从容。"
     },
     {
       "id": "quote-zong-yi-wei-zhi-suo-ru-ling-wan-qing-zhi",
@@ -2382,7 +3980,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/纵一苇之所如凌万.md"
+      "srcPath": "content/quotes/纵一苇之所如凌万.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 纵一苇之所如，凌万顷之茫然。 适合用于「豁达」、「自然」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-fen-wu-ji-you-ci-nei-mei-xi-you-zhong",
@@ -2403,7 +4005,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/纷吾既有此内美兮.md"
+      "srcPath": "content/quotes/纷吾既有此内美兮.md",
+      "sourceType": "classical",
+      "citation": "《离骚》",
+      "verified": true,
+      "excerpt": "《离骚》·屈原（先秦） 纷吾既有此内美兮，又重之以修能。 适合用于「勤学」、「自信」主题的写作：表达勤勉学习、不断求索的精神；表达对自我价值的肯定与从容。"
     },
     {
       "id": "quote-qiang-di-he-xu-yuan-yang-liu-chun-feng-bu",
@@ -2425,7 +4031,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/羌笛何须怨杨柳春.md"
+      "srcPath": "content/quotes/羌笛何须怨杨柳春.md",
+      "sourceType": "classical",
+      "citation": "《凉州词》",
+      "verified": true,
+      "excerpt": "《凉州词》·王之涣（唐） 羌笛何须怨杨柳，春风不度玉门关。 适合用于「自然」、「家国」主题的写作：描绘自然景物并寄寓情思；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-qun-chen-li-min-neng-mian-ci-gua-ren-zhi",
@@ -2447,7 +4057,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/群臣吏民能面刺寡.md"
+      "srcPath": "content/quotes/群臣吏民能面刺寡.md",
+      "sourceType": "classical",
+      "citation": "《邹忌讽齐王纳谏》",
+      "verified": true,
+      "excerpt": "《邹忌讽齐王纳谏》·《战国策》（先秦） 乃下令：“群臣吏民能面刺寡人之过者，受上赏；上书谏寡人者，受中赏；能谤讥于市朝，闻寡人之耳者，受下赏。” 适合用于「清廉」、「担当」主题的写作：表达清正自守、不慕荣利的品格；表达勇担责任、迎难而上的态"
     },
     {
       "id": "quote-qun-xian-bi-zhi-shao-chang-xian-ji",
@@ -2468,7 +4082,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/群贤毕至少长咸集.md"
+      "srcPath": "content/quotes/群贤毕至少长咸集.md",
+      "sourceType": "classical",
+      "citation": "《兰亭集序》",
+      "verified": true,
+      "excerpt": "《兰亭集序》·王羲之（魏晋） 群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹； 适合用于「友情」主题的写作：表达真挚情谊与离别中的慰藉。"
     },
     {
       "id": "quote-lao-dang-yi-zhuang-ning-yi-bai-shou-zhi-xin",
@@ -2491,7 +4109,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/老当益壮宁移白首.md"
+      "srcPath": "content/quotes/老当益壮宁移白首.md",
+      "sourceType": "classical",
+      "citation": "《滕王阁序》",
+      "verified": true,
+      "excerpt": "《滕王阁序》·王勃（唐） 老当益壮，宁移白首之心？穷且益坚，不坠青云之志。 适合用于「坚韧」、「进取」、「志向」主题的写作：表达在困境中坚持不懈的意志；表达积极向上、不断追求进步的姿态；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-chen-wu-zu-mu-wu-yi-zhi-jin-ri-zu",
@@ -2512,7 +4134,39 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/臣无祖母无以至今.md"
+      "srcPath": "content/quotes/臣无祖母无以至今.md",
+      "sourceType": "classical",
+      "citation": "《陈情表》",
+      "verified": true,
+      "excerpt": "《陈情表》·李密（魏晋） 臣无祖母，无以至今日，祖母无臣，无以终余年。 适合用于「孝亲」主题的写作：表达对长辈的感念与孝敬。"
+    },
+    {
+      "id": "quote-zoutaofen-zijuexin",
+      "text": "自觉心是进步之母，自贱心是堕落之源，故自觉心不可无，自贱心不可有。",
+      "author": "邹韬奋",
+      "work": null,
+      "theme": [
+        "自信",
+        "进取",
+        "清廉"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代杂文",
+        "自觉与自贱"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/自觉心是进步之母.md",
+      "sourceType": "modern",
+      "citation": "《自觉与自贱》（1930）",
+      "verified": true,
+      "excerpt": "《自觉与自贱》·邹韬奋（1930） 自觉心是进步之母，自贱心是堕落之源，故自觉心不可无，自贱心不可有。 适合用于「自信」、「进取」、「清廉」主题的写作：表达对自我价值的肯定与从容；表达积极向上、不断追求进步的姿态；表达清正自守、不慕荣利的品"
     },
     {
       "id": "quote-she-sheng-er-qu-yi-zhe-ye",
@@ -2534,7 +4188,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/舍生而取义者也.md"
+      "srcPath": "content/quotes/舍生而取义者也.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 义，亦我所欲也，二者不可得兼，舍生而取义者也。 适合用于「家国」、「担当」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-fang-cao-xian-mei-luo-ying-bin-fen",
@@ -2555,7 +4213,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/芳草鲜美落英缤纷.md"
+      "srcPath": "content/quotes/芳草鲜美落英缤纷.md",
+      "sourceType": "classical",
+      "citation": "《桃花源记》",
+      "verified": true,
+      "excerpt": "《桃花源记》·陶潜（魏晋） 忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷，渔人甚异之。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-mo-chou-qian-lu-wu-zhi-ji-tian-xia-shui",
@@ -2577,7 +4239,39 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/莫愁前路无知己天.md"
+      "srcPath": "content/quotes/莫愁前路无知己天.md",
+      "sourceType": "classical",
+      "citation": "《别董大》",
+      "verified": true,
+      "excerpt": "《别董大》·高适（唐） 莫愁前路无知己，天下谁人不识君。 适合用于「友情」、「自信」主题的写作：表达真挚情谊与离别中的慰藉；表达对自我价值的肯定与从容。"
+    },
+    {
+      "id": "quote-wenyiduo-mowen-shouhuo",
+      "text": "莫问收获，但问耕耘。",
+      "author": "闻一多",
+      "work": null,
+      "theme": [
+        "奉献",
+        "勤学",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代诗",
+        "红烛"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/莫问收获但问耕耘.md",
+      "sourceType": "modern",
+      "citation": "《红烛》（1923）",
+      "verified": true,
+      "excerpt": "《红烛》·闻一多（1923） 红烛啊！你流一滴泪，灰一分心。灰心流泪你的果，创造光明你的因。红烛啊！‘莫问收获，但问耕耘。’ 适合用于「奉献」、「勤学」、「坚韧」主题的写作：表达甘于付出、成全他人的精神；表达勤勉学习、不断求索的精神；表达在"
     },
     {
       "id": "quote-luohong-bushi-wuqingwu",
@@ -2598,7 +4292,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/落红不是无情物.md"
+      "srcPath": "content/quotes/落红不是无情物.md",
+      "sourceType": "classical",
+      "citation": "《己亥杂诗·其五》",
+      "verified": true,
+      "excerpt": "《己亥杂诗·其五》·龚自珍（清） 落红不是无情物， 化作春泥更护花。 适合用于「奉献」、「志向」主题的写作：表达甘于付出、成全他人的精神；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-luo-xia-yu-gu-wu-qi-fei-qiu-shui-gong",
@@ -2619,7 +4317,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/落霞与孤鹜齐飞秋.md"
+      "srcPath": "content/quotes/落霞与孤鹜齐飞秋.md",
+      "sourceType": "classical",
+      "citation": "《滕王阁序》",
+      "verified": true,
+      "excerpt": "《滕王阁序》·王勃（唐） 落霞与孤鹜齐飞，秋水共长天一色。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-jian-jia-cang-cang-bai-lu-wei-shuang",
@@ -2641,7 +4343,67 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/蒹葭苍苍白露为霜.md"
+      "srcPath": "content/quotes/蒹葭苍苍白露为霜.md",
+      "sourceType": "classical",
+      "citation": "《蒹葭》",
+      "verified": true,
+      "excerpt": "《蒹葭》·《诗经》（先秦） 蒹葭苍苍，白露为霜。所谓伊人，在水一方。 适合用于「自然」、「思念」主题的写作：描绘自然景物并寄寓情思；表达对亲人、故乡或友人的深切怀念。"
+    },
+    {
+      "id": "quote-taoxingzhi-xingzhi-zhishi",
+      "text": "行是知之始，知是行之成。",
+      "author": "陶行知",
+      "work": null,
+      "theme": [
+        "勤学",
+        "哲思",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "教育",
+        "行知行"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/行是知之始知是行.md",
+      "sourceType": "modern",
+      "citation": "《行知行》（1934）",
+      "verified": true,
+      "excerpt": "《行知行》·陶行知（1934） 七年前，我提出‘行是知之始，知是行之成’的理论。 适合用于「勤学」、「哲思」、「进取」主题的写作：表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-lidazhao-chichi-de-shijie",
+      "text": "试看将来的环球，必是赤旗的世界！",
+      "author": "李大钊",
+      "work": null,
+      "theme": [
+        "家国",
+        "自信",
+        "志向"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代政论",
+        "布尔什维主义的胜利"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/试看将来的环球必.md",
+      "sourceType": "modern",
+      "citation": "《布尔什维主义的胜利》（1918）",
+      "verified": true,
+      "excerpt": "《布尔什维主义的胜利》·李大钊（1918） 人道的警钟响了！自由的曙光现了！试看将来的环球，必是赤旗的世界！ 适合用于「家国」、「自信」、「志向」主题的写作：表达对家国天下的关切与责任感；表达对自我价值的肯定与从容；表达树立远大目标并为之奋"
     },
     {
       "id": "quote-shui-yan-cun-cao-xin-bao-de-san-chun-hui",
@@ -2662,7 +4424,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/谁言寸草心报得三.md"
+      "srcPath": "content/quotes/谁言寸草心报得三.md",
+      "sourceType": "classical",
+      "citation": "《游子吟》",
+      "verified": true,
+      "excerpt": "《游子吟》·孟郊（唐） 谁言寸草心，报得三春晖。 适合用于「孝亲」主题的写作：表达对长辈的感念与孝敬。"
     },
     {
       "id": "quote-tan-xiao-you-hong-ru-wang-lai-wu-bai-ding",
@@ -2684,7 +4450,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/谈笑有鸿儒往来无.md"
+      "srcPath": "content/quotes/谈笑有鸿儒往来无.md",
+      "sourceType": "classical",
+      "citation": "《陋室铭》",
+      "verified": true,
+      "excerpt": "《陋室铭》·刘禹锡（唐） 谈笑有鸿儒，往来无白丁。 适合用于「勤学」、「友情」主题的写作：表达勤勉学习、不断求索的精神；表达真挚情谊与离别中的慰藉。"
     },
     {
       "id": "quote-qing-zhou-yi-guo-wan-chong-shan",
@@ -2706,7 +4476,38 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/轻舟已过万重山.md"
+      "srcPath": "content/quotes/轻舟已过万重山.md",
+      "sourceType": "classical",
+      "citation": "《早发白帝城》",
+      "verified": true,
+      "excerpt": "《早发白帝城》·李白（唐） 两岸猨声啼不尽，轻舟已过万重山。 适合用于「豁达」、「进取」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；表达积极向上、不断追求进步的姿态。"
+    },
+    {
+      "id": "quote-xuzhimo-qingqing-de-wo-zoule",
+      "text": "轻轻的我走了，正如我轻轻的来；我轻轻的招手，作别西天的云彩。",
+      "author": "徐志摩",
+      "work": null,
+      "theme": [
+        "思念",
+        "自然"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代诗",
+        "再别康桥"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/轻轻的我走了正如.md",
+      "sourceType": "modern",
+      "citation": "《再别康桥》（1928）",
+      "verified": true,
+      "excerpt": "《再别康桥》·徐志摩（1928） 轻轻的我走了，正如我轻轻的来；我轻轻的招手，作别西天的云彩。 适合用于「思念」、「自然」主题的写作：表达对亲人、故乡或友人的深切怀念；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-yuan-ren-bu-fu-ze-xiu-wen-de-yi-lai",
@@ -2728,7 +4529,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/远人不服则修文德.md"
+      "srcPath": "content/quotes/远人不服则修文德.md",
+      "sourceType": "classical",
+      "citation": "《季氏将伐颛臾》",
+      "verified": true,
+      "excerpt": "《季氏将伐颛臾》·《论语》（先秦） 夫如是，故远人不服则修文德以来之，既来之，则安之。 适合用于「家国」、「担当」主题的写作：表达对家国天下的关切与责任感；表达勇担责任、迎难而上的态度。"
     },
     {
       "id": "quote-shi-zhe-ru-si-er-wei-chang-wang-ye-ying",
@@ -2749,7 +4554,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/逝者如斯而未尝往.md"
+      "srcPath": "content/quotes/逝者如斯而未尝往.md",
+      "sourceType": "classical",
+      "citation": "《赤壁赋》",
+      "verified": true,
+      "excerpt": "《赤壁赋》·苏轼（宋） 逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。 适合用于「哲思」主题的写作：表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-zui-weng-zhi-yi-bu-zai-jiu-zai-hu-shan",
@@ -2771,7 +4580,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/醉翁之意不在酒在.md"
+      "srcPath": "content/quotes/醉翁之意不在酒在.md",
+      "sourceType": "classical",
+      "citation": "《醉翁亭记》",
+      "verified": true,
+      "excerpt": "《醉翁亭记》·欧阳修（宋） 醉翁之意不在酒，在乎山水之间也。 适合用于「豁达」、「自然」主题的写作：表达面对得失、离别与挫折时的开阔胸襟；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-zui-li-tiao-deng-kan-jian-meng-hui-chui-jiao",
@@ -2793,7 +4606,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/醉里挑灯看剑梦回.md"
+      "srcPath": "content/quotes/醉里挑灯看剑梦回.md",
+      "sourceType": "classical",
+      "citation": "《破阵子》",
+      "verified": true,
+      "excerpt": "《破阵子》·辛弃疾（宋） 醉里挑灯看剑，梦回吹角连营。 适合用于「家国」、「志向」主题的写作：表达对家国天下的关切与责任感；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-cai-de-bai-hua-cheng-mi-hou-wei-shui-xin",
@@ -2815,7 +4632,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/采得百花成蜜后为.md"
+      "srcPath": "content/quotes/采得百花成蜜后为.md",
+      "sourceType": "classical",
+      "citation": "《蜂》",
+      "verified": true,
+      "excerpt": "《蜂》·罗隐（唐） 采得百花成蜜后，为谁辛苦为谁甜。 适合用于「奉献」、「哲思」主题的写作：表达甘于付出、成全他人的精神；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-ye-huo-shao-bu-jin-chun-feng-chui-you-sheng",
@@ -2837,7 +4658,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/野火烧不尽春风吹.md"
+      "srcPath": "content/quotes/野火烧不尽春风吹.md",
+      "sourceType": "classical",
+      "citation": "《赋得古原草送别》",
+      "verified": true,
+      "excerpt": "《赋得古原草送别》·白居易（唐） 野火烧不尽，春风吹又生。 适合用于「坚韧」、「自然」主题的写作：表达在困境中坚持不懈的意志；描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-jin-se-wu-duan-wu-shi-xian-yi-xian-yi",
@@ -2857,7 +4682,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/锦瑟无端五十弦一.md"
+      "srcPath": "content/quotes/锦瑟无端五十弦一.md",
+      "sourceType": "classical",
+      "citation": "《锦瑟》",
+      "verified": true,
+      "excerpt": "《锦瑟》·李商隐（唐） 锦瑟无端五十弦，一弦一柱思华年。 适合用于「惜时」主题的写作：表达珍惜光阴、把握当下的态度。"
     },
     {
       "id": "quote-chang-feng-po-lang-hui-you-shi-zhi-gua-yun",
@@ -2880,7 +4709,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/长风破浪会有时直.md"
+      "srcPath": "content/quotes/长风破浪会有时直.md",
+      "sourceType": "classical",
+      "citation": "《行路难》",
+      "verified": true,
+      "excerpt": "《行路难》·李白（唐） 长风破浪会有时，直挂云帆济沧海。 适合用于「自信」、「进取」、「志向」主题的写作：表达对自我价值的肯定与从容；表达积极向上、不断追求进步的姿态；表达树立远大目标并为之奋斗的决心。"
     },
     {
       "id": "quote-wen-qu-na-de-qing-ru-xu-wei-you-yuan",
@@ -2902,7 +4735,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/问渠那得清如许为.md"
+      "srcPath": "content/quotes/问渠那得清如许为.md",
+      "sourceType": "classical",
+      "citation": "《观书有感》",
+      "verified": true,
+      "excerpt": "《观书有感》·朱熹（宋） 问渠那得清如许，为有源头活水来。 适合用于「勤学」、「哲思」主题的写作：表达勤勉学习、不断求索的精神；表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-chen-li-jiu-lie-bu-neng-zhe-zhi",
@@ -2924,7 +4761,11 @@
         "grade": 10,
         "recitation": true
       },
-      "srcPath": "content/quotes/陈力就列不能者止.md"
+      "srcPath": "content/quotes/陈力就列不能者止.md",
+      "sourceType": "classical",
+      "citation": "《季氏将伐颛臾》",
+      "verified": true,
+      "excerpt": "《季氏将伐颛臾》·《论语》（先秦） 孔子曰：“求，周任有言曰：‘陈力就列，不能者止。’ 适合用于「担当」、「清廉」主题的写作：表达勇担责任、迎难而上的态度；表达清正自守、不慕荣利的品格。"
     },
     {
       "id": "quote-sui-feng-qian-ru-ye-run-wu-xi-wu-sheng",
@@ -2946,7 +4787,122 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/随风潜入夜润物细.md"
+      "srcPath": "content/quotes/随风潜入夜润物细.md",
+      "sourceType": "classical",
+      "citation": "《春夜喜雨》",
+      "verified": true,
+      "excerpt": "《春夜喜雨》·杜甫（唐） 随风潜入夜，润物细无声。 适合用于「奉献」、「自然」主题的写作：表达甘于付出、成全他人的精神；描绘自然景物并寄寓情思。"
+    },
+    {
+      "id": "quote-laoshe-yuxia-gei-furen",
+      "text": "雨下给富人，也下给穷人；下给义人，也下给不义的人。",
+      "author": "老舍",
+      "work": null,
+      "theme": [
+        "哲思",
+        "担当"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "现代小说",
+        "骆驼祥子"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/雨下给富人也下给.md",
+      "sourceType": "modern",
+      "citation": "《骆驼祥子》（1936）",
+      "verified": true,
+      "excerpt": "《骆驼祥子》·老舍（1936） 雨下给富人，也下给穷人；下给义人，也下给不义的人。其实，雨并不公道，因为下落在一个没有公道的世界上。 适合用于「哲思」、「担当」主题的写作：表达对人生、事理的思考与感悟；表达勇担责任、迎难而上的态度。"
+    },
+    {
+      "id": "quote-lidazhao-qingnian-zidian",
+      "text": "青年之字典，无‘困难’之字；青年之口头，无‘障碍’之语",
+      "author": "李大钊",
+      "work": null,
+      "theme": [
+        "自信",
+        "进取",
+        "坚韧"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "晨钟之使命"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/青年之字典无困难.md",
+      "sourceType": "modern",
+      "citation": "《〈晨钟〉之使命——青春中华之创造》（1916）",
+      "verified": true,
+      "excerpt": "《〈晨钟〉之使命——青春中华之创造》·李大钊（1916） 故青年者，人生之王，人生之春，人生之华也。青年之字典，无‘困难’之字；青年之口头，无‘障碍’之语。 适合用于「自信」、「进取」、「坚韧」主题的写作：表达对自我价值的肯定与从容；表达积"
+    },
+    {
+      "id": "quote-chenduxiu-qingnian-ru-chunchun",
+      "text": "青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎，人生最可宝贵之时期也。",
+      "author": "陈独秀",
+      "work": null,
+      "theme": [
+        "惜时",
+        "自信",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代政论",
+        "敬告青年"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/青年如初春如朝日.md",
+      "sourceType": "modern",
+      "citation": "《敬告青年》（1915）",
+      "verified": true,
+      "excerpt": "《敬告青年》·陈独秀（1915） 青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎，人生最可宝贵之时期也。青年之于社会，犹新鲜活泼细胞之在人身。 适合用于「惜时」、「自信」、「进取」主题的写作：表达珍惜光阴、把握当下的态度；表达对自我价值"
+    },
+    {
+      "id": "quote-lidazhao-qingnian-zhi-wang",
+      "text": "青年者，人生之王，人生之春，人生之华也。",
+      "author": "李大钊",
+      "work": null,
+      "theme": [
+        "自信",
+        "惜时",
+        "进取"
+      ],
+      "dynasty": "近现代",
+      "tags": [
+        "作文素材",
+        "非课标",
+        "近现代散文",
+        "晨钟之使命"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": false
+      },
+      "srcPath": "content/quotes/青年者人生之王人.md",
+      "sourceType": "modern",
+      "citation": "《〈晨钟〉之使命——青春中华之创造》（1916）",
+      "verified": true,
+      "excerpt": "《〈晨钟〉之使命——青春中华之创造》·李大钊（1916） 青年之文明，奋斗之文明也，与境遇奋斗，与时代奋斗，与经验奋斗。故青年者，人生之王，人生之春，人生之华也。 适合用于「自信」、「惜时」、「进取」主题的写作：表达对自我价值的肯定与从容；"
     },
     {
       "id": "quote-fei-liu-zhi-xia-san-qian-chi-yi-shi-yin",
@@ -2967,7 +4923,11 @@
         "grade": 2,
         "recitation": true
       },
-      "srcPath": "content/quotes/飞流直下三千尺疑.md"
+      "srcPath": "content/quotes/飞流直下三千尺疑.md",
+      "sourceType": "classical",
+      "citation": "《望庐山瀑布》",
+      "verified": true,
+      "excerpt": "《望庐山瀑布》·李白（唐） 飞流直下三千尺， 疑是银河落九天。 适合用于「自然」主题的写作：描绘自然景物并寄寓情思。"
     },
     {
       "id": "quote-yu-wo-suo-yu-ye-xiong-zhang-yi-wo-suo",
@@ -2988,7 +4948,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/鱼我所欲也熊掌亦.md"
+      "srcPath": "content/quotes/鱼我所欲也熊掌亦.md",
+      "sourceType": "classical",
+      "citation": "《孟子》三则",
+      "verified": true,
+      "excerpt": "《孟子》三则·《孟子》（先秦） 鱼，我所欲也；熊掌，亦我所欲也，二者不可得兼，舍鱼而取熊掌者也。 适合用于「哲思」主题的写作：表达对人生、事理的思考与感悟。"
     },
     {
       "id": "quote-huang-fa-chui-tiao-bing-yi-ran-zi-le",
@@ -3011,7 +4975,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/黄发垂髫并怡然自.md"
+      "srcPath": "content/quotes/黄发垂髫并怡然自.md",
+      "sourceType": "classical",
+      "citation": "《桃花源记》",
+      "verified": true,
+      "excerpt": "《桃花源记》·陶潜（魏晋） 黄发垂髫，并怡然自乐。 见渔人，乃大惊，问所从来。 适合用于「孝亲」、「自然」、「豁达」主题的写作：表达对长辈的感念与孝敬；描绘自然景物并寄寓情思；表达面对得失、离别与挫折时的开阔胸襟。"
     },
     {
       "id": "quote-huang-he-yuan-shang-bai-yun-jian-yi-pian-gu",
@@ -3033,7 +5001,11 @@
         "grade": 1,
         "recitation": true
       },
-      "srcPath": "content/quotes/黄河远上白云间一.md"
+      "srcPath": "content/quotes/黄河远上白云间一.md",
+      "sourceType": "classical",
+      "citation": "《凉州词》",
+      "verified": true,
+      "excerpt": "《凉州词》·王之涣（唐） 黄河远上白云间，一片孤城万仞山。 适合用于「自然」、「家国」主题的写作：描绘自然景物并寄寓情思；表达对家国天下的关切与责任感。"
     },
     {
       "id": "quote-huang-he-yi-qu-bu-fu-fan-bai-yun-qian",
@@ -3055,7 +5027,11 @@
         "grade": 7,
         "recitation": true
       },
-      "srcPath": "content/quotes/黄鹤一去不复返白.md"
+      "srcPath": "content/quotes/黄鹤一去不复返白.md",
+      "sourceType": "classical",
+      "citation": "《黄鹤楼》",
+      "verified": true,
+      "excerpt": "《黄鹤楼》·崔颢（唐） 黄鹤一去不复返，白云千载空悠悠。 适合用于「哲思」、「自然」主题的写作：表达对人生、事理的思考与感悟；描绘自然景物并寄寓情思。"
     }
   ]
 }

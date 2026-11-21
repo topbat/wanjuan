@@ -618,6 +618,11 @@ async function main() {
       items: entities.quotes.map((q) => ({
         id: q.id, text: q.text, author: q.author, work: q.work ?? null, theme: q.theme ?? [],
         dynasty: q.dynasty, tags: q.tags ?? [], curriculum: q.curriculum, srcPath: q.__srcPath,
+        // 名句来源分层：古诗文 / 近现代名家 / 演讲语录（缺省按古诗文处理）
+        sourceType: q.source_type ?? 'classical',
+        citation: q.source_citation ?? null,
+        verified: q.verified ?? null,
+        excerpt: q.__body ? String(q.__body).replace(/^#.*$/gm, '').replace(/^>.*$/gm, '').replace(/\s+/g, ' ').trim().slice(0, 120) : '',
       })),
     },
     'graph.json': graph,

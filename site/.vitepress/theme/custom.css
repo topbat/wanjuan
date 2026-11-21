@@ -15,7 +15,9 @@
 
 :root {
   --vp-c-bg: var(--wj-bg);
-  --vp-c-bg-alt: var(--wj-card);
+  /* 侧栏/导航与正文共用同一画布色：卡片才是白色面（原先把 bg-alt 映射成白色卡片色，
+     造成左右两栏一白一灰的割裂感） */
+  --vp-c-bg-alt: var(--wj-bg);
   --vp-c-bg-soft: var(--wj-bg-soft);
   --vp-c-border: var(--wj-line);
   --vp-c-divider: var(--wj-line);
@@ -555,3 +557,56 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .wj-chip, .wj-chip:hover { transition: none; transform: none; }
 }
+
+/* ---------- 统一画布：侧栏/导航与正文同底，用发丝线分隔 ---------- */
+.VPSidebar {
+  background-color: var(--wj-bg) !important;
+  border-right: 1px solid var(--wj-line);
+}
+@media (min-width: 960px) {
+  .VPSidebar { padding-top: 8px; }
+}
+.VPNav .VPNavBar,
+.VPNavBar.has-sidebar .content,
+.VPNavBar.has-sidebar .curtain {
+  background-color: var(--wj-bg) !important;
+}
+.VPNavBar.has-sidebar .content {
+  border-bottom: 1px solid var(--wj-line);
+}
+/* 侧栏分组标题与链接的层级更清晰 */
+.VPSidebarItem.level-0 > .item .text { font-weight: 700; color: var(--wj-ink); }
+.VPSidebarItem.level-0 + .VPSidebarItem.level-0 { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--wj-line-soft); }
+.VPSidebarItem .link.active .text { color: var(--wj-accent); }
+
+/* ---------- 返回顶部（全站） ---------- */
+html body .wj-backtop {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--wj-ink);
+  background: var(--wj-card);
+  border: 1px solid var(--wj-line);
+  border-radius: 999px;
+  box-shadow: var(--wj-shadow);
+  cursor: pointer;
+  transition: opacity .22s ease, transform .22s ease, box-shadow .18s ease;
+}
+.wj-backtop.show { }
+.wj-backtop:hover { box-shadow: var(--wj-shadow-hover); border-color: var(--wj-accent); color: var(--wj-accent); }
+.wj-backtop svg { width: 14px; height: 14px; }
+@media (max-width: 700px) {
+  .wj-backtop { right: 14px; bottom: 16px; padding: 9px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wj-backtop { transition: none; }
+}
+
+/* ---------- 长页工具条吸顶 ---------- */
+.wj-sticky { position: sticky; top: 64px; z-index: 20; background: var(--wj-bg); padding-bottom: 6px; }

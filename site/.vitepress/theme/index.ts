@@ -20,6 +20,7 @@ import './themes/editorial.css' // 默认主题（:root 兜底）
 import './themes/ink.css'
 import './themes/youth.css'
 import './custom.css'
+import { mountBackToTop } from './backtop'
 
 /**
  * 万卷主题：默认主题 + 三主题令牌（宣纸/编辑/少年）+ 全局可视化组件
@@ -29,7 +30,13 @@ import './custom.css'
 export default {
   extends: DefaultTheme,
   Layout,
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
+    // 返回顶部：纯 DOM 注入（不受插槽 hydrate 时序影响）
+    if (typeof window !== 'undefined') {
+      const boot = () => setTimeout(mountBackToTop, 0)
+      boot()
+      router?.onAfterRouteChanged?.(() => setTimeout(mountBackToTop, 0))
+    }
     // 全局注册（页面内直接以 <KnowledgeGraph /> 等标签挂载）
     app.component('KnowledgeGraph', KnowledgeGraph)
     app.component('WordCloud', WordCloud)
