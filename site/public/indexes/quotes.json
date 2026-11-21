@@ -1,26 +1,421 @@
 {
-  "generatedAt": "2026-11-21T10:18:38.972Z",
-  "count": 8,
+  "generatedAt": "2026-11-21T10:51:39.064Z",
+  "count": 140,
   "items": [
     {
-      "id": "quote-bushi-lushan-zhenmianmu",
-      "text": "不识庐山真面目，只缘身在此山中",
-      "author": "苏轼",
-      "work": null,
+      "id": "quote-yi-gu-zuo-qi-zai-er-shuai-san-er-jie",
+      "text": "一鼓作气，再而衰，三而竭",
+      "author": "《左传》",
+      "work": "xianqin-zuochuan-caoguilunzhan",
       "theme": [
-        "哲理"
+        "哲思",
+        "坚韧"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "史传"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/一鼓作气再而衰三.md"
+    },
+    {
+      "id": "quote-bu-yi-wu-xi-bu-yi-ji-bei",
+      "text": "不以物喜，不以己悲",
+      "author": "范仲淹",
+      "work": "song-fanzhongyan-yueyanglouji",
+      "theme": [
+        "豁达",
+        "清廉"
       ],
       "dynasty": "宋",
       "tags": [
         "作文素材",
-        "哲理诗"
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/不以物喜不以己悲.md"
+    },
+    {
+      "id": "quote-bu-huan-gua-er-huan-bu-jun-bu-huan-pin",
+      "text": "不患寡而患不均，不患贫而患不安",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-jishijiangfazhuanyu",
+      "theme": [
+        "家国",
+        "哲思"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/不患寡而患不均不.md"
+    },
+    {
+      "id": "quote-bu-wei-fu-yun-zhe-wang-yan-zi-yuan-shen",
+      "text": "不畏浮云遮望眼，自缘身在最高层",
+      "author": "王安石",
+      "work": "song-wanganshi-dengfeilaifeng",
+      "theme": [
+        "志向",
+        "自信",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "哲理"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/不畏浮云遮望眼自.md"
+    },
+    {
+      "id": "quote-bushi-lushan-zhenmianmu",
+      "text": "不识庐山真面目，只缘身在此山中",
+      "author": "苏轼",
+      "work": "song-sushi-tixilinbi",
+      "theme": [
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "哲理诗",
+        "课标必背"
       ],
       "curriculum": {
         "stage": "primary",
-        "grade": 4,
+        "grade": 1,
         "recitation": true
       },
       "srcPath": "content/quotes/不识庐山真面目.md"
+    },
+    {
+      "id": "quote-dong-lin-jie-shi-yi-guan-cang-hai",
+      "text": "东临碣石，以观沧海",
+      "author": "曹操",
+      "work": "han-caocao-guancanghai",
+      "theme": [
+        "自然",
+        "志向"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/东临碣石以观沧海.md"
+    },
+    {
+      "id": "quote-liang-qing-ruo-shi-chang-jiu-shi-you-qi-zai",
+      "text": "两情若是长久时，又岂在、朝朝暮暮",
+      "author": "秦观",
+      "work": "song-qinguan-queqiaoxian",
+      "theme": [
+        "思念",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/两情若是长久时又.md"
+    },
+    {
+      "id": "quote-ju-tou-wang-ming-yue-di-tou-si-gu-xiang",
+      "text": "举头望明月，低头思故乡",
+      "author": "李白",
+      "work": "tang-libai-jingyesi",
+      "theme": [
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/举头望明月低头思.md"
+    },
+    {
+      "id": "quote-wu-niao-si-qing-yuan-qi-zhong-yang",
+      "text": "乌鸟私情，愿乞终养",
+      "author": "李密",
+      "work": "weijin-limi-chenqingbiao",
+      "theme": [
+        "孝亲"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "奏议"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/乌鸟私情愿乞终养.md"
+    },
+    {
+      "id": "quote-cheng-qi-ji-yi-chi-cheng-xi-lai-wu-dao",
+      "text": "乘骐骥以驰骋兮，来吾道夫先路",
+      "author": "屈原",
+      "work": "xianqin-quyuan-lisao",
+      "theme": [
+        "进取",
+        "担当"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/乘骐骥以驰骋兮来.md"
+    },
+    {
+      "id": "quote-jiu-wan-li-feng-peng-zheng-ju",
+      "text": "九万里风鹏正举",
+      "author": "李清照",
+      "work": "song-liqingzhao-yujiaao",
+      "theme": [
+        "志向",
+        "进取"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/九万里风鹏正举.md"
+    },
+    {
+      "id": "quote-luan-shi-chuan-kong-jing-tao-pai-an-juan-qi",
+      "text": "乱石穿空，惊涛拍岸，卷起千堆雪",
+      "author": "苏轼",
+      "work": "song-sushi-niannujiao-chibihuaigu",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/乱石穿空惊涛拍岸.md"
+    },
+    {
+      "id": "quote-ren-heng-guo-ran-hou-neng-gai",
+      "text": "人恒过，然后能改",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "勤学",
+        "哲思"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/人恒过然后能改.md"
+    },
+    {
+      "id": "quote-ren-you-bei-huan-li-he-yue-you-yin-qing",
+      "text": "人有悲欢离合，月有阴晴圆缺，此事古难全",
+      "author": "苏轼",
+      "work": "song-sushi-shuidiaogetou",
+      "theme": [
+        "哲思",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "怀人"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/人有悲欢离合月有.md"
+    },
+    {
+      "id": "quote-ren-sheng-ru-meng-yi-zun-hai-lei-jiang-yue",
+      "text": "人生如梦，一尊还酹江月",
+      "author": "苏轼",
+      "work": "song-sushi-niannujiao-chibihuaigu",
+      "theme": [
+        "豁达",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/人生如梦一尊还酹.md"
+    },
+    {
+      "id": "quote-ren-sheng-de-yi-xu-jin-huan-mo-shi-jin",
+      "text": "人生得意须尽欢，莫使金樽空对月",
+      "author": "李白",
+      "work": "tang-libai-jiangjinjiu",
+      "theme": [
+        "豁达"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/人生得意须尽欢莫.md"
+    },
+    {
+      "id": "quote-ren-sheng-zi-gu-shui-wu-si-liu-qu-dan",
+      "text": "人生自古谁无死，留取丹心照汗青",
+      "author": "文天祥",
+      "work": "song-wentianxiang-guolingdingyang",
+      "theme": [
+        "家国",
+        "担当",
+        "奉献"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "家国"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/人生自古谁无死留.md"
+    },
+    {
+      "id": "quote-yang-guan-yu-zhou-zhi-da-fu-cha-pin-lei",
+      "text": "仰观宇宙之大，俯察品类之盛",
+      "author": "王羲之",
+      "work": "weijin-wangxizhi-lantingjixu",
+      "theme": [
+        "哲思",
+        "自然"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/仰观宇宙之大俯察.md"
+    },
+    {
+      "id": "quote-zhong-li-xun-ta-qian-bai-du-mo-ran-hui",
+      "text": "众里寻他千百度。蓦然回首，那人却在，灯火阑珊处",
+      "author": "辛弃疾",
+      "work": "song-xinqiji-qingyuanyuanxi",
+      "theme": [
+        "哲思",
+        "勤学",
+        "进取"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/众里寻他千百度蓦.md"
     },
     {
       "id": "quote-huidang-lingjueding",
@@ -34,7 +429,8 @@
       "dynasty": "唐",
       "tags": [
         "作文素材",
-        "登高"
+        "登高",
+        "课标必背"
       ],
       "curriculum": {
         "stage": "junior",
@@ -49,13 +445,13 @@
       "author": "苏轼",
       "work": "song-sushi-shuidiaogetou",
       "theme": [
-        "思念",
-        "祝福"
+        "思念"
       ],
       "dynasty": "宋",
       "tags": [
         "作文素材",
-        "中秋"
+        "中秋",
+        "课标必背"
       ],
       "curriculum": {
         "stage": "junior",
@@ -65,45 +461,1513 @@
       "srcPath": "content/quotes/但愿人长久.md"
     },
     {
+      "id": "quote-ting-che-zuo-ai-feng-lin-wan-shuang-ye-hong",
+      "text": "停车坐爱枫林晚，霜叶红于二月花",
+      "author": "杜牧",
+      "work": "tang-dumu-shanxing",
+      "theme": [
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/停车坐爱枫林晚霜.md"
+    },
+    {
+      "id": "quote-xian-tian-xia-zhi-you-er-you-hou-tian-xia",
+      "text": "先天下之忧而忧，后天下之乐而乐",
+      "author": "范仲淹",
+      "work": "song-fanzhongyan-yueyanglouji",
+      "theme": [
+        "家国",
+        "担当",
+        "奉献"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/先天下之忧而忧后.md"
+    },
+    {
+      "id": "quote-guan-guan-ju-jiu-zai-he-zhi-zhou",
+      "text": "关关雎鸠，在河之洲",
+      "author": "《诗经》",
+      "work": "xianqin-shijing-guanju",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/关关雎鸠在河之洲.md"
+    },
+    {
+      "id": "quote-xing-bai-xing-ku-wang-bai-xing-ku",
+      "text": "兴，百姓苦；亡，百姓苦",
+      "author": "张养浩",
+      "work": "yuan-zhangyanghao-shanpoyangtongguanhuaigu",
+      "theme": [
+        "家国",
+        "哲思"
+      ],
+      "dynasty": "元",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史怀古"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/兴百姓苦亡百姓苦.md"
+    },
+    {
+      "id": "quote-qi-wen-yue-qi-ci-wei-qi-zhi-jie-qi",
+      "text": "其文约，其辞微，其志洁，其行廉",
+      "author": "司马迁",
+      "work": "han-simaqian-quyuanliezhuan",
+      "theme": [
+        "清廉",
+        "哲思"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "史传"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/其文约其辞微其志.md"
+    },
+    {
+      "id": "quote-qian-bu-jian-gu-ren-hou-bu-jian-lai-zhe",
+      "text": "前不见古人，后不见来者",
+      "author": "陈子昂",
+      "work": "tang-chenziang-dengyouzhoutaige",
+      "theme": [
+        "哲思",
+        "惜时"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史怀古"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/前不见古人后不见.md"
+    },
+    {
+      "id": "quote-quan-jun-geng-jin-yi-bei-jiu-xi-chu-yang",
+      "text": "劝君更尽一杯酒，西出阳关无故人",
+      "author": "王维",
+      "work": "tang-wangwei-songyuanershianxi",
+      "theme": [
+        "友情"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/劝君更尽一杯酒西.md"
+    },
+    {
+      "id": "quote-qian-shan-niao-fei-jue-wan-jing-ren-zong-mie",
+      "text": "千山鸟飞绝，万径人踪灭",
+      "author": "柳宗元",
+      "work": "tang-liuzongyuan-jiangxue",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 3,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/千山鸟飞绝万径人.md"
+    },
+    {
+      "id": "quote-qian-jin-san-jin-hai-fu-lai",
+      "text": "千金散尽还复来",
+      "author": "李白",
+      "work": "tang-libai-jiangjinjiu",
+      "theme": [
+        "豁达",
+        "自信"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/千金散尽还复来.md"
+    },
+    {
+      "id": "quote-shou-ren-yu-bai-jun-zhi-ji-feng-ming-yu",
+      "text": "受任于败军之际，奉命于危难之间",
+      "author": "诸葛亮",
+      "work": "sanguo-zhugeliang-chushibiao",
+      "theme": [
+        "担当",
+        "家国"
+      ],
+      "dynasty": "三国",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "奏议"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/受任于败军之际奉.md"
+    },
+    {
+      "id": "quote-tong-shi-tian-ya-lun-luo-ren-xiang-feng-he",
+      "text": "同是天涯沦落人，相逢何必曾相识",
+      "author": "白居易",
+      "work": "tang-baijuyi-pipaxingbingxu",
+      "theme": [
+        "友情",
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "叙事"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/同是天涯沦落人相.md"
+    },
+    {
+      "id": "quote-jun-bu-jian-huang-he-zhi-shui-tian-shang-lai",
+      "text": "君不见黄河之水天上来，奔流到海不复回",
+      "author": "李白",
+      "work": "tang-libai-jiangjinjiu",
+      "theme": [
+        "惜时",
+        "豁达"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/君不见黄河之水天.md"
+    },
+    {
+      "id": "quote-jun-zi-shi-wu-qiu-bao-ju-wu-qiu-an",
+      "text": "君子食无求饱，居无求安，敏于事而慎于言",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-lunyushierzhang-lunyu",
+      "theme": [
+        "勤学",
+        "清廉"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/君子食无求饱居无.md"
+    },
+    {
+      "id": "quote-jun-wen-gui-qi-wei-you-qi-ba-shan-ye",
+      "text": "君问归期未有期，巴山夜雨涨秋池",
+      "author": "李商隐",
+      "work": "tang-lishangyin-yeyujibei",
+      "theme": [
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/君问归期未有期巴.md"
+    },
+    {
+      "id": "quote-zhou-gong-tu-bu-tian-xia-gui-xin",
+      "text": "周公吐哺，天下归心",
+      "author": "曹操",
+      "work": "han-caocao-duangexing",
+      "theme": [
+        "家国",
+        "担当"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/周公吐哺天下归心.md"
+    },
+    {
+      "id": "quote-ai-wu-sheng-zhi-xu-yu-xian-chang-jiang-zhi",
+      "text": "哀吾生之须臾，羡长江之无穷",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "哲思",
+        "惜时"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/哀吾生之须臾羡长.md"
+    },
+    {
+      "id": "quote-fu-xing-shu-shi-bu-huo-ran-kai-lang",
+      "text": "复行数十步，豁然开朗",
+      "author": "陶潜",
+      "work": "weijin-taoqian-taohuayuanji",
+      "theme": [
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/复行数十步豁然开.md"
+    },
+    {
+      "id": "quote-xi-yang-xi-xia-duan-chang-ren-zai-tian-ya",
+      "text": "夕阳西下，断肠人在天涯",
+      "author": "马致远",
+      "work": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "theme": [
+        "思念",
+        "自然"
+      ],
+      "dynasty": "元",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/夕阳西下断肠人在.md"
+    },
+    {
+      "id": "quote-da-jiang-dong-qu-lang-tao-jin-qian-gu-feng",
+      "text": "大江东去，浪淘尽，千古风流人物",
+      "author": "苏轼",
+      "work": "song-sushi-niannujiao-chibihuaigu",
+      "theme": [
+        "哲思",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/大江东去浪淘尽千.md"
+    },
+    {
+      "id": "quote-da-mo-gu-yan-zhi-chang-he-luo-ri-yuan",
+      "text": "大漠孤烟直，长河落日圆",
+      "author": "王维",
+      "work": "tang-wangwei-shizhisaishang",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "边塞"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/大漠孤烟直长河落.md"
+    },
+    {
+      "id": "quote-tian-shi-bu-ru-di-li-di-li-bu-ru",
+      "text": "天时不如地利，地利不如人和",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "哲思",
+        "家国"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/天时不如地利地利.md"
+    },
+    {
+      "id": "quote-tian-lang-qi-qing-hui-feng-he-chang",
+      "text": "天朗气清，惠风和畅",
+      "author": "王羲之",
+      "work": "weijin-wangxizhi-lantingjixu",
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/天朗气清惠风和畅.md"
+    },
+    {
       "id": "quote-tiansheng-wocai-biyong",
       "text": "天生我材必有用",
       "author": "李白",
-      "work": null,
+      "work": "tang-libai-jiangjinjiu",
       "theme": [
         "自信",
         "豁达"
       ],
       "dynasty": "唐",
       "tags": [
-        "作文素材"
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/天生我材必有用.md"
+    },
+    {
+      "id": "quote-hao-yu-zhi-shi-jie-dang-chun-nai-fa-sheng",
+      "text": "好雨知时节，当春乃发生",
+      "author": "杜甫",
+      "work": "tang-dufu-chunyexiyu",
+      "theme": [
+        "自然",
+        "奉献"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/好雨知时节当春乃.md"
+    },
+    {
+      "id": "quote-gu-su-cheng-wai-han-shan-si-ye-ban-zhong",
+      "text": "姑苏城外寒山寺，夜半钟声到客船",
+      "author": "张继",
+      "work": "tang-zhangji-fengqiaoyebo",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/姑苏城外寒山寺夜.md"
+    },
+    {
+      "id": "quote-gu-zhou-suo-li-weng-du-diao-han-jiang-xue",
+      "text": "孤舟蓑笠翁，独钓寒江雪",
+      "author": "柳宗元",
+      "work": "tang-liuzongyuan-jiangxue",
+      "theme": [
+        "自然",
+        "坚韧",
+        "清廉"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 3,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/孤舟蓑笠翁独钓寒.md"
+    },
+    {
+      "id": "quote-an-de-guang-sha-qian-wan-jian-da-bi-tian",
+      "text": "安得广厦千万间，大庇天下寒士俱欢颜",
+      "author": "杜甫",
+      "work": "tang-dufu-maowuweiqiufengsuopoge",
+      "theme": [
+        "家国",
+        "担当",
+        "奉献"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "家国"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/安得广厦千万间大.md"
+    },
+    {
+      "id": "quote-an-neng-cui-mei-zhe-yao-shi-quan-gui-shi",
+      "text": "安能摧眉折腰事权贵？使我不得开心颜",
+      "author": "李白",
+      "work": "tang-libai-mengyoutianlaoyinliubie",
+      "theme": [
+        "清廉",
+        "自信",
+        "担当"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/安能摧眉折腰事权.md"
+    },
+    {
+      "id": "quote-ji-fu-you-yu-tian-di-miao-cang-hai-zhi",
+      "text": "寄蜉蝣于天地，渺沧海之一粟",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/寄蜉蝣于天地渺沧.md"
+    },
+    {
+      "id": "quote-dui-jiu-dang-ge-ren-sheng-ji-he-pi-ru",
+      "text": "对酒当歌，人生几何！譬如朝露，去日苦多",
+      "author": "曹操",
+      "work": "han-caocao-duangexing",
+      "theme": [
+        "惜时",
+        "豁达"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/对酒当歌人生几何.md"
+    },
+    {
+      "id": "quote-xiao-shi-bu-shi-yue-hu-zuo-bai-yu-pan",
+      "text": "小时不识月，呼作白玉盘",
+      "author": "李白",
+      "work": "tang-libai-gulangyuexing",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏物"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/小时不识月呼作白.md"
+    },
+    {
+      "id": "quote-xiao-he-cai-lu-jian-jian-jiao-zao-you-qing",
+      "text": "小荷才露尖尖角，早有蜻蜓立上头",
+      "author": "杨万里",
+      "work": "song-yangwanli-xiaochi",
+      "theme": [
+        "自然",
+        "进取"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/小荷才露尖尖角早.md"
+    },
+    {
+      "id": "quote-ju-miao-tang-zhi-gao-ze-you-qi-min-chu",
+      "text": "居庙堂之高则忧其民；处江湖之远则忧其君",
+      "author": "范仲淹",
+      "work": "song-fanzhongyan-yueyanglouji",
+      "theme": [
+        "家国",
+        "担当"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/居庙堂之高则忧其.md"
+    },
+    {
+      "id": "quote-shan-bu-yan-gao-hai-bu-yan-shen",
+      "text": "山不厌高，海不厌深",
+      "author": "曹操",
+      "work": "han-caocao-duangexing",
+      "theme": [
+        "豁达",
+        "志向",
+        "勤学"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/山不厌高海不厌深.md"
+    },
+    {
+      "id": "quote-shan-bu-zai-gao-you-xian-ze-ming",
+      "text": "山不在高，有仙则名",
+      "author": "刘禹锡",
+      "work": "tang-liuyuxi-loushiming",
+      "theme": [
+        "哲思",
+        "清廉"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/山不在高有仙则名.md"
+    },
+    {
+      "id": "quote-shan-zhong-shui-fu-yi-wu-lu-liu-an-hua",
+      "text": "山重水复疑无路，柳暗花明又一村",
+      "author": "陆游",
+      "work": "song-luyou-youshanxicun",
+      "theme": [
+        "坚韧",
+        "哲思",
+        "进取"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "田园"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/山重水复疑无路柳.md"
+    },
+    {
+      "id": "quote-feng-luan-ru-ju-bo-tao-ru-nu-shan-he",
+      "text": "峰峦如聚，波涛如怒，山河表里潼关路",
+      "author": "张养浩",
+      "work": "yuan-zhangyanghao-shanpoyangtongguanhuaigu",
+      "theme": [
+        "自然",
+        "家国"
+      ],
+      "dynasty": "元",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史怀古"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/峰峦如聚波涛如怒.md"
+    },
+    {
+      "id": "quote-ji-suo-bu-yu-wu-shi-yu-ren",
+      "text": "己所不欲，勿施于人",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-lunyushierzhang-lunyu",
+      "theme": [
+        "哲思",
+        "清廉"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/己所不欲勿施于人.md"
+    },
+    {
+      "id": "quote-chuang-qian-ming-yue-guang-yi-shi-di-shang-shuang",
+      "text": "床前明月光，疑是地上霜",
+      "author": "李白",
+      "work": "tang-libai-jingyesi",
+      "theme": [
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/床前明月光疑是地.md"
+    },
+    {
+      "id": "quote-de-dao-zhe-duo-zhu-shi-dao-zhe-gua-zhu",
+      "text": "得道者多助，失道者寡助",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "哲思",
+        "家国"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/得道者多助失道者.md"
+    },
+    {
+      "id": "quote-you-lao-ke-yi-xing-guo-yi-yu-ke-yi",
+      "text": "忧劳可以兴国，逸豫可以亡身",
+      "author": "欧阳修",
+      "work": "song-ouyangxiu-wudaishilingguanchuanxu",
+      "theme": [
+        "清廉",
+        "担当",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/忧劳可以兴国逸豫.md"
+    },
+    {
+      "id": "quote-hu-ran-yi-ye-chun-feng-lai-qian-shu-wan",
+      "text": "忽然一夜春风来，千树万树梨花开",
+      "author": "岑参",
+      "work": "tang-cencan-baixuegesongwupanguanguijing",
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "边塞"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/忽然一夜春风来千.md"
+    },
+    {
+      "id": "quote-wei-jiang-shang-zhi-qing-feng-yu-shan-jian-zhi",
+      "text": "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/惟江上之清风与山.md"
+    },
+    {
+      "id": "quote-xiang-dang-nian-jin-ge-tie-ma-qi-tun-wan",
+      "text": "想当年，金戈铁马，气吞万里如虎",
+      "author": "辛弃疾",
+      "work": "song-xinqiji-yongyulejingkoubeigutinghuaigu",
+      "theme": [
+        "家国",
+        "志向"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史怀古"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/想当年金戈铁马气.md"
+    },
+    {
+      "id": "quote-ci-mu-shou-zhong-xian-you-zi-shen-shang-yi",
+      "text": "慈母手中线，游子身上衣",
+      "author": "孟郊",
+      "work": "tang-mengjiao-youziyin",
+      "theme": [
+        "孝亲"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/慈母手中线游子身.md"
+    },
+    {
+      "id": "quote-wo-shan-yang-wu-hao-ran-zhi-qi",
+      "text": "我善养吾浩然之气",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengziyize",
+      "theme": [
+        "担当",
+        "清廉"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/我善养吾浩然之气.md"
+    },
+    {
+      "id": "quote-wo-yu-cheng-feng-gui-qu-you-kong-qiong-lou",
+      "text": "我欲乘风归去，又恐琼楼玉宇，高处不胜寒",
+      "author": "苏轼",
+      "work": "song-sushi-shuidiaogetou",
+      "theme": [
+        "哲思",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "怀人"
       ],
       "curriculum": {
         "stage": "junior",
         "grade": 9,
         "recitation": true
       },
-      "srcPath": "content/quotes/天生我材必有用.md"
+      "srcPath": "content/quotes/我欲乘风归去又恐.md"
     },
     {
-      "id": "quote-chunfeng-you-lu-jiangnanan",
-      "text": "春风又绿江南岸，明月何时照我还",
-      "author": "王安石",
-      "work": null,
+      "id": "quote-suo-wei-yi-ren-zai-shui-yi-fang",
+      "text": "所谓伊人，在水一方",
+      "author": "《诗经》",
+      "work": "xianqin-shijing-jianjia",
       "theme": [
-        "思乡",
-        "炼字"
+        "思念",
+        "自然"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/所谓伊人在水一方.md"
+    },
+    {
+      "id": "quote-gu-tian-jiang-jiang-da-ren-yu-shi-ren-ye",
+      "text": "故天将降大任于是人也，必先苦其心志，劳其筋骨",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "坚韧",
+        "进取"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/故天将降大任于是.md"
+    },
+    {
+      "id": "quote-wen-zhi-bin-bin-ran-hou-jun-zi",
+      "text": "文质彬彬，然后君子",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-lunyushierzhang-lunyu",
+      "theme": [
+        "勤学",
+        "哲思"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/文质彬彬然后君子.md"
+    },
+    {
+      "id": "quote-si-shi-lou-shi-wei-wu-de-xin",
+      "text": "斯是陋室，惟吾德馨",
+      "author": "刘禹锡",
+      "work": "tang-liuyuxi-loushiming",
+      "theme": [
+        "清廉",
+        "豁达"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/斯是陋室惟吾德馨.md"
+    },
+    {
+      "id": "quote-wu-ke-nai-he-hua-luo-qu-si-ceng-xiang",
+      "text": "无可奈何花落去，似曾相识燕归来",
+      "author": "晏殊",
+      "work": "song-yanshu-huanxisha",
+      "theme": [
+        "哲思",
+        "惜时"
       ],
       "dynasty": "宋",
       "tags": [
         "作文素材",
-        "炼字典范"
+        "课标必背",
+        "哲理"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/无可奈何花落去似.md"
+    },
+    {
+      "id": "quote-wu-bian-luo-mu-xiao-xiao-xia-bu-jin-chang",
+      "text": "无边落木萧萧下，不尽长江衮衮来",
+      "author": "杜甫",
+      "work": "tang-dufu-denggao",
+      "theme": [
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/无边落木萧萧下不.md"
+    },
+    {
+      "id": "quote-ri-mu-xiang-guan-he-chu-shi-yan-bo-jiang",
+      "text": "日暮乡关何处是，烟波江上使人愁",
+      "author": "崔颢",
+      "work": "tang-cuihao-huanghelou",
+      "theme": [
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/日暮乡关何处是烟.md"
+    },
+    {
+      "id": "quote-ri-yue-zhi-xing-ruo-chu-qi-zhong-xing-han",
+      "text": "日月之行，若出其中；星汉灿烂，若出其里",
+      "author": "曹操",
+      "work": "han-caocao-guancanghai",
+      "theme": [
+        "自然",
+        "志向",
+        "豁达"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/日月之行若出其中.md"
+    },
+    {
+      "id": "quote-ri-yue-hu-qi-bu-yan-xi-chun-yu-qiu",
+      "text": "日月忽其不淹兮，春与秋其代序",
+      "author": "屈原",
+      "work": "xianqin-quyuan-lisao",
+      "theme": [
+        "惜时"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/日月忽其不淹兮春.md"
+    },
+    {
+      "id": "quote-ming-yue-ji-shi-you-ba-jiu-wen-qing-tian",
+      "text": "明月几时有？把酒问青天",
+      "author": "苏轼",
+      "work": "song-sushi-shuidiaogetou",
+      "theme": [
+        "思念",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "怀人"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 9,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/明月几时有把酒问.md"
+    },
+    {
+      "id": "quote-ming-yue-song-jian-zhao-qing-quan-shi-shang-liu",
+      "text": "明月松间照，清泉石上流",
+      "author": "王维",
+      "work": "tang-wangwei-shanjuqiuming",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/明月松间照清泉石.md"
+    },
+    {
+      "id": "quote-chun-mian-bu-jue-xiao-chu-chu-wen-ti-niao",
+      "text": "春眠不觉晓，处处闻啼鸟",
+      "author": "孟浩然",
+      "work": "tang-menghaoran-chunxiao",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四季"
       ],
       "curriculum": {
         "stage": "primary",
-        "grade": 6,
-        "recitation": false
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/春眠不觉晓处处闻.md"
+    },
+    {
+      "id": "quote-chun-se-man-yuan-guan-bu-zhu-yi-zhi-hong",
+      "text": "春色满园关不住，一枝红杏出墙来",
+      "author": "叶绍翁",
+      "work": "song-yeshaoweng-youyuanbuzhi",
+      "theme": [
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/春色满园关不住一.md"
+    },
+    {
+      "id": "quote-chun-can-dao-si-si-fang-jin-la-ju-cheng",
+      "text": "春蚕到死丝方尽，蜡炬成灰泪始干",
+      "author": "李商隐",
+      "work": "tang-lishangyin-wuti",
+      "theme": [
+        "奉献"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/春蚕到死丝方尽蜡.md"
+    },
+    {
+      "id": "quote-chunfeng-you-lu-jiangnanan",
+      "text": "春风自绿江南岸，明月何时照我还",
+      "author": "王安石",
+      "work": "song-wanganshi-bochuanguazhou",
+      "theme": [
+        "思念",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "炼字典范",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
       },
       "srcPath": "content/quotes/春风又绿江南岸.md"
+    },
+    {
+      "id": "quote-mu-chun-zhe-chun-fu-ji-cheng-guan-zhe-wu",
+      "text": "暮春者，春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-zilucengxiranyougongxihuashizuo",
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/暮春者春服既成冠.md"
+    },
+    {
+      "id": "quote-yue-luo-wu-ti-shuang-man-tian-jiang-feng-yu",
+      "text": "月落乌啼霜满天，江枫渔父对愁眠",
+      "author": "张继",
+      "work": "tang-zhangji-fengqiaoyebo",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/月落乌啼霜满天江.md"
+    },
+    {
+      "id": "quote-chao-ci-bai-di-cai-yun-jian-qian-li-jiang",
+      "text": "朝辞白帝彩云间，千里江陵一日还",
+      "author": "李白",
+      "work": "tang-libai-zaofabaidicheng",
+      "theme": [
+        "豁达",
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/朝辞白帝彩云间千.md"
+    },
+    {
+      "id": "quote-ku-teng-lao-shu-hun-ya-xiao-qiao-liu-shui",
+      "text": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马",
+      "author": "马致远",
+      "work": "yuan-mazhiyuan-tianjingsha-qiusi",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "元",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/枯藤老树昏鸦小桥.md"
+    },
+    {
+      "id": "quote-tao-hua-tan-shui-shen-qian-chi-bu-ji-wang",
+      "text": "桃花潭水深千尺，不及汪伦送我情",
+      "author": "李白",
+      "work": "tang-libai-zengwanglun",
+      "theme": [
+        "友情"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/桃花潭水深千尺不.md"
+    },
+    {
+      "id": "quote-heng-kan-cheng-ling-ce-cheng-feng-yuan-jin-gao",
+      "text": "横看成岭侧成峰，远近高低总不同",
+      "author": "苏轼",
+      "work": "song-sushi-tixilinbi",
+      "theme": [
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "哲理"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/横看成岭侧成峰远.md"
+    },
+    {
+      "id": "quote-yu-ba-xi-hu-bi-xi-zi-dan-zhuang-nong",
+      "text": "欲把西湖比西子，淡妆浓抹总相宜",
+      "author": "苏轼",
+      "work": "song-sushi-yinhushangchuqinghouyu",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/欲把西湖比西子淡.md"
     },
     {
       "id": "quote-yuqiong-qianlimu",
@@ -111,12 +1975,13 @@
       "author": "王之涣",
       "work": "tang-wangzhihuan-dengguanquelou",
       "theme": [
-        "哲理",
+        "哲思",
         "进取"
       ],
       "dynasty": "唐",
       "tags": [
-        "作文素材"
+        "作文素材",
+        "课标必背"
       ],
       "curriculum": {
         "stage": "primary",
@@ -126,17 +1991,607 @@
       "srcPath": "content/quotes/欲穷千里目.md"
     },
     {
+      "id": "quote-ci-di-you-chong-shan-jun-ling-mao-lin-xiu",
+      "text": "此地有崇山峻岭，茂林修竹",
+      "author": "王羲之",
+      "work": "weijin-wangxizhi-lantingjixu",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/此地有崇山峻岭茂.md"
+    },
+    {
+      "id": "quote-ci-qing-ke-dai-cheng-zhui-yi-zhi-shi-dang",
+      "text": "此情可待成追忆，只是当时已惘然",
+      "author": "李商隐",
+      "work": "tang-lishangyin-jinse",
+      "theme": [
+        "惜时",
+        "哲思"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/此情可待成追忆只.md"
+    },
+    {
+      "id": "quote-jiang-shan-ru-hua-yi-shi-duo-shao-hao-jie",
+      "text": "江山如画，一时多少豪杰",
+      "author": "苏轼",
+      "work": "song-sushi-niannujiao-chibihuaigu",
+      "theme": [
+        "自然",
+        "家国",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/江山如画一时多少.md"
+    },
+    {
+      "id": "quote-shen-zhou-ce-pan-qian-fan-guo-bing-shu-qian",
+      "text": "沈舟侧畔千帆过，病树前头万木春",
+      "author": "刘禹锡",
+      "work": "tang-liuyuxi-chouletianyangzhouchufengxishangjianzeng",
+      "theme": [
+        "豁达",
+        "进取"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/沈舟侧畔千帆过病.md"
+    },
+    {
+      "id": "quote-hao-dang-li-chou-bai-ri-xie-yin-bian-dong",
+      "text": "浩荡离愁白日斜，吟鞭东指即天涯",
+      "author": "龚自珍",
+      "work": "qing-gongzizhen-jihaizashi",
+      "theme": [
+        "思念",
+        "志向"
+      ],
+      "dynasty": "清",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "言志"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/浩荡离愁白日斜吟.md"
+    },
+    {
+      "id": "quote-hai-nei-cun-zhi-ji-tian-ya-ruo-bi-lin",
+      "text": "海内存知己，天涯若比邻",
+      "author": "王勃",
+      "work": "tang-wangbo-songdushaofuzhirenshuzhou",
+      "theme": [
+        "友情"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/海内存知己天涯若.md"
+    },
+    {
+      "id": "quote-qing-feng-xu-lai-shui-bo-bu-xing",
+      "text": "清风徐来，水波不兴",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/清风徐来水波不兴.md"
+    },
+    {
+      "id": "quote-wei-cheng-chao-yu-yi-qing-chen-ke-she-qing",
+      "text": "渭城朝雨浥轻尘，客舍青青柳色新",
+      "author": "王维",
+      "work": "tang-wangwei-songyuanershianxi",
+      "theme": [
+        "友情",
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/渭城朝雨浥轻尘客.md"
+    },
+    {
+      "id": "quote-su-hui-cong-zhi-dao-zu-qie-chang",
+      "text": "溯洄从之，道阻且长",
+      "author": "《诗经》",
+      "work": "xianqin-shijing-jianjia",
+      "theme": [
+        "坚韧",
+        "进取"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/溯洄从之道阻且长.md"
+    },
+    {
+      "id": "quote-bao-zhu-sheng-zhong-yi-sui-chu-dong-feng-song",
+      "text": "爆竹声中一岁除，东风送暖入屠苏",
+      "author": "王安石",
+      "work": "song-wanganshi-yuanri",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/爆竹声中一岁除东.md"
+    },
+    {
+      "id": "quote-du-zai-yi-xiang-wei-yi-ke-mei-feng-jia",
+      "text": "独在异乡为异客，每逢佳节倍思亲",
+      "author": "王维",
+      "work": "tang-wangwei-jiuyuejiuriyishandongxiongdi",
+      "theme": [
+        "思念",
+        "孝亲"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/独在异乡为异客每.md"
+    },
+    {
+      "id": "quote-wang-shi-bei-ding-zhong-yuan-ri-jia-ji-wu",
+      "text": "王师北定中原日，家祭无忘告乃翁",
+      "author": "陆游",
+      "work": "song-luyou-shier",
+      "theme": [
+        "家国",
+        "孝亲"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "家国"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/王师北定中原日家.md"
+    },
+    {
+      "id": "quote-sheng-yu-you-huan-er-si-yu-an-le-ye",
+      "text": "生于忧患而死于安乐也",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "哲思",
+        "进取"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/生于忧患而死于安.md"
+    },
+    {
+      "id": "quote-sheng-dang-wei-ren-jie-si-yi-zuo-gui-xiong",
+      "text": "生当为人杰，死亦作鬼雄",
+      "author": "李清照",
+      "work": "song-liqingzhao-xiarijueju",
+      "theme": [
+        "家国",
+        "担当",
+        "志向"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏史怀古"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/生当为人杰死亦作.md"
+    },
+    {
+      "id": "quote-jiu-tian-ren-zhi-ji-tong-gu-jin-zhi-bian",
+      "text": "究天人之际，通古今之变，成一家之言",
+      "author": "司马迁",
+      "work": "han-simaqian-baorenanshu",
+      "theme": [
+        "志向",
+        "勤学",
+        "哲思"
+      ],
+      "dynasty": "汉",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/究天人之际通古今.md"
+    },
+    {
+      "id": "quote-zhu-wai-tao-hua-san-liang-zhi-chun-jiang-shui",
+      "text": "竹外桃花三两枝，春江水暖鸭先知",
+      "author": "苏轼",
+      "work": "song-sushi-huichongchunjiangwanjing",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/竹外桃花三两枝春.md"
+    },
+    {
+      "id": "quote-deng-xian-shi-de-dong-feng-mian-wan-zi-qian",
+      "text": "等闲识得东风面，万紫千红总是春",
+      "author": "朱熹",
+      "work": "song-zhuxi-chunri",
+      "theme": [
+        "自然",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/等闲识得东风面万.md"
+    },
+    {
+      "id": "quote-zong-yi-wei-zhi-suo-ru-ling-wan-qing-zhi",
+      "text": "纵一苇之所如，凌万顷之茫然",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "豁达",
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/纵一苇之所如凌万.md"
+    },
+    {
+      "id": "quote-fen-wu-ji-you-ci-nei-mei-xi-you-zhong",
+      "text": "纷吾既有此内美兮，又重之以修能",
+      "author": "屈原",
+      "work": "xianqin-quyuan-lisao",
+      "theme": [
+        "勤学",
+        "自信"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/纷吾既有此内美兮.md"
+    },
+    {
+      "id": "quote-qiang-di-he-xu-yuan-yang-liu-chun-feng-bu",
+      "text": "羌笛何须怨杨柳，春风不度玉门关",
+      "author": "王之涣",
+      "work": "tang-wangzhihuan-liangzhouci",
+      "theme": [
+        "自然",
+        "家国"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "边塞"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/羌笛何须怨杨柳春.md"
+    },
+    {
+      "id": "quote-qun-chen-li-min-neng-mian-ci-gua-ren-zhi",
+      "text": "群臣吏民能面刺寡人之过者，受上赏",
+      "author": "《战国策》",
+      "work": "xianqin-zhanguoce-zoujifengqiwangnajian",
+      "theme": [
+        "清廉",
+        "担当"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "史传"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/群臣吏民能面刺寡.md"
+    },
+    {
+      "id": "quote-qun-xian-bi-zhi-shao-chang-xian-ji",
+      "text": "群贤毕至，少长咸集",
+      "author": "王羲之",
+      "work": "weijin-wangxizhi-lantingjixu",
+      "theme": [
+        "友情"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/群贤毕至少长咸集.md"
+    },
+    {
+      "id": "quote-lao-dang-yi-zhuang-ning-yi-bai-shou-zhi-xin",
+      "text": "老当益壮，宁移白首之心？穷且益坚，不坠青云之志",
+      "author": "王勃",
+      "work": "tang-wangbo-tengwanggexu",
+      "theme": [
+        "坚韧",
+        "进取",
+        "志向"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/老当益壮宁移白首.md"
+    },
+    {
+      "id": "quote-chen-wu-zu-mu-wu-yi-zhi-jin-ri-zu",
+      "text": "臣无祖母，无以至今日，祖母无臣，无以终余年",
+      "author": "李密",
+      "work": "weijin-limi-chenqingbiao",
+      "theme": [
+        "孝亲"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "奏议"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/臣无祖母无以至今.md"
+    },
+    {
+      "id": "quote-she-sheng-er-qu-yi-zhe-ye",
+      "text": "舍生而取义者也",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "家国",
+        "担当"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/舍生而取义者也.md"
+    },
+    {
+      "id": "quote-fang-cao-xian-mei-luo-ying-bin-fen",
+      "text": "芳草鲜美，落英缤纷",
+      "author": "陶潜",
+      "work": "weijin-taoqian-taohuayuanji",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/芳草鲜美落英缤纷.md"
+    },
+    {
+      "id": "quote-mo-chou-qian-lu-wu-zhi-ji-tian-xia-shui",
+      "text": "莫愁前路无知己，天下谁人不识君",
+      "author": "高适",
+      "work": "tang-gaoshi-biedongda",
+      "theme": [
+        "友情",
+        "自信"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/莫愁前路无知己天.md"
+    },
+    {
       "id": "quote-luohong-bushi-wuqingwu",
       "text": "落红不是无情物，化作春泥更护花",
       "author": "龚自珍",
       "work": "qing-gongzizhen-jihaizashi",
       "theme": [
         "奉献",
-        "抱负"
+        "志向"
       ],
       "dynasty": "清",
       "tags": [
-        "作文素材"
+        "作文素材",
+        "课标必背"
       ],
       "curriculum": {
         "stage": "junior",
@@ -146,25 +2601,461 @@
       "srcPath": "content/quotes/落红不是无情物.md"
     },
     {
-      "id": "quote-tiema-binghe-rumenglai",
-      "text": "夜阑卧听风吹雨，铁马冰河入梦来",
-      "author": "陆游",
-      "work": null,
+      "id": "quote-luo-xia-yu-gu-wu-qi-fei-qiu-shui-gong",
+      "text": "落霞与孤鹜齐飞，秋水共长天一色",
+      "author": "王勃",
+      "work": "tang-wangbo-tengwanggexu",
       "theme": [
-        "家国",
-        "壮志"
+        "自然"
       ],
-      "dynasty": "宋",
+      "dynasty": "唐",
       "tags": [
         "作文素材",
-        "爱国"
+        "课标必背",
+        "书序"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/落霞与孤鹜齐飞秋.md"
+    },
+    {
+      "id": "quote-jian-jia-cang-cang-bai-lu-wei-shuang",
+      "text": "蒹葭苍苍，白露为霜",
+      "author": "《诗经》",
+      "work": "xianqin-shijing-jianjia",
+      "theme": [
+        "自然",
+        "思念"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "爱情"
       ],
       "curriculum": {
         "stage": "junior",
         "grade": 7,
-        "recitation": false
+        "recitation": true
       },
-      "srcPath": "content/quotes/铁马冰河入梦来.md"
+      "srcPath": "content/quotes/蒹葭苍苍白露为霜.md"
+    },
+    {
+      "id": "quote-shui-yan-cun-cao-xin-bao-de-san-chun-hui",
+      "text": "谁言寸草心，报得三春晖",
+      "author": "孟郊",
+      "work": "tang-mengjiao-youziyin",
+      "theme": [
+        "孝亲"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/谁言寸草心报得三.md"
+    },
+    {
+      "id": "quote-tan-xiao-you-hong-ru-wang-lai-wu-bai-ding",
+      "text": "谈笑有鸿儒，往来无白丁",
+      "author": "刘禹锡",
+      "work": "tang-liuyuxi-loushiming",
+      "theme": [
+        "勤学",
+        "友情"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/谈笑有鸿儒往来无.md"
+    },
+    {
+      "id": "quote-qing-zhou-yi-guo-wan-chong-shan",
+      "text": "轻舟已过万重山",
+      "author": "李白",
+      "work": "tang-libai-zaofabaidicheng",
+      "theme": [
+        "豁达",
+        "进取"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/轻舟已过万重山.md"
+    },
+    {
+      "id": "quote-yuan-ren-bu-fu-ze-xiu-wen-de-yi-lai",
+      "text": "远人不服则修文德以来之",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-jishijiangfazhuanyu",
+      "theme": [
+        "家国",
+        "担当"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/远人不服则修文德.md"
+    },
+    {
+      "id": "quote-shi-zhe-ru-si-er-wei-chang-wang-ye-ying",
+      "text": "逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也",
+      "author": "苏轼",
+      "work": "song-sushi-chibifu",
+      "theme": [
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "辞赋"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/逝者如斯而未尝往.md"
+    },
+    {
+      "id": "quote-zui-weng-zhi-yi-bu-zai-jiu-zai-hu-shan",
+      "text": "醉翁之意不在酒，在乎山水之间也",
+      "author": "欧阳修",
+      "work": "song-ouyangxiu-zuiwengtingji",
+      "theme": [
+        "豁达",
+        "自然"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/醉翁之意不在酒在.md"
+    },
+    {
+      "id": "quote-zui-li-tiao-deng-kan-jian-meng-hui-chui-jiao",
+      "text": "醉里挑灯看剑，梦回吹角连营",
+      "author": "辛弃疾",
+      "work": "song-xinqiji-pozhenzi",
+      "theme": [
+        "家国",
+        "志向"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "边塞"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/醉里挑灯看剑梦回.md"
+    },
+    {
+      "id": "quote-cai-de-bai-hua-cheng-mi-hou-wei-shui-xin",
+      "text": "采得百花成蜜后，为谁辛苦为谁甜",
+      "author": "罗隐",
+      "work": "tang-luoyin-feng",
+      "theme": [
+        "奉献",
+        "哲思"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "咏物"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/采得百花成蜜后为.md"
+    },
+    {
+      "id": "quote-ye-huo-shao-bu-jin-chun-feng-chui-you-sheng",
+      "text": "野火烧不尽，春风吹又生",
+      "author": "白居易",
+      "work": "tang-baijuyi-fudeguyuancaosongbie",
+      "theme": [
+        "坚韧",
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "送别"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/野火烧不尽春风吹.md"
+    },
+    {
+      "id": "quote-jin-se-wu-duan-wu-shi-xian-yi-xian-yi",
+      "text": "锦瑟无端五十弦，一弦一柱思华年",
+      "author": "李商隐",
+      "work": "tang-lishangyin-jinse",
+      "theme": [
+        "惜时"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/锦瑟无端五十弦一.md"
+    },
+    {
+      "id": "quote-chang-feng-po-lang-hui-you-shi-zhi-gua-yun",
+      "text": "长风破浪会有时，直挂云帆济沧海",
+      "author": "李白",
+      "work": "tang-libai-xinglunan",
+      "theme": [
+        "自信",
+        "进取",
+        "志向"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "励志"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/长风破浪会有时直.md"
+    },
+    {
+      "id": "quote-wen-qu-na-de-qing-ru-xu-wei-you-yuan",
+      "text": "问渠那得清如许，为有源头活水来",
+      "author": "朱熹",
+      "work": "song-zhuxi-guanshuyougan",
+      "theme": [
+        "勤学",
+        "哲思"
+      ],
+      "dynasty": "宋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "哲理"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/问渠那得清如许为.md"
+    },
+    {
+      "id": "quote-chen-li-jiu-lie-bu-neng-zhe-zhi",
+      "text": "陈力就列，不能者止",
+      "author": "《论语》",
+      "work": "xianqin-lunyu-jishijiangfazhuanyu",
+      "theme": [
+        "担当",
+        "清廉"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "senior",
+        "grade": 10,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/陈力就列不能者止.md"
+    },
+    {
+      "id": "quote-sui-feng-qian-ru-ye-run-wu-xi-wu-sheng",
+      "text": "随风潜入夜，润物细无声",
+      "author": "杜甫",
+      "work": "tang-dufu-chunyexiyu",
+      "theme": [
+        "奉献",
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "四时"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/随风潜入夜润物细.md"
+    },
+    {
+      "id": "quote-fei-liu-zhi-xia-san-qian-chi-yi-shi-yin",
+      "text": "飞流直下三千尺，疑是银河落九天",
+      "author": "李白",
+      "work": "tang-libai-wanglushanpubu",
+      "theme": [
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "山水"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 2,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/飞流直下三千尺疑.md"
+    },
+    {
+      "id": "quote-yu-wo-suo-yu-ye-xiong-zhang-yi-wo-suo",
+      "text": "鱼，我所欲也；熊掌，亦我所欲也",
+      "author": "《孟子》",
+      "work": "xianqin-mengzi-mengzisanze",
+      "theme": [
+        "哲思"
+      ],
+      "dynasty": "先秦",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "论说"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/鱼我所欲也熊掌亦.md"
+    },
+    {
+      "id": "quote-huang-fa-chui-tiao-bing-yi-ran-zi-le",
+      "text": "黄发垂髫，并怡然自乐",
+      "author": "陶潜",
+      "work": "weijin-taoqian-taohuayuanji",
+      "theme": [
+        "孝亲",
+        "自然",
+        "豁达"
+      ],
+      "dynasty": "魏晋",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "游记"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/黄发垂髫并怡然自.md"
+    },
+    {
+      "id": "quote-huang-he-yuan-shang-bai-yun-jian-yi-pian-gu",
+      "text": "黄河远上白云间，一片孤城万仞山",
+      "author": "王之涣",
+      "work": "tang-wangzhihuan-liangzhouci",
+      "theme": [
+        "自然",
+        "家国"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "边塞"
+      ],
+      "curriculum": {
+        "stage": "primary",
+        "grade": 1,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/黄河远上白云间一.md"
+    },
+    {
+      "id": "quote-huang-he-yi-qu-bu-fu-fan-bai-yun-qian",
+      "text": "黄鹤一去不复返，白云千载空悠悠",
+      "author": "崔颢",
+      "work": "tang-cuihao-huanghelou",
+      "theme": [
+        "哲思",
+        "自然"
+      ],
+      "dynasty": "唐",
+      "tags": [
+        "作文素材",
+        "课标必背",
+        "思乡"
+      ],
+      "curriculum": {
+        "stage": "junior",
+        "grade": 7,
+        "recitation": true
+      },
+      "srcPath": "content/quotes/黄鹤一去不复返白.md"
     }
   ]
 }

@@ -11,6 +11,8 @@ import ImageryHub from './components/ImageryHub.vue'
 import SemanticField from './components/SemanticField.vue'
 import CompareReader from './components/CompareReader.vue'
 import QuoteCards from './components/QuoteCards.vue'
+import IdiomBrowser from './components/IdiomBrowser.vue'
+import QuoteBrowser from './components/QuoteBrowser.vue'
 import ReviewDeck from './components/ReviewDeck.vue'
 import DailyQuiz from './components/DailyQuiz.vue'
 import MistakeBook from './components/MistakeBook.vue'
@@ -39,6 +41,8 @@ export default {
     app.component('SemanticField', SemanticField)
     app.component('CompareReader', CompareReader)
     app.component('QuoteCards', QuoteCards)
+    app.component('IdiomBrowser', IdiomBrowser)
+    app.component('QuoteBrowser', QuoteBrowser)
     app.component('ReviewDeck', ReviewDeck) // 学习系统：FSRS 复习（/review/）
     app.component('DailyQuiz', DailyQuiz) // 学习系统：每日一卷（/quiz/）
     app.component('MistakeBook', MistakeBook) // 学习系统：错题本（/quiz/mistakes）

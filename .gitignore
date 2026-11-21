@@ -20,3 +20,6 @@ learnings.json
 # ── 临时与下载的第三方原始数据 ────────────────────
 .vendor/
 .tmp/
+
+# 构建临时目录（误在仓库根启动 vitepress 时产生）
+/.vitepress/

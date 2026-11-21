@@ -59,6 +59,8 @@ export default defineConfig({
     'site/explore/:splat*': 'explore/:splat*',
     'site/stage/:splat*': 'stage/:splat*',
     'site/review/:splat*': 'review/:splat*',
+    'site/idioms/:splat*': 'idioms/:splat*',
+    'site/quotes/:splat*': 'quotes/:splat*',
     'site/quiz/:splat*': 'quiz/:splat*',
     'content/:splat*': ':splat*',
   },
@@ -103,8 +105,11 @@ export default defineConfig({
           { text: '成语语义场', link: '/explore/semantic' },
           { text: '对比阅读', link: '/explore/compare' },
           { text: '名句卡片', link: '/explore/quotes-cards' },
+          { text: '题材校对', link: '/explore/genre-review' },
         ],
       },
+      { text: '成语库', link: '/idioms/' },
+      { text: '名句库', link: '/quotes/' },
       {
         text: '学习',
         items: [
@@ -134,6 +139,7 @@ export default defineConfig({
             { text: '成语语义场', link: '/explore/semantic' },
             { text: '对比阅读', link: '/explore/compare' },
             { text: '名句卡片', link: '/explore/quotes-cards' },
+            { text: '题材校对', link: '/explore/genre-review' },
           ],
         },
       ],
@@ -143,6 +149,8 @@ export default defineConfig({
       '/quiz/': [
         { text: '学习', items: [{ text: '今日复习', link: '/review/' }, { text: '每日一卷', link: '/quiz/' }, { text: '错题本', link: '/quiz/mistakes' }] },
       ],
+      '/idioms/': [{ text: '成语库', items: [{ text: '成语浏览', link: '/idioms/' }] }],
+      '/quotes/': [{ text: '名句库', items: [{ text: '名句浏览', link: '/quotes/' }] }],
       '/stage/': [{ text: '学段', items: stageLinks }],
     },
 
