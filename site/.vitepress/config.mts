@@ -28,6 +28,12 @@ export default defineConfig({
 
   // 站点源目录 = 仓库根；仅 content/ 与 site/ 下的 md 参与渲染（见 srcExclude）
   srcDir: '..',
+  // 诗词原文逐句换行依赖 markdown 的 breaks 选项（否则会被折叠成一段）
+  // 诗词原文依赖单换行保留分行：经 markdown-it 配置钩子开启 breaks
+  markdown: {
+    lineNumbers: false,
+    config: (md) => md.set({ breaks: true }),
+  },
   // 公共资源目录（索引 JSON 由 scripts/build-index.mjs 写入 site/public/indexes/）
   publicDir: 'site/public',
   // 说明：VitePress 1.6.x 的构建期 public 复制固定取 <srcDir>/public（即仓库根 public/），

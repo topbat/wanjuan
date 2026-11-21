@@ -2,7 +2,7 @@
 // 万卷 · 双轨标签统计（treemap / 旭日切换）
 // 数据源：/indexes/stats.json —— 文学本体轨（题材/体裁/朝代/意象/标签）+ 课标轨（年级）
 // 主题：色板取自 --wj-chart-*（宣纸=朱砂墨赭 / 编辑=蓝黑 / 少年=多彩），切换主题后重绘。
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { chartPalette, cssVar, onThemeChange } from '../composables/useWjTheme'
 
 type Item = { name: string; value: number }
@@ -18,7 +18,7 @@ type Stats = {
 const el = ref<HTMLElement | null>(null)
 const loading = ref(true)
 const failed = ref('')
-const dim = ref<'genreDist' | 'formDist' | 'dynastyDist' | 'imageryDist' | 'tagCounts' | 'byGrade'>('genreDist')
+const dim = ref<'genreDist' | 'formDist' | 'dynastyDist' | 'imageryDist' | 'tagCounts' | 'byGrade'>('dynastyDist')
 const mode = ref<'treemap' | 'sunburst'>('treemap')
 
 const DIM_LABEL: Record<string, string> = {
@@ -31,6 +31,7 @@ const DIM_LABEL: Record<string, string> = {
 }
 
 let chart: any = null
+let ro: any = null
 let stats: Stats | null = null
 const offThemeChange = onThemeChange(() => render())
 const onResize = () => chart?.resize()
@@ -116,9 +117,17 @@ onMounted(async () => {
     const res = await fetch(`${import.meta.env.BASE_URL}indexes/stats.json`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     stats = await res.json()
+    // 关键：容器此前为 display:none（v-show），ECharts 会以 0 宽初始化并回退到 100px，
+    // 因此先让容器可见并在下一帧完成布局后再初始化。
+    loading.value = false
+    await nextTick()
     chart = echarts.init(el.value!)
     render()
     window.addEventListener('resize', onResize)
+    if (typeof ResizeObserver !== 'undefined' && el.value) {
+      ro = new ResizeObserver(() => chart && chart.resize())
+      ro.observe(el.value)
+    }
     loading.value = false
   } catch (err: any) {
     loading.value = false
@@ -129,6 +138,7 @@ onMounted(async () => {
 onBeforeUnmount(() => {
   offThemeChange()
   window.removeEventListener('resize', onResize)
+  ro?.disconnect()
   chart?.dispose()
   chart = null
 })

@@ -782,7 +782,8 @@ function buildPoemFile({ id, title, author, dynasty, form, tune, grade, stage, n
     '',
     '## 原文',
     '',
-    ...lines,
+    // 清洗底本内嵌校勘注（如「（遍 一作：徧)」「一作：不知其」），它们不属于作品正文
+    ...lines.map((l) => l.replace(/[（(][^（）()]*一作[^（）()]*[）)]/g, '').replace(/\s*一作[:：][^。；]*/g, '').trim()).filter(Boolean),
     '',
     `> 底本：${anthology}。背诵请以现行教材为准，个别字句各本有异文。`,
     '',

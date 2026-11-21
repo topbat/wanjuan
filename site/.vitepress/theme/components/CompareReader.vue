@@ -152,7 +152,9 @@ onMounted(async () => {
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const data = await res.json()
     poems.value = data.items ?? []
-    activeGenre.value = genres.value[0]?.name ?? ''
+    // 默认题材：优先「已标注且作品数最多」的题材；「待归类」占位数据过杂，放到最后
+    const labeled = genres.value.filter((g: any) => g.name !== '待归类')
+    activeGenre.value = (labeled[0] ?? genres.value[0])?.name ?? ''
   } catch (err: any) {
     failed.value = err?.message ?? String(err)
   } finally {

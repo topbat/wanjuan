@@ -18,6 +18,8 @@ type Poem = {
   tune?: string | null
   genre: string
   imagery: string[]
+  imageryHits?: string[]
+  firstLine?: string
   curriculum?: { stage?: string; grade?: number }
   srcPath: string
 }
@@ -67,7 +69,9 @@ const activeItem = computed(() => imageryList.value.find((i) => i.name === activ
 
 /** 当前意象的相关作品（即「高频例句」来源） */
 const matchedPoems = computed(() =>
-  activeName.value ? poems.value.filter((p) => (p.imagery ?? []).includes(activeName.value)) : [],
+  activeName.value
+    ? poems.value.filter((p) => (p.imagery ?? []).includes(activeName.value) || (p.imageryHits ?? []).includes(activeName.value))
+    : [],
 )
 
 /** 高频例句 Top10：代表句优先（imagery md 的 representative），其次名句索引（work 关联） */
@@ -184,7 +188,11 @@ onMounted(async () => {
       const g = await p3.json()
       imageryNodes.value = (g.nodes ?? []).filter((n: GraphNode) => n.type === 'imagery')
     }
-    if (p4.ok) imageryDist.value = (await p4.json()).imageryDist ?? []
+    if (p4.ok) {
+      const st = await p4.json()
+      // 优先使用「意象词典正文命中」统计（覆盖面远大于人工标签），无则回退人工标签分布
+      imageryDist.value = st.imageryFreq?.length ? st.imageryFreq : (st.imageryDist ?? [])
+    }
   } catch (err: any) {
     failed.value = err?.message ?? String(err)
   } finally {

@@ -25,6 +25,8 @@ const TYPE_ROUTE: Record<string, string> = {
 
 const query = ref('')
 const items = ref<SearchItem[]>([])
+// 空态推荐词：混合汉字与拼音示例，帮助用户发现三种检索通道
+const SUGGEST = ['静夜思', 'jys', '李白', '月', '青梅竹马', '但愿人长久']
 const failed = ref('')
 const activeType = ref<string>('all')
 
@@ -133,9 +135,13 @@ const typeCounts = computed(() => {
       </li>
     </ul>
 
-    <p v-else-if="!query.trim()" class="wj-note">
-      已载入 {{ items.length }} 条索引记录。支持三种输入：汉字子串（静夜）、无声调全拼（jingyesi）、首字母（jys / ss）。
-    </p>
+    <div v-else-if="!query.trim()" class="wj-search-empty">
+      <p class="wj-note">库内 {{ items.length }} 条索引可直接检索：汉字、全拼或首字母皆可。</p>
+      <div class="wj-suggest">
+        <span class="wj-suggest-label">试试：</span>
+        <button v-for="kw in SUGGEST" :key="kw" class="wj-suggest-chip" @click="query = kw">{{ kw }}</button>
+      </div>
+    </div>
   </div>
 </template>
 

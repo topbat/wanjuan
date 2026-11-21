@@ -250,6 +250,11 @@ onMounted(async () => {
 }
 .wj-qtext {
   margin: 0;
+  /* 覆盖 VitePress 默认 blockquote 的灰底与边框，引用卡应为干净诗体 */
+  background: transparent !important;
+  border: none !important;
+  padding: 4px 6px !important;
+  border-radius: 0;
   font-family: var(--wj-font-poem);
   font-size: 21px;
   line-height: 1.7;
@@ -304,6 +309,7 @@ onMounted(async () => {
   background: var(--wj-accent-tint);
 }
 .wj-copy {
+  margin-top: auto;
   align-self: flex-end;
   padding: 3px 14px;
   font-size: 12px;

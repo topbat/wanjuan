@@ -140,16 +140,44 @@ function toSrcPath(absPath) {
 
 /** 中文分词（Intl.Segmenter，词级，仅保留"词"片段） */
 const segmenter = new Intl.Segmenter('zh-Hans', { granularity: 'word' })
-function tokenize(text) {
+// 文言/现代汉语高频虚词与功能词：不承载意象与题旨，词云与检索均无信息量
+const STOPWORDS = new Set([
+  // 文言虚词
+  '之', '其', '而', '以', '于', '也', '不', '无', '有', '为', '与', '者', '曰', '兮', '何', '如',
+  '若', '此', '彼', '所', '则', '乃', '且', '但', '又', '已', '未', '莫', '相', '皆', '焉', '哉',
+  '乎', '矣', '耳', '尔', '汝', '吾', '夫', '故', '因', '遂', '亦', '复', '更', '却', '还', '只',
+  '共', '同', '各', '每', '诸', '等', '或', '然', '故', '是', '非', '得', '能', '可', '自', '从',
+  '来', '去', '上', '下', '中', '里', '外', '时', '处', '地', '天', '人', '一', '二', '三', '四',
+  '五', '六', '七', '八', '九', '十', '千', '万', '不', '知', '不能', '可以', '不知', '然后',
+  '于是', '所以', '因为', '因此', '然而', '虽然', '如果', '就是', '不是', '没有', '什么', '怎么',
+  '之间', '之中', '之后', '之前', '以为', '所谓', '于是', '而已', '奈何', '如此', '若此', '其',
+  '何如', '何以', '是以', '是故', '然则', '且夫', '若夫', '嗟乎', '呜呼', '已矣', '乎哉', '矣哉',
+])
+function tokenize(text, { keepStopwords = false } = {}) {
   const clean = String(text ?? '')
     .replace(/^>.*$/gm, '')   // 去引用块（注释占位等）
     .replace(/^#+\s*/gm, '')  // 去标题标记
     .replace(/[|*`_\-]+/g, '')
   const out = []
   for (const seg of segmenter.segment(clean)) {
-    if (seg.isWordLike) out.push(seg.segment)
+    if (!seg.isWordLike) continue
+    const w = seg.segment
+    if (!keepStopwords && STOPWORDS.has(w)) continue
+    out.push(w)
   }
   return out
+}
+
+const IMAGERY_LEXICON = [
+  '明月', '月', '江', '山', '风', '雨', '雪', '云', '花', '柳', '雁', '舟', '酒', '剑', '琴', '灯',
+  '窗', '楼', '关', '亭', '夜', '秋', '春', '夏', '冬', '草', '松', '竹', '梅', '莲', '菊', '鸟',
+  '猿', '马', '沙', '霜', '露', '烟', '海', '川', '泉', '石', '林', '寺', '钟', '笛', '箫', '客',
+  '梦', '愁', '泪', '故乡', '天涯', '白发', '青山', '流水', '斜阳', '孤舟', '长安', '江南', '夕阳',
+]
+/** 返回正文命中的意象（去重，供意象枢纽按意象反查作品） */
+function imageryHits(body) {
+  const text = String(body ?? '')
+  return IMAGERY_LEXICON.filter((w) => text.includes(w))
 }
 
 /** 全拼（无声调、空格分隔），例：静夜思 → jing ye si */
@@ -403,6 +431,21 @@ async function main() {
   const topAuthors = [...countBy(entities.poems, (p) => p.author).entries()]
     .map(([name, value]) => ({ name, value }))
     .sort((a, b) => b.value - a.value)
+  // 意象词频：用经典意象词典扫描正文（frontmatter 的 imagery 标签尚待人工补全时，
+  // 词云需要一个有主题意义的统计口径，而不是「而后/诸侯」这类虚词与叙事词）
+  const imageryFreqMap = new Map()
+  for (const p of entities.poems) {
+    const body = String(p.__body ?? '')
+    for (const w of IMAGERY_LEXICON) {
+      let idx = 0, n = 0
+      while ((idx = body.indexOf(w, idx)) !== -1) { n++; idx += w.length }
+      if (n > 0) imageryFreqMap.set(w, (imageryFreqMap.get(w) ?? 0) + n)
+    }
+  }
+  const imageryFreq = [...imageryFreqMap.entries()]
+    .map(([name, value]) => ({ name, value }))
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 60)
   const imageryDist = entities.poems.flatMap((p) => p.imagery ?? [])
     .reduce((acc, name) => { const it = acc.find((x) => x.name === name); it ? it.value += 1 : acc.push({ name, value: 1 }); return acc }, [])
     .sort((a, b) => b.value - a.value)
@@ -556,7 +599,7 @@ async function main() {
       items: entities.poems.map((p) => ({
         id: p.id, title: p.title, titlePinyin: p.title_pinyin || pinyinFull(p.title), author: p.author,
         dynasty: p.dynasty, form: p.form, tune: p.tune ?? null, genre: p.genre, imagery: p.imagery ?? [],
-        tags: p.tags ?? [], curriculum: p.curriculum, srcPath: p.__srcPath,
+        tags: p.tags ?? [], curriculum: p.curriculum, srcPath: p.__srcPath, imageryHits: imageryHits(p.__body), firstLine: firstLine(p.__body),
       })),
     },
     'idioms.json': {
@@ -591,6 +634,7 @@ async function main() {
       wordFreq,
       topAuthors,
       imageryDist,
+      imageryFreq,
       genreDist,
       formDist,
       dynastyDist,

@@ -8,6 +8,10 @@ import { computed, onMounted, ref } from 'vue'
 import { useWjTheme } from '../composables/useWjTheme'
 
 const theme = useWjTheme()
+// 主题变体类名：CSS 以 .wj-h-ed / .wj-h-ink / .wj-h-y 作为祖先作用域，
+// 必须挂在根节点上（此前各 section 自带该类但 CSS 用后代选择器，导致整页样式失效）
+const THEME_CLASS: Record<string, string> = { ink: 'wj-h-ink', editorial: 'wj-h-ed', youth: 'wj-h-y' }
+const themeClass = computed(() => THEME_CLASS[theme.value] ?? 'wj-h-ed')
 
 const stats = ref<any>(null)
 const quotes = ref<any[]>([])
@@ -52,7 +56,7 @@ function go(path: string) {
 </script>
 
 <template>
-  <div class="wj-home">
+  <div class="wj-home" :class="themeClass">
     <!-- ==================== 宣纸墨韵 ==================== -->
     <template v-if="theme === 'ink'">
       <div class="wj-h-ink hero">
@@ -235,7 +239,23 @@ function go(path: string) {
 
 <style scoped>
 .wj-home {
-  padding: 8px 0 40px;
+  /* 首页为 layout: page，无 VitePress 文档容器，需自行约束版心与留白 */
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 32px 40px 88px;
+  animation: wj-fade-up 0.5s ease both;
+}
+@media (max-width: 900px) {
+  .wj-home { padding: 20px 18px 56px; }
+}
+
+/* 入场动效：各区块依次淡入上浮 */
+@keyframes wj-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wj-home { animation: none; }
 }
 
 /* ---------------- ink ---------------- */
@@ -638,8 +658,22 @@ function go(path: string) {
   min-height: 230px;
   transition: box-shadow 0.15s;
 }
+.wj-h-ed .mod {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
 .wj-h-ed .mod:hover {
-  box-shadow: inset 0 0 0 2px var(--wj-accent);
+  box-shadow: inset 0 0 0 2px var(--wj-accent), 0 14px 30px rgba(17, 17, 17, 0.07);
+  transform: translateY(-3px);
+  background: #fff;
+}
+/* 四件套卡片依次入场 */
+.wj-h-ed .mods .mod { animation: wj-fade-up 0.5s ease both; }
+.wj-h-ed .mods .mod:nth-child(1) { animation-delay: 0.05s; }
+.wj-h-ed .mods .mod:nth-child(2) { animation-delay: 0.12s; }
+.wj-h-ed .mods .mod:nth-child(3) { animation-delay: 0.19s; }
+.wj-h-ed .mods .mod:nth-child(4) { animation-delay: 0.26s; }
+@media (prefers-reduced-motion: reduce) {
+  .wj-h-ed .mods .mod { animation: none; }
 }
 .wj-h-ed .mod-no {
   font-size: 12px;

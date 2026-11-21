@@ -170,8 +170,8 @@ onMounted(async () => {
                 <a :href="toRoute(it.srcPath)">{{ it.word }}</a>
                 <span class="wj-py">{{ it.pinyin }}</span>
               </td>
-              <td class="wj-td-meaning">{{ it.meaning }}</td>
-              <td class="wj-td-origin" :title="it.origin">{{ originBrief(it.origin) }}</td>
+              <td class="wj-td-meaning"><span class="wj-clamp">{{ it.meaning }}</span></td>
+              <td class="wj-td-origin" :title="it.origin"><span class="wj-clamp">{{ originBrief(it.origin) }}</span></td>
               <td class="wj-td-rel">
                 <span v-for="s in it.synonyms" :key="'s' + s" class="wj-pill syn">{{ s }}</span>
                 <span v-if="!it.synonyms?.length" class="wj-empty">—</span>
@@ -222,6 +222,21 @@ onMounted(async () => {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
+  table-layout: fixed;
+}
+/* 列宽：成语 / 释义 / 出处 / 近义 / 反义 */
+.wj-table th:nth-child(1) { width: 15%; }
+.wj-table th:nth-child(2) { width: 27%; }
+.wj-table th:nth-child(3) { width: 30%; }
+.wj-table th:nth-child(4) { width: 14%; }
+.wj-table th:nth-child(5) { width: 14%; }
+.wj-table td { vertical-align: top; }
+/* 长释义/出处限制三行，保持行高整齐（悬停 title 可看全文） */
+.wj-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .wj-table th {
   text-align: left;
