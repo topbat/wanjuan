@@ -31,6 +31,11 @@ const failed = ref('')
 const activeType = ref<string>('all')
 
 onMounted(async () => {
+  // 从全局搜索跳转时携带 ?q=，进入即回填并检索
+  try {
+    const q = new URLSearchParams(window.location.search).get('q')
+    if (q) query.value = q
+  } catch {}
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}indexes/search.json`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)

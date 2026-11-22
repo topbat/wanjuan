@@ -74,7 +74,8 @@ const crumbs = computed<Crumb[]>(() => {
       if (author) list.push({ label: author })
       if (title) list.push({ label: title })
     } else {
-      list.push({ label: parts[parts.length - 1] })
+      const leaf = parts[parts.length - 1]
+      if (leaf && leaf !== 'index') list.push({ label: leaf })
     }
     return list
   }
