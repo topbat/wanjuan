@@ -503,13 +503,8 @@ function renderRadar() {
           lineStyle: { color: accent, width: 2 },
           itemStyle: { color: accent, borderColor: card, borderWidth: 1 },
           areaStyle: { color: accent, opacity: 0.22 },
-          label: {
-            show: true,
-            color: ink,
-            fontSize: 11,
-            fontFamily: font,
-            formatter: (p: any) => `${p.value}%`,
-          },
+          // 数值较小时顶点标签会挤在圆心，具体比例统一放在图下胶囊与 tooltip 中
+          label: { show: false },
           data: [{ value: dims.map((d) => d.percent), name: '覆盖度' }],
         },
       ],
@@ -709,9 +704,14 @@ function heatLevel(questions: number): number {
 
 function heatStyle(questions: number): Record<string, string> {
   if (questions <= 0) return { background: 'var(--wj-line-soft)' }
+  return heatFill(heatLevel(questions))
+}
+
+/** 图例固定四档深浅，不随当月题量重算 */
+function heatFill(level: number): Record<string, string> {
   return {
     background: 'var(--wj-accent)',
-    opacity: String(0.24 + heatLevel(questions) * 0.18),
+    opacity: String(0.24 + Math.min(4, Math.max(1, level)) * 0.18),
   }
 }
 
@@ -974,7 +974,7 @@ function confirmClear() {
           <span>{{ last14Days[0]?.label }}</span>
           <span class="wj-profile-heat-legend">
             少
-            <i v-for="level in 4" :key="level" :style="heatStyle(level)"></i>
+            <i v-for="level in 4" :key="level" :style="heatFill(level)"></i>
             多
           </span>
           <span>{{ last14Days[last14Days.length - 1]?.label }}</span>

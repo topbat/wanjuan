@@ -78,4 +78,12 @@ function pick(id: WjThemeName) {
   flex: none;
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+/* 窄屏：只留色点，避免把汉堡菜单挤出视口 */
+@media (max-width: 900px) {
+  .wj-switcher { padding: 2px; gap: 0; border: 0; background: transparent; }
+  .wj-switcher-item { padding: 4px 3px; }
+  .wj-switcher-label { display: none; }
+  .wj-switcher-dot { width: 12px; height: 12px; }
+}
 </style>

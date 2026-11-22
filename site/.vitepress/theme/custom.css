@@ -650,3 +650,12 @@ html body .wj-backtop {
 }
 /* 点击时不显示焦点环，避免鼠标用户看到多余描边 */
 :focus:not(:focus-visible) { outline: none; }
+
+/* 窄屏导航：标题可截断，保证汉堡菜单始终在视口内 */
+@media (max-width: 900px) {
+  .VPNavBar .title { min-width: 0; max-width: 38vw; }
+  .VPNavBar .title span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .VPNavBar .content-body { gap: 4px; padding-right: 0; }
+  .VPNavBarHamburger { margin-left: 2px; }
+  .wj-gs-trigger { padding: 0 6px; }
+}
