@@ -1,0 +1,1187 @@
+{
+  "generatedAt": "2026-11-22T05:53:21.227Z",
+  "count": 73,
+  "items": [
+    {
+      "id": "author-liukezhuang",
+      "name": "刘克庄",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 1187,
+      "death": 1269,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/刘克庄.md"
+    },
+    {
+      "id": "author-liuyuxi",
+      "name": "刘禹锡",
+      "courtesy": "梦得",
+      "pseudonym": null,
+      "birth": 772,
+      "death": 842,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/刘禹锡.md"
+    },
+    {
+      "id": "author-lulun",
+      "name": "卢纶",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 739,
+      "death": 799,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/卢纶.md"
+    },
+    {
+      "id": "author-yeshaoweng",
+      "name": "叶绍翁",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/叶绍翁.md"
+    },
+    {
+      "id": "author-simaqian",
+      "name": "司马迁",
+      "courtesy": "子长",
+      "pseudonym": null,
+      "birth": -145,
+      "death": null,
+      "dynasty": "汉",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/司马迁.md"
+    },
+    {
+      "id": "author-zhoubangyan",
+      "name": "周邦彦",
+      "courtesy": "美成",
+      "pseudonym": "清真居士",
+      "birth": 1056,
+      "death": 1121,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/周邦彦.md"
+    },
+    {
+      "id": "author-jiangkui",
+      "name": "姜夔",
+      "courtesy": "尧章",
+      "pseudonym": "白石道人",
+      "birth": null,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/姜夔.md"
+    },
+    {
+      "id": "author-menghaoran",
+      "name": "孟浩然",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 689,
+      "death": 740,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/孟浩然.md"
+    },
+    {
+      "id": "author-mengjiao",
+      "name": "孟郊",
+      "courtesy": "东野",
+      "pseudonym": null,
+      "birth": 751,
+      "death": 814,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/孟郊.md"
+    },
+    {
+      "id": "author-quyuan",
+      "name": "屈原",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "先秦",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/屈原.md"
+    },
+    {
+      "id": "author-cencan",
+      "name": "岑参",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 715,
+      "death": 770,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/岑参.md"
+    },
+    {
+      "id": "author-cuihao",
+      "name": "崔颢",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/崔颢.md"
+    },
+    {
+      "id": "author-zhangyanghao",
+      "name": "张养浩",
+      "courtesy": "希孟",
+      "pseudonym": "云庄",
+      "birth": 1270,
+      "death": 1329,
+      "dynasty": "元",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/张养浩.md"
+    },
+    {
+      "id": "author-zhangxiaoxiang",
+      "name": "张孝祥",
+      "courtesy": "安国",
+      "pseudonym": null,
+      "birth": 1132,
+      "death": 1170,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/张孝祥.md"
+    },
+    {
+      "id": "author-zhangzhihe",
+      "name": "张志和",
+      "courtesy": "子同",
+      "pseudonym": "烟波钓徒",
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/张志和.md"
+    },
+    {
+      "id": "author-zhangji",
+      "name": "张继",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/张继.md"
+    },
+    {
+      "id": "author-zhangruoxu",
+      "name": "张若虚",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/张若虚.md"
+    },
+    {
+      "id": "author-wentianxiang",
+      "name": "文天祥",
+      "courtesy": "履善",
+      "pseudonym": null,
+      "birth": 1236,
+      "death": 1283,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/文天祥.md"
+    },
+    {
+      "id": "author-yanshu",
+      "name": "晏殊",
+      "courtesy": "同叔",
+      "pseudonym": null,
+      "birth": 991,
+      "death": 1055,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/晏殊.md"
+    },
+    {
+      "id": "author-caocao",
+      "name": "曹操",
+      "courtesy": "孟德",
+      "pseudonym": null,
+      "birth": 155,
+      "death": 220,
+      "dynasty": "汉",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/曹操.md"
+    },
+    {
+      "id": "author-cengji",
+      "name": "曾几",
+      "courtesy": "吉甫",
+      "pseudonym": "茶山居士",
+      "birth": 1085,
+      "death": 1166,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/曾几.md"
+    },
+    {
+      "id": "author-zhuxi",
+      "name": "朱熹",
+      "courtesy": "元晦",
+      "pseudonym": "晦庵",
+      "birth": 1130,
+      "death": 1200,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/朱熹.md"
+    },
+    {
+      "id": "author-lishangyin",
+      "name": "李商隐",
+      "courtesy": "义山",
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李商隐.md"
+    },
+    {
+      "id": "author-limi",
+      "name": "李密",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "魏晋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李密.md"
+    },
+    {
+      "id": "author-liqiao",
+      "name": "李峤",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李峤.md"
+    },
+    {
+      "id": "author-lisi",
+      "name": "李斯",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": -208,
+      "dynasty": "秦",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李斯.md"
+    },
+    {
+      "id": "author-liqingzhao",
+      "name": "李清照",
+      "courtesy": null,
+      "pseudonym": "易安居士",
+      "birth": 1084,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李清照.md"
+    },
+    {
+      "id": "author-liyu",
+      "name": "李煜",
+      "courtesy": "重光",
+      "pseudonym": null,
+      "birth": 937,
+      "death": 978,
+      "dynasty": "五代",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李煜.md"
+    },
+    {
+      "id": "author-libai",
+      "name": "李白",
+      "courtesy": "太白",
+      "pseudonym": "青莲居士",
+      "birth": 701,
+      "death": 762,
+      "dynasty": "唐",
+      "school": "浪漫主义",
+      "masters": [],
+      "friends": [
+        "杜甫",
+        "高适",
+        "孟浩然"
+      ],
+      "tags": [
+        "诗仙"
+      ],
+      "srcPath": "content/authors/李白.md"
+    },
+    {
+      "id": "author-lishen",
+      "name": "李绅",
+      "courtesy": "公垂",
+      "pseudonym": null,
+      "birth": 772,
+      "death": 846,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李绅.md"
+    },
+    {
+      "id": "author-lihe",
+      "name": "李贺",
+      "courtesy": "长吉",
+      "pseudonym": null,
+      "birth": 790,
+      "death": 816,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/李贺.md"
+    },
+    {
+      "id": "author-dumu",
+      "name": "杜牧",
+      "courtesy": "牧之",
+      "pseudonym": "樊川居士",
+      "birth": 803,
+      "death": 852,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/杜牧.md"
+    },
+    {
+      "id": "author-dufu",
+      "name": "杜甫",
+      "courtesy": "子美",
+      "pseudonym": "少陵野老",
+      "birth": 712,
+      "death": 770,
+      "dynasty": "唐",
+      "school": "现实主义",
+      "masters": [],
+      "friends": [
+        "李白",
+        "高适"
+      ],
+      "tags": [
+        "诗圣"
+      ],
+      "srcPath": "content/authors/杜甫.md"
+    },
+    {
+      "id": "author-yangwanli",
+      "name": "杨万里",
+      "courtesy": "廷秀",
+      "pseudonym": "诚斋",
+      "birth": 1127,
+      "death": 1206,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/杨万里.md"
+    },
+    {
+      "id": "author-linsheng",
+      "name": "林升",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/林升.md"
+    },
+    {
+      "id": "author-liuzongyuan",
+      "name": "柳宗元",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/柳宗元.md"
+    },
+    {
+      "id": "author-liuyong",
+      "name": "柳永",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/柳永.md"
+    },
+    {
+      "id": "author-ouyangxiu",
+      "name": "欧阳修",
+      "courtesy": "永叔",
+      "pseudonym": "六一居士",
+      "birth": 1007,
+      "death": 1072,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/欧阳修.md"
+    },
+    {
+      "id": "author-wentingyun",
+      "name": "温庭筠",
+      "courtesy": "飞卿",
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/温庭筠.md"
+    },
+    {
+      "id": "author-wangzhihuan",
+      "name": "王之涣",
+      "courtesy": "季凌",
+      "pseudonym": null,
+      "birth": 688,
+      "death": 742,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王之涣.md"
+    },
+    {
+      "id": "author-wangbo",
+      "name": "王勃",
+      "courtesy": "子安",
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王勃.md"
+    },
+    {
+      "id": "author-wanganshi",
+      "name": "王安石",
+      "courtesy": "介甫",
+      "pseudonym": "半山",
+      "birth": 1021,
+      "death": 1086,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王安石.md"
+    },
+    {
+      "id": "author-wangchangling",
+      "name": "王昌龄",
+      "courtesy": "少伯",
+      "pseudonym": null,
+      "birth": 698,
+      "death": 757,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王昌龄.md"
+    },
+    {
+      "id": "author-wangwan",
+      "name": "王湾",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 693,
+      "death": 751,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王湾.md"
+    },
+    {
+      "id": "author-wangyucheng",
+      "name": "王禹偁",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 954,
+      "death": 1001,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王禹偁.md"
+    },
+    {
+      "id": "author-wangwei",
+      "name": "王维",
+      "courtesy": "摩诘",
+      "pseudonym": "摩诘居士",
+      "birth": 701,
+      "death": 761,
+      "dynasty": "唐",
+      "school": "山水田园诗派",
+      "masters": [],
+      "friends": [
+        "裴迪",
+        "孟浩然"
+      ],
+      "tags": [
+        "诗佛"
+      ],
+      "srcPath": "content/authors/王维.md"
+    },
+    {
+      "id": "author-wangxizhi",
+      "name": "王羲之",
+      "courtesy": "逸少",
+      "pseudonym": null,
+      "birth": 303,
+      "death": 361,
+      "dynasty": "魏晋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王羲之.md"
+    },
+    {
+      "id": "author-wanghan",
+      "name": "王翰",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/王翰.md"
+    },
+    {
+      "id": "author-baijuyi",
+      "name": "白居易",
+      "courtesy": "乐天",
+      "pseudonym": "香山居士",
+      "birth": 772,
+      "death": 846,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/白居易.md"
+    },
+    {
+      "id": "author-qinguan",
+      "name": "秦观",
+      "courtesy": "少游",
+      "pseudonym": null,
+      "birth": 1049,
+      "death": 1100,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/秦观.md"
+    },
+    {
+      "id": "author-luoyin",
+      "name": "罗隐",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 833,
+      "death": 910,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/罗隐.md"
+    },
+    {
+      "id": "author-wengjuan",
+      "name": "翁卷",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/翁卷.md"
+    },
+    {
+      "id": "author-hulingneng",
+      "name": "胡令能",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/胡令能.md"
+    },
+    {
+      "id": "author-suxun",
+      "name": "苏洵",
+      "courtesy": "明允",
+      "pseudonym": null,
+      "birth": 1009,
+      "death": 1066,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/苏洵.md"
+    },
+    {
+      "id": "author-sushi",
+      "name": "苏轼",
+      "courtesy": "子瞻",
+      "pseudonym": "东坡居士",
+      "birth": 1037,
+      "death": 1101,
+      "dynasty": "宋",
+      "school": "豪放派",
+      "masters": [],
+      "friends": [
+        "黄庭坚",
+        "秦观"
+      ],
+      "tags": [
+        "唐宋八大家"
+      ],
+      "srcPath": "content/authors/苏轼.md"
+    },
+    {
+      "id": "author-suzhe",
+      "name": "苏辙",
+      "courtesy": "子由",
+      "pseudonym": null,
+      "birth": 1039,
+      "death": 1112,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/苏辙.md"
+    },
+    {
+      "id": "author-fanzhongyan",
+      "name": "范仲淹",
+      "courtesy": "希文",
+      "pseudonym": null,
+      "birth": 989,
+      "death": 1052,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/范仲淹.md"
+    },
+    {
+      "id": "author-fanchengda",
+      "name": "范成大",
+      "courtesy": "致能",
+      "pseudonym": "石湖居士",
+      "birth": 1126,
+      "death": 1193,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/范成大.md"
+    },
+    {
+      "id": "author-zhugeliang",
+      "name": "诸葛亮",
+      "courtesy": "孔明",
+      "pseudonym": null,
+      "birth": 181,
+      "death": 234,
+      "dynasty": "三国",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/诸葛亮.md"
+    },
+    {
+      "id": "author-hezhizhang",
+      "name": "贺知章",
+      "courtesy": "季真",
+      "pseudonym": null,
+      "birth": 659,
+      "death": 744,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/贺知章.md"
+    },
+    {
+      "id": "author-jiadao",
+      "name": "贾岛",
+      "courtesy": "阆仙",
+      "pseudonym": null,
+      "birth": 779,
+      "death": 843,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/贾岛.md"
+    },
+    {
+      "id": "author-jiayi",
+      "name": "贾谊",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": -200,
+      "death": -168,
+      "dynasty": "汉",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/贾谊.md"
+    },
+    {
+      "id": "author-xinqiji",
+      "name": "辛弃疾",
+      "courtesy": "幼安",
+      "pseudonym": "稼轩",
+      "birth": 1140,
+      "death": 1207,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/辛弃疾.md"
+    },
+    {
+      "id": "author-luyou",
+      "name": "陆游",
+      "courtesy": "务观",
+      "pseudonym": "放翁",
+      "birth": 1125,
+      "death": 1210,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/陆游.md"
+    },
+    {
+      "id": "author-chenziang",
+      "name": "陈子昂",
+      "courtesy": "伯玉",
+      "pseudonym": null,
+      "birth": 659,
+      "death": 702,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/陈子昂.md"
+    },
+    {
+      "id": "author-taoqian",
+      "name": "陶潜",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "魏晋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/陶潜.md"
+    },
+    {
+      "id": "author-weiyingwu",
+      "name": "韦应物",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": 737,
+      "death": 792,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/韦应物.md"
+    },
+    {
+      "id": "author-hanyu",
+      "name": "韩愈",
+      "courtesy": "退之",
+      "pseudonym": null,
+      "birth": 768,
+      "death": 824,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/韩愈.md"
+    },
+    {
+      "id": "author-mazhiyuan",
+      "name": "马致远",
+      "courtesy": null,
+      "pseudonym": "东篱",
+      "birth": null,
+      "death": null,
+      "dynasty": "元",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/马致远.md"
+    },
+    {
+      "id": "author-luobinwang",
+      "name": "骆宾王",
+      "courtesy": null,
+      "pseudonym": null,
+      "birth": null,
+      "death": null,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/骆宾王.md"
+    },
+    {
+      "id": "author-gaoshi",
+      "name": "高适",
+      "courtesy": "达夫",
+      "pseudonym": null,
+      "birth": 704,
+      "death": 765,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/高适.md"
+    },
+    {
+      "id": "author-weizheng",
+      "name": "魏征",
+      "courtesy": "玄成",
+      "pseudonym": null,
+      "birth": 580,
+      "death": 643,
+      "dynasty": "唐",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/魏征.md"
+    },
+    {
+      "id": "author-huangtingjian",
+      "name": "黄庭坚",
+      "courtesy": "鲁直",
+      "pseudonym": "山谷道人",
+      "birth": 1045,
+      "death": 1105,
+      "dynasty": "宋",
+      "school": null,
+      "masters": [],
+      "friends": [],
+      "tags": [
+        "课标作者"
+      ],
+      "srcPath": "content/authors/黄庭坚.md"
+    }
+  ]
+}

@@ -8,6 +8,22 @@ import { computed, onMounted, ref } from 'vue'
 import { useWjTheme } from '../composables/useWjTheme'
 
 const theme = useWjTheme()
+
+/** 最近浏览（由 RelatedEntries 在词条页写入 localStorage） */
+const RECENT_TYPE: Record<string, string> = { poems: '作品', idioms: '成语', quotes: '名句', authors: '作者', imagery: '意象' }
+const TYPE_LABEL = RECENT_TYPE
+const recent = ref<Array<{ id: string; title: string; type: string; link: string; at: number }>>([])
+function loadRecent() {
+  try {
+    const raw = localStorage.getItem('wj-recent')
+    if (!raw) return
+    recent.value = (JSON.parse(raw) as any[]).slice(0, 4)
+  } catch {}
+}
+function clearRecent() {
+  try { localStorage.removeItem('wj-recent') } catch {}
+  recent.value = []
+}
 // 主题变体类名：CSS 以 .wj-h-ed / .wj-h-ink / .wj-h-y 作为祖先作用域，
 // 必须挂在根节点上（此前各 section 自带该类但 CSS 用后代选择器，导致整页样式失效）
 const THEME_CLASS: Record<string, string> = { ink: 'wj-h-ink', editorial: 'wj-h-ed', youth: 'wj-h-y' }
@@ -18,6 +34,7 @@ const quotes = ref<any[]>([])
 const quoteIdx = ref(0)
 
 onMounted(async () => {
+  loadRecent()
   try {
     const base = import.meta.env.BASE_URL
     const [s, q] = await Promise.all([
@@ -234,6 +251,23 @@ function go(path: string) {
         <button class="q-btn" @click="quoteIdx = (quoteIdx + 1) % Math.max(1, quotes.length)">换一句 🎲</button>
       </div>
     </template>
+
+    <!-- 继续学习：跨主题通用区块，读取本机最近浏览（localStorage） -->
+    <section v-if="recent.length" class="wj-recent" aria-label="继续学习">
+      <div class="wj-recent-head">
+        <h2>继续学习</h2>
+        <span>最近浏览 · 仅存本机</span>
+        <button type="button" class="wj-recent-clear" @click="clearRecent">清空</button>
+      </div>
+      <ul class="wj-recent-list">
+        <li v-for="r in recent" :key="r.id">
+          <a :href="r.link">
+            <span class="wj-recent-type">{{ TYPE_LABEL[r.type] ?? '词条' }}</span>
+            <span class="wj-recent-title">{{ r.title }}</span>
+          </a>
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
@@ -1141,5 +1175,74 @@ function go(path: string) {
   .wj-h-ink .title-tag {
     height: 200px;
   }
+}
+
+/* ---------------- 继续学习（跨主题通用） ---------------- */
+.wj-recent {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--wj-line);
+}
+.wj-recent-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.wj-recent-head h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--wj-ink);
+  border: 0;
+  padding: 0;
+}
+.wj-recent-head span { font-size: 12px; color: var(--wj-ink-3); }
+.wj-recent-clear {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--wj-ink-3);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.wj-recent-clear:hover { color: var(--wj-accent); }
+.wj-recent-list {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wj-recent-list a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--wj-card);
+  border: 1px solid var(--wj-line);
+  border-radius: var(--wj-radius);
+  text-decoration: none;
+  color: var(--wj-ink);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.wj-recent-list a:hover { border-color: var(--wj-accent); transform: translateY(-1px); }
+.wj-recent-type {
+  flex: 0 0 auto;
+  padding: 1px 7px;
+  font-size: 11px;
+  color: var(--wj-ink-3);
+  border: 1px solid var(--wj-line);
+  border-radius: 999px;
+}
+.wj-recent-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13.5px;
 }
 </style>

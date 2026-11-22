@@ -591,8 +591,51 @@ async function main() {
   const writeStep = log.step('写出索引文件')
   fs.mkdirSync(OUT_DIR, { recursive: true })
   const generatedAt = new Date().toISOString()
+  // 8. 诗句索引（飞花令）与作者索引（时间轴）
+  // 诗句：按中文标点切句，保留 5 字以上，逐条带作品元信息与回源路径
+  const lineSep = new RegExp('[，。！？；：、' + String.fromCharCode(10) + ']+')
+  const linesIndex = []
+  const seenLine = new Set()
+  for (const p of entities.poems) {
+    const body = String(p.__body ?? '')
+      .replace(/^>.*$/gm, '')
+      .replace(/^#.*$/gm, '')
+    for (const raw of body.split(lineSep)) {
+      const line = raw.replace(/[「」『』“”‘’（）()《》]/g, '').trim()
+      if (line.length < 5 || line.length > 40) continue
+      const key = `${p.id}|${line}`
+      if (seenLine.has(key)) continue
+      seenLine.add(key)
+      linesIndex.push({
+        line,
+        poemId: p.id,
+        title: p.title,
+        author: p.author,
+        dynasty: p.dynasty,
+        srcPath: p.__srcPath,
+      })
+    }
+  }
+
+  const authorsIndex = entities.authors.map((a) => ({
+    id: a.id,
+    name: a.name,
+    courtesy: a.courtesy ?? null,
+    pseudonym: a.pseudonym ?? null,
+    birth: a.birth ?? null,
+    death: a.death ?? null,
+    dynasty: a.dynasty,
+    school: a.school ?? null,
+    masters: a.masters ?? [],
+    friends: a.friends ?? [],
+    tags: a.tags ?? [],
+    srcPath: a.__srcPath,
+  }))
+
   const outputs = {
     'search.json': { generatedAt, count: searchItems.length, items: searchItems },
+    'lines.json': { generatedAt, count: linesIndex.length, items: linesIndex },
+    'authors.json': { generatedAt, count: authorsIndex.length, items: authorsIndex },
     'poems.json': {
       generatedAt,
       count: entities.poems.length,

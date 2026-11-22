@@ -26,6 +26,12 @@ export function mountBackToTop(): void {
   `
 
   const ring = btn.querySelector('.wj-backtop-ring') as HTMLElement | null
+
+  // 顶部阅读进度条（长页面的"我在哪"提示）
+  const bar = document.createElement('div')
+  bar.className = 'wj-progress'
+  bar.setAttribute('aria-hidden', 'true')
+  document.body.appendChild(bar)
   const THRESHOLD = 420
   let raf = 0
 
@@ -37,7 +43,9 @@ export function mountBackToTop(): void {
     btn.style.opacity = show ? '1' : '0'
     btn.style.transform = show ? 'translateY(0)' : 'translateY(12px)'
     btn.style.pointerEvents = show ? 'auto' : 'none'
-    ring?.style.setProperty('--p', String(Math.min(1, y / max)))
+    const ratio = Math.min(1, y / max)
+    ring?.style.setProperty('--p', String(ratio))
+    bar.style.transform = `scaleX(${ratio})`
   }
 
   const schedule = () => {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:29:00.456Z",
+  "generatedAt": "2026-11-22T05:53:21.227Z",
   "totals": {
     "poems": 159,
     "idioms": 370,
@@ -168,11 +168,11 @@
       "value": 11
     },
     {
-      "name": "何处",
+      "name": "不可",
       "value": 11
     },
     {
-      "name": "不可",
+      "name": "何处",
       "value": 11
     },
     {
@@ -208,10 +208,6 @@
       "value": 8
     },
     {
-      "name": "白云",
-      "value": 8
-    },
-    {
       "name": "不如",
       "value": 8
     },
@@ -220,11 +216,15 @@
       "value": 8
     },
     {
-      "name": "琵琶",
+      "name": "白云",
       "value": 8
     },
     {
       "name": "之乐",
+      "value": 8
+    },
+    {
+      "name": "琵琶",
       "value": 8
     },
     {
@@ -248,15 +248,7 @@
       "value": 7
     },
     {
-      "name": "黄河",
-      "value": 7
-    },
-    {
-      "name": "不得",
-      "value": 7
-    },
-    {
-      "name": "悠悠",
+      "name": "六国",
       "value": 7
     },
     {
@@ -264,7 +256,15 @@
       "value": 7
     },
     {
-      "name": "六国",
+      "name": "黄河",
+      "value": 7
+    },
+    {
+      "name": "悠悠",
+      "value": 7
+    },
+    {
+      "name": "不得",
       "value": 7
     },
     {
@@ -284,6 +284,10 @@
       "value": 6
     },
     {
+      "name": "甚于",
+      "value": 6
+    },
+    {
       "name": "人生",
       "value": 6
     },
@@ -292,15 +296,11 @@
       "value": 6
     },
     {
-      "name": "甚于",
+      "name": "不足",
       "value": 6
     },
     {
       "name": "长江",
-      "value": 6
-    },
-    {
-      "name": "不足",
       "value": 6
     },
     {
@@ -312,19 +312,19 @@
       "value": 5
     },
     {
-      "name": "不过",
+      "name": "不及",
       "value": 5
     },
     {
-      "name": "做了",
+      "name": "必有",
       "value": 5
     },
     {
-      "name": "如何",
+      "name": "圣人",
       "value": 5
     },
     {
-      "name": "千古",
+      "name": "不为",
       "value": 5
     }
   ],
@@ -346,19 +346,19 @@
       "value": 6
     },
     {
-      "name": "王维",
-      "value": 5
-    },
-    {
-      "name": "白居易",
-      "value": 5
-    },
-    {
       "name": "王安石",
       "value": 5
     },
     {
       "name": "辛弃疾",
+      "value": 5
+    },
+    {
+      "name": "王维",
+      "value": 5
+    },
+    {
+      "name": "白居易",
       "value": 5
     },
     {
@@ -370,19 +370,19 @@
       "value": 3
     },
     {
-      "name": "李商隐",
-      "value": 3
-    },
-    {
-      "name": "韩愈",
-      "value": 3
-    },
-    {
       "name": "李清照",
       "value": 3
     },
     {
       "name": "范仲淹",
+      "value": 3
+    },
+    {
+      "name": "李商隐",
+      "value": 3
+    },
+    {
+      "name": "韩愈",
       "value": 3
     },
     {
@@ -398,38 +398,6 @@
       "value": 2
     },
     {
-      "name": "李绅",
-      "value": 2
-    },
-    {
-      "name": "李贺",
-      "value": 2
-    },
-    {
-      "name": "柳宗元",
-      "value": 2
-    },
-    {
-      "name": "王之涣",
-      "value": 2
-    },
-    {
-      "name": "王勃",
-      "value": 2
-    },
-    {
-      "name": "王昌龄",
-      "value": 2
-    },
-    {
-      "name": "贺知章",
-      "value": 2
-    },
-    {
-      "name": "高适",
-      "value": 2
-    },
-    {
       "name": "朱熹",
       "value": 2
     },
@@ -439,10 +407,6 @@
     },
     {
       "name": "范成大",
-      "value": 2
-    },
-    {
-      "name": "陆游",
       "value": 2
     },
     {
@@ -458,19 +422,43 @@
       "value": 2
     },
     {
+      "name": "陆游",
+      "value": 2
+    },
+    {
+      "name": "李绅",
+      "value": 2
+    },
+    {
+      "name": "李贺",
+      "value": 2
+    },
+    {
+      "name": "王之涣",
+      "value": 2
+    },
+    {
+      "name": "柳宗元",
+      "value": 2
+    },
+    {
+      "name": "王昌龄",
+      "value": 2
+    },
+    {
+      "name": "王勃",
+      "value": 2
+    },
+    {
+      "name": "贺知章",
+      "value": 2
+    },
+    {
+      "name": "高适",
+      "value": 2
+    },
+    {
       "name": "诸葛亮",
-      "value": 1
-    },
-    {
-      "name": "张养浩",
-      "value": 1
-    },
-    {
-      "name": "马致远",
-      "value": 1
-    },
-    {
-      "name": "《左传》",
       "value": 1
     },
     {
@@ -478,7 +466,95 @@
       "value": 1
     },
     {
+      "name": "《左传》",
+      "value": 1
+    },
+    {
       "name": "《战国策》",
+      "value": 1
+    },
+    {
+      "name": "刘克庄",
+      "value": 1
+    },
+    {
+      "name": "叶绍翁",
+      "value": 1
+    },
+    {
+      "name": "周邦彦",
+      "value": 1
+    },
+    {
+      "name": "姜夔",
+      "value": 1
+    },
+    {
+      "name": "马致远",
+      "value": 1
+    },
+    {
+      "name": "张养浩",
+      "value": 1
+    },
+    {
+      "name": "曾几",
+      "value": 1
+    },
+    {
+      "name": "文天祥",
+      "value": 1
+    },
+    {
+      "name": "晏殊",
+      "value": 1
+    },
+    {
+      "name": "杨万里",
+      "value": 1
+    },
+    {
+      "name": "林升",
+      "value": 1
+    },
+    {
+      "name": "张孝祥",
+      "value": 1
+    },
+    {
+      "name": "柳永",
+      "value": 1
+    },
+    {
+      "name": "王禹偁",
+      "value": 1
+    },
+    {
+      "name": "翁卷",
+      "value": 1
+    },
+    {
+      "name": "秦观",
+      "value": 1
+    },
+    {
+      "name": "苏洵",
+      "value": 1
+    },
+    {
+      "name": "苏辙",
+      "value": 1
+    },
+    {
+      "name": "贾谊",
+      "value": 1
+    },
+    {
+      "name": "黄庭坚",
+      "value": 1
+    },
+    {
+      "name": "卢纶",
       "value": 1
     },
     {
@@ -490,23 +566,7 @@
       "value": 1
     },
     {
-      "name": "卢纶",
-      "value": 1
-    },
-    {
       "name": "岑参",
-      "value": 1
-    },
-    {
-      "name": "崔颢",
-      "value": 1
-    },
-    {
-      "name": "张志和",
-      "value": 1
-    },
-    {
-      "name": "张继",
       "value": 1
     },
     {
@@ -514,7 +574,19 @@
       "value": 1
     },
     {
+      "name": "张志和",
+      "value": 1
+    },
+    {
+      "name": "崔颢",
+      "value": 1
+    },
+    {
       "name": "李峤",
+      "value": 1
+    },
+    {
+      "name": "张继",
       "value": 1
     },
     {
@@ -530,11 +602,11 @@
       "value": 1
     },
     {
-      "name": "胡令能",
+      "name": "罗隐",
       "value": 1
     },
     {
-      "name": "罗隐",
+      "name": "胡令能",
       "value": 1
     },
     {
@@ -542,11 +614,11 @@
       "value": 1
     },
     {
-      "name": "韦应物",
+      "name": "陈子昂",
       "value": 1
     },
     {
-      "name": "陈子昂",
+      "name": "韦应物",
       "value": 1
     },
     {
@@ -554,79 +626,7 @@
       "value": 1
     },
     {
-      "name": "刘克庄",
-      "value": 1
-    },
-    {
       "name": "魏征",
-      "value": 1
-    },
-    {
-      "name": "叶绍翁",
-      "value": 1
-    },
-    {
-      "name": "周邦彦",
-      "value": 1
-    },
-    {
-      "name": "晏殊",
-      "value": 1
-    },
-    {
-      "name": "姜夔",
-      "value": 1
-    },
-    {
-      "name": "张孝祥",
-      "value": 1
-    },
-    {
-      "name": "文天祥",
-      "value": 1
-    },
-    {
-      "name": "曾几",
-      "value": 1
-    },
-    {
-      "name": "杨万里",
-      "value": 1
-    },
-    {
-      "name": "林升",
-      "value": 1
-    },
-    {
-      "name": "柳永",
-      "value": 1
-    },
-    {
-      "name": "秦观",
-      "value": 1
-    },
-    {
-      "name": "王禹偁",
-      "value": 1
-    },
-    {
-      "name": "苏洵",
-      "value": 1
-    },
-    {
-      "name": "翁卷",
-      "value": 1
-    },
-    {
-      "name": "苏辙",
-      "value": 1
-    },
-    {
-      "name": "黄庭坚",
-      "value": 1
-    },
-    {
-      "name": "贾谊",
       "value": 1
     },
     {
@@ -638,15 +638,15 @@
       "value": 1
     },
     {
+      "name": "王羲之",
+      "value": 1
+    },
+    {
       "name": "李密",
       "value": 1
     },
     {
       "name": "陶潜",
-      "value": 1
-    },
-    {
-      "name": "王羲之",
       "value": 1
     }
   ],
@@ -718,11 +718,11 @@
       "value": 30
     },
     {
-      "name": "烟",
+      "name": "舟",
       "value": 27
     },
     {
-      "name": "舟",
+      "name": "烟",
       "value": 27
     },
     {
@@ -778,11 +778,11 @@
       "value": 13
     },
     {
-      "name": "泉",
+      "name": "霜",
       "value": 12
     },
     {
-      "name": "霜",
+      "name": "泉",
       "value": 12
     },
     {
@@ -798,16 +798,20 @@
       "value": 9
     },
     {
-      "name": "泪",
+      "name": "柳",
       "value": 8
     },
     {
-      "name": "柳",
+      "name": "泪",
       "value": 8
     },
     {
       "name": "琴",
       "value": 7
+    },
+    {
+      "name": "长安",
+      "value": 5
     },
     {
       "name": "天涯",
@@ -818,15 +822,11 @@
       "value": 5
     },
     {
-      "name": "松",
-      "value": 5
-    },
-    {
       "name": "江南",
       "value": 5
     },
     {
-      "name": "长安",
+      "name": "松",
       "value": 5
     },
     {
@@ -834,23 +834,7 @@
       "value": 4
     },
     {
-      "name": "笛",
-      "value": 4
-    },
-    {
-      "name": "寺",
-      "value": 4
-    },
-    {
       "name": "窗",
-      "value": 4
-    },
-    {
-      "name": "白发",
-      "value": 4
-    },
-    {
-      "name": "青山",
       "value": 4
     },
     {
@@ -858,11 +842,31 @@
       "value": 4
     },
     {
+      "name": "青山",
+      "value": 4
+    },
+    {
+      "name": "白发",
+      "value": 4
+    },
+    {
       "name": "箫",
       "value": 4
     },
     {
+      "name": "寺",
+      "value": 4
+    },
+    {
+      "name": "笛",
+      "value": 4
+    },
+    {
       "name": "故乡",
+      "value": 3
+    },
+    {
+      "name": "梅",
       "value": 3
     },
     {
@@ -874,19 +878,15 @@
       "value": 3
     },
     {
-      "name": "梅",
-      "value": 3
-    },
-    {
       "name": "莲",
       "value": 2
     },
     {
-      "name": "猿",
+      "name": "剑",
       "value": 2
     },
     {
-      "name": "剑",
+      "name": "猿",
       "value": 2
     },
     {
@@ -948,11 +948,11 @@
       "value": 5
     },
     {
-      "name": "咏物",
+      "name": "讽喻",
       "value": 5
     },
     {
-      "name": "讽喻",
+      "name": "游记",
       "value": 5
     },
     {
@@ -960,7 +960,7 @@
       "value": 5
     },
     {
-      "name": "游记",
+      "name": "咏物",
       "value": 5
     },
     {
@@ -980,7 +980,7 @@
       "value": 3
     },
     {
-      "name": "闲适",
+      "name": "闺怨",
       "value": 2
     },
     {
@@ -988,16 +988,8 @@
       "value": 2
     },
     {
-      "name": "闺怨",
+      "name": "闲适",
       "value": 2
-    },
-    {
-      "name": "四季",
-      "value": 1
-    },
-    {
-      "name": "寓言",
-      "value": 1
     },
     {
       "name": "咏史",
@@ -1009,6 +1001,14 @@
     },
     {
       "name": "悼亡",
+      "value": 1
+    },
+    {
+      "name": "四季",
+      "value": 1
+    },
+    {
+      "name": "寓言",
       "value": 1
     },
     {
@@ -1054,19 +1054,11 @@
       "value": 3
     },
     {
-      "name": "曲",
-      "value": 2
-    },
-    {
       "name": "四言诗",
       "value": 2
     },
     {
-      "name": "歌行体",
-      "value": 2
-    },
-    {
-      "name": "古体诗",
+      "name": "曲",
       "value": 2
     },
     {
@@ -1075,6 +1067,14 @@
     },
     {
       "name": "四言乐府",
+      "value": 2
+    },
+    {
+      "name": "歌行体",
+      "value": 2
+    },
+    {
+      "name": "古体诗",
       "value": 2
     },
     {
@@ -1219,15 +1219,15 @@
         "value": 2
       },
       {
+        "name": "初中9年级",
+        "value": 1
+      },
+      {
         "name": "初中8年级",
         "value": 1
       },
       {
         "name": "小学3年级",
-        "value": 1
-      },
-      {
-        "name": "初中9年级",
         "value": 1
       }
     ]

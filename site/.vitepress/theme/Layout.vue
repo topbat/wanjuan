@@ -8,6 +8,7 @@ import EntryMeta from './components/EntryMeta.vue'
 import OpenInVSCode from './components/OpenInVSCode.vue'
 import Breadcrumb from './components/Breadcrumb.vue'
 import GlobalSearch from './components/GlobalSearch.vue'
+import RelatedEntries from './components/RelatedEntries.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -24,6 +25,7 @@ const { Layout } = DefaultTheme
       <Breadcrumb />
     </template>
     <template #doc-after>
+      <RelatedEntries />
       <EntryMeta />
       <OpenInVSCode />
     </template>

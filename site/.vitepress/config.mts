@@ -159,7 +159,8 @@ export default defineConfig({
     },
 
     outline: { label: '本页目录', level: [2, 3] },
-    docFooter: { prev: '上一篇', next: '下一篇' },
+    // 内容页没有线性顺序，默认「上一篇/下一篇」会跳到不相关页面，统一关闭
+    docFooter: false,
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     externalLinkIcon: true,
