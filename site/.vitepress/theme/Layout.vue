@@ -7,12 +7,16 @@ import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import EntryMeta from './components/EntryMeta.vue'
 import OpenInVSCode from './components/OpenInVSCode.vue'
 import Breadcrumb from './components/Breadcrumb.vue'
+import GlobalSearch from './components/GlobalSearch.vue'
 
 const { Layout } = DefaultTheme
 </script>
 
 <template>
   <Layout>
+    <template #nav-bar-content-before>
+      <GlobalSearch />
+    </template>
     <template #nav-bar-content-after>
       <ThemeSwitcher />
     </template>

@@ -85,19 +85,9 @@ export default defineConfig({
 
   themeConfig: {
     // 站内搜索（VitePress 内置 minisearch，中文分词可用）
-    search: {
-      provider: 'local',
-      options: {
-        translations: {
-          button: { buttonText: '搜索', buttonAriaLabel: '全文搜索' },
-          modal: {
-            noResultsText: '未找到相关结果',
-            resetButtonTitle: '清除查询',
-            footer: { selectText: '选择', navigateText: '切换', closeText: '关闭' },
-          },
-        },
-      },
-    },
+    // 搜索统一由自建 GlobalSearch 提供（支持拼音/首字母，Ctrl+K 唤起），
+    // 关闭 VitePress 内置搜索以避免两套入口行为不一致
+    search: undefined,
 
     nav: [
       { text: '首页', link: '/' },
