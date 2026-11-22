@@ -170,17 +170,17 @@ onMounted(async () => {
                 <a :href="toRoute(it.srcPath)">{{ it.word }}</a>
                 <span class="wj-py">{{ it.pinyin }}</span>
               </td>
-              <td class="wj-td-meaning"><span class="wj-clamp">{{ it.meaning }}</span></td>
-              <td class="wj-td-origin" :title="it.origin"><span class="wj-clamp">{{ originBrief(it.origin) }}</span></td>
-              <td class="wj-td-rel">
+              <td class="wj-td-meaning" data-label="释义"><span class="wj-clamp">{{ it.meaning }}</span></td>
+              <td class="wj-td-origin" data-label="出处" :title="it.origin"><span class="wj-clamp">{{ originBrief(it.origin) }}</span></td>
+              <td class="wj-td-rel" data-label="近义">
                 <span v-for="s in it.synonyms" :key="'s' + s" class="wj-pill syn">{{ s }}</span>
                 <span v-if="!it.synonyms?.length" class="wj-empty">—</span>
               </td>
-              <td class="wj-td-rel">
+              <td class="wj-td-rel" data-label="反义">
                 <span v-for="a in it.antonyms" :key="'a' + a" class="wj-pill ant">{{ a }}</span>
                 <span v-if="!it.antonyms?.length" class="wj-empty">—</span>
               </td>
-              <td v-if="hasTone" class="wj-td-tone">
+              <td v-if="hasTone" class="wj-td-tone" data-label="感情色彩">
                 <span v-if="shownTone(it)" class="wj-pill" :class="toneClass(shownTone(it))">{{ shownTone(it) }}</span>
                 <span v-else class="wj-empty">—</span>
               </td>
@@ -326,5 +326,50 @@ onMounted(async () => {
 }
 .wj-pill.mid {
   color: var(--wj-ink-3);
+}
+/* 窄屏：表格转卡片（每行一卡，用 data-label 生成字段名） */
+@media (max-width: 760px) {
+  .wj-table-wrap {
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .wj-table,
+  .wj-table tbody,
+  .wj-table tr,
+  .wj-table td {
+    display: block;
+    width: 100%;
+    table-layout: auto;
+  }
+  .wj-table thead { display: none; }
+  .wj-table tr {
+    margin: 0 0 12px;
+    padding: 14px 16px;
+    border: 1px solid var(--wj-line);
+    border-left: 3px solid var(--wj-accent);
+    border-radius: var(--wj-radius);
+    background: var(--wj-card);
+    box-shadow: var(--wj-shadow);
+  }
+  .wj-table td {
+    padding: 5px 0 !important;
+    border: 0 !important;
+    vertical-align: top;
+  }
+  .wj-table td + td { border-top: 1px dashed var(--wj-line-soft) !important; }
+  .wj-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 2px;
+    font-size: 11px;
+    letter-spacing: .08em;
+    color: var(--wj-ink-3);
+  }
+  .wj-td-word { padding-bottom: 8px !important; }
+  .wj-td-word a { font-size: 19px; font-weight: 700; }
+  .wj-td-word .wj-py { display: block; margin-top: 2px; font-size: 12px; color: var(--wj-ink-3); }
+  .wj-clamp { display: block; -webkit-line-clamp: unset; overflow: visible; }
 }
 </style>
