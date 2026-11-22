@@ -71,7 +71,13 @@ function render() {
             breadcrumb: { show: true, itemStyle: { textStyle: { color: cssVar('--wj-ink-3') || '#999' } } },
             label: { show: true, formatter: '{b}\n{c}', fontFamily: displayFont },
             itemStyle: { borderColor: cssVar('--wj-card') || '#fff', gapWidth: 2 },
-            upperLabel: { show: true, height: 22 },
+            upperLabel: {
+              show: true,
+              height: 22,
+              color: '#ffffff',
+              textShadowColor: 'rgba(0,0,0,.35)',
+              textShadowBlur: 2,
+            },
             levels: [
               { itemStyle: { borderWidth: 0, gapWidth: 3 } },
               {

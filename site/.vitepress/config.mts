@@ -62,6 +62,7 @@ export default defineConfig({
   // 路由重写：content/** → 站点根路径；site 自身页面去除 site/ 前缀
   rewrites: {
     'site/index.md': 'index.md',
+    'site/404.md': '404.md',
     'site/explore/:splat*': 'explore/:splat*',
     'site/stage/:splat*': 'stage/:splat*',
     'site/review/:splat*': 'review/:splat*',
@@ -175,6 +176,12 @@ export default defineConfig({
     outline: { label: '本页目录', level: [2, 3] },
     // 内容页没有线性顺序，默认「上一篇/下一篇」会跳到不相关页面，统一关闭
     docFooter: false,
+    notFound: {
+      title: '页面不存在',
+      quote: '此页不在万卷之中。按 Ctrl + K 可直接搜索全站。',
+      linkLabel: '回到首页',
+      linkText: '返回首页',
+    },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     externalLinkIcon: true,

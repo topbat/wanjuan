@@ -1245,4 +1245,10 @@ function go(path: string) {
   white-space: nowrap;
   font-size: 13.5px;
 }
+
+/* 暗色下图标底片降低亮度，避免在深紫卡片上"发光" */
+html.dark .wj-h-y .ico-01 { background: rgba(155, 123, 255, 0.16); }
+html.dark .wj-h-y .ico-02 { background: rgba(79, 214, 196, 0.14); }
+html.dark .wj-h-y .ico-03 { background: rgba(255, 155, 71, 0.15); }
+html.dark .wj-h-y .ico-04 { background: rgba(245, 185, 59, 0.14); }
 </style>

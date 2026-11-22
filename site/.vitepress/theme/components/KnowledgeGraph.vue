@@ -36,7 +36,15 @@ let ro: any = null
 let graphData: any = null
 const offThemeChange = onThemeChange(() => render())
 const offAppearance = onAppearanceChange(() => render())
-const onResize = () => chart?.resize()
+let lastNarrow = typeof window !== 'undefined' ? window.innerWidth <= 760 : false
+const onResize = () => {
+  chart?.resize()
+  const narrow = window.innerWidth <= 760
+  if (narrow !== lastNarrow) {
+    lastNarrow = narrow
+    render()
+  }
+}
 
 function render(opts: { resetLayout?: boolean } = {}) {
   if (!chart || !graphData) return
@@ -98,9 +106,16 @@ function render(opts: { resetLayout?: boolean } = {}) {
       },
       legend: [
         {
+          show: typeof window !== 'undefined' ? window.innerWidth > 760 : true,
           data: types.map((t) => TYPE_LABEL[t] ?? t),
           type: 'scroll',
           top: 0,
+          // 图例加底片，避免与节点/连线视觉粘连
+          backgroundColor: cssVar('--wj-card') || '#fff',
+          borderColor: cssVar('--wj-line') || '#ddd',
+          borderWidth: 1,
+          padding: [6, 10],
+          itemGap: 12,
           textStyle: { fontFamily: displayFont, color: cssVar('--wj-ink-2') || '#555' },
         },
       ],
@@ -215,7 +230,7 @@ onBeforeUnmount(() => {
       </label>
       <span class="wj-note">悬停聚焦邻域 · 点击查看详情 · 滚轮缩放 · 拖拽平移</span>
     </div>
-    <div v-show="!loading && !failed" ref="el" class="wj-chart" style="height: 620px"></div>
+    <div v-show="!loading && !failed" ref="el" class="wj-chart wj-chart--graph"></div>
 
     <div v-if="selected" class="wj-node-card">
       <p>

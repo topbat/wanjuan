@@ -659,3 +659,21 @@ html body .wj-backtop {
   .VPNavBarHamburger { margin-left: 2px; }
   .wj-gs-trigger { padding: 0 6px; }
 }
+
+/* 图谱画布：桌面 620px，窄屏降低并保证可用高度 */
+.wj-chart--graph { height: 620px; }
+@media (max-width: 760px) {
+  .wj-chart--graph { height: 430px; }
+}
+
+/* ---------- 动效偏好：系统开启"减少动态效果"时统一降级 ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

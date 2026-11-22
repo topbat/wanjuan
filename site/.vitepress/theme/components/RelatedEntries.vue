@@ -31,20 +31,27 @@ const idioms = ref<Idiom[]>([])
 const quotes = ref<Quote[]>([])
 const ready = ref(false)
 
-let loadPromise: Promise<void> | null = null
+// 按词条类型按需加载，避免每个词条页都拉三个索引（成语/名句页可省 300–600KB）
+const cache = new Map<string, Promise<any[]>>()
+function getIndex(name: string): Promise<any[]> {
+  if (!cache.has(name)) {
+    const url = `${import.meta.env.BASE_URL}indexes/${name}`
+    cache.set(name, fetch(url).then((r) => (r.ok ? r.json() : { items: [] })).then((d) => d.items ?? []).catch(() => []))
+  }
+  return cache.get(name)!
+}
 async function load() {
-  if (loadPromise) return loadPromise
-  loadPromise = (async () => {
-    const base = import.meta.env.BASE_URL
-    const get = async (p: string) => {
-      const r = await fetch(`${base}indexes/${p}`)
-      return r.ok ? (await r.json()).items ?? [] : []
-    }
-    const [p, i, q] = await Promise.all([get('poems.json'), get('idioms.json'), get('quotes.json')])
-    poems.value = p; idioms.value = i; quotes.value = q
-    ready.value = true
-  })()
-  return loadPromise
+  if (ready.value) return
+  const k = kind.value
+  if (k === 'poems') {
+    const [p, q] = await Promise.all([getIndex('poems.json'), getIndex('quotes.json')])
+    poems.value = p; quotes.value = q
+  } else if (k === 'idioms') {
+    idioms.value = await getIndex('idioms.json')
+  } else if (k === 'quotes') {
+    quotes.value = await getIndex('quotes.json')
+  }
+  ready.value = true
 }
 
 // relativePath 已由 rewrites 归一（无 content/ 前缀）：poems/唐/李白/静夜思
