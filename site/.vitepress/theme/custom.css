@@ -211,6 +211,12 @@ body {
   min-height: 100vh;
 }
 
+/* 防止装饰性光斑（right:-180px）造成横向滚动条；clip 不产生滚动容器，不破坏 sticky */
+html, body { overflow-x: clip; }
+@supports not (overflow: clip) {
+  html, body { overflow-x: hidden; }
+}
+
 [data-theme='youth'] body::before,
 [data-theme='youth'] body::after {
   content: '';

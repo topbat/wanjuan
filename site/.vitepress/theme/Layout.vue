@@ -6,6 +6,7 @@ import DefaultTheme from 'vitepress/theme'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import EntryMeta from './components/EntryMeta.vue'
 import OpenInVSCode from './components/OpenInVSCode.vue'
+import Breadcrumb from './components/Breadcrumb.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -14,6 +15,9 @@ const { Layout } = DefaultTheme
   <Layout>
     <template #nav-bar-content-after>
       <ThemeSwitcher />
+    </template>
+    <template #doc-before>
+      <Breadcrumb />
     </template>
     <template #doc-after>
       <EntryMeta />
