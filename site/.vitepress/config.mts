@@ -17,6 +17,8 @@ const stageLinks = [
   { text: '高中', link: '/stage/senior' },
 ]
 
+const BASE = process.env.WJ_BASE ?? '/'
+
 export default defineConfig({
   title: '万卷 · 中小学文学知识库',
   description:
@@ -28,6 +30,9 @@ export default defineConfig({
 
   // 站点源目录 = 仓库根；仅 content/ 与 site/ 下的 md 参与渲染（见 srcExclude）
   srcDir: '..',
+  // 部署路径：GitHub Pages 项目页在 https://<user>.github.io/wanjuan/，CI 通过 WJ_BASE=/wanjuan/ 注入；
+  // 本地默认 '/'，保证 dev/preview 正常
+  base: BASE,
   // 诗词原文逐句换行依赖 markdown 的 breaks 选项（否则会被折叠成一段）
   // 诗词原文依赖单换行保留分行：经 markdown-it 配置钩子开启 breaks
   markdown: {
@@ -67,7 +72,8 @@ export default defineConfig({
 
   head: [
     // 运行时配置（vscode:// 回源通道的仓库根注入点，见 site/public/runtime-config.js）
-    ['script', { src: '/runtime-config.js' }],
+    // 注意：head 标签不会自动加 base 前缀，这里显式拼接
+    ['script', { src: `${BASE}runtime-config.js` }],
     // 主题防闪烁：渲染前同步读 localStorage 并设置 html[data-theme]（默认 editorial）
     [
       'script',

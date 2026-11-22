@@ -12,7 +12,8 @@
     "build:index": "node scripts/build-index.mjs",
     "dev": "vitepress dev site",
     "build": "npm run build:index && vitepress build site",
-    "preview": "vitepress preview site"
+    "preview": "vitepress preview site",
+    "build:pages": "vitepress build site"
   },
   "dependencies": {
     "echarts": "^5.6.0",
