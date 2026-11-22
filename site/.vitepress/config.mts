@@ -26,7 +26,8 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: false,
   // 三主题（宣纸/编辑/少年）本期均工作于亮色；暗色适配 TODO
-  appearance: false,
+  // 亮/暗切换交给 VitePress（html.dark），暗色令牌见 themes/dark.css
+  appearance: true,
 
   // 站点源目录 = 仓库根；仅 content/ 与 site/ 下的 md 参与渲染（见 srcExclude）
   srcDir: '..',

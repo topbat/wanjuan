@@ -1,0 +1,106 @@
+/**
+ * 万卷 · 暗色令牌（三主题各一套）
+ *
+ * 触发条件：VitePress 的 html.dark + 本站 html[data-theme='<主题>']。
+ * 设计原则：
+ *   - 编辑部：中性近黑（#121212 系）+ 提亮克莱因蓝，保持瑞士网格的冷静
+ *   - 宣纸：夜读暖黑（#1a1714 系）+ 朱砂提亮，避免纯黑刺眼
+ *   - 少年：深紫夜空（#17122b 系）+ 提亮糖果紫，保留活泼但降低亮度
+ * 对比度：正文 ink 对 bg 均 ≥ 12:1，次要文字 ink-2 ≥ 6:1。
+ */
+
+/* ---------------- 编辑部 · 暗色 ---------------- */
+html.dark[data-theme='editorial'] {
+  color-scheme: dark;
+  --wj-bg: #121212;
+  --wj-bg-soft: #171717;
+  --wj-card: #1b1b1b;
+  --wj-ink: #f2f2f0;
+  --wj-ink-2: #b4b4b0;
+  --wj-ink-3: #7e7e7a;
+  --wj-accent: #6b8cff;
+  --wj-accent-deep: #8aa4ff;
+  --wj-accent-2: #a9bdff;
+  --wj-accent-tint: #1c2540;
+  --wj-line: #2c2c2c;
+  --wj-line-soft: #242424;
+  --wj-border-strong: #e8e8e6;
+  --wj-shadow: inset 0 0 0 1px var(--wj-line);
+  --wj-shadow-hover: inset 0 0 0 2px var(--wj-accent);
+  --wj-grad: linear-gradient(0deg, var(--wj-accent), var(--wj-accent));
+  --wj-chart-1: #6b8cff;
+  --wj-chart-2: #e8e8e6;
+  --wj-chart-3: #a0a09c;
+  --wj-chart-4: #a9bdff;
+  --wj-chart-5: #8aa4ff;
+  --wj-chart-6: #7f9bff;
+  --wj-chart-7: #9db4ff;
+  --wj-chart-8: #6e6e6a;
+  --wj-bg-image: none;
+}
+
+/* ---------------- 宣纸 · 夜读 ---------------- */
+html.dark[data-theme='ink'] {
+  color-scheme: dark;
+  --wj-bg: #1a1714;
+  --wj-bg-soft: #221e19;
+  --wj-card: #241f1a;
+  --wj-ink: #eae3d5;
+  --wj-ink-2: #b9ae9c;
+  --wj-ink-3: #8a8071;
+  --wj-accent: #d96a4f;
+  --wj-accent-deep: #b8543c;
+  --wj-accent-2: #eb9a83;
+  --wj-accent-tint: #2e2320;
+  --wj-line: #3a332b;
+  --wj-line-soft: #2e2822;
+  --wj-border-strong: #d9d0bf;
+  --wj-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 18px rgba(0, 0, 0, .22);
+  --wj-shadow-hover: 0 2px 6px rgba(0, 0, 0, .5), 0 10px 26px rgba(0, 0, 0, .3);
+  --wj-grad: linear-gradient(0deg, var(--wj-accent), var(--wj-accent));
+  --wj-chart-1: #d96a4f;
+  --wj-chart-2: #b9ae9c;
+  --wj-chart-3: #d1a852;
+  --wj-chart-4: #8fbf75;
+  --wj-chart-5: #e8876b;
+  --wj-chart-6: #7fa0ad;
+  --wj-chart-7: #c2b8a6;
+  --wj-chart-8: #c08a78;
+  /* 夜读：几乎无纹理，避免噪点 */
+  --wj-bg-image: radial-gradient(ellipse 900px 520px at 12% -6%, rgba(217, 106, 79, 0.05), transparent 62%);
+}
+
+/* ---------------- 少年 · 深紫夜空 ---------------- */
+html.dark[data-theme='youth'] {
+  color-scheme: dark;
+  --wj-bg: #17122b;
+  --wj-bg-soft: #1d1735;
+  --wj-card: #241c3e;
+  --wj-ink: #f3efff;
+  --wj-ink-2: #bdb2e0;
+  --wj-ink-3: #8a7fb0;
+  --wj-accent: #9b7bff;
+  --wj-accent-deep: #b39aff;
+  --wj-accent-2: #c9b8ff;
+  --wj-accent-tint: #2a2148;
+  --wj-line: #362d55;
+  --wj-line-soft: #2c2447;
+  --wj-border-strong: #e8e0ff;
+  --wj-shadow: 0 2px 8px rgba(0, 0, 0, .38), 0 10px 28px rgba(59, 30, 120, .22);
+  --wj-shadow-hover: 0 4px 14px rgba(0, 0, 0, .46), 0 16px 36px rgba(59, 30, 120, .3);
+  --wj-grad: linear-gradient(120deg, #9b7bff, #ff9b47);
+  --wj-chart-1: #9b7bff;
+  --wj-chart-2: #4fd6c4;
+  --wj-chart-3: #ff9b47;
+  --wj-chart-4: #f5b93b;
+  --wj-chart-5: #ff7b9c;
+  --wj-chart-6: #7aa6ff;
+  --wj-chart-7: #b39aff;
+  --wj-chart-8: #3fc4b2;
+  --wj-bg-image: linear-gradient(160deg, #17122b 0%, #1c1533 45%, #211a2e 100%);
+}
+
+/* 暗色下图片/图标亮度微调，避免刺眼 */
+html.dark img { filter: brightness(.92); }
+html.dark .VPSidebar { border-right-color: var(--wj-line); }
+html.dark .VPNavBar.has-sidebar .content { border-bottom-color: var(--wj-line); }

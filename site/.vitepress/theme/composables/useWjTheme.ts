@@ -99,3 +99,15 @@ export function onThemeChange(cb: () => void): () => void {
   window.addEventListener(THEME_EVENT, handler)
   return () => window.removeEventListener(THEME_EVENT, handler)
 }
+
+/**
+ * 明暗切换监听（VitePress 在 <html> 上切换 .dark 类）。
+ * 与 onThemeChange 一起使用：图形/图表在任一变化时都应重绘。
+ */
+export function onAppearanceChange(cb: () => void): () => void {
+  if (typeof window === 'undefined') return () => {}
+  const target = document.documentElement
+  const obs = new MutationObserver(() => cb())
+  obs.observe(target, { attributes: true, attributeFilter: ['class'] })
+  return () => obs.disconnect()
+}

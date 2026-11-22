@@ -664,7 +664,7 @@ function go(path: string) {
 .wj-h-ed .mod:hover {
   box-shadow: inset 0 0 0 2px var(--wj-accent), 0 14px 30px rgba(17, 17, 17, 0.07);
   transform: translateY(-3px);
-  background: #fff;
+  background: var(--wj-card);
 }
 /* 四件套卡片依次入场 */
 .wj-h-ed .mods .mod { animation: wj-fade-up 0.5s ease both; }

@@ -19,6 +19,7 @@ import MistakeBook from './components/MistakeBook.vue'
 import './themes/editorial.css' // 默认主题（:root 兜底）
 import './themes/ink.css'
 import './themes/youth.css'
+import './themes/dark.css'
 import './custom.css'
 import { mountBackToTop } from './backtop'
 

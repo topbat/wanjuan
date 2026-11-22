@@ -9,6 +9,7 @@ import {
   currentTheme,
   graphTypeColor,
   onThemeChange,
+  onAppearanceChange,
 } from '../composables/useWjTheme'
 
 const el = ref<HTMLElement | null>(null)
@@ -34,6 +35,7 @@ let chart: any = null
 let ro: any = null
 let graphData: any = null
 const offThemeChange = onThemeChange(() => render())
+const offAppearance = onAppearanceChange(() => render())
 const onResize = () => chart?.resize()
 
 function render(opts: { resetLayout?: boolean } = {}) {
@@ -184,6 +186,7 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   offThemeChange()
+  offAppearance()
   window.removeEventListener('resize', onResize)
   ro?.disconnect()
   chart?.dispose()

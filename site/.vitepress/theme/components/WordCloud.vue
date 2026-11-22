@@ -3,7 +3,7 @@
 // 数据源：/indexes/stats.json（构建期词频统计）
 // 主题：词色取自 --wj-chart-* 调色板（宣纸=朱砂墨赭 / 编辑=蓝黑 / 少年=多彩），切换主题后重绘。
 import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
-import { chartPalette, cssVar, onThemeChange } from '../composables/useWjTheme'
+import { chartPalette, cssVar, onThemeChange, onAppearanceChange } from '../composables/useWjTheme'
 
 type WordItem = { name: string; value: number }
 type Stats = { imageryFreq: WordItem[]; topAuthors: WordItem[]; quoteThemeDist: WordItem[] }
@@ -23,6 +23,7 @@ let chart: any = null
 let ro: any = null
 let stats: Stats | null = null
 const offThemeChange = onThemeChange(() => render())
+const offAppearance = onAppearanceChange(() => render())
 const onResize = () => chart?.resize()
 
 function render() {
@@ -88,6 +89,7 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   offThemeChange()
+  offAppearance()
   window.removeEventListener('resize', onResize)
   ro?.disconnect()
   chart?.dispose()
