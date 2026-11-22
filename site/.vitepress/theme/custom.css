@@ -677,3 +677,17 @@ html body .wj-backtop {
     scroll-behavior: auto !important;
   }
 }
+
+/* ---------- 打印：词条页只保留正文，适合打印背诵 ---------- */
+@media print {
+  .VPNav, .VPSidebar, .VPLocalNav, .VPDocAside, .wj-backtop, .wj-progress,
+  .wj-related, .wj-gs-trigger, .wj-crumbs, .VPDocFooter, .wj-theme-switcher,
+  .wj-switcher, .wj-note, .wj-panel, .wj-sticky { display: none !important; }
+  html, body { background: #fff !important; color: #000 !important; }
+  .VPDoc .content-container, .VPDoc .content { max-width: 100% !important; }
+  .vp-doc h1 { font-size: 22pt; text-align: center; margin-bottom: 10pt; }
+  .vp-doc h2 { font-size: 13pt; border-bottom: 1px solid #000; }
+  .vp-doc p { font-size: 12pt; line-height: 1.9; }
+  [data-theme='ink'] .vp-doc h2#原文 ~ p { writing-mode: horizontal-tb !important; }
+  a { color: #000 !important; text-decoration: none !important; }
+}

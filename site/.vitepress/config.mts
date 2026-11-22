@@ -88,6 +88,14 @@ export default defineConfig({
     ],
   ],
 
+  // 页面描述兜底：优先 frontmatter.description，其次用标题拼一句，便于分享与检索
+  transformPageData(pageData) {
+    if (!pageData.frontmatter.description) {
+      const t = pageData.frontmatter.title || pageData.title || '万卷'
+      pageData.frontmatter.description = `${t} · 万卷：中小学文学知识库（诗词、成语、名句与课标对齐）`
+    }
+  },
+
   themeConfig: {
     // 站内搜索（VitePress 内置 minisearch，中文分词可用）
     // 搜索统一由自建 GlobalSearch 提供（支持拼音/首字母，Ctrl+K 唤起），
