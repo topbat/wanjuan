@@ -649,7 +649,11 @@ async function main() {
       generatedAt,
       count: entities.idioms.length,
       items: entities.idioms.map((i) => ({
-        id: i.id, word: i.word, pinyin: i.pinyin, pinyinPlain: i.pinyin_plain, first: i.first, last: i.last,
+        id: i.id, word: i.word, pinyin: i.pinyin, pinyinPlain: i.pinyin_plain,
+        // 首尾拼音一律从 pinyinPlain 推导（早期 20 条数据的 first/last 是单字母旧格式，
+        // 会导致成语接龙无法接上，如「画蛇添足」first=h 而非 hua）
+        first: String(i.pinyin_plain ?? '').trim().split(/\s+/)[0] || i.first,
+        last: String(i.pinyin_plain ?? '').trim().split(/\s+/).pop() || i.last,
         meaning: i.meaning, origin: i.origin ?? null, originLink: i.origin_link ?? null,
         semanticField: i.semantic_field ?? null, synonyms: i.synonyms ?? [], antonyms: i.antonyms ?? [],
         tags: i.tags ?? [], curriculum: i.curriculum, srcPath: i.__srcPath,

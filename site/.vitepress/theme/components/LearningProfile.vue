@@ -22,8 +22,6 @@ import { chartPalette, cssVar, onAppearanceChange, onThemeChange } from '../comp
  * 类型
  * ================================================================ */
 
-type CardType = 'recite' | 'meaning' | 'origin'
-
 interface LocalCard {
   id: string
   type: string
@@ -819,7 +817,7 @@ function confirmClear() {
             <a class="wj-profile-btn" :href="pageHref('quiz/')">去做题</a>
           </div>
         </div>
-        <p v-else-if="correctionCount > 0" class="wj-profile-contrib">
+        <p v-if="correctionCount > 0" class="wj-profile-contrib">
           参与建设：你已校对 <b>{{ correctionCount }}</b> 条题材标注，感谢为知识库添一笔。
         </p>
       </section>
@@ -848,7 +846,7 @@ function confirmClear() {
           </span>
         </div>
 
-        <p v-if="isBlank" class="wj-profile-explain">
+        <p v-if="reviewCards.length === 0" class="wj-profile-explain">
           还没有复习卡，所以四维都是 0%。去词条页点「＋ 加入复习」，或在每日一卷里答错生成卡片，雷达就会随真实数据生长。
         </p>
         <p v-else-if="radarAllZero" class="wj-profile-explain">
@@ -870,7 +868,7 @@ function confirmClear() {
           <!-- 3.1 错题主题 Top5 -->
           <article class="wj-panel wj-profile-diag">
             <div class="wj-profile-diag-head">
-              <h3>错题主题 Top 5</h3>
+              <h3>错题主题前 5</h3>
               <span v-if="mistakeStats.total" class="wj-profile-count">{{ mistakeStats.total }} 次错误</span>
             </div>
 
@@ -893,7 +891,7 @@ function confirmClear() {
             </div>
 
             <div class="wj-profile-actions">
-              <a class="wj-profile-btn primary" :href="pageHref('quiz/')">去 /quiz/ 再练一套</a>
+              <a class="wj-profile-btn primary" :href="pageHref('quiz/')">去每日一卷再练一套</a>
               <a class="wj-profile-btn" :href="pageHref('quiz/mistakes')">查看错题本</a>
             </div>
           </article>
@@ -902,7 +900,7 @@ function confirmClear() {
           <article class="wj-panel wj-profile-diag">
             <div class="wj-profile-diag-head">
               <h3>复习压力</h3>
-              <span v-if="pressureCards.length" class="wj-profile-count">lapses ≥ 2</span>
+              <span v-if="pressureCards.length" class="wj-profile-count">遗忘 ≥ 2 次</span>
             </div>
 
             <ol v-if="pressureCards.length" class="wj-profile-list">
@@ -916,11 +914,11 @@ function confirmClear() {
               </li>
             </ol>
             <div v-else class="wj-profile-empty-line">
-              暂无反复遗忘的卡片（lapses ≥ 2）。继续按计划复习，这里会揪出最该补的几张。
+              暂无反复遗忘的卡片（遗忘 ≥ 2 次）。继续按计划复习，这里会揪出最该补的几张。
             </div>
 
             <div class="wj-profile-actions">
-              <a class="wj-profile-btn primary" :href="pageHref('review/')">去 /review/ 清卡</a>
+              <a class="wj-profile-btn primary" :href="pageHref('review/')">去今日复习清卡</a>
             </div>
           </article>
 
@@ -945,7 +943,7 @@ function confirmClear() {
             </div>
 
             <div class="wj-profile-actions">
-              <a class="wj-profile-btn primary" :href="pageHref('quiz/')">去 /quiz/ 抽新题</a>
+              <a class="wj-profile-btn primary" :href="pageHref('quiz/')">去每日一卷抽新题</a>
               <a class="wj-profile-btn" :href="pageHref('idioms/')">逛成语库</a>
               <a class="wj-profile-btn" :href="pageHref('quotes/')">逛名句库</a>
             </div>
@@ -1390,13 +1388,13 @@ a.wj-profile-item-title:hover {
 .wj-profile-btn.primary {
   border-color: var(--wj-accent);
   background: var(--wj-accent);
-  color: #fff;
+  color: var(--wj-bg);
 }
 
 .wj-profile-btn.primary:hover {
   background: var(--wj-accent-deep);
   border-color: var(--wj-accent-deep);
-  color: #fff;
+  color: var(--wj-bg);
 }
 
 .wj-profile-btn.danger {

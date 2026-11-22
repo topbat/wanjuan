@@ -264,24 +264,24 @@ onBeforeUnmount(() => {
   font-size: 11.5px;
 }
 
-:global([data-theme='ink']) .wj-play-title {
+[data-theme='ink'] .wj-play-title {
   letter-spacing: 0.1em;
 }
 
-:global([data-theme='ink']) .wj-play-tab.on {
+[data-theme='ink'] .wj-play-tab.on {
   box-shadow: inset 0 0 0 2px var(--wj-accent);
 }
 
-:global([data-theme='editorial']) .wj-play-tab {
+[data-theme='editorial'] .wj-play-tab {
   border-radius: 0;
   box-shadow: inset 0 0 0 1px var(--wj-line);
 }
 
-:global([data-theme='editorial']) .wj-play-tab.on {
+[data-theme='editorial'] .wj-play-tab.on {
   box-shadow: inset 0 0 0 2px var(--wj-ink);
 }
 
-:global([data-theme='youth']) .wj-play-tab {
+[data-theme='youth'] .wj-play-tab {
   border-width: 2px;
 }
 

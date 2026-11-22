@@ -85,6 +85,7 @@ const endReason = ref<'' | 'rounds' | 'ai-empty' | 'player-empty'>('')
 const lastEntry = ref<LineEntry | null>(null)
 const lastDynasty = ref('')
 const lastPoemId = ref('')
+const isActive = ref(true)
 
 const flowEl = ref<HTMLElement | null>(null)
 let logSeq = 0
@@ -255,7 +256,7 @@ function tickTimer() {
 
 function beginTicking() {
   stopTimer()
-  if (!timerOn.value || phase.value !== 'playing' || turn.value !== 'player') return
+  if (!isActive.value || !timerOn.value || phase.value !== 'playing' || turn.value !== 'player') return
   if (seconds.value <= 0) return
   timerId = window.setInterval(tickTimer, 1000)
 }
@@ -436,6 +437,13 @@ function submitAnswer() {
   acceptPlayer(chosen, raw)
 }
 
+/** 回车提交（中文输入法组合期间不拦截 Enter） */
+function onAnswerEnter(event: KeyboardEvent) {
+  if (event.isComposing) return
+  event.preventDefault()
+  submitAnswer()
+}
+
 function skipTurn(reason: 'skip' | 'timeout') {
   if (phase.value !== 'playing' || turn.value !== 'player' || aiThinking.value) return
   stopTimer()
@@ -509,9 +517,13 @@ function optionLabel(token: string) {
 
 onMounted(load)
 
-onDeactivated(stopTimer)
+onDeactivated(() => {
+  isActive.value = false
+  stopTimer()
+})
 
 onActivated(() => {
+  isActive.value = true
   if (phase.value === 'playing' && turn.value === 'player' && timerOn.value) {
     beginTicking()
   }
@@ -649,6 +661,7 @@ onBeforeUnmount(() => {
               :disabled="inputDisabled"
               autocomplete="off"
               spellcheck="false"
+              @keydown.enter="onAnswerEnter"
             />
             <button type="submit" class="wj-ff-btn" :disabled="inputDisabled">提交</button>
             <button
@@ -664,7 +677,6 @@ onBeforeUnmount(() => {
             v-if="feedback"
             class="wj-ff-feedback"
             :class="`is-${feedbackKind}`"
-            aria-live="polite"
           >
             {{ feedback }}
           </p>
@@ -1192,7 +1204,7 @@ onBeforeUnmount(() => {
   color: #b43c2e;
 }
 
-:global([data-theme='ink']) .wj-ff-feedback.is-error {
+[data-theme='ink'] .wj-ff-feedback.is-error {
   color: var(--wj-accent);
 }
 
@@ -1336,26 +1348,26 @@ onBeforeUnmount(() => {
 }
 
 /* 主题差异：宣纸用双线印框，编辑部直角强框，少年派渐变描边 */
-:global([data-theme='ink']) .wj-ff-seal,
-:global([data-theme='ink']) .wj-ff-seal-mini {
+[data-theme='ink'] .wj-ff-seal,
+[data-theme='ink'] .wj-ff-seal-mini {
   border-style: double;
   border-width: 3px;
   border-radius: 3px;
 }
 
-:global([data-theme='editorial']) .wj-ff-seal {
+[data-theme='editorial'] .wj-ff-seal {
   border-radius: 0;
   box-shadow: inset 0 0 0 3px var(--wj-card), inset 0 0 0 4px var(--wj-ink);
   border-color: var(--wj-ink);
   color: var(--wj-ink);
 }
 
-:global([data-theme='editorial']) .wj-ff-seal-char {
+[data-theme='editorial'] .wj-ff-seal-char {
   font-weight: 800;
 }
 
-:global([data-theme='youth']) .wj-ff-seal,
-:global([data-theme='youth']) .wj-ff-seal-mini {
+[data-theme='youth'] .wj-ff-seal,
+[data-theme='youth'] .wj-ff-seal-mini {
   border: 2px solid transparent;
   background: linear-gradient(var(--wj-card), var(--wj-card)) padding-box,
     var(--wj-grad) border-box;

@@ -146,6 +146,17 @@ function semanticLabel(it: Idiom): string {
   return String(it.semanticField ?? '').trim() || '其他'
 }
 
+/** 展示用读音：索引里少数旧条目 first 字段只有首字母，展示时优先取 pinyinPlain 音节 */
+function firstRead(it: Idiom): string {
+  const syllable = String(it.pinyinPlain ?? '').trim().split(/\s+/)[0]
+  return (syllable || it.first || '').toLowerCase()
+}
+
+function lastRead(it: Idiom): string {
+  const parts = String(it.pinyinPlain ?? '').trim().split(/\s+/).filter(Boolean)
+  return (parts[parts.length - 1] || it.last || '').toLowerCase()
+}
+
 function candidatesFor(prev: Idiom | null | undefined): Idiom[] {
   if (!prev) return []
   return (byFirst.value.get(prev.last) ?? []).filter((it) => !used.value.has(it.word))
@@ -258,6 +269,13 @@ function startSpecified() {
   begin(idiom)
 }
 
+/** 回车开局（中文输入法组合期间不拦截 Enter） */
+function onStartEnter(event: KeyboardEvent) {
+  if (event.isComposing) return
+  event.preventDefault()
+  startSpecified()
+}
+
 function resetToSetup() {
   window.clearTimeout(aiTimerId)
   aiTimerId = 0
@@ -291,8 +309,10 @@ function submitAnswer() {
   const prev = lastIdiom.value
   if (!prev) return
   if (idiom.first !== prev.last) {
+    const fieldNote =
+      firstRead(idiom) !== idiom.first ? `（索引首字母段为「${idiom.first}」）` : ''
     setError(
-      `「${idiom.word}」的首字拼音「${idiom.first}」与上一条「${prev.word}」的末字拼音「${prev.last}」不一致，接不上。`,
+      `「${idiom.word}」的首字拼音「${firstRead(idiom)}」${fieldNote}与上一条「${prev.word}」的末字拼音「${lastRead(prev)}」不一致，接不上。`,
     )
     return
   }
@@ -301,6 +321,13 @@ function submitAnswer() {
     return
   }
   acceptPlayer(idiom)
+}
+
+/** 回车接龙（中文输入法组合期间不拦截 Enter） */
+function onAnswerEnter(event: KeyboardEvent) {
+  if (event.isComposing) return
+  event.preventDefault()
+  submitAnswer()
 }
 
 function acceptPlayer(idiom: Idiom) {
@@ -487,6 +514,7 @@ onBeforeUnmount(() => {
             placeholder="输入起始成语，如「一心一意」；留空可随机"
             autocomplete="off"
             spellcheck="false"
+            @keydown.enter="onStartEnter"
           />
           <button type="submit" class="wj-ic-btn">开始接龙</button>
           <button type="button" class="wj-ic-btn wj-ic-btn-ghost" @click="startRandom">
@@ -572,6 +600,7 @@ onBeforeUnmount(() => {
               :disabled="inputDisabled"
               autocomplete="off"
               spellcheck="false"
+              @keydown.enter="onAnswerEnter"
             />
             <button type="submit" class="wj-ic-btn" :disabled="inputDisabled">接龙</button>
             <button
@@ -1131,7 +1160,7 @@ onBeforeUnmount(() => {
   color: #b43c2e;
 }
 
-:global([data-theme='ink']) .wj-ic-feedback.is-error {
+[data-theme='ink'] .wj-ic-feedback.is-error {
   color: var(--wj-accent);
 }
 
@@ -1220,24 +1249,24 @@ onBeforeUnmount(() => {
 }
 
 /* 主题差异 */
-:global([data-theme='ink']) .wj-ic-rules {
+[data-theme='ink'] .wj-ic-rules {
   border-left-width: 2px;
 }
-:global([data-theme='ink']) .wj-ic-card {
+[data-theme='ink'] .wj-ic-card {
   border-radius: 3px;
 }
-:global([data-theme='editorial']) .wj-ic-card {
+[data-theme='editorial'] .wj-ic-card {
   border-radius: 0;
   border-left-width: 2px;
 }
-:global([data-theme='editorial']) .wj-ic-node.player .wj-ic-card {
+[data-theme='editorial'] .wj-ic-node.player .wj-ic-card {
   border-left-width: 4px;
 }
-:global([data-theme='youth']) .wj-ic-card {
+[data-theme='youth'] .wj-ic-card {
   border-width: 2px;
   border-color: var(--wj-line-soft);
 }
-:global([data-theme='youth']) .wj-ic-node.start .wj-ic-card {
+[data-theme='youth'] .wj-ic-node.start .wj-ic-card {
   border-color: color-mix(in srgb, var(--wj-accent) 45%, var(--wj-line));
 }
 
